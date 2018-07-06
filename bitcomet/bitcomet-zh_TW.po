@@ -3,14 +3,17 @@ msgstr ""
 "Project-Id-Version: BitCometGUI\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-05 00:03+0800\n"
-"PO-Revision-Date: 2018-07-05 00:04+0800\n"
-"Last-Translator: wxhere <wxhere@hotmail.com>\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2018-07-06 08:19+0000\n"
+"Last-Translator: Weblate Admin <admin@example.com>\n"
+"Language-Team: Chinese (Traditional) <http://example.com/projects/bitcomet/"
+"bitcomet/zh_Hant/>\n"
+"Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.0.1\n"
 "X-Launchpad-Export-Date: 2010-06-29 09:04+0000\n"
-"X-Generator: Launchpad (build Unknown)\n"
 "X-Poedit-Language: English\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Basepath: ../../../\n"
@@ -1722,7 +1725,7 @@ msgstr "Torrent 清單"
 #: GUI_BitComet/DialogBatchBTDownload.cpp:278
 msgctxt "DialogBatchBTDownload"
 msgid "URL"
-msgstr "URL："
+msgstr "URL"
 
 #: GUI_BitComet/DialogBatchBTDownload.cpp:269
 msgctxt "DialogBatchBTDownload"
@@ -9095,59 +9098,76 @@ msgstr "使用指定的torrent檔案"
 #~ msgctxt "DetailView_PeerList"
 #~ msgid "Illegal format."
 #~ msgstr "錯誤的格式"
+
 #~ msgctxt "MainStatusBar"
 #~ msgid "signed in."
 #~ msgstr "已登入"
+
 #~ msgctxt "DialogTaskMultiDownloadAdvanced"
 #~ msgid "Inputted MD5 is invalid!"
 #~ msgstr "輸入的MD5不正確！"
+
 #~ msgctxt "DialogTaskMultiDownloadAdvanced"
 #~ msgid "Inputted SHA1 empty!"
 #~ msgstr "輸入的SHA1為空！"
+
 #~ msgctxt "DialogTaskMultiDownloadAdvanced"
 #~ msgid "Inputted SHA1 is invalid!"
 #~ msgstr "輸入的SHA1不正確！"
+
 #~ msgctxt "DialogTaskMultiDownloadAdvanced"
 #~ msgid "MD5 Result:"
 #~ msgstr "MD5計算結果:"
+
 #~ msgctxt "DialogTaskMultiDownloadAdvanced"
 #~ msgid "MD5 check passed!"
 #~ msgstr "MD5校驗通過！"
+
 #~ msgctxt "DialogTaskMultiDownloadAdvanced"
 #~ msgid "SHA1 Result:"
 #~ msgstr "SHA1計算結果:"
+
 #~ msgctxt "DialogTaskMultiDownloadAdvanced"
 #~ msgid "SHA1 check passed!"
 #~ msgstr "SHA1校驗通過！"
+
 #~ msgctxt "DialogTaskMultiDownloadAdvanced"
 #~ msgid "Verify Result:"
 #~ msgstr "驗證結果:"
+
 #~ msgctxt "Options_Advanced"
 #~ msgid ""
 #~ "Allow task to access P2PCache server while downloading (needs ISP support)"
 #~ msgstr "BitTorrent任務下載時存取 P2PCache 伺服器 (需要 ISP 支援)"
+
 #~ msgctxt "CView_SummaryList"
 #~ msgid "VIP Acceleration Disabled"
 #~ msgstr "VIP加速未啟用"
+
 #~ msgctxt "Message_MsgTorrentInArchive"
 #~ msgid "Do you want to open selected torrents and create new tasks?"
 #~ msgstr "您確定要開啟選中的Torrent檔案創建新任務嗎?"
+
 #~ msgctxt "TorrentShare_Menu"
 #~ msgid "&Download"
 #~ msgstr "下載(&D)"
+
 #~ msgctxt "MainStatusBar"
 #~ msgid "WAN:"
 #~ msgstr "外網:"
+
 #~ msgctxt "Message_MsgFFPluginInstalled"
 #~ msgid "Firefox plugins installed. Please restart Firefox."
 #~ msgstr "Firefox 外掛程式已更新。請重新開啟 Firefox。"
+
 #~ msgctxt "Message_MsgFFPluginWriteFailed"
 #~ msgid "${XPI_FILENAME} write failed!"
 #~ msgstr "${XPI_FILENAME} 寫入失敗!"
+
 #~ msgctxt "Options_Integration"
 #~ msgid "Clipboard Integration"
 #~ msgstr "剪貼簿整合"
+
 #~ msgctxt "DialogVIP"
 #~ msgid "Your account has been forbidden from VIP Acceleration."
 #~ msgstr "您的帳號已禁用會員下載功能。"
-
