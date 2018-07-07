@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-07 15:44+0800\n"
 "PO-Revision-Date: 2018-07-07 12:02+0000\n"
-"Last-Translator: wilson <wxhere@hotmail.com>\n"
+"Last-Translator: Weblate Admin <admin@example.com>\n"
 "Language-Team: Japanese <http://example.com/projects/bitcomet/bitcomet/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -109,7 +109,7 @@ msgstr "サインアップする"
 #: GUI_BitComet/View_Passport_WX.cpp:101
 msgctxt "CView_Passport"
 msgid "Signed in successfully"
-msgstr "サインイン成功"
+msgstr "正常にログインしました"
 
 #: GUI_BitComet/CtrlPassport.cpp:189
 #: GUI_BitComet/CtrlPassport.cpp:194
