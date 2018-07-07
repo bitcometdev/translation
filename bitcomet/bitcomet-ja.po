@@ -3,9 +3,10 @@ msgstr ""
 "Project-Id-Version: BitCometGUI\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-07 19:28+0800\n"
-"PO-Revision-Date: 2018-07-07 19:44+0800\n"
-"Last-Translator: wxhere <wxhere@hotmail.com>\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2018-07-07 14:13+0000\n"
+"Last-Translator: wilson <wxhere@hotmail.com>\n"
+"Language-Team: Japanese <http://example.com/projects/bitcomet/bitcomet/ja/>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -174,7 +175,6 @@ msgid "${SIZE_RUBBISH} (${SIZE_TOTLE_RUBBISH} in total)"
 msgstr "${SIZE_RUBBISH} (全体 ${SIZE_TOTLE_RUBBISH} )"
 
 #: GUI_BitComet/View_SummaryList_BT_WX.cpp:1126
-#, fuzzy
 msgctxt "CView_SummaryList"
 msgid "${SIZE_VIP} (${SIZE_TOTLE_VIP} in total)"
 msgstr "${SIZE_P2SP} (全体 ${SIZE_TOTLE_P2SP} )"
@@ -186,13 +186,11 @@ msgid "(avg. ${AVG_INFO})"
 msgstr "（平均 ${AVG_INFO}）"
 
 #: GUI_BitComet/View_DownloadsList_WX.cpp:2181
-#, fuzzy
 msgctxt "CView_SummaryList"
 msgid "Apply for VIP Acceleration"
-msgstr "VIPアクセラレーション"
+msgstr "VIPアクセラレーションを申請する"
 
 #: GUI_BitComet/View_SummaryList_BT_WX.cpp:1555
-#, fuzzy
 msgctxt "CView_SummaryList"
 msgid "Availability"
 msgstr "可用性"
@@ -512,10 +510,9 @@ msgstr "VIPアクセラレーションが有効になっている"
 
 #: GUI_BitComet/View_SummaryList_BT_WX.cpp:1608
 #: GUI_BitComet/View_SummaryList_BT_WX.cpp:1630
-#, fuzzy
 msgctxt "CView_SummaryList"
 msgid "VIP Acceleration:"
-msgstr "VIPアクセラレーション"
+msgstr "VIPアクセラレーション:"
 
 #: GUI_BitComet/View_DownloadsList_WX.cpp:2177
 msgctxt "CView_SummaryList"
@@ -1342,17 +1339,15 @@ msgstr "すべてコピー(&A)"
 
 #: GUI_BitComet/SelectFileListCtrl.cpp:103
 #: GUI_BitComet/SelectFileListCtrl.cpp:274
-#, fuzzy
 msgctxt "DetailView_Log_Menu"
 msgid "Simple List"
-msgstr "クライアントのリスト"
+msgstr "シンプルリスト"
 
 #: GUI_BitComet/SelectFileListCtrl.cpp:102
 #: GUI_BitComet/SelectFileListCtrl.cpp:273
-#, fuzzy
 msgctxt "DetailView_Log_Menu"
 msgid "Tree List"
-msgstr "トラッカー一覧"
+msgstr "ツリーリスト"
 
 #: GUI_BitComet/View_PeerList_WX.cpp:2960
 #: GUI_BitComet/View_PeerList_WX.cpp:2977
@@ -1505,10 +1500,9 @@ msgid "Ban IP for 5 Minutes"
 msgstr "このIPを5分間禁止"
 
 #: GUI_BitComet/View_PeerList_WX.cpp:2817
-#, fuzzy
 msgctxt "DetailView_PeerList_Menu"
 msgid "Copy"
-msgstr "コピー(&C)"
+msgstr "コピー"
 
 #: GUI_BitComet/View_PeerList_WX.cpp:2810
 msgctxt "DetailView_PeerList_Menu"
@@ -2526,10 +2520,9 @@ msgid "Download && Install"
 msgstr "ダウンロードとインストール"
 
 #: GUI_BitComet/DialogMPCSTAR.cpp:197
-#, fuzzy
 msgctxt "DialogMPCSTAR"
 msgid "Play Video files"
-msgstr "ビデオファイルのプレビュー"
+msgstr "ビデオファイルを再生する"
 
 #: GUI_BitComet/DialogMPCSTAR.h:40
 msgctxt "DialogMPCSTAR"
@@ -3174,10 +3167,9 @@ msgid "(VIP needed)"
 msgstr "(VIPが必要)"
 
 #: GUI_BitComet/DialogTaskBitTorrentVIP.cpp:516
-#, fuzzy
 msgctxt "DialogTaskBitTorrentVIP"
 msgid "(querying)"
-msgstr "問い合わせ中..."
+msgstr "（クエリ内）"
 
 #: GUI_BitComet/DialogTaskBitTorrentVIP.cpp:896
 msgctxt "DialogTaskBitTorrentVIP"
@@ -3253,10 +3245,9 @@ msgstr "接続失敗"
 
 #: GUI_BitComet/DialogTaskMultiDownload.cpp:1004
 #: GUI_BitComet/DialogTaskMultiDownload.cpp:1103
-#, fuzzy
 msgctxt "DialogTaskMultiDownload"
 msgid "Connecting to proxy failed"
-msgstr "接続失敗"
+msgstr "プロキシへの接続に失敗しました"
 
 #: GUI_BitComet/DialogTaskMultiDownload.cpp:1008
 #: GUI_BitComet/DialogTaskMultiDownload.cpp:1107
@@ -3416,16 +3407,14 @@ msgid "File read failed!"
 msgstr "ファイルの読み込みに失敗"
 
 #: GUI_BitComet/DialogTaskMultiDownloadAdvancedMD5.cpp:356
-#, fuzzy
 msgctxt "DialogTaskMultiDownloadAdvanced"
 msgid "Input is empty."
-msgstr "入力された MD5 は無効です"
+msgstr "入力は空です。"
 
 #: GUI_BitComet/DialogTaskMultiDownloadAdvancedMD5.cpp:341
-#, fuzzy
 msgctxt "DialogTaskMultiDownloadAdvanced"
 msgid "MD5 matched!"
-msgstr "MD5チェック失敗"
+msgstr "MD5がマッチしました！"
 
 #: GUI_BitComet/DialogTaskMultiDownloadAdvanced.cpp:184
 msgctxt "DialogTaskMultiDownloadAdvanced"
@@ -3463,10 +3452,9 @@ msgid "Referrer:"
 msgstr "リファラ："
 
 #: GUI_BitComet/DialogTaskMultiDownloadAdvancedMD5.cpp:346
-#, fuzzy
 msgctxt "DialogTaskMultiDownloadAdvanced"
 msgid "SHA1 matched!"
-msgstr "SHA1 チェック失敗"
+msgstr "SHA1がマッチしました！"
 
 #: GUI_BitComet/DialogTaskMultiDownloadAdvancedMD5.cpp:351
 msgctxt "DialogTaskMultiDownloadAdvanced"
@@ -3745,10 +3733,9 @@ msgid "Tracker Log: ${TRACKER_URL}"
 msgstr "トラッカーログ: ${TRACKER_URL}"
 
 #: GUI_BitComet/DialogTaskBitTorrentVIP.cpp:801
-#, fuzzy
 msgctxt "DialogVIP"
 msgid "Accelerating"
-msgstr "アクセラレーター"
+msgstr "スピードアップ"
 
 #: GUI_BitComet/DialogTaskBitTorrentVIP.cpp:232
 msgctxt "DialogVIP"
@@ -3876,10 +3863,9 @@ msgid "VIP Acceleration is enabled. Your download channel is ready."
 msgstr "VIP アクセラレーションは有効です。あなたのダウンロードチャンネルは準備できています。"
 
 #: GUI_BitComet/DialogTaskBitTorrentVIP.cpp:629
-#, fuzzy
 msgctxt "DialogVIP"
 msgid "VIP Acceleration is enabled. Your request is queuing..."
-msgstr "VIP アクセラレーションは有効です。あなたのダウンロードチャンネルは準備できています。"
+msgstr "VIPアクセラレーションが有効になっています。 あなたのリクエストはキューに入れられています..."
 
 #: GUI_BitComet/DialogTaskBitTorrentVIP.cpp:455
 msgctxt "DialogVIP"
@@ -3887,10 +3873,9 @@ msgid "VIP Acceleration unsupported for private torrent."
 msgstr "VIPアクセラレーションは Private Torrent では無効です"
 
 #: GUI_BitComet/DialogTaskBitTorrentVIP.cpp:431
-#, fuzzy
 msgctxt "DialogVIP"
 msgid "VIP acceleration is not currently enabled on your account."
-msgstr "VIP アクセラレーションは有効です。あなたのダウンロードチャンネルを準備しています。"
+msgstr "現在、お客様のアカウントでVIPアクセラレーションが有効になっていません。"
 
 #: GUI_BitComet/DialogTaskBitTorrentVIP.cpp:439
 msgctxt "DialogVIP"
@@ -3928,10 +3913,9 @@ msgid "Sorting list, please wait for a while..."
 msgstr "リストを並べ替える、しばらくお待ちください..."
 
 #: GUI_BitComet/CtrlDiskBusyDectector.cpp:35
-#, fuzzy
 msgctxt "DiskBusyTip"
 msgid "Writing piece_part file, please wait for a while..."
-msgstr "ディスクアクセス中です。しばらくお待ちください"
+msgstr "piece_partファイルを書き込んでいて、しばらくお待ちください..."
 
 #: GUI_BitComet/AppUtil.cpp:780
 msgctxt "ErrorMessage"
@@ -4000,7 +3984,6 @@ msgstr "Torrent共有"
 #: GUI_BitComet/Toolbar_Navigate.cpp:95
 #: GUI_BitComet/Toolbar_Navigate.cpp:170
 #: GUI_BitComet/Toolbar_Navigate.cpp:193
-#, fuzzy
 msgctxt "Favourite"
 msgid "VIP Acceleration"
 msgstr "VIPアクセラレーション"
@@ -4301,10 +4284,9 @@ msgid "Conntecting to ${HOST_NAME_PORT} succeeded."
 msgstr "${HOST_NAME_PORT} へ接続成功"
 
 #: GUI_BitComet/View_LogList_Helper.cpp:60
-#, fuzzy
 msgctxt "LogMessage_MD_Task"
 msgid "Conntecting to proxy server failed."
-msgstr "サーバーへ接続中..."
+msgstr "プロキシサーバーへの接続に失敗しました。"
 
 #: GUI_BitComet/View_LogList_Helper.cpp:61
 msgctxt "LogMessage_MD_Task"
@@ -4711,10 +4693,9 @@ msgid "Enable Plugin"
 msgstr "プラグインを有効にする"
 
 #: GUI_BitComet/MainMenuBar.cpp:150
-#, fuzzy
 msgctxt "MainMenu"
 msgid "Find Task"
-msgstr "タスク"
+msgstr "タスクを探す"
 
 #: GUI_BitComet/MainMenuBar.cpp:169
 msgctxt "MainMenu"
@@ -4925,28 +4906,24 @@ msgid "Not signed in."
 msgstr "サインインしていません"
 
 #: GUI_BitComet/MainStatusBar_WX.cpp:214
-#, fuzzy
 msgctxt "MainStatusBar"
 msgid "Port Blocked:"
-msgstr "ブロックされています:"
+msgstr "ブロックされたポート："
 
 #: GUI_BitComet/MainStatusBar_WX.cpp:210
-#, fuzzy
 msgctxt "MainStatusBar"
 msgid "Port Detecting"
-msgstr "検出中"
+msgstr "ポートの検出"
 
 #: GUI_BitComet/MainStatusBar_WX.cpp:206
-#, fuzzy
 msgctxt "MainStatusBar"
 msgid "Port Detection Failed"
-msgstr "検出失敗"
+msgstr "ポートの検出に失敗しました"
 
 #: GUI_BitComet/MainStatusBar_WX.cpp:202
-#, fuzzy
 msgctxt "MainStatusBar"
 msgid "Port Not Detected"
-msgstr "検出されませんでした"
+msgstr "ポートが検出されなかった"
 
 #: GUI_BitComet/MainStatusBar_WX.cpp:218
 msgctxt "MainStatusBar"
@@ -5039,10 +5016,9 @@ msgid "Homepage"
 msgstr "ホームページ"
 
 #: GUI_BitComet/MainToolBar_WX.cpp:207
-#, fuzzy
 msgctxt "MainToolbar"
 msgid "Magnet"
-msgstr "メッセージ"
+msgstr "磁気リンク"
 
 #: GUI_BitComet/MainToolBar_WX.cpp:201
 msgctxt "MainToolbar"
@@ -5111,10 +5087,9 @@ msgid "Stop"
 msgstr "停止"
 
 #: GUI_BitComet/MainToolBar_WX.cpp:204
-#, fuzzy
 msgctxt "MainToolbar"
 msgid "Torrent"
-msgstr "Torrent ファイル"
+msgstr "Torrent"
 
 #: GUI_BitComet/CtrlMenuWx.cpp:308
 msgctxt "MainWindow"
@@ -5200,10 +5175,9 @@ msgid "Reset to Default Layout"
 msgstr "レイアウトをリセット"
 
 #: GUI_BitComet/MainFrameWx.cpp:1353
-#, fuzzy
 msgctxt "MainWindow"
 msgid "Saving data...."
-msgstr "データ受信開始"
+msgstr "データの保存...."
 
 #: GUI_BitComet/MainMenuBar.cpp:675
 msgctxt "MainWindow"
@@ -5353,10 +5327,9 @@ msgid "Please specify a proxy password."
 msgstr "プロキシのパスワードを指定してください"
 
 #: GUI_BitComet/OptionWndProxy.cpp:371
-#, fuzzy
 msgctxt "Message_EmptyServerName"
 msgid "Please specify a proxy port."
-msgstr "プロキシのパスワードを指定してください"
+msgstr "プロキシポートを指定してください。"
 
 #: GUI_BitComet/OptionWndProxy.cpp:366
 msgctxt "Message_EmptyServerName"
@@ -5381,7 +5354,6 @@ msgstr "タスクリストの保存に失敗しました"
 #: GUI_BitComet/DialogTaskBitTorrentMain.cpp:913
 #: GUI_BitComet/DialogTaskBitTorrentMain.cpp:933
 #: GUI_BitComet/DialogTaskMultiDownload.cpp:843
-#, fuzzy
 msgctxt "Message_FileAlreadyExist"
 msgid ""
 "A file with the same name already exists.\n"
@@ -5520,10 +5492,9 @@ msgid "Do you want to move downloaded files to the new location?"
 msgstr "新しい保存場所にダウンロード済みファイルを移動しますか？"
 
 #: GUI_BitComet/CtrlIntegration.cpp:712
-#, fuzzy
 msgctxt "Message_MsgChromeExtInstalled"
 msgid "Chrome extension will show up after restart Chrome."
-msgstr "インポートされた設定は、 BitComet の再起動後に有効になります"
+msgstr "Chromeの再起動後にChrome拡張機能が表示されます。"
 
 #: GUI_BitComet/CtrlIntegration.cpp:597
 msgctxt "Message_MsgFFExtAlreadyInstalled"
@@ -5616,10 +5587,9 @@ msgstr "この Torrent ファイルは、Torrent 履歴のなかに見つかり�
 
 #: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1592
 #: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1490
-#, fuzzy
 msgctxt "Message_MsgTorrentInArchive"
 msgid "This torrent file has been found in the Torrent Share. Do you want to open it and create a new task?"
-msgstr "この Torrent ファイルは、Torrent 履歴のなかに見つかりました。それを開いて新しいタスクを作成しますか？"
+msgstr "この Torrent ファイルは、Torrent シェアのなかに見つかりました。それを開いて新しいタスクを作成しますか？"
 
 #: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1613
 #: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1511
@@ -5671,20 +5641,17 @@ msgid "Failed opening file."
 msgstr "ファイルが開けません"
 
 #: GUI_BitComet/OptionWndBTTracker.cpp:247
-#, fuzzy
 msgctxt "Message_OptionTracker"
 msgid "Invalid HTTP URL!"
-msgstr "無効な HTTP URL です"
+msgstr "無効な HTTP URL です!"
 
 #: GUI_BitComet/OptionWndBTTracker.cpp:242
-#, fuzzy
 msgctxt "Message_OptionTracker"
 msgid "Invalid tracker URL!"
-msgstr "無効な HTTP URL です"
+msgstr "無効な HTTP URL です!"
 
 #: GUI_BitComet/DialogTaskBitTorrentMain.cpp:914
 #: GUI_BitComet/DialogTaskBitTorrentMain.cpp:934
-#, fuzzy
 msgctxt "Message_PathAlreadyExist"
 msgid ""
 "The path you want to save to already exists.\n"
@@ -5696,7 +5663,7 @@ msgstr ""
 "指定されたパスはすでに存在しています。\n"
 "以前にダウンロードが完了しなかったファイルが存在する可能性があります。\n"
 "\n"
-"「はい」をクリックすると、ハッシュ値を照合してダウンロードを続行します。\n"
+"「はい」をクリックすると、とにかく続けます。\n"
 "「いいえ」をクリックすると、保存先のパスが変更できます。"
 
 #: GUI_BitComet/CtrlDirectory.cpp:321
@@ -5733,13 +5700,12 @@ msgstr "Magnet URI エラー： BitTorrent のインフォハッシュが見つ�
 #: GUI_BitComet/MainFrameWx.cpp:1800
 msgctxt "Message_PromptNewVersion"
 msgid "BitComet updated to ${VERSION} successfully."
-msgstr ""
+msgstr "BitCometを${VERSION}に更新しました。"
 
 #: GUI_BitComet/MainFrameWx.cpp:1802
-#, fuzzy
 msgctxt "Message_PromptNewVersion"
 msgid "Would you like to learn about the new features?"
-msgstr "BitComet のホームページで BitComet ${VERSION} の新機能を確認しますか？（英語）"
+msgstr "新しい機能について知りたいですか？"
 
 #: GUI_BitComet/CtrlIntegration.cpp:833
 msgctxt "Message_RegDefaultDownToolSucc"
@@ -5756,7 +5722,7 @@ msgstr "${FILE_NAME} 登録失敗"
 #: GUI_BitComet/DialogTaskMultiDownload.cpp:858
 msgctxt "Message_RenameDownloadFile"
 msgid "Do you want to rename the downloaded file?"
-msgstr ""
+msgstr "ダウンロードしたファイルの名前を変更しますか？"
 
 #: GUI_BitComet/AppUtil.cpp:938
 msgctxt "Message_SignOut"
@@ -6449,10 +6415,9 @@ msgid "Check &Now"
 msgstr "今すぐチェック(&N)"
 
 #: GUI_BitComet/OptionWndIntegration.cpp:206
-#, fuzzy
 msgctxt "Options_Integration"
 msgid "Chrome Integration"
-msgstr "組み込み"
+msgstr "Chromeの統合"
 
 #: GUI_BitComet/OptionWndIntegration.cpp:192
 msgctxt "Options_Integration"
@@ -6470,22 +6435,19 @@ msgid "IE Integration"
 msgstr "IEへの組み込み"
 
 #: GUI_BitComet/OptionWndIntegration.cpp:210
-#, fuzzy
 msgctxt "Options_Integration"
 msgid "Install Chrome Extension"
-msgstr "BitComet の Firefox 拡張をインストールする"
+msgstr "Chrome拡張機能をインストールする"
 
 #: GUI_BitComet/OptionWndIntegration.cpp:200
-#, fuzzy
 msgctxt "Options_Integration"
 msgid "Install Firefox Extension"
-msgstr "BitComet の Firefox 拡張をインストールする"
+msgstr "Firefox拡張機能をインストールする"
 
 #: GUI_BitComet/OptionWndIntegration.cpp:172
-#, fuzzy
 msgctxt "Options_Integration"
 msgid "Install IE Extension"
-msgstr "BitComet の IE 拡張をインストールする"
+msgstr "IE拡張機能をインストールする"
 
 #: GUI_BitComet/OptionWndIntegration.cpp:153
 msgctxt "Options_Integration"
@@ -6493,10 +6455,9 @@ msgid "Start automatically when starting Windows"
 msgstr "Windows の起動時に自動的に開始する"
 
 #: GUI_BitComet/OptionWndIntegration.cpp:213
-#, fuzzy
 msgctxt "Options_Integration"
 msgid "This extension can be uninstalled in Chrome -> Settings -> Extensions"
-msgstr "この拡張は Firefox から ツール -> アドオン でアンインストールすることができます"
+msgstr "この拡張機能はChrome - >設定 - >拡張機能でアンインストールできます"
 
 #: GUI_BitComet/OptionWndIntegration.cpp:203
 msgctxt "Options_Integration"
@@ -6504,10 +6465,9 @@ msgid "This extension can be uninstalled in Firefox -> Tools -> Add-ons"
 msgstr "この拡張は Firefox から ツール -> アドオン でアンインストールすることができます"
 
 #: GUI_BitComet/OptionWndIntegration.cpp:175
-#, fuzzy
 msgctxt "Options_Integration"
 msgid "Uninstall IE Extension"
-msgstr "BitComet の IE 拡張をアンインストールする"
+msgstr "IE Extensionのアンインストール"
 
 #: GUI_BitComet/OptionWndIntegration.cpp:135
 msgctxt "Options_Integration"
@@ -6988,10 +6948,9 @@ msgid "Avoid system entering suspend/sleeping mode when any task is running"
 msgstr "タスクの実行中にサスペンドやスリープに入るのを防ぐ"
 
 #: GUI_BitComet/OptionWndTask.cpp:169
-#, fuzzy
 msgctxt "Options_Task"
 msgid "Display tray balloon when task finished"
-msgstr "タスクが完了したときにサウンドで通知する"
+msgstr "タスク終了時にトレイのバルーンを表示する"
 
 #: GUI_BitComet/OptionWndTask.cpp:133
 msgctxt "Options_Task"
@@ -7139,10 +7098,9 @@ msgid "Share ratio equal to or higher than:"
 msgstr "負担率がこれ以上:"
 
 #: GUI_BitComet/OptionWndBTTask.cpp:230
-#, fuzzy
 msgctxt "Options_TaskBitTorrent"
 msgid "Task Seeding Rules"
-msgstr "タスクのスケジュール"
+msgstr "タスクシードルール"
 
 #: GUI_BitComet/OptionWndBTTask.cpp:265
 msgctxt "Options_TaskBitTorrent"
@@ -7155,13 +7113,11 @@ msgid "Upload"
 msgstr "アップロード"
 
 #: GUI_BitComet/OptionWndBTTask.cpp:271
-#, fuzzy
 msgctxt "Options_TaskBitTorrent"
 msgid "day"
 msgstr "日"
 
 #: GUI_BitComet/OptionWndBTTask.cpp:277
-#, fuzzy
 msgctxt "Options_TaskBitTorrent"
 msgid "hour"
 msgstr "時"
@@ -7169,7 +7125,7 @@ msgstr "時"
 #: GUI_BitComet/OptionWndBTTask.cpp:283
 msgctxt "Options_TaskBitTorrent"
 msgid "minute"
-msgstr ""
+msgstr "分"
 
 #: GUI_BitComet/OptionWndEDTask.cpp:190
 msgctxt "Options_TaskEmule"
@@ -7324,7 +7280,7 @@ msgstr "外観"
 #: GUI_BitComet/OptionWnd.cpp:283
 msgctxt "Options_Title"
 msgid "BitTorrent"
-msgstr ""
+msgstr "BitTorrent"
 
 #: GUI_BitComet/OptionWnd.cpp:210
 msgctxt "Options_Title"
@@ -7344,7 +7300,7 @@ msgstr "ディスクキャッシュ"
 #: GUI_BitComet/OptionWnd.cpp:293
 msgctxt "Options_Title"
 msgid "HTTP/FTP"
-msgstr ""
+msgstr "HTTP/FTP"
 
 #: GUI_BitComet/OptionWnd.cpp:221
 msgctxt "Options_Title"
@@ -7397,7 +7353,6 @@ msgid "Task Tags"
 msgstr "タスクのタグ"
 
 #: GUI_BitComet/OptionWnd.cpp:286
-#, fuzzy
 msgctxt "Options_Title"
 msgid "Tracker"
 msgstr "トラッカー"
@@ -7410,22 +7365,19 @@ msgstr "ウイルスのチェック"
 #: GUI_BitComet/OptionWnd.cpp:291
 msgctxt "Options_Title"
 msgid "eMule"
-msgstr ""
+msgstr "eMule"
 
 #: GUI_BitComet/OptionWndBTTracker.cpp:134
-#, fuzzy
 msgctxt "Options_Tracker"
 msgid "Add trackers to torrent automatically"
-msgstr "該当する Torrent ファイルを自動的に検索する"
+msgstr "自動的にtrackers をtorrent に追加"
 
 #: GUI_BitComet/OptionWndBTTracker.cpp:130
-#, fuzzy
 msgctxt "Options_Tracker"
 msgid "BitTorrent Tracker"
-msgstr "BitTorrent タスク"
+msgstr "BitTorrent Tracker"
 
 #: GUI_BitComet/OptionWndBTTracker.cpp:165
-#, fuzzy
 msgctxt "Options_Tracker"
 msgid "Detailed Help"
 msgstr "詳細ヘルプ"
@@ -7433,17 +7385,17 @@ msgstr "詳細ヘルプ"
 #: GUI_BitComet/OptionWndBTTracker.cpp:157
 msgctxt "Options_Tracker"
 msgid "Update Now"
-msgstr ""
+msgstr "今すぐアップデート"
 
 #: GUI_BitComet/OptionWndBTTracker.cpp:144
 msgctxt "Options_Tracker"
 msgid "Update tracker list every day automatically"
-msgstr ""
+msgstr "毎日Trackerリストを自動的に更新する"
 
 #: GUI_BitComet/OptionWndBTTracker.cpp:415
 msgctxt "Options_Tracker"
 msgid "Updated at ${TIME}"
-msgstr ""
+msgstr "${TIME}に更新"
 
 #: GUI_BitComet/View_PieceMap_WX.cpp:488
 msgctxt "PieceView"
@@ -7471,25 +7423,24 @@ msgid "BitComet Unfinished Download File"
 msgstr "BitComet 未完成のファイル"
 
 #: GUI_BitComet/BitComet_Info.cpp:466
-#, fuzzy
 msgctxt "Scheduler"
 msgid "for not downloading"
-msgstr "Torrentファイルのダウンロード中"
+msgstr "ダウンロードしないための"
 
 #: GUI_BitComet/BitComet_Info.cpp:450
 msgctxt "Scheduler"
 msgid "scheduled high-speed"
-msgstr ""
+msgstr "予定された高速"
 
 #: GUI_BitComet/BitComet_Info.cpp:454
 msgctxt "Scheduler"
 msgid "scheduled low-speed"
-msgstr ""
+msgstr "スケジュールされた低速"
 
 #: GUI_BitComet/BitComet_Info.cpp:458
 msgctxt "Scheduler"
 msgid "scheduled turn-off"
-msgstr ""
+msgstr "予定ターンオフ"
 
 #: GUI_BitComet/MainFrameWx.cpp:1986
 msgctxt "StatusBar"
@@ -7518,10 +7469,9 @@ msgstr "新しいバージョンのチェック"
 
 #: GUI_BitComet/MainStatusBar_WX.cpp:45
 #: GUI_BitComet/MainStatusBar_WX.cpp:51
-#, fuzzy
 msgctxt "StatusBar"
 msgid "Copy WAN IP"
-msgstr "IPアドレスをコピー"
+msgstr "WAN IPをコピーする"
 
 #: GUI_BitComet/MainFrameWx.cpp:1966
 msgctxt "StatusBar"
@@ -7745,10 +7695,9 @@ msgid "Time"
 msgstr "時間"
 
 #: GUI_BitComet/View_StatisticList_WX.cpp:241
-#, fuzzy
 msgctxt "StatusList_StatisticItem"
 msgid "DHT Network Nodes:"
-msgstr "DHTネットワークを有効にする"
+msgstr "DHTネットワークノード："
 
 #: GUI_BitComet/View_StatisticList_WX.cpp:260
 msgctxt "StatusList_StatisticItem"
@@ -7773,7 +7722,7 @@ msgstr "ディスクの書込状態"
 #: GUI_BitComet/View_StatisticList_WX.cpp:249
 msgctxt "StatusList_StatisticItem"
 msgid "Free Memory:"
-msgstr ""
+msgstr "空きメモリ："
 
 #: GUI_BitComet/View_StatisticList_WX.cpp:217
 msgctxt "StatusList_StatisticItem"
@@ -7853,7 +7802,7 @@ msgstr "${G_CACHE_SIZE_AUTO} (最小: ${O_CACHE_MIN_SIZE_MB} MB, 最大: ${O_CAC
 #: GUI_BitComet/View_StatisticList_WX.cpp:234
 msgctxt "StatusList_StatisticValue"
 msgid "${G_DOWNLOAD_RATE_KB} kB/s [MAX:${G_DOWNLOAD_RATE_MAX_KB}]"
-msgstr ""
+msgstr "${G_DOWNLOAD_RATE_KB} kB/s [MAX:${G_DOWNLOAD_RATE_MAX_KB}]"
 
 #: GUI_BitComet/View_StatisticList_WX.cpp:268
 msgctxt "StatusList_StatisticValue"
@@ -7868,7 +7817,7 @@ msgstr "${G_TOTAL_UPLOAD_AUTO}  （このセッション：  ${G_SESSION_UPLOAD_
 #: GUI_BitComet/View_StatisticList_WX.cpp:237
 msgctxt "StatusList_StatisticValue"
 msgid "${G_UPLOAD_RATE_KB} kB/s [MAX:${G_UPLOAD_RATE_MAX_KB}]"
-msgstr ""
+msgstr "${G_UPLOAD_RATE_KB} kB/s [MAX:${G_UPLOAD_RATE_MAX_KB}]"
 
 #: GUI_BitComet/View_StatisticList_WX.cpp:240
 msgctxt "StatusList_StatisticValue"
@@ -7924,6 +7873,10 @@ msgstr "ファイヤウォールおよびルーター内で開放"
 msgctxt "StatusList_StatisticValue"
 msgid "Physical: ${G_AVAIL_PHYS_MEM_AUTO}/${G_TOTAL_PHYS_MEM_AUTO} (Min to keep: ${O_MIN_FREE_PHYS_MEM_MB} MB), Virtual: ${G_AVAIL_PAGEFILE_MEM_AUTO}/${G_TOTAL_PAGEFILE_MEM_AUTO}, Process: ${G_AVAIL_PROCESS_MEM_AUTO}/${G_TOTAL_PROCESS_MEM_AUTO}"
 msgstr ""
+"物理的: ${G_AVAIL_PHYS_MEM_AUTO}/${G_TOTAL_PHYS_MEM_AUTO} (維持する分: "
+"${O_MIN_FREE_PHYS_MEM_MB} MB), バーチャル: "
+"${G_AVAIL_PAGEFILE_MEM_AUTO}/${G_TOTAL_PAGEFILE_MEM_AUTO}, プロセス: "
+"${G_AVAIL_PROCESS_MEM_AUTO}/${G_TOTAL_PROCESS_MEM_AUTO}"
 
 #: GUI_BitComet/View_StatisticList_WX.cpp:254
 msgctxt "StatusList_StatisticValue"
@@ -7938,14 +7891,13 @@ msgstr "要求: ${G_CACHE_REQ_WRITE_COUNT} (頻度: ${G_CACHE_REQ_WRITE_RATE}/s)
 #: GUI_BitComet/View_StatisticList_WX.cpp:212
 msgctxt "StatusList_StatisticValue"
 msgid "Total: ${G_TASK_NUM} / Running: ${G_RUNNING_TASK_NUM}"
-msgstr ""
+msgstr "合計: ${G_TASK_NUM} / ランニング: ${G_RUNNING_TASK_NUM}"
 
 #: GUI_BitComet/BitComet_Info.cpp:333
 #: GUI_BitComet/BitComet_Info.cpp:334
-#, fuzzy
 msgctxt "StatusList_StatisticValue"
 msgid "Unavailable"
-msgstr "可用性"
+msgstr "利用できません"
 
 #: GUI_BitComet/View_StatisticList_WX.cpp:248
 msgctxt "StatusList_StatisticValue"
@@ -7988,10 +7940,9 @@ msgid "Downloaded files have been modified by other program."
 msgstr "ダウンロードされたファイルが他のプログラムにより変更されました"
 
 #: GUI_BitComet/DialogTaskHashPending.cpp:275
-#, fuzzy
 msgctxt "TaskHash"
 msgid "Files to be downloaded already existed in new location."
-msgstr "新しいタスクでダウンロードしようとしているファイルがすでに存在しています"
+msgstr "ダウンロードするファイルは、すでに新しい場所に存在していました。"
 
 #: GUI_BitComet/DialogTaskHashPending.cpp:278
 msgctxt "TaskHash"
@@ -8098,7 +8049,7 @@ msgstr "DLサイズ"
 #: GUI_BitComet/View_DownloadsList_WX.cpp:413
 msgctxt "TaskList_Header"
 msgid "Folder"
-msgstr ""
+msgstr "フォルダ"
 
 #: GUI_BitComet/View_DownloadsList_WX.cpp:406
 msgctxt "TaskList_Header"
@@ -8123,7 +8074,7 @@ msgstr "プレビュー"
 #: GUI_BitComet/View_DownloadsList_WX.cpp:414
 msgctxt "TaskList_Header"
 msgid "Private Torrent"
-msgstr ""
+msgstr "プライベートTorrent"
 
 #: GUI_BitComet/View_DownloadsList_WX.cpp:394
 msgctxt "TaskList_Header"
@@ -8176,22 +8127,19 @@ msgid "Time Left"
 msgstr "残り時間"
 
 #: GUI_BitComet/View_DownloadsList_WX.cpp:412
-#, fuzzy
 msgctxt "TaskList_Header"
 msgid "Torrent Created On"
-msgstr "Torrent の内容"
+msgstr "Torrent 作成日"
 
 #: GUI_BitComet/View_DownloadsList_WX.cpp:397
-#, fuzzy
 msgctxt "TaskList_Header"
 msgid "Total Down Size"
-msgstr "合計サイズ"
+msgstr "合計ダウンロードサイズ"
 
 #: GUI_BitComet/View_DownloadsList_WX.cpp:398
-#, fuzzy
 msgctxt "TaskList_Header"
 msgid "Total Up Size"
-msgstr "合計サイズ"
+msgstr "合計アップロードサイズ"
 
 #: GUI_BitComet/View_DownloadsList_WX.cpp:400
 msgctxt "TaskList_Header"
@@ -8344,10 +8292,9 @@ msgid "All"
 msgstr "すべて"
 
 #: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1416
-#, fuzzy
 msgctxt "TorrentShare"
 msgid "Are you sure to restore the display of all hidden torrents?"
-msgstr "選択しているTorrentを非表示にしてよろしいですか？"
+msgstr "すべての隠されたトレントの表示を元に戻してもよろしいですか？"
 
 #: GUI_BitComet/View_TorrentCollect_List_Panel.cpp:94
 msgctxt "TorrentShare"
@@ -8421,7 +8368,7 @@ msgstr "人気度"
 #: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1311
 msgctxt "TorrentShare"
 msgid "Private Torrent"
-msgstr ""
+msgstr "プライベートTorrent"
 
 #: GUI_BitComet/View_TorrentCollect_List_WX.cpp:291
 #: GUI_BitComet/View_TorrentHistory_List_WX.cpp:307
@@ -8467,7 +8414,7 @@ msgstr "以下のコンテンツは、接続したTorrent共有をしている�
 #: GUI_BitComet/Toolbar_Torrent.cpp:276
 msgctxt "TorrentShare"
 msgid "The list is full. Please clear some torrents to get more."
-msgstr ""
+msgstr "リストはいっぱいです。 より多くのトレントを取得するにはいくつかのトレントをクリアしてください。"
 
 #: GUI_BitComet/View_TorrentCollect_List_Panel.cpp:77
 #: GUI_BitComet/View_TorrentCollect_List_WX.cpp:285
@@ -8634,10 +8581,9 @@ msgstr "ファイルの移動"
 
 #: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:889
 #: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:923
-#, fuzzy
 msgctxt "TorrentStatus"
 msgid "Moving..."
-msgstr "ファイルの移動"
+msgstr "移動中..."
 
 #: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:899
 #: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:930
@@ -8665,22 +8611,22 @@ msgstr "[完了]"
 #: GUI_BitComet/View_TrackerList_WX.cpp:337
 msgctxt "TrackerList"
 msgid "Disabled (Private Torrent)"
-msgstr ""
+msgstr "無効(プライベートTorrent)"
 
 #: GUI_BitComet/View_TrackerList_WX.cpp:341
 msgctxt "TrackerList"
 msgid "Disabled (VIP Anonymous Download)"
-msgstr ""
+msgstr "無効(VIP 匿名ダウンロード)"
 
 #: GUI_BitComet/View_TrackerList_WX.cpp:345
 msgctxt "TrackerList"
 msgid "Disabled (in global options)"
-msgstr ""
+msgstr "無効(グローバルオプション)"
 
 #: GUI_BitComet/View_TrackerList_WX.cpp:349
 msgctxt "TrackerList"
 msgid "Disabled (in task properties)"
-msgstr ""
+msgstr "無効(タスクプロパティで)"
 
 #: GUI_BitComet/CtrlMenuWx.cpp:555
 msgctxt "TrayMenu"
@@ -8899,7 +8845,7 @@ msgstr "読み込んでいます…"
 #: GUI_wxCommon/HtmlViewAdv.cpp:470
 msgctxt "View_Related"
 msgid "This program cannot display the webpage."
-msgstr ""
+msgstr "このプログラムはウェブページを表示できません。"
 
 #: GUI_BitComet/DetailInfoItem.cpp:547
 msgctxt "View_TabCtrl"
@@ -8918,16 +8864,14 @@ msgid "Reset to Default Layout"
 msgstr "レイアウトをリセット"
 
 #: GUI_BitComet/View_TorrentExchangeIntroduce.cpp:138
-#, fuzzy
 msgctxt "View_TorrentExchangeIntroduce"
 msgid "View Torrent Collection"
-msgstr "Torrent コレクションを表示"
+msgstr "Torrentコレクションを見る"
 
 #: GUI_BitComet/View_TorrentExchangeIntroduce.cpp:134
-#, fuzzy
 msgctxt "View_TorrentExchangeIntroduce"
 msgid "View Torrent Share"
-msgstr "Torrent シェアを表示"
+msgstr "Torrentシェアを表示"
 
 #: GUI_BitComet/CtrlRemoteAccess.cpp:41
 msgctxt "WebInterface"
@@ -8966,32 +8910,31 @@ msgstr ""
 "${TASK_NAME}"
 
 #: GUI_BitComet/CtrlRemoteAccess.cpp:163
-#, fuzzy
 msgctxt "WebInterface"
 msgid ""
 "Remote Download:\n"
 "resume last suspended tasks."
-msgstr "前回一時停止したタスクを再開する"
+msgstr ""
+"リモートダウンロード:\n"
+"最後に一時停止したタスクを再開します。"
 
 #: GUI_BitComet/CtrlRemoteAccess.cpp:110
-#, fuzzy
 msgctxt "WebInterface"
 msgid ""
 "Remote Download:\n"
 "set max download rate to ${MAX_RATE}."
 msgstr ""
-"リモートダウンロード： タスクが開始されました\n"
-"${TASK_NAME}"
+"リモートダウンロード:\n"
+"最大ダウンロードレートを${MAX_RATE}に設定する."
 
 #: GUI_BitComet/CtrlRemoteAccess.cpp:122
-#, fuzzy
 msgctxt "WebInterface"
 msgid ""
 "Remote Download:\n"
 "set max upload rate to ${MAX_RATE}."
 msgstr ""
-"リモートダウンロード： タスクが開始されました\n"
-"${TASK_NAME}"
+"リモートダウンロード:\n"
+"最大アップロードレートを${MAX_RATE}に設定する."
 
 #: GUI_BitComet/CtrlRemoteAccess.cpp:137
 msgctxt "WebInterface"
@@ -8999,6 +8942,8 @@ msgid ""
 "Remote Download:\n"
 "start all tasks for downloading."
 msgstr ""
+"リモートダウンロード:\n"
+"ダウンロードのためにすべてのタスクを開始します。"
 
 #: GUI_BitComet/CtrlRemoteAccess.cpp:145
 msgctxt "WebInterface"
@@ -9006,22 +8951,26 @@ msgid ""
 "Remote Download:\n"
 "start all tasks for seeding."
 msgstr ""
+"リモートダウンロード:\n"
+"シードするためのすべてのタスクを開始します。"
 
 #: GUI_BitComet/CtrlRemoteAccess.cpp:151
-#, fuzzy
 msgctxt "WebInterface"
 msgid ""
 "Remote Download:\n"
 "stop all tasks."
-msgstr "リモートダウンロードは無効になっています"
+msgstr ""
+"リモートダウンロード:\n"
+"すべてのタスクを停止します。"
 
 #: GUI_BitComet/CtrlRemoteAccess.cpp:157
-#, fuzzy
 msgctxt "WebInterface"
 msgid ""
 "Remote Download:\n"
 "suspend all active tasks."
-msgstr "すべての実行中のタスクを一時停止する"
+msgstr ""
+"リモートダウンロード:\n"
+"すべてのアクティブなタスクを一時停止します。"
 
 #: GUI_BitComet/WizardImportUndoneTask.cpp:402
 msgctxt "WizardImportUndoneTask"
