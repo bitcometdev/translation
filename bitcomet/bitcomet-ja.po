@@ -3,9 +3,9 @@ msgstr ""
 "Project-Id-Version: BitCometGUI\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-07 15:44+0800\n"
-"PO-Revision-Date: 2018-07-07 12:02+0000\n"
-"Last-Translator: Weblate Admin <admin@example.com>\n"
-"Language-Team: Japanese <http://example.com/projects/bitcomet/bitcomet/ja/>\n"
+"PO-Revision-Date: 2018-07-07 12:10+0000\n"
+"Last-Translator: wilson <wxhere@hotmail.com>\n"
+"Language-Team: Japanese <http://bbcomet.com/projects/bitcomet/bitcomet/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -521,7 +521,7 @@ msgstr "VIPアクセラレーション"
 #: GUI_BitComet/View_DownloadsList_WX.cpp:2177
 msgctxt "CView_SummaryList"
 msgid "VIP Anonymous Download Enabled"
-msgstr ""
+msgstr "VIP匿名ダウンロードが有効になっています"
 
 #: GUI_BitComet/View_SummaryList_BT_WX.cpp:1609
 #: GUI_BitComet/View_SummaryList_BT_WX.cpp:1631
@@ -664,7 +664,7 @@ msgstr "終了"
 #: GUI_BitComet/OptionWndAdvanced.cpp:189
 msgctxt "Common"
 msgid "False"
-msgstr ""
+msgstr "偽"
 
 #: GUI_BitComet/DialogBitTorrentMaker.cpp:664
 msgctxt "Common"
@@ -696,7 +696,7 @@ msgstr "インストールされていません"
 #: GUI_BitComet/DialogConnectionWizard.cpp:219
 msgctxt "Common"
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: GUI_BitComet/CtrlHelperService.cpp:130
 msgctxt "Common"
@@ -733,7 +733,7 @@ msgstr "ワンポイント"
 #: GUI_BitComet/OptionWndAdvanced.cpp:184
 msgctxt "Common"
 msgid "True"
-msgstr ""
+msgstr "真"
 
 #: GUI_BitComet/CtrlBitTorrent.cpp:876
 #: GUI_BitComet/CtrlHelperService.cpp:134
@@ -895,17 +895,17 @@ msgstr "スタート/停止"
 #: GUI_BitComet/CtrlImportFile.cpp:71
 msgctxt "CtrlImportFile"
 msgid "BitComet BitTorrent File(*.bc!)"
-msgstr ""
+msgstr "BitComet BitTorrent ファイル(*.bc!)"
 
 #: GUI_BitComet/CtrlImportFile.cpp:109
 msgctxt "CtrlImportFile"
 msgid "Thunder BitTorrent File(*.bt.td)"
-msgstr ""
+msgstr "Thunder BitTorrent ファイル(*.bt.td)"
 
 #: GUI_BitComet/CtrlImportFile.cpp:190
 msgctxt "CtrlImportFile"
 msgid "uTorrent File(*.!ut)"
-msgstr ""
+msgstr "uTorrent ファイル(*.!ut)"
 
 #: GUI_BitComet/CtrlSoftwareUpdateCheck.cpp:77
 msgctxt "CtrlSoftwareUpdateCheck"
@@ -1483,7 +1483,7 @@ msgstr "VIPダウンロード"
 #: GUI_BitComet/View_PeerList_WX.cpp:1106
 msgctxt "DetailView_PeerList"
 msgid "Web Seed"
-msgstr ""
+msgstr "ウェブシード"
 
 #: GUI_BitComet/View_PeerList_WX.cpp:2813
 msgctxt "DetailView_PeerList_Menu"
@@ -1731,7 +1731,7 @@ msgstr "Torrent リスト"
 #: GUI_BitComet/DialogBatchBTDownload.cpp:278
 msgctxt "DialogBatchBTDownload"
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: GUI_BitComet/DialogBatchBTDownload.cpp:269
 msgctxt "DialogBatchBTDownload"
@@ -2575,7 +2575,7 @@ msgstr "Torrent ファイルの HTTP URL"
 #: GUI_BitComet/DialogOpenUrl.cpp:160
 msgctxt "DialogOpenUrl"
 msgid "Magnet URI"
-msgstr ""
+msgstr "磁铁URI"
 
 #: GUI_BitComet/DialogOpenUrl.h:40
 msgctxt "DialogOpenUrl"
@@ -2605,7 +2605,7 @@ msgstr "サインイン (&S)"
 #: GUI_BitComet/DialogCometPassport.cpp:172
 msgctxt "DialogPassport"
 msgid "Account:"
-msgstr ""
+msgstr "アカウント："
 
 #: GUI_BitComet/DialogCometPassport.h:45
 msgctxt "DialogPassport"
@@ -2650,7 +2650,7 @@ msgstr "自動ログイン"
 #: GUI_BitComet/DialogCometPassport.cpp:155
 msgctxt "DialogPassport"
 msgid "Sign in with your email or username."
-msgstr ""
+msgstr "あなたのメールアドレスまたはユーザー名でサインインしてください。"
 
 #: GUI_BitComet/DialogCometPassport.cpp:205
 #: GUI_BitComet/DialogCometPassport.cpp:340
@@ -2825,12 +2825,12 @@ msgstr "（Private Torrent（非公開））"
 #: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:903
 msgctxt "DialogTaskBitTorrentAdvanced"
 msgid "(VIP Anonymous Download)"
-msgstr ""
+msgstr "(VIP匿名ダウンロード)"
 
 #: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:198
 msgctxt "DialogTaskBitTorrentAdvanced"
 msgid "Bypass Task Seeding Rules (task always active)"
-msgstr ""
+msgstr "バイパスタスクシードルール（タスクは常にアクティブ）"
 
 #: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:212
 msgctxt "DialogTaskBitTorrentAdvanced"
@@ -3172,7 +3172,7 @@ msgstr "Web Seed"
 #: GUI_BitComet/DialogTaskBitTorrentVIP.cpp:892
 msgctxt "DialogTaskBitTorrentVIP"
 msgid "(VIP needed)"
-msgstr ""
+msgstr "(VIPが必要)"
 
 #: GUI_BitComet/DialogTaskBitTorrentVIP.cpp:516
 #, fuzzy
@@ -3183,17 +3183,19 @@ msgstr "問い合わせ中..."
 #: GUI_BitComet/DialogTaskBitTorrentVIP.cpp:896
 msgctxt "DialogTaskBitTorrentVIP"
 msgid "(unchangeable when running)"
-msgstr ""
+msgstr "（実行中は変更不可）"
 
 #: GUI_BitComet/DialogTaskBitTorrentVIP.cpp:39
 msgctxt "DialogTaskBitTorrentVIP"
 msgid "Enable Anonymous Download"
-msgstr ""
+msgstr "匿名ダウンロードを有効にする"
 
 #: GUI_BitComet/DialogTaskBitTorrentVIP.cpp:264
 msgctxt "DialogTaskBitTorrentVIP"
 msgid "Hint: When Anonymous Download enabled, BitComet will only do VIP download, will not connect to any trackers and BitTorrent peers, in order to protect your privacy."
 msgstr ""
+"ヒント：匿名のダウンロードを有効にすると、BitCometはVIPのダウンロードのみを行い、TrackerとBitTorrentのピアには接続しないため、"
+"プライバシーを保護します。"
 
 #: GUI_BitComet/DialogTaskExistedRemind.cpp:160
 msgctxt "DialogTaskExistedRemind"
@@ -3261,7 +3263,7 @@ msgstr "接続失敗"
 #: GUI_BitComet/DialogTaskMultiDownload.cpp:1107
 msgctxt "DialogTaskMultiDownload"
 msgid "DNS resolve failed"
-msgstr ""
+msgstr "DNS解決に失敗しました"
 
 #: GUI_BitComet/DialogTaskMultiDownloadAdvanced.cpp:265
 msgctxt "DialogTaskMultiDownload"
@@ -3439,7 +3441,7 @@ msgstr "ミラー"
 #: GUI_BitComet/DialogTaskMultiDownloadAdvancedMD5.cpp:361
 msgctxt "DialogTaskMultiDownloadAdvanced"
 msgid "None matched!"
-msgstr ""
+msgstr "マッチはありません！"
 
 #: GUI_BitComet/DialogTaskMultiDownloadAdvanced.cpp:230
 msgctxt "DialogTaskMultiDownloadAdvanced"
@@ -3470,7 +3472,7 @@ msgstr "SHA1 チェック失敗"
 #: GUI_BitComet/DialogTaskMultiDownloadAdvancedMD5.cpp:351
 msgctxt "DialogTaskMultiDownloadAdvanced"
 msgid "SHA256 matched!"
-msgstr ""
+msgstr "SHA256がマッチしました！"
 
 #: GUI_BitComet/DialogTaskMultiDownloadAdvanced.cpp:147
 msgctxt "DialogTaskMultiDownloadAdvanced"
@@ -3505,7 +3507,7 @@ msgstr "照合"
 #: GUI_BitComet/DialogTaskMultiDownloadAdvancedMD5.cpp:185
 msgctxt "DialogTaskMultiDownloadAdvanced"
 msgid "fill in md5/sha1/sha256 to be verified"
-msgstr ""
+msgstr "md5 / sha1 / sha256を入力して確認します"
 
 #: GUI_BitComet/DialogTasksProperty.cpp:76
 msgctxt "DialogTasksProperty"
@@ -3767,7 +3769,7 @@ msgstr "VIPアクセラレーションを無効"
 #: GUI_BitComet/DialogTaskBitTorrentVIP.cpp:799
 msgctxt "DialogVIP"
 msgid "Enable VIP"
-msgstr ""
+msgstr "VIPを有効にする"
 
 #: GUI_BitComet/DialogTaskBitTorrentVIP.cpp:236
 msgctxt "DialogVIP"
@@ -3797,7 +3799,7 @@ msgstr "CometIDにサインインしてください"
 #: GUI_BitComet/DialogTaskBitTorrentVIP.cpp:800
 msgctxt "DialogVIP"
 msgid "Preparing"
-msgstr ""
+msgstr "準備"
 
 #: GUI_BitComet/DialogTaskBitTorrentVIP.cpp:503
 msgctxt "DialogVIP"
@@ -3914,7 +3916,7 @@ msgstr "もっと詳しく"
 #: GUI_BitComet/CtrlDiskBusyDectector.cpp:29
 msgctxt "DiskBusyTip"
 msgid "Accessing network folder, please wait for a while..."
-msgstr ""
+msgstr "ネットワークフォルダにアクセス中、しばらくお待ちください..."
 
 #: GUI_BitComet/CtrlDiskBusyDectector.cpp:26
 msgctxt "DiskBusyTip"
@@ -3924,7 +3926,7 @@ msgstr "ディスクアクセス中です。しばらくお待ちください"
 #: GUI_BitComet/CtrlDiskBusyDectector.cpp:32
 msgctxt "DiskBusyTip"
 msgid "Sorting list, please wait for a while..."
-msgstr ""
+msgstr "リストを並べ替える、しばらくお待ちください..."
 
 #: GUI_BitComet/CtrlDiskBusyDectector.cpp:35
 #, fuzzy
@@ -3981,13 +3983,13 @@ msgstr "Torrentコレクション"
 #: GUI_BitComet/View_MainLeftTree_WX.cpp:519
 msgctxt "Favourite"
 msgid "Torrent Exchange"
-msgstr ""
+msgstr "Torrentの交換"
 
 #: GUI_BitComet/Toolbar_Navigate.cpp:102
 #: GUI_BitComet/Toolbar_Navigate.cpp:194
 msgctxt "Favourite"
 msgid "Torrent History"
-msgstr ""
+msgstr "Torrentの歴史"
 
 #: GUI_BitComet/Toolbar_Navigate.cpp:105
 #: GUI_BitComet/Toolbar_Navigate.cpp:156
@@ -4308,7 +4310,7 @@ msgstr "サーバーへ接続中..."
 #: GUI_BitComet/View_LogList_Helper.cpp:61
 msgctxt "LogMessage_MD_Task"
 msgid "DNS resolve failed."
-msgstr ""
+msgstr "DNS解決に失敗しました。"
 
 #: GUI_BitComet/View_LogList_Helper.cpp:119
 msgctxt "LogMessage_MD_Task"
@@ -4950,7 +4952,7 @@ msgstr "検出されませんでした"
 #: GUI_BitComet/MainStatusBar_WX.cpp:218
 msgctxt "MainStatusBar"
 msgid "Port Opened:"
-msgstr ""
+msgstr "開かれた港："
 
 #: GUI_BitComet/MainStatusBar_WX.cpp:169
 msgctxt "MainStatusBar"
@@ -5030,7 +5032,7 @@ msgstr "ゲーム"
 #: GUI_BitComet/MainToolBar_WX.cpp:210
 msgctxt "MainToolbar"
 msgid "HTTP"
-msgstr ""
+msgstr "HTTP"
 
 #: GUI_BitComet/MainToolBar_WX.cpp:240
 msgctxt "MainToolbar"
@@ -5431,7 +5433,7 @@ msgstr "空にできません"
 #: GUI_BitComet/DialogBatchDownloadAddURL.cpp:529
 msgctxt "Message_ImportUrlList"
 msgid "Notice: ${DUPLICATE_NUMBER} duplicated URLs are found and skipped."
-msgstr ""
+msgstr "注意：${DUPLICATE_NUMBER}個の重複したURLが見つかり、スキップされます。"
 
 #: GUI_BitComet/CtrlDirectory.cpp:331
 msgctxt "Message_InputFullPath"
