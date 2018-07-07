@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: BitCometGUI\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-05 00:04+0800\n"
-"PO-Revision-Date: 2018-07-05 00:04+0800\n"
+"POT-Creation-Date: 2018-07-07 15:44+0800\n"
+"PO-Revision-Date: 2018-07-07 15:44+0800\n"
 "Last-Translator: wxhere <wxhere@hotmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -2565,6 +2565,11 @@ msgctxt "DialogPassport"
 msgid "&Sign in"
 msgstr ""
 
+#: GUI_BitComet/DialogCometPassport.cpp:172
+msgctxt "DialogPassport"
+msgid "Account:"
+msgstr ""
+
 #: GUI_BitComet/DialogCometPassport.h:45
 msgctxt "DialogPassport"
 msgid "CometID - Sign in"
@@ -2595,11 +2600,6 @@ msgctxt "DialogPassport"
 msgid "Please input login password"
 msgstr ""
 
-#: GUI_BitComet/DialogCometPassport.cpp:155
-msgctxt "DialogPassport"
-msgid "Please input your user name and password."
-msgstr "Sign in with your email or username."
-
 #: GUI_BitComet/DialogCometPassport.cpp:218
 msgctxt "DialogPassport"
 msgid "S&ign up"
@@ -2610,16 +2610,16 @@ msgctxt "DialogPassport"
 msgid "Sign in automatically"
 msgstr ""
 
+#: GUI_BitComet/DialogCometPassport.cpp:155
+msgctxt "DialogPassport"
+msgid "Sign in with your email or username."
+msgstr ""
+
 #: GUI_BitComet/DialogCometPassport.cpp:205
 #: GUI_BitComet/DialogCometPassport.cpp:340
 msgctxt "DialogPassport"
 msgid "Username length should be within 4-20 characters"
 msgstr ""
-
-#: GUI_BitComet/DialogCometPassport.cpp:172
-msgctxt "DialogPassport"
-msgid "Username:"
-msgstr "Account:"
 
 #: GUI_BitComet/DialogSetBTClient.h:38
 msgctxt "DialogSetBTClient"
@@ -4595,8 +4595,8 @@ msgstr ""
 #: GUI_BitComet/MainMenuBar.cpp:183
 #: GUI_BitComet/MainMenuBar.cpp:623
 msgctxt "MainMenu"
-msgid "&Sign in"
-msgstr "&Sign in..."
+msgid "&Sign in..."
+msgstr ""
 
 #: GUI_BitComet/CtrlSoftwareUpdateCheck.cpp:308
 msgctxt "MainMenu"
@@ -4974,9 +4974,19 @@ msgctxt "MainToolbar"
 msgid "Games"
 msgstr ""
 
+#: GUI_BitComet/MainToolBar_WX.cpp:210
+msgctxt "MainToolbar"
+msgid "HTTP"
+msgstr ""
+
 #: GUI_BitComet/MainToolBar_WX.cpp:240
 msgctxt "MainToolbar"
 msgid "Homepage"
+msgstr ""
+
+#: GUI_BitComet/MainToolBar_WX.cpp:207
+msgctxt "MainToolbar"
+msgid "Magnet"
 msgstr ""
 
 #: GUI_BitComet/MainToolBar_WX.cpp:201
@@ -5003,21 +5013,6 @@ msgstr ""
 msgctxt "MainToolbar"
 msgid "Music"
 msgstr ""
-
-#: GUI_BitComet/MainToolBar_WX.cpp:210
-msgctxt "MainToolbar"
-msgid "New"
-msgstr "HTTP"
-
-#: GUI_BitComet/MainToolBar_WX.cpp:204
-msgctxt "MainToolbar"
-msgid "Open"
-msgstr "Torrent"
-
-#: GUI_BitComet/MainToolBar_WX.cpp:207
-msgctxt "MainToolbar"
-msgid "Open URL"
-msgstr "Magnet"
 
 #: GUI_BitComet/MainToolBar_WX.cpp:222
 msgctxt "MainToolbar"
@@ -5058,6 +5053,11 @@ msgstr ""
 #: GUI_BitComet/MainToolBar_WX.cpp:219
 msgctxt "MainToolbar"
 msgid "Stop"
+msgstr ""
+
+#: GUI_BitComet/MainToolBar_WX.cpp:204
+msgctxt "MainToolbar"
+msgid "Torrent"
 msgstr ""
 
 #: GUI_BitComet/CtrlMenuWx.cpp:308
@@ -5639,10 +5639,13 @@ msgstr ""
 
 #: GUI_BitComet/MainFrameWx.cpp:1800
 msgctxt "Message_PromptNewVersion"
-msgid "Would you like to learn about the new features of BitComet ${VERSION} by visiting www.BitComet.com?"
+msgid "BitComet updated to v${VERSION} successfully."
 msgstr ""
-"BitComet updated to v${VERSION} successfully.\n"
-"Would you like to learn about the new features?"
+
+#: GUI_BitComet/MainFrameWx.cpp:1802
+msgctxt "Message_PromptNewVersion"
+msgid "Would you like to learn about the new features?"
+msgstr ""
 
 #: GUI_BitComet/CtrlIntegration.cpp:833
 msgctxt "Message_RegDefaultDownToolSucc"
@@ -6955,8 +6958,8 @@ msgstr ""
 
 #: GUI_BitComet/OptionWndBTTask.cpp:162
 msgctxt "Options_TaskBitTorrent"
-msgid "Client List"
-msgstr "Client List..."
+msgid "Client List..."
+msgstr ""
 
 #: GUI_BitComet/OptionWndBTTask.cpp:189
 msgctxt "Options_TaskBitTorrent"
@@ -7025,8 +7028,8 @@ msgstr ""
 
 #: GUI_BitComet/OptionWndBTTask.cpp:265
 msgctxt "Options_TaskBitTorrent"
-msgid "Time of seeding equal to or longer than (min):"
-msgstr "Time of seeding equal to or longer than:"
+msgid "Time of seeding equal to or longer than:"
+msgstr ""
 
 #: GUI_BitComet/OptionWndBTTask.cpp:286
 msgctxt "Options_TaskBitTorrent"
@@ -7363,17 +7366,17 @@ msgctxt "Scheduler"
 msgid "scheduled turn-off"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:1984
+#: GUI_BitComet/MainFrameWx.cpp:1986
 msgctxt "StatusBar"
 msgid "Auto adjust column width of task list"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:2015
+#: GUI_BitComet/MainFrameWx.cpp:2017
 msgctxt "StatusBar"
 msgid "Change Password of CometID"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:2031
+#: GUI_BitComet/MainFrameWx.cpp:2033
 msgctxt "StatusBar"
 msgid "Changelog of new release"
 msgstr ""
@@ -7383,7 +7386,7 @@ msgctxt "StatusBar"
 msgid "Check again"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:2040
+#: GUI_BitComet/MainFrameWx.cpp:2042
 msgctxt "StatusBar"
 msgid "Check new version"
 msgstr ""
@@ -7394,12 +7397,12 @@ msgctxt "StatusBar"
 msgid "Copy WAN IP"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:1964
+#: GUI_BitComet/MainFrameWx.cpp:1966
 msgctxt "StatusBar"
 msgid "Create batch of HTTP/FTP tasks"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:1961
+#: GUI_BitComet/MainFrameWx.cpp:1963
 #: GUI_BitComet/MainToolBar_WX.cpp:775
 msgctxt "StatusBar"
 msgid "Create new HTTP/FTP task"
@@ -7410,7 +7413,7 @@ msgctxt "StatusBar"
 msgid "Delete Task"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:2043
+#: GUI_BitComet/MainFrameWx.cpp:2045
 msgctxt "StatusBar"
 msgid "Display program information, version number and copyright"
 msgstr ""
@@ -7420,13 +7423,13 @@ msgctxt "StatusBar"
 msgid "Enable DHT Network"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:1973
+#: GUI_BitComet/MainFrameWx.cpp:1975
 #: GUI_BitComet/MainToolBar_WX.cpp:835
 msgctxt "StatusBar"
 msgid "Exit"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:2037
+#: GUI_BitComet/MainFrameWx.cpp:2039
 #: GUI_BitComet/MainToolBar_WX.cpp:832
 msgctxt "StatusBar"
 msgid "Forums"
@@ -7445,32 +7448,32 @@ msgctxt "StatusBar"
 msgid "Help"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:2034
+#: GUI_BitComet/MainFrameWx.cpp:2036
 msgctxt "StatusBar"
 msgid "Homepage"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:1970
+#: GUI_BitComet/MainFrameWx.cpp:1972
 msgctxt "StatusBar"
 msgid "Import Unfinished Download"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:1967
+#: GUI_BitComet/MainFrameWx.cpp:1969
 msgctxt "StatusBar"
 msgid "Import or Export task list and settings"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:2028
+#: GUI_BitComet/MainFrameWx.cpp:2030
 msgctxt "StatusBar"
 msgid "Keyboard Shortcuts"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:2025
+#: GUI_BitComet/MainFrameWx.cpp:2027
 msgctxt "StatusBar"
 msgid "List Help topics"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:1955
+#: GUI_BitComet/MainFrameWx.cpp:1957
 #: GUI_BitComet/MainToolBar_WX.cpp:784
 msgctxt "StatusBar"
 msgid "Make Torrent File"
@@ -7491,13 +7494,13 @@ msgctxt "StatusBar"
 msgid "Open BitComet Homepage"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:1952
+#: GUI_BitComet/MainFrameWx.cpp:1954
 #: GUI_BitComet/MainToolBar_WX.cpp:778
 msgctxt "StatusBar"
 msgid "Open Torrent File"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:1958
+#: GUI_BitComet/MainFrameWx.cpp:1960
 #: GUI_BitComet/MainToolBar_WX.cpp:781
 msgctxt "StatusBar"
 msgid "Open Torrent from URL"
@@ -7513,7 +7516,7 @@ msgctxt "StatusBar"
 msgid "Preview Video File"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:1987
+#: GUI_BitComet/MainFrameWx.cpp:1989
 msgctxt "StatusBar"
 msgid "Real-time sort task list"
 msgstr ""
@@ -7523,54 +7526,54 @@ msgctxt "StatusBar"
 msgid "Retry UPNP port mapping"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:2020
+#: GUI_BitComet/MainFrameWx.cpp:2022
 #: GUI_BitComet/MainToolBar_WX.cpp:814
 msgctxt "StatusBar"
 msgid "Show Options Dialog"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:1994
+#: GUI_BitComet/MainFrameWx.cpp:1996
 msgctxt "StatusBar"
 msgid "Show or hide search box in toolbar"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:1978
+#: GUI_BitComet/MainFrameWx.cpp:1980
 msgctxt "StatusBar"
 msgid "Show or hide task filter in task list"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:1991
+#: GUI_BitComet/MainFrameWx.cpp:1993
 msgctxt "StatusBar"
 msgid "Show or hide text in toolbar"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:2004
+#: GUI_BitComet/MainFrameWx.cpp:2006
 #: GUI_BitComet/MainToolBar_WX.cpp:787
 msgctxt "StatusBar"
 msgid "Show or hide the Favorites bar"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:2007
+#: GUI_BitComet/MainFrameWx.cpp:2009
 msgctxt "StatusBar"
 msgid "Show or hide the Floating Window"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:1981
+#: GUI_BitComet/MainFrameWx.cpp:1983
 msgctxt "StatusBar"
 msgid "Show or hide the grid lines in task list"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:2001
+#: GUI_BitComet/MainFrameWx.cpp:2003
 msgctxt "StatusBar"
 msgid "Show or hide the status bar"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:1998
+#: GUI_BitComet/MainFrameWx.cpp:2000
 msgctxt "StatusBar"
 msgid "Show or hide the toolbar"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:2012
+#: GUI_BitComet/MainFrameWx.cpp:2014
 msgctxt "StatusBar"
 msgid "Sign in / Sign out CometID"
 msgstr ""
@@ -7792,8 +7795,8 @@ msgstr ""
 
 #: GUI_BitComet/View_StatisticList_WX.cpp:250
 msgctxt "StatusList_StatisticValue"
-msgid "Phys: ${G_AVAIL_PHYS_MEM_AUTO} (Min to keep: ${O_MIN_FREE_PHYS_MEM_MB} MB), Pagefile: ${G_AVAIL_PAGEFILE_MEM_AUTO}, Virtual: ${G_AVAIL_PROCESS_MEM_AUTO}"
-msgstr "Physical: ${G_AVAIL_PHYS_MEM_AUTO}/${G_TOTAL_PHYS_MEM_AUTO} (Min to keep: ${O_MIN_FREE_PHYS_MEM_MB} MB), Virtual: ${G_AVAIL_PAGEFILE_MEM_AUTO}/${G_TOTAL_PAGEFILE_MEM_AUTO}, Process: ${G_AVAIL_PROCESS_MEM_AUTO}/${G_TOTAL_PROCESS_MEM_AUTO}"
+msgid "Physical: ${G_AVAIL_PHYS_MEM_AUTO}/${G_TOTAL_PHYS_MEM_AUTO} (Min to keep: ${O_MIN_FREE_PHYS_MEM_MB} MB), Virtual: ${G_AVAIL_PAGEFILE_MEM_AUTO}/${G_TOTAL_PAGEFILE_MEM_AUTO}, Process: ${G_AVAIL_PROCESS_MEM_AUTO}/${G_TOTAL_PROCESS_MEM_AUTO}"
+msgstr ""
 
 #: GUI_BitComet/View_StatisticList_WX.cpp:254
 msgctxt "StatusList_StatisticValue"
@@ -8988,4 +8991,20 @@ msgstr ""
 msgctxt "WizardImportUndoneTaskPage"
 msgid "Use specified .torrent"
 msgstr ""
+
+#~ msgctxt "MainToolbar"
+#~ msgid "Open URL"
+#~ msgstr "Magnet"
+#~ msgctxt "MainToolbar"
+#~ msgid "New"
+#~ msgstr "HTTP"
+#~ msgctxt "MainToolbar"
+#~ msgid "Open"
+#~ msgstr "Torrent"
+#~ msgctxt "DialogPassport"
+#~ msgid "Username:"
+#~ msgstr "Account:"
+#~ msgctxt "DialogPassport"
+#~ msgid "Please input your user name and password."
+#~ msgstr "Sign in with your email or username."
 

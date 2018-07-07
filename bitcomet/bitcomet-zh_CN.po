@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: BitCometGUI\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-05 00:01+0800\n"
-"PO-Revision-Date: 2018-07-05 00:03+0800\n"
+"POT-Creation-Date: 2018-07-07 15:27+0800\n"
+"PO-Revision-Date: 2018-07-07 15:41+0800\n"
 "Last-Translator: wxhere <wxhere@hotmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -2594,6 +2594,11 @@ msgctxt "DialogPassport"
 msgid "&Sign in"
 msgstr "登录(&S)"
 
+#: GUI_BitComet/DialogCometPassport.cpp:172
+msgctxt "DialogPassport"
+msgid "Account:"
+msgstr "账号："
+
 #: GUI_BitComet/DialogCometPassport.h:45
 msgctxt "DialogPassport"
 msgid "CometID - Sign in"
@@ -2624,11 +2629,6 @@ msgctxt "DialogPassport"
 msgid "Please input login password"
 msgstr "请输入登录密码"
 
-#: GUI_BitComet/DialogCometPassport.cpp:155
-msgctxt "DialogPassport"
-msgid "Please input your user name and password."
-msgstr "请用您的email或用户名登录。"
-
 #: GUI_BitComet/DialogCometPassport.cpp:218
 msgctxt "DialogPassport"
 msgid "S&ign up"
@@ -2639,16 +2639,16 @@ msgctxt "DialogPassport"
 msgid "Sign in automatically"
 msgstr "自动登录"
 
+#: GUI_BitComet/DialogCometPassport.cpp:155
+msgctxt "DialogPassport"
+msgid "Sign in with your email or username."
+msgstr "请用您的email或用户名登录。"
+
 #: GUI_BitComet/DialogCometPassport.cpp:205
 #: GUI_BitComet/DialogCometPassport.cpp:340
 msgctxt "DialogPassport"
 msgid "Username length should be within 4-20 characters"
 msgstr "用户名长度必须在4-20字符之间"
-
-#: GUI_BitComet/DialogCometPassport.cpp:172
-msgctxt "DialogPassport"
-msgid "Username:"
-msgstr "账号:"
 
 #: GUI_BitComet/DialogSetBTClient.h:38
 msgctxt "DialogSetBTClient"
@@ -4626,8 +4626,8 @@ msgstr "打开Torrent文件(&O)"
 #: GUI_BitComet/MainMenuBar.cpp:183
 #: GUI_BitComet/MainMenuBar.cpp:623
 msgctxt "MainMenu"
-msgid "&Sign in"
-msgstr "登录(&S)"
+msgid "&Sign in..."
+msgstr "登录(&S)..."
 
 #: GUI_BitComet/CtrlSoftwareUpdateCheck.cpp:308
 msgctxt "MainMenu"
@@ -5005,10 +5005,20 @@ msgctxt "MainToolbar"
 msgid "Games"
 msgstr "游戏"
 
+#: GUI_BitComet/MainToolBar_WX.cpp:210
+msgctxt "MainToolbar"
+msgid "HTTP"
+msgstr "HTTP"
+
 #: GUI_BitComet/MainToolBar_WX.cpp:240
 msgctxt "MainToolbar"
 msgid "Homepage"
 msgstr "主页"
+
+#: GUI_BitComet/MainToolBar_WX.cpp:207
+msgctxt "MainToolbar"
+msgid "Magnet"
+msgstr "磁链"
 
 #: GUI_BitComet/MainToolBar_WX.cpp:201
 msgctxt "MainToolbar"
@@ -5034,21 +5044,6 @@ msgstr "影视"
 msgctxt "MainToolbar"
 msgid "Music"
 msgstr "音乐"
-
-#: GUI_BitComet/MainToolBar_WX.cpp:210
-msgctxt "MainToolbar"
-msgid "New"
-msgstr "HTTP"
-
-#: GUI_BitComet/MainToolBar_WX.cpp:204
-msgctxt "MainToolbar"
-msgid "Open"
-msgstr "Torrent"
-
-#: GUI_BitComet/MainToolBar_WX.cpp:207
-msgctxt "MainToolbar"
-msgid "Open URL"
-msgstr "磁链"
 
 #: GUI_BitComet/MainToolBar_WX.cpp:222
 msgctxt "MainToolbar"
@@ -5090,6 +5085,11 @@ msgstr "开始"
 msgctxt "MainToolbar"
 msgid "Stop"
 msgstr "停止"
+
+#: GUI_BitComet/MainToolBar_WX.cpp:204
+msgctxt "MainToolbar"
+msgid "Torrent"
+msgstr "Torrent"
 
 #: GUI_BitComet/CtrlMenuWx.cpp:308
 msgctxt "MainWindow"
@@ -5706,10 +5706,13 @@ msgstr "磁链错误: BitTorrent 特征码没有找到!"
 
 #: GUI_BitComet/MainFrameWx.cpp:1800
 msgctxt "Message_PromptNewVersion"
-msgid "Would you like to learn about the new features of BitComet ${VERSION} by visiting www.BitComet.com?"
-msgstr ""
-"BitComet 已成功升级到 v${VERSION} \n"
-"您想访问 www.bitcomet.com 查看新功能吗？"
+msgid "BitComet updated to v${VERSION} successfully."
+msgstr "BitComet 已成功更新到 v${VERSION}"
+
+#: GUI_BitComet/MainFrameWx.cpp:1802
+msgctxt "Message_PromptNewVersion"
+msgid "Would you like to learn about the new features?"
+msgstr "您想打开网站查看新功能吗？"
 
 #: GUI_BitComet/CtrlIntegration.cpp:833
 msgctxt "Message_RegDefaultDownToolSucc"
@@ -7042,8 +7045,8 @@ msgstr "程序退出时清空他人共享列表"
 
 #: GUI_BitComet/OptionWndBTTask.cpp:162
 msgctxt "Options_TaskBitTorrent"
-msgid "Client List"
-msgstr "客户端列表"
+msgid "Client List..."
+msgstr "客户端列表..."
 
 #: GUI_BitComet/OptionWndBTTask.cpp:189
 msgctxt "Options_TaskBitTorrent"
@@ -7112,7 +7115,7 @@ msgstr "任务做种规则"
 
 #: GUI_BitComet/OptionWndBTTask.cpp:265
 msgctxt "Options_TaskBitTorrent"
-msgid "Time of seeding equal to or longer than (min):"
+msgid "Time of seeding equal to or longer than:"
 msgstr "作种时间大于等于："
 
 #: GUI_BitComet/OptionWndBTTask.cpp:286
@@ -7450,17 +7453,17 @@ msgctxt "Scheduler"
 msgid "scheduled turn-off"
 msgstr "时段限速为停止下载"
 
-#: GUI_BitComet/MainFrameWx.cpp:1984
+#: GUI_BitComet/MainFrameWx.cpp:1986
 msgctxt "StatusBar"
 msgid "Auto adjust column width of task list"
 msgstr "自动调整任务列表列宽"
 
-#: GUI_BitComet/MainFrameWx.cpp:2015
+#: GUI_BitComet/MainFrameWx.cpp:2017
 msgctxt "StatusBar"
 msgid "Change Password of CometID"
 msgstr "修改彗星通行证密码"
 
-#: GUI_BitComet/MainFrameWx.cpp:2031
+#: GUI_BitComet/MainFrameWx.cpp:2033
 msgctxt "StatusBar"
 msgid "Changelog of new release"
 msgstr "新版本更新日志"
@@ -7470,7 +7473,7 @@ msgctxt "StatusBar"
 msgid "Check again"
 msgstr "重新检测"
 
-#: GUI_BitComet/MainFrameWx.cpp:2040
+#: GUI_BitComet/MainFrameWx.cpp:2042
 msgctxt "StatusBar"
 msgid "Check new version"
 msgstr "检查新版本"
@@ -7481,12 +7484,12 @@ msgctxt "StatusBar"
 msgid "Copy WAN IP"
 msgstr "复制外网IP"
 
-#: GUI_BitComet/MainFrameWx.cpp:1964
+#: GUI_BitComet/MainFrameWx.cpp:1966
 msgctxt "StatusBar"
 msgid "Create batch of HTTP/FTP tasks"
 msgstr "批量创建 HTTP/FTP 任务"
 
-#: GUI_BitComet/MainFrameWx.cpp:1961
+#: GUI_BitComet/MainFrameWx.cpp:1963
 #: GUI_BitComet/MainToolBar_WX.cpp:775
 msgctxt "StatusBar"
 msgid "Create new HTTP/FTP task"
@@ -7497,7 +7500,7 @@ msgctxt "StatusBar"
 msgid "Delete Task"
 msgstr "删除任务"
 
-#: GUI_BitComet/MainFrameWx.cpp:2043
+#: GUI_BitComet/MainFrameWx.cpp:2045
 msgctxt "StatusBar"
 msgid "Display program information, version number and copyright"
 msgstr "显示软件信息，版本号与版权"
@@ -7507,13 +7510,13 @@ msgctxt "StatusBar"
 msgid "Enable DHT Network"
 msgstr "允许加入到公用DHT网络"
 
-#: GUI_BitComet/MainFrameWx.cpp:1973
+#: GUI_BitComet/MainFrameWx.cpp:1975
 #: GUI_BitComet/MainToolBar_WX.cpp:835
 msgctxt "StatusBar"
 msgid "Exit"
 msgstr "退出"
 
-#: GUI_BitComet/MainFrameWx.cpp:2037
+#: GUI_BitComet/MainFrameWx.cpp:2039
 #: GUI_BitComet/MainToolBar_WX.cpp:832
 msgctxt "StatusBar"
 msgid "Forums"
@@ -7532,32 +7535,32 @@ msgctxt "StatusBar"
 msgid "Help"
 msgstr "帮助"
 
-#: GUI_BitComet/MainFrameWx.cpp:2034
+#: GUI_BitComet/MainFrameWx.cpp:2036
 msgctxt "StatusBar"
 msgid "Homepage"
 msgstr "主页"
 
-#: GUI_BitComet/MainFrameWx.cpp:1970
+#: GUI_BitComet/MainFrameWx.cpp:1972
 msgctxt "StatusBar"
 msgid "Import Unfinished Download"
 msgstr "导入未完成的下载"
 
-#: GUI_BitComet/MainFrameWx.cpp:1967
+#: GUI_BitComet/MainFrameWx.cpp:1969
 msgctxt "StatusBar"
 msgid "Import or Export task list and settings"
 msgstr "导入或导出任务列表和程序设置"
 
-#: GUI_BitComet/MainFrameWx.cpp:2028
+#: GUI_BitComet/MainFrameWx.cpp:2030
 msgctxt "StatusBar"
 msgid "Keyboard Shortcuts"
 msgstr "键盘快捷键"
 
-#: GUI_BitComet/MainFrameWx.cpp:2025
+#: GUI_BitComet/MainFrameWx.cpp:2027
 msgctxt "StatusBar"
 msgid "List Help topics"
 msgstr "帮助主题列表"
 
-#: GUI_BitComet/MainFrameWx.cpp:1955
+#: GUI_BitComet/MainFrameWx.cpp:1957
 #: GUI_BitComet/MainToolBar_WX.cpp:784
 msgctxt "StatusBar"
 msgid "Make Torrent File"
@@ -7578,13 +7581,13 @@ msgctxt "StatusBar"
 msgid "Open BitComet Homepage"
 msgstr "打开 BitComet 主页"
 
-#: GUI_BitComet/MainFrameWx.cpp:1952
+#: GUI_BitComet/MainFrameWx.cpp:1954
 #: GUI_BitComet/MainToolBar_WX.cpp:778
 msgctxt "StatusBar"
 msgid "Open Torrent File"
 msgstr "打开种子文件"
 
-#: GUI_BitComet/MainFrameWx.cpp:1958
+#: GUI_BitComet/MainFrameWx.cpp:1960
 #: GUI_BitComet/MainToolBar_WX.cpp:781
 msgctxt "StatusBar"
 msgid "Open Torrent from URL"
@@ -7600,7 +7603,7 @@ msgctxt "StatusBar"
 msgid "Preview Video File"
 msgstr "预览视频文件"
 
-#: GUI_BitComet/MainFrameWx.cpp:1987
+#: GUI_BitComet/MainFrameWx.cpp:1989
 msgctxt "StatusBar"
 msgid "Real-time sort task list"
 msgstr "任务列表实时排序"
@@ -7610,54 +7613,54 @@ msgctxt "StatusBar"
 msgid "Retry UPNP port mapping"
 msgstr "重新添加UPNP端口映射"
 
-#: GUI_BitComet/MainFrameWx.cpp:2020
+#: GUI_BitComet/MainFrameWx.cpp:2022
 #: GUI_BitComet/MainToolBar_WX.cpp:814
 msgctxt "StatusBar"
 msgid "Show Options Dialog"
 msgstr "显示选项对话框"
 
-#: GUI_BitComet/MainFrameWx.cpp:1994
+#: GUI_BitComet/MainFrameWx.cpp:1996
 msgctxt "StatusBar"
 msgid "Show or hide search box in toolbar"
 msgstr "显示或者隐藏工具栏搜索框"
 
-#: GUI_BitComet/MainFrameWx.cpp:1978
+#: GUI_BitComet/MainFrameWx.cpp:1980
 msgctxt "StatusBar"
 msgid "Show or hide task filter in task list"
 msgstr "显示或者隐藏任务筛选器"
 
-#: GUI_BitComet/MainFrameWx.cpp:1991
+#: GUI_BitComet/MainFrameWx.cpp:1993
 msgctxt "StatusBar"
 msgid "Show or hide text in toolbar"
 msgstr "显示或者隐藏工具栏上的文字"
 
-#: GUI_BitComet/MainFrameWx.cpp:2004
+#: GUI_BitComet/MainFrameWx.cpp:2006
 #: GUI_BitComet/MainToolBar_WX.cpp:787
 msgctxt "StatusBar"
 msgid "Show or hide the Favorites bar"
 msgstr "显示或者隐藏收藏夹"
 
-#: GUI_BitComet/MainFrameWx.cpp:2007
+#: GUI_BitComet/MainFrameWx.cpp:2009
 msgctxt "StatusBar"
 msgid "Show or hide the Floating Window"
 msgstr "显示或者隐藏悬浮窗"
 
-#: GUI_BitComet/MainFrameWx.cpp:1981
+#: GUI_BitComet/MainFrameWx.cpp:1983
 msgctxt "StatusBar"
 msgid "Show or hide the grid lines in task list"
 msgstr "显示或者隐藏任务列表网格线"
 
-#: GUI_BitComet/MainFrameWx.cpp:2001
+#: GUI_BitComet/MainFrameWx.cpp:2003
 msgctxt "StatusBar"
 msgid "Show or hide the status bar"
 msgstr "显示或者隐藏状态栏"
 
-#: GUI_BitComet/MainFrameWx.cpp:1998
+#: GUI_BitComet/MainFrameWx.cpp:2000
 msgctxt "StatusBar"
 msgid "Show or hide the toolbar"
 msgstr "显示或者隐藏工具栏"
 
-#: GUI_BitComet/MainFrameWx.cpp:2012
+#: GUI_BitComet/MainFrameWx.cpp:2014
 msgctxt "StatusBar"
 msgid "Sign in / Sign out CometID"
 msgstr "登录/登出彗星通行证"
@@ -7879,7 +7882,7 @@ msgstr "防火墙/路由器已开通"
 
 #: GUI_BitComet/View_StatisticList_WX.cpp:250
 msgctxt "StatusList_StatisticValue"
-msgid "Phys: ${G_AVAIL_PHYS_MEM_AUTO} (Min to keep: ${O_MIN_FREE_PHYS_MEM_MB} MB), Pagefile: ${G_AVAIL_PAGEFILE_MEM_AUTO}, Virtual: ${G_AVAIL_PROCESS_MEM_AUTO}"
+msgid "Physical: ${G_AVAIL_PHYS_MEM_AUTO}/${G_TOTAL_PHYS_MEM_AUTO} (Min to keep: ${O_MIN_FREE_PHYS_MEM_MB} MB), Virtual: ${G_AVAIL_PAGEFILE_MEM_AUTO}/${G_TOTAL_PAGEFILE_MEM_AUTO}, Process: ${G_AVAIL_PROCESS_MEM_AUTO}/${G_TOTAL_PROCESS_MEM_AUTO}"
 msgstr "物理内存: ${G_AVAIL_PHYS_MEM_AUTO}/${G_TOTAL_PHYS_MEM_AUTO} (最少保证: ${O_MIN_FREE_PHYS_MEM_MB} MB), 虚拟内存: ${G_AVAIL_PAGEFILE_MEM_AUTO}/${G_TOTAL_PAGEFILE_MEM_AUTO}, 进程空间: ${G_AVAIL_PROCESS_MEM_AUTO}/${G_TOTAL_PROCESS_MEM_AUTO}"
 
 #: GUI_BitComet/View_StatisticList_WX.cpp:254
@@ -9098,6 +9101,21 @@ msgctxt "WizardImportUndoneTaskPage"
 msgid "Use specified .torrent"
 msgstr "使用指定的torrent文件"
 
+#~ msgctxt "DialogPassport"
+#~ msgid "Please input your user name and password."
+#~ msgstr "请用您的email或用户名登录。"
+#~ msgctxt "DialogPassport"
+#~ msgid "Username:"
+#~ msgstr "账号:"
+#~ msgctxt "MainToolbar"
+#~ msgid "New"
+#~ msgstr "HTTP"
+#~ msgctxt "MainToolbar"
+#~ msgid "Open"
+#~ msgstr "Torrent"
+#~ msgctxt "MainToolbar"
+#~ msgid "Open URL"
+#~ msgstr "磁链"
 #~ msgctxt "DetailView_PeerList"
 #~ msgid "Illegal format."
 #~ msgstr "错误的格式"
@@ -9601,9 +9619,6 @@ msgstr "使用指定的torrent文件"
 #~ msgctxt "DialogTaskBitTorrentMain"
 #~ msgid "%"
 #~ msgstr "%"
-#~ msgctxt "DialogTaskMultiDownloadAdvanced"
-#~ msgid "HTTP"
-#~ msgstr "HTTP"
 #~ msgctxt "DialogTorrentPreview"
 #~ msgid "%"
 #~ msgstr "%"
