@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bitcomet\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-07 15:44+0800\n"
-"PO-Revision-Date: 2018-07-07 15:45+0800\n"
+"POT-Creation-Date: 2018-07-07 19:28+0800\n"
+"PO-Revision-Date: 2018-07-07 19:44+0800\n"
 "Last-Translator: wx <Unknown>\n"
 "Language-Team: Nepali <ne@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -5665,7 +5665,7 @@ msgstr ""
 
 #: GUI_BitComet/MainFrameWx.cpp:1800
 msgctxt "Message_PromptNewVersion"
-msgid "BitComet updated to v${VERSION} successfully."
+msgid "BitComet updated to ${VERSION} successfully."
 msgstr ""
 
 #: GUI_BitComet/MainFrameWx.cpp:1802

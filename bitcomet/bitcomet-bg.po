@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: BitCometGUI\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-07 15:44+0800\n"
-"PO-Revision-Date: 2018-07-07 15:44+0800\n"
+"POT-Creation-Date: 2018-07-07 19:28+0800\n"
+"PO-Revision-Date: 2018-07-07 19:44+0800\n"
 "Last-Translator: Alexander Ivanov <Unknown>\n"
 "Language-Team: Slatina\n"
 "MIME-Version: 1.0\n"
@@ -4983,7 +4983,7 @@ msgstr "Светложълто"
 msgctxt "MainStatusBar"
 msgid "Your listen port is blocked. You can still download but the speed may not be very fast. Please check your Firewall and NAT Router configurations."
 msgstr ""
-"Вашият порт за слушане е блокиран. Все още можете да сваляте, но скоростта може да не е много висока.\r\n"
+"Вашият порт за слушане е блокиран. Все още можете да сваляте, но скоростта може да не е много висока.\n"
 "Моля, проверете конфигурацията на Вашата защитна стена и на NAT рутера."
 
 #: GUI_BitComet/MainStatusBar_WX.cpp:748
@@ -5748,7 +5748,7 @@ msgstr "Magnet URI грешка: BitTorrent хаш информацията не
 
 #: GUI_BitComet/MainFrameWx.cpp:1800
 msgctxt "Message_PromptNewVersion"
-msgid "BitComet updated to v${VERSION} successfully."
+msgid "BitComet updated to ${VERSION} successfully."
 msgstr ""
 
 #: GUI_BitComet/MainFrameWx.cpp:1802

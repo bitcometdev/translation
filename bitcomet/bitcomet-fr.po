@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: BitCometGUI\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-07 15:44+0800\n"
-"PO-Revision-Date: 2018-07-07 15:45+0800\n"
+"POT-Creation-Date: 2018-07-07 19:28+0800\n"
+"PO-Revision-Date: 2018-07-07 19:44+0800\n"
 "Last-Translator: petrus6 <Unknown>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -5739,7 +5739,7 @@ msgstr ""
 
 #: GUI_BitComet/MainFrameWx.cpp:1800
 msgctxt "Message_PromptNewVersion"
-msgid "BitComet updated to v${VERSION} successfully."
+msgid "BitComet updated to ${VERSION} successfully."
 msgstr ""
 
 #: GUI_BitComet/MainFrameWx.cpp:1802
@@ -8361,7 +8361,7 @@ msgstr "Etes-vous sûr de vouloir cacher les fichiers torrents selectionnés ?"
 msgctxt "TorrentShare"
 msgid "BitComet has not connected to any peer supporting Torrent Share. Please check it later."
 msgstr ""
-"BitComet ne s'est connecté à aucun pair qui puisse partager des torrents.\r\n"
+"BitComet ne s'est connecté à aucun pair qui puisse partager des torrents.\n"
 "Veuillez réessayer plus tard."
 
 #: GUI_BitComet/Toolbar_Torrent.cpp:244
