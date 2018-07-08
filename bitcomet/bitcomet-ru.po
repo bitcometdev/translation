@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: BitCometGUI\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-07 19:28+0800\n"
-"PO-Revision-Date: 2018-07-08 06:57+0000\n"
+"PO-Revision-Date: 2018-07-08 07:14+0000\n"
 "Last-Translator: wilson <wxhere@hotmail.com>\n"
 "Language-Team: Russian <http://bbcomet.com/projects/bitcomet/bitcomet/ru/>\n"
 "Language: ru\n"
@@ -2928,7 +2928,7 @@ msgstr "Список трекеров:"
 #: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:226
 msgctxt "DialogTaskBitTorrentAdvanced"
 msgid "Upload Rate"
-msgstr "Скорость передачи"
+msgstr "Скорость раздачу"
 
 #: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:599
 msgctxt "DialogTaskBitTorrentAdvanced"
