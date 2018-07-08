@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: BitCometGUI\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-07 19:28+0800\n"
-"PO-Revision-Date: 2018-07-08 07:14+0000\n"
+"PO-Revision-Date: 2018-07-08 07:29+0000\n"
 "Last-Translator: wilson <wxhere@hotmail.com>\n"
 "Language-Team: Russian <http://bbcomet.com/projects/bitcomet/bitcomet/ru/>\n"
 "Language: ru\n"
@@ -5102,7 +5102,7 @@ msgstr "Torrent"
 #: GUI_BitComet/CtrlMenuWx.cpp:308
 msgctxt "MainWindow"
 msgid "${FAILED_TASK_NUM} tasks failed to upload due to missing file."
-msgstr "${FAILED_TASK_NUM} tasks failed to upload due to file missing"
+msgstr "Задачи ${FAILED_TASK_NUM} не удалось загрузить из-за отсутствия файла."
 
 #: GUI_BitComet/TorrentExchangeHelperWx.cpp:79
 msgctxt "MainWindow"
@@ -7836,7 +7836,7 @@ msgstr "${G_UPLOAD_RATE_KB} кБ/с [MAX:${G_UPLOAD_RATE_MAX_KB}]"
 #: GUI_BitComet/View_StatisticList_WX.cpp:240
 msgctxt "StatusList_StatisticValue"
 msgid "All BT Upload Slots: ${G_UPLOAD_SLOTS_STATS}"
-msgstr "Всего слотов передачи"
+msgstr "Всего слотов передачи: ${G_UPLOAD_SLOTS_STATS}"
 
 #: GUI_BitComet/BitComet_Info.cpp:502
 #: GUI_BitComet/BitComet_Info.cpp:541
@@ -8153,7 +8153,7 @@ msgstr "Общий размер загрузки"
 #: GUI_BitComet/View_DownloadsList_WX.cpp:398
 msgctxt "TaskList_Header"
 msgid "Total Up Size"
-msgstr "Общий размер загрузите"
+msgstr "Общий Отдано"
 
 #: GUI_BitComet/View_DownloadsList_WX.cpp:400
 msgctxt "TaskList_Header"
@@ -8948,7 +8948,7 @@ msgid ""
 "set max upload rate to ${MAX_RATE}."
 msgstr ""
 "Удаленная загрузка:\n"
-"установите максимальную скорость загрузить до ${MAX_RATE}."
+"установите максимальную скорость Передача до ${MAX_RATE}."
 
 #: GUI_BitComet/CtrlRemoteAccess.cpp:137
 msgctxt "WebInterface"
