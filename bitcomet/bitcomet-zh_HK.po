@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bitcomet\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-26 20:42+0800\n"
-"PO-Revision-Date: 2018-10-26 20:43+0800\n"
+"POT-Creation-Date: 2019-07-05 18:32+0800\n"
+"PO-Revision-Date: 2019-07-05 18:32+0800\n"
 "Last-Translator: wx <Unknown>\n"
 "Language-Team: Chinese (Hong Kong) <zh_HK@li.org>\n"
 "Language: zh_HK\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2011-06-27 09:13+0000\n"
-"X-Generator: Poedit 2.2\n"
+"X-Generator: Poedit 2.2.3\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: ../../../..\n"
 "X-Poedit-KeywordsList: _:1g\n"
@@ -48,27 +48,27 @@ msgctxt "Message_SignOut"
 msgid "Do you want to sign out?"
 msgstr "您想登出嗎?"
 
-#: GUI_BitComet/AppUtil.cpp:1508
+#: GUI_BitComet/AppUtil.cpp:1346
 msgctxt "MainWindow"
-msgid "Can not listen to port: "
+msgid "Can not listen to port:"
 msgstr ""
 
-#: GUI_BitComet/AppUtil.cpp:1709
+#: GUI_BitComet/AppUtil.cpp:1547
 msgctxt "MainWindow"
 msgid "There are some tasks still running, are you sure you want to exit?"
 msgstr "還有工作仍在執行中，您確定要結束?"
 
-#: GUI_BitComet/AppUtil.cpp:1784
+#: GUI_BitComet/AppUtil.cpp:1622
 msgctxt "Message_LoginError"
 msgid "Login password error, application exit!"
 msgstr "登入密碼錯誤，應用程式結束!"
 
-#: GUI_BitComet/AppUtil.cpp:1789
+#: GUI_BitComet/AppUtil.cpp:1627
 msgctxt "Message_LoginError"
 msgid "Login password error, please input again!"
 msgstr "登入密碼錯誤，請重新輸入!"
 
-#: GUI_BitComet/AppUtil.h:16 GUI_BitComet/DialogAbout.cpp:252
+#: GUI_BitComet/AppUtil.h:16 GUI_BitComet/DialogAbout.cpp:256
 #: GUI_BitComet/DialogAutoShutdownSetTime.cpp:141
 #: GUI_BitComet/DialogSetFolderTags.cpp:158
 #: GUI_BitComet/DialogSetTagFolder.cpp:159
@@ -96,217 +96,230 @@ msgctxt "Common"
 msgid "&Cancel"
 msgstr "取消(&C)"
 
-#: GUI_BitComet/BitComet_App.cpp:293 GUI_BitComet/MainMenuBar.cpp:764
+#: GUI_BitComet/BitComet_App.cpp:300 GUI_BitComet/MainMenuBar.cpp:774
 msgctxt "Common"
 msgid "day"
 msgstr ""
 
-#: GUI_BitComet/BitComet_App.cpp:293 GUI_BitComet/MainMenuBar.cpp:764
+#: GUI_BitComet/BitComet_App.cpp:300 GUI_BitComet/MainMenuBar.cpp:774
 msgctxt "Common"
 msgid "hour"
 msgstr ""
 
-#: GUI_BitComet/BitComet_App.cpp:777 GUI_BitComet/BitComet_App.cpp:796
+#: GUI_BitComet/BitComet_App.cpp:796 GUI_BitComet/BitComet_App.cpp:815
+#, fuzzy
+#| msgctxt "MainWindow"
+#| msgid ""
+#| "Download: ${G_DOWNLOAD_RATE_KB} kB/s, Upload: ${G_UPLOAD_RATE_KB} kB/s"
 msgctxt "MainWindow"
-msgid "Download: ${G_DOWNLOAD_RATE_KB} kB/s, Upload: ${G_UPLOAD_RATE_KB} kB/s"
+msgid "Download: ${G_DOWNLOAD_RATE}, Upload: ${G_UPLOAD_RATE}"
 msgstr "下載: ${G_DOWNLOAD_RATE_KB} kB/s，上載: ${G_UPLOAD_RATE_KB} kB/s"
 
-#: GUI_BitComet/BitComet_App.cpp:1106 GUI_BitComet/BitComet_App.cpp:1123
-#: GUI_BitComet/CtrlBitTorrent.cpp:241 GUI_BitComet/CtrlBitTorrent.cpp:508
-#: GUI_BitComet/CtrlBitTorrent.cpp:595 GUI_BitComet/CtrlBitTorrent.cpp:955
-#: GUI_BitComet/CtrlBitTorrent.cpp:990
+#: GUI_BitComet/BitComet_App.cpp:1118 GUI_BitComet/BitComet_App.cpp:1136
+#: GUI_BitComet/CtrlBitTorrent.cpp:249 GUI_BitComet/CtrlBitTorrent.cpp:516
+#: GUI_BitComet/CtrlBitTorrent.cpp:603 GUI_BitComet/CtrlBitTorrent.cpp:963
+#: GUI_BitComet/CtrlBitTorrent.cpp:998
 msgctxt "Message_TorrentExisted"
 msgid "Torrent task exists!"
 msgstr "Torrent 工作已存在!"
 
-#: GUI_BitComet/BitComet_Info.cpp:270 GUI_BitComet/BitComet_Info.cpp:283
-#: GUI_BitComet/BitComet_Info.cpp:284 GUI_BitComet/BitComet_Info.cpp:285
-#: GUI_BitComet/CtrlMenuWx.cpp:626 GUI_BitComet/CtrlMenuWx.cpp:671
-#: GUI_BitComet/CtrlSchedule.cpp:178 GUI_BitComet/CtrlSchedule.cpp:179
-#: GUI_BitComet/DialogConnectionWizard.cpp:247
-#: GUI_BitComet/DialogConnectionWizard.cpp:248
-#: GUI_BitComet/DialogSummaryListTip.cpp:533
-#: GUI_BitComet/DialogSummaryListTip.cpp:615
-#: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:257
-#: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:258
-#: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:259
-#: GUI_BitComet/DialogTaskMultiDownloadAdvanced.cpp:368
-#: GUI_BitComet/OptionWndBTTask.cpp:316 GUI_BitComet/OptionWndBTTask.cpp:333
-#: GUI_BitComet/OptionWndBTTask.cpp:398
-#: GUI_BitComet/OptionWndConnection.cpp:263
-#: GUI_BitComet/OptionWndPersistentSeed.cpp:156
-#: GUI_BitComet/OptionWndScheduler.cpp:317 GUI_BitComet/OptionWndTask.cpp:218
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:937
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:947
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:676
-msgctxt "Common"
-msgid "Unlimited"
-msgstr "無限制"
-
-#: GUI_BitComet/BitComet_Info.cpp:335 GUI_BitComet/BitComet_Info.cpp:336
+#: GUI_BitComet/BitComet_Info.cpp:339 GUI_BitComet/BitComet_Info.cpp:340
 #, fuzzy
 msgctxt "StatusList_StatisticValue"
 msgid "Unavailable"
 msgstr "可用度:"
 
-#: GUI_BitComet/BitComet_Info.cpp:354 GUI_BitComet/BitComet_Info.cpp:401
+#: GUI_BitComet/BitComet_Info.cpp:373 GUI_BitComet/BitComet_Info.cpp:386
+#: GUI_BitComet/BitComet_Info.cpp:387 GUI_BitComet/BitComet_Info.cpp:388
+#: GUI_BitComet/CtrlMenuWx.cpp:626 GUI_BitComet/CtrlMenuWx.cpp:671
+#: GUI_BitComet/CtrlSchedule.cpp:178 GUI_BitComet/CtrlSchedule.cpp:179
+#: GUI_BitComet/DialogConnectionWizard.cpp:247
+#: GUI_BitComet/DialogConnectionWizard.cpp:248
+#: GUI_BitComet/DialogSummaryListTip.cpp:547
+#: GUI_BitComet/DialogSummaryListTip.cpp:629
+#: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:257
+#: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:258
+#: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:259
+#: GUI_BitComet/DialogTaskMultiDownloadAdvanced.cpp:368
+#: GUI_BitComet/OptionWndBTTask.cpp:317 GUI_BitComet/OptionWndBTTask.cpp:334
+#: GUI_BitComet/OptionWndBTTask.cpp:399
+#: GUI_BitComet/OptionWndConnection.cpp:263
+#: GUI_BitComet/OptionWndPersistentSeed.cpp:156
+#: GUI_BitComet/OptionWndScheduler.cpp:317 GUI_BitComet/OptionWndTask.cpp:218
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:953
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:963
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:677
+msgctxt "Common"
+msgid "Unlimited"
+msgstr "無限制"
+
+#: GUI_BitComet/BitComet_Info.cpp:440 GUI_BitComet/BitComet_Info.cpp:487
 msgctxt "UPNP"
 msgid "Disabled"
 msgstr "已停用"
 
-#: GUI_BitComet/BitComet_Info.cpp:365 GUI_BitComet/BitComet_Info.cpp:412
+#: GUI_BitComet/BitComet_Info.cpp:451 GUI_BitComet/BitComet_Info.cpp:502
 msgctxt "UPNP"
 msgid "Waiting for query IP address"
 msgstr "正在等候查詢 IP 位址"
 
-#: GUI_BitComet/BitComet_Info.cpp:368 GUI_BitComet/BitComet_Info.cpp:415
+#: GUI_BitComet/BitComet_Info.cpp:454 GUI_BitComet/BitComet_Info.cpp:505
 msgctxt "UPNP"
 msgid "Working"
 msgstr "運作中"
 
-#: GUI_BitComet/BitComet_Info.cpp:371 GUI_BitComet/BitComet_Info.cpp:418
+#: GUI_BitComet/BitComet_Info.cpp:457 GUI_BitComet/BitComet_Info.cpp:508
 msgctxt "UPNP"
 msgid "Added"
 msgstr "已加入"
 
-#: GUI_BitComet/BitComet_Info.cpp:378 GUI_BitComet/BitComet_Info.cpp:425
+#: GUI_BitComet/BitComet_Info.cpp:464 GUI_BitComet/BitComet_Info.cpp:515
 msgctxt "UPNP"
 msgid "Failed"
 msgstr "失敗"
 
-#: GUI_BitComet/BitComet_Info.cpp:385 GUI_BitComet/BitComet_Info.cpp:432
+#: GUI_BitComet/BitComet_Info.cpp:471 GUI_BitComet/BitComet_Info.cpp:522
 msgctxt "UPNP"
 msgid "Released"
 msgstr "釋放"
 
-#: GUI_BitComet/BitComet_Info.cpp:456
+#: GUI_BitComet/BitComet_Info.cpp:545
 msgctxt "Scheduler"
 msgid "scheduled high-speed"
 msgstr ""
 
-#: GUI_BitComet/BitComet_Info.cpp:460
+#: GUI_BitComet/BitComet_Info.cpp:549
 msgctxt "Scheduler"
 msgid "scheduled low-speed"
 msgstr ""
 
-#: GUI_BitComet/BitComet_Info.cpp:464
+#: GUI_BitComet/BitComet_Info.cpp:553
 msgctxt "Scheduler"
 msgid "scheduled turn-off"
 msgstr ""
 
-#: GUI_BitComet/BitComet_Info.cpp:472
+#: GUI_BitComet/BitComet_Info.cpp:561
 #, fuzzy
 msgctxt "Scheduler"
 msgid "for not downloading"
 msgstr "Torrent 下載中"
 
-#: GUI_BitComet/BitComet_Info.cpp:489 GUI_BitComet/BitComet_Info.cpp:528
+#: GUI_BitComet/BitComet_Info.cpp:572
+#: GUI_BitComet/DialogTorrentMaker.cpp:965
+#, fuzzy
+#| msgctxt "TrayMenu"
+#| msgid "None"
+msgctxt "Common"
+msgid "None"
+msgstr "沒有"
+
+#: GUI_BitComet/BitComet_Info.cpp:588 GUI_BitComet/BitComet_Info.cpp:632
 msgctxt "StatusList_StatisticValue"
 msgid "Opened in Firewall/Router"
 msgstr "已於防火牆/路由器開啟"
 
-#: GUI_BitComet/BitComet_Info.cpp:496 GUI_BitComet/BitComet_Info.cpp:535
+#: GUI_BitComet/BitComet_Info.cpp:595 GUI_BitComet/BitComet_Info.cpp:639
 msgctxt "StatusList_StatisticValue"
 msgid "Detecting"
 msgstr "正在偵測"
 
-#: GUI_BitComet/BitComet_Info.cpp:500 GUI_BitComet/BitComet_Info.cpp:539
+#: GUI_BitComet/BitComet_Info.cpp:599 GUI_BitComet/BitComet_Info.cpp:643
 msgctxt "StatusList_StatisticValue"
 msgid "Not Detected"
 msgstr "未偵測"
 
-#: GUI_BitComet/BitComet_Info.cpp:504 GUI_BitComet/BitComet_Info.cpp:543
+#: GUI_BitComet/BitComet_Info.cpp:603 GUI_BitComet/BitComet_Info.cpp:647
 msgctxt "StatusList_StatisticValue"
 msgid "Detect Failed"
 msgstr "偵測失敗"
 
-#: GUI_BitComet/BitComet_Info.cpp:508 GUI_BitComet/BitComet_Info.cpp:547
+#: GUI_BitComet/BitComet_Info.cpp:607 GUI_BitComet/BitComet_Info.cpp:651
 msgctxt "StatusList_StatisticValue"
 msgid "Blocked by Firewall/Router"
 msgstr "被防火牆/路由器阻擋"
 
-#: GUI_BitComet/BitComet_Info.cpp:568 GUI_BitComet/BitComet_Info.cpp:577
-#: GUI_BitComet/BitComet_Info.cpp:582 GUI_BitComet/BitComet_Info.cpp:587
-#: GUI_BitComet/BitComet_Info.cpp:592
+#: GUI_BitComet/BitComet_Info.cpp:670 GUI_BitComet/BitComet_Info.cpp:679
+#: GUI_BitComet/BitComet_Info.cpp:684 GUI_BitComet/BitComet_Info.cpp:689
+#: GUI_BitComet/BitComet_Info.cpp:694
 msgctxt "BitComet_Info"
 msgid "Torrent decode error"
 msgstr "Torrent 檔解碼失敗"
 
-#: GUI_BitComet/BitComet_Info.cpp:571
+#: GUI_BitComet/BitComet_Info.cpp:673
 msgctxt "BitComet_Info"
 msgid "Torrent too Large"
 msgstr "Torrent 檔大小過大"
 
-#: GUI_BitComet/BitComet_Info.cpp:574
+#: GUI_BitComet/BitComet_Info.cpp:676
 msgctxt "BitComet_Info"
 msgid "Opening Torrent Failed"
 msgstr "Torrent 檔開啟失敗"
 
-#: GUI_BitComet/BitComet_Info.cpp:597
+#: GUI_BitComet/BitComet_Info.cpp:699
 msgctxt "BitComet_Info"
 msgid "Torrent Download Failed"
 msgstr "Torrent 檔下載失敗"
 
-#: GUI_BitComet/BitComet_Info.cpp:604 GUI_BitComet/BitComet_Info.cpp:608
-#: GUI_BitComet/BitComet_Info.cpp:670
+#: GUI_BitComet/BitComet_Info.cpp:706 GUI_BitComet/BitComet_Info.cpp:710
+#: GUI_BitComet/BitComet_Info.cpp:772
 msgctxt "BitComet_Info"
 msgid "Error:"
 msgstr ""
 
-#: GUI_BitComet/BitComet_Info.cpp:612 GUI_BitComet/BitComet_Info.cpp:616
-#: GUI_BitComet/BitComet_Info.cpp:674 GUI_BitComet/BitComet_Info.cpp:678
+#: GUI_BitComet/BitComet_Info.cpp:714 GUI_BitComet/BitComet_Info.cpp:718
+#: GUI_BitComet/BitComet_Info.cpp:776 GUI_BitComet/BitComet_Info.cpp:780
 msgctxt "BitComet_Info"
 msgid "Warning:"
 msgstr ""
 
-#: GUI_BitComet/BitComet_Info.cpp:616 GUI_BitComet/BitComet_Info.cpp:678
+#: GUI_BitComet/BitComet_Info.cpp:718 GUI_BitComet/BitComet_Info.cpp:780
 msgctxt "BitComet_Info"
 msgid "Downloaded file missing."
 msgstr ""
 
-#: GUI_BitComet/BitComet_Info.cpp:635
+#: GUI_BitComet/BitComet_Info.cpp:737
 msgctxt "DetailView_Log"
 msgid "An error occurred during download. Task stopped."
 msgstr "下載時發生錯誤。工作已停止。"
 
-#: GUI_BitComet/BitComet_Info.cpp:639
+#: GUI_BitComet/BitComet_Info.cpp:741
 msgctxt "DetailView_Log"
 msgid "File does not exist at the specified address. Task stopped."
 msgstr "所指定位址的檔案並不存在。工作已停止。"
 
-#: GUI_BitComet/BitComet_Info.cpp:642
+#: GUI_BitComet/BitComet_Info.cpp:744
 msgctxt "DetailView_Log"
 msgid "Failed to connect to any available source. Retry limit reached."
 msgstr "無法連接到任何可用來源。已達到重試限制已到達。"
 
-#: GUI_BitComet/BitComet_Info.cpp:645
+#: GUI_BitComet/BitComet_Info.cpp:747
 msgctxt "DetailView_Log"
 msgid ""
 "The file size is different from the last download, maybe the address has "
 "been changed."
 msgstr "檔案大小與上次下載的不同，可能位址已變更。"
 
-#: GUI_BitComet/BitComet_Info.cpp:648
+#: GUI_BitComet/BitComet_Info.cpp:750
 msgctxt "DetailView_Log"
 msgid "The file is not the same as in the last download."
 msgstr "檔案與上次下載的不同。"
 
-#: GUI_BitComet/BitComet_Info.cpp:651
+#: GUI_BitComet/BitComet_Info.cpp:753
 msgctxt "DetailView_Log"
 msgid "Server returned unexpected status code."
 msgstr "伺服器傳回不預期的狀態碼。"
 
-#: GUI_BitComet/BitComet_Info.cpp:654
+#: GUI_BitComet/BitComet_Info.cpp:756
 msgctxt "DetailView_Log"
 msgid "Error occurred: Authorization Failed"
 msgstr "發生錯誤: 授權失敗"
 
-#: GUI_BitComet/BitComet_Info.cpp:658
+#: GUI_BitComet/BitComet_Info.cpp:760
 msgctxt "DetailView_Log"
 msgid "Invalid URL format"
 msgstr "無效的 URL 格式"
 
-#: GUI_BitComet/CommonGUI_WX.cpp:127 GUI_BitComet/View_MainLeftTree_WX.cpp:709
+#: GUI_BitComet/CommonGUI_WX.cpp:127 GUI_BitComet/View_MainLeftTree_WX.cpp:886
 msgctxt "Favourite"
 msgid "Loading..."
 msgstr "載入中..."
@@ -326,63 +339,89 @@ msgctxt "ConnectionLimitButton"
 msgid "Set task limit"
 msgstr "設定工作限制"
 
-#: GUI_BitComet/CtrlAutoShutdown.cpp:212
+#: GUI_BitComet/CtrlAutoShutdown.cpp:196
+msgctxt "DialogAutoShutdown"
+msgid "BitComet download finished. Reboot system..."
+msgstr ""
+
+#: GUI_BitComet/CtrlAutoShutdown.cpp:201
+#, fuzzy
+#| msgctxt "Registry_BitCometUnfinishedFile"
+#| msgid "BitComet Unfinished Download File"
+msgctxt "DialogAutoShutdown"
+msgid "BitComet download finished. Shutdown system..."
+msgstr "BitComet 未完成的下載檔案"
+
+#: GUI_BitComet/CtrlAutoShutdown.cpp:218
 msgctxt "DialogAutoShutdown"
 msgid "All tasks are finished and BitComet will stop now."
 msgstr "已完成全部工作，BitComet 現將停止。"
 
-#: GUI_BitComet/CtrlAutoShutdown.cpp:217
+#: GUI_BitComet/CtrlAutoShutdown.cpp:223
 msgctxt "DialogAutoShutdown"
 msgid "BitComet will quit automatically in a few minutes."
 msgstr "BitComet 將於數分鐘後自動離開。"
 
-#: GUI_BitComet/CtrlAutoShutdown.cpp:217
+#: GUI_BitComet/CtrlAutoShutdown.cpp:223
 msgctxt "DialogAutoShutdown"
 msgid "Quit"
 msgstr "離開"
 
-#: GUI_BitComet/CtrlAutoShutdown.cpp:218
+#: GUI_BitComet/CtrlAutoShutdown.cpp:224
 msgctxt "DialogAutoShutdown"
 msgid "Your computer will hibernate automatically in a few minutes."
 msgstr "您的電腦將於數分鐘後自動休眠。"
 
-#: GUI_BitComet/CtrlAutoShutdown.cpp:218
+#: GUI_BitComet/CtrlAutoShutdown.cpp:224
 msgctxt "DialogAutoShutdown"
 msgid "Hibernate"
 msgstr "休眠"
 
-#: GUI_BitComet/CtrlAutoShutdown.cpp:219
+#: GUI_BitComet/CtrlAutoShutdown.cpp:225
 msgctxt "DialogAutoShutdown"
 msgid "Your computer will sleep automatically in a few minutes."
 msgstr "您的電腦將於數分鐘後自動睡眠。"
 
-#: GUI_BitComet/CtrlAutoShutdown.cpp:219
+#: GUI_BitComet/CtrlAutoShutdown.cpp:225
 msgctxt "DialogAutoShutdown"
 msgid "Sleep"
 msgstr "睡眠"
 
-#: GUI_BitComet/CtrlAutoShutdown.cpp:220
+#: GUI_BitComet/CtrlAutoShutdown.cpp:226
+#, fuzzy
+#| msgctxt "DialogAutoShutdown"
+#| msgid "Your computer will reboot automatically in a few minutes."
+msgctxt "DialogAutoShutdown"
+msgid "Your computer will log out automatically in a few minutes."
+msgstr "您的電腦將於數分鐘後自動重新啟動。"
+
+#: GUI_BitComet/CtrlAutoShutdown.cpp:226
+msgctxt "DialogAutoShutdown"
+msgid "Log out"
+msgstr ""
+
+#: GUI_BitComet/CtrlAutoShutdown.cpp:227
 msgctxt "DialogAutoShutdown"
 msgid "Your computer will reboot automatically in a few minutes."
 msgstr "您的電腦將於數分鐘後自動重新啟動。"
 
-#: GUI_BitComet/CtrlAutoShutdown.cpp:220
+#: GUI_BitComet/CtrlAutoShutdown.cpp:227
 msgctxt "DialogAutoShutdown"
 msgid "Reboot"
 msgstr "重新啟動"
 
-#: GUI_BitComet/CtrlAutoShutdown.cpp:221
+#: GUI_BitComet/CtrlAutoShutdown.cpp:228
 msgctxt "DialogAutoShutdown"
 msgid "Your computer will shutdown automatically in a few minutes."
 msgstr "您的電腦將於數分鐘後自動關機。"
 
-#: GUI_BitComet/CtrlAutoShutdown.cpp:221
+#: GUI_BitComet/CtrlAutoShutdown.cpp:228
 msgctxt "DialogAutoShutdown"
 msgid "Shutdown"
 msgstr "關機"
 
-#: GUI_BitComet/CtrlAutoUpdate.cpp:539 GUI_BitComet/CtrlAutoUpdate.cpp:997
-#: GUI_BitComet/CtrlAutoUpdate.cpp:1003
+#: GUI_BitComet/CtrlAutoUpdate.cpp:539 GUI_BitComet/CtrlAutoUpdate.cpp:1003
+#: GUI_BitComet/CtrlAutoUpdate.cpp:1009
 #: GUI_BitComet/CtrlSoftwareUpdateCheck.cpp:126
 #: GUI_BitComet/CtrlSoftwareUpdateCheck.cpp:193
 #: GUI_BitComet/DialogED2KSearch.cpp:294
@@ -396,7 +435,7 @@ msgctxt "DialogBitCometUpdateCheck"
 msgid "Connecting to server failed. Please try again later."
 msgstr "伺服器連接失敗。請稍後再試。"
 
-#: GUI_BitComet/CtrlAutoUpdate.cpp:977
+#: GUI_BitComet/CtrlAutoUpdate.cpp:983
 msgctxt "DialogBitCometUpdateCheck"
 msgid ""
 "Following update available:\n"
@@ -405,32 +444,32 @@ msgstr ""
 "有以下的更新可用:\n"
 "${VERSION_TEXT}"
 
-#: GUI_BitComet/CtrlAutoUpdate.cpp:977
+#: GUI_BitComet/CtrlAutoUpdate.cpp:983
 msgctxt "CAutoUpdateClient"
 msgid "A new version is available: ${VERSION_TEXT}"
 msgstr "有新版本可用: ${VERSION_TEXT}"
 
-#: GUI_BitComet/CtrlAutoUpdate.cpp:1004
+#: GUI_BitComet/CtrlAutoUpdate.cpp:1010
 msgctxt "DialogBitCometUpdateCheck"
 msgid "No update available. Your BitComet is latest version."
 msgstr "沒有可用更新。您的 BitComet 已是最新版本。"
 
-#: GUI_BitComet/CtrlAutoUpdate.cpp:1069
+#: GUI_BitComet/CtrlAutoUpdate.cpp:1075
 msgctxt "CtrlAutoUpdate"
 msgid "Download update..."
 msgstr ""
 
-#: GUI_BitComet/CtrlAutoUpdate.cpp:1091
+#: GUI_BitComet/CtrlAutoUpdate.cpp:1097
 msgctxt "CtrlAutoUpdate"
 msgid "Can't find tools\\updater.exe!"
 msgstr ""
 
-#: GUI_BitComet/CtrlAutoUpdate.cpp:1099
+#: GUI_BitComet/CtrlAutoUpdate.cpp:1105
 msgctxt "CtrlAutoUpdate"
 msgid "Failed to launch tools\\updater.exe!"
 msgstr ""
 
-#: GUI_BitComet/CtrlBitTorrent.cpp:262 GUI_BitComet/CtrlBitTorrent.cpp:539
+#: GUI_BitComet/CtrlBitTorrent.cpp:270 GUI_BitComet/CtrlBitTorrent.cpp:547
 msgctxt "Message_TorrentExisted"
 msgid ""
 "Torrent file exists in Torrent History!\n"
@@ -438,10 +477,10 @@ msgid ""
 "It's possible that you have downloaded this task before."
 msgstr ""
 
-#: GUI_BitComet/CtrlBitTorrent.cpp:869
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1660
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1558
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1359
+#: GUI_BitComet/CtrlBitTorrent.cpp:877
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1687
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1582
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1385
 msgctxt "Message_NeedEnableDHT"
 msgid ""
 "BitComet can't download Torrent as DHT network is disabled!\n"
@@ -450,41 +489,41 @@ msgstr ""
 "因 DHT 網路被停用，BitComet 不能下載 Torrent!\n"
 "請於選項->BT 工作啟用 DHT 網路。"
 
-#: GUI_BitComet/CtrlBitTorrent.cpp:876 GUI_BitComet/CtrlHelperService.cpp:135
+#: GUI_BitComet/CtrlBitTorrent.cpp:884 GUI_BitComet/CtrlHelperService.cpp:135
 #: GUI_BitComet/DialogBatchBTDownload.h:63
 #: GUI_BitComet/DialogBatchBTDownload.h:64
 msgctxt "Common"
 msgid "Unknown"
 msgstr "未知"
 
-#: GUI_BitComet/CtrlBitTorrent.cpp:1182 GUI_BitComet/CtrlBitTorrent.cpp:1191
-#: GUI_BitComet/CtrlBitTorrent.cpp:1194 GUI_BitComet/CtrlBitTorrent.cpp:1197
-#: GUI_BitComet/CtrlBitTorrent.cpp:1200
+#: GUI_BitComet/CtrlBitTorrent.cpp:1190 GUI_BitComet/CtrlBitTorrent.cpp:1199
+#: GUI_BitComet/CtrlBitTorrent.cpp:1202 GUI_BitComet/CtrlBitTorrent.cpp:1205
+#: GUI_BitComet/CtrlBitTorrent.cpp:1208
 msgctxt "Message_TorrentError"
 msgid "Torrent file decoding failed! Please try to re-download the torrent!"
 msgstr "Torrent 檔案解碼失敗! 請嘗試重新下載 torrent!"
 
-#: GUI_BitComet/CtrlBitTorrent.cpp:1185
+#: GUI_BitComet/CtrlBitTorrent.cpp:1193
 msgctxt "Message_TorrentError"
 msgid "Torrent file too large!"
 msgstr "Torrent 檔案太大!"
 
-#: GUI_BitComet/CtrlBitTorrent.cpp:1188
+#: GUI_BitComet/CtrlBitTorrent.cpp:1196
 msgctxt "Message_TorrentError"
 msgid "Torrent file opening failed!"
 msgstr "Torrent 檔案開啟失敗!"
 
-#: GUI_BitComet/CtrlBitTorrent.cpp:1313
+#: GUI_BitComet/CtrlBitTorrent.cpp:1284
 msgctxt "Common"
 msgid "The specified file or directory does not exist!"
 msgstr "指定的檔案或目錄並不存在!"
 
-#: GUI_BitComet/CtrlBitTorrent.cpp:1331 GUI_BitComet/CtrlDirectory.cpp:351
+#: GUI_BitComet/CtrlBitTorrent.cpp:1302 GUI_BitComet/CtrlDirectory.cpp:351
 #: GUI_BitComet/DialogBatchBTDownload.cpp:449
 #: GUI_BitComet/DialogBatchDownload.cpp:777
 #: GUI_BitComet/DialogSetTagFolder.cpp:267
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:827
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:861
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:825
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:859
 #: GUI_BitComet/DialogTaskMultiDownload.cpp:803
 #: GUI_BitComet/DialogTorrentCollectBatchDownload.cpp:361
 msgctxt "Message_IsFileAndExisted"
@@ -493,45 +532,45 @@ msgid ""
 "different name."
 msgstr "您指定的檔案名稱已存在。請指定一個不同的名稱。"
 
-#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:838
+#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:841
 msgctxt "DetailView_FileList"
 msgid "Very High"
 msgstr "非常高"
 
-#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:841
+#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:844
 msgctxt "DetailView_FileList"
 msgid "High"
 msgstr "高"
 
-#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:844
+#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:847
 msgctxt "DetailView_FileList"
 msgid "Normal"
 msgstr "普通"
 
-#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:847
+#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:850
 msgctxt "DetailView_FileList"
 msgid "Banned"
 msgstr "已禁止"
 
-#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:854
+#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:857
 msgctxt "DetailView_FileList"
 msgid "[Finished]"
 msgstr "[已完成]"
 
-#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:879
-#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:923
+#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:882
+#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:926
 msgctxt "DetailView_FileList"
 msgid "Global Disabled"
 msgstr ""
 
-#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:883
-#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:927
+#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:886
+#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:930
 msgctxt "DetailView_FileList"
 msgid "No support"
 msgstr "不支援"
 
-#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:885
-#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:929
+#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:888
+#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:932
 #: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:455
 #: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:463
 #: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:476
@@ -539,22 +578,22 @@ msgstr "不支援"
 #: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:497
 #: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:505
 #: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:513
-#: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:519
-#: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:528
-#: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:529
+#: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:521
+#: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:533
+#: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:534
 msgctxt "DialogTaskBitTorrentAdvanced"
 msgid "(Private Torrent)"
 msgstr "(私人 Torrent)"
 
-#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:887
-#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:931
+#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:890
+#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:934
 msgctxt "DetailView_FileList"
 msgid "Task Disabled"
 msgstr ""
 
-#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:936
-#: GUI_BitComet/FileListTreeCtrlBase.cpp:737
-#: GUI_BitComet/View_FileList_Flat.cpp:901
+#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:939
+#: GUI_BitComet/FileListTreeCtrlBase.cpp:761
+#: GUI_BitComet/View_FileList_Flat.cpp:902
 msgctxt "DetailView_FileList"
 msgid "Click to Add"
 msgstr ""
@@ -571,7 +610,7 @@ msgstr ""
 #: GUI_BitComet/CtrlDirectory.cpp:335
 #: GUI_BitComet/DialogBatchBTDownload.cpp:435
 #: GUI_BitComet/DialogBatchDownload.cpp:763
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:816
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:814
 #: GUI_BitComet/DialogTaskMultiDownload.cpp:789
 #: GUI_BitComet/DialogTorrentCollectBatchDownload.cpp:347
 msgctxt "Message_PathEmpty"
@@ -582,9 +621,9 @@ msgstr "路徑不能為空!"
 #: GUI_BitComet/DialogBatchBTDownload.cpp:440
 #: GUI_BitComet/DialogBatchDownload.cpp:768
 #: GUI_BitComet/DialogSetTagFolder.cpp:258
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:482
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:506
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:821
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:480
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:504
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:819
 #: GUI_BitComet/DialogTaskMultiDownload.cpp:794
 #: GUI_BitComet/DialogTaskMultiDownload.cpp:811
 #: GUI_BitComet/DialogTorrentCollectBatchDownload.cpp:352
@@ -607,7 +646,7 @@ msgstr ""
 #: GUI_BitComet/DialogImportAndExport.cpp:314
 #: GUI_BitComet/DialogImportAndExport.cpp:361
 #: GUI_BitComet/DialogSetTagFolder.cpp:261
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:824
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:822
 #: GUI_BitComet/DialogTaskMultiDownload.cpp:797
 #: GUI_BitComet/DialogTorrentCollectBatchDownload.cpp:355
 #: GUI_BitComet/OptionWndDirectories.cpp:406
@@ -622,7 +661,7 @@ msgstr "請輸入完整的路徑名稱。"
 #: GUI_BitComet/DialogBatchBTDownload.cpp:446
 #: GUI_BitComet/DialogBatchDownload.cpp:774
 #: GUI_BitComet/DialogSetTagFolder.cpp:264
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:830
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:828
 #: GUI_BitComet/DialogTaskMultiDownload.cpp:800
 #: GUI_BitComet/DialogTorrentCollectBatchDownload.cpp:358
 msgctxt "Message_InvalidDiskDriver"
@@ -732,9 +771,9 @@ msgstr ""
 #: GUI_BitComet/CtrlPreview.cpp:85 GUI_BitComet/Ctrlemule.cpp:47
 #: GUI_BitComet/Ctrlemule.cpp:73 GUI_BitComet/DialogBatchBTDownload.cpp:428
 #: GUI_BitComet/DialogBatchDownload.cpp:756
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:555
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:641
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:895
+#: GUI_BitComet/DialogTorrentMaker.cpp:575
+#: GUI_BitComet/DialogTorrentMaker.cpp:663
+#: GUI_BitComet/DialogTorrentMaker.cpp:918
 #: GUI_BitComet/DialogED2KSearch.cpp:359 GUI_BitComet/DialogED2KSearch.cpp:371
 #: GUI_BitComet/DialogED2KSearch.cpp:655
 #: GUI_BitComet/DialogImportAndExport.cpp:307
@@ -744,13 +783,13 @@ msgstr ""
 #: GUI_BitComet/DialogImportAndExport.cpp:361
 #: GUI_BitComet/DialogImportAndExport.cpp:370
 #: GUI_BitComet/DialogSetTagFolder.cpp:275
-#: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:600
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:483
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:507
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:810
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:1036
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:1359
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:1387
+#: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:605
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:481
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:505
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:808
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:1034
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:1357
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:1385
 #: GUI_BitComet/DialogTaskBitTorrentPublisher.cpp:321
 #: GUI_BitComet/DialogTaskMultiDownload.cpp:747
 #: GUI_BitComet/DialogTaskMultiDownload.cpp:783
@@ -758,7 +797,7 @@ msgstr ""
 #: GUI_BitComet/DialogTaskMultiDownload.cpp:1448
 #: GUI_BitComet/DialogTaskMultiDownloadAdvanced.cpp:84
 #: GUI_BitComet/DialogTorrentCollectBatchDownload.cpp:340
-#: GUI_BitComet/OptionWndAdvanced.cpp:605
+#: GUI_BitComet/OptionWndAdvanced.cpp:602
 #: GUI_BitComet/OptionWndBTTracker.cpp:292
 #: GUI_BitComet/OptionWndDirectories.cpp:342
 #: GUI_BitComet/OptionWndEDTask.cpp:371 GUI_BitComet/OptionWndProxy.cpp:455
@@ -788,10 +827,10 @@ msgid "Not Installed"
 msgstr ""
 
 #: GUI_BitComet/CtrlHelperService.cpp:128
-#: GUI_BitComet/DialogSummaryListTip.cpp:568
-#: GUI_BitComet/DialogSummaryListTip.cpp:623
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1070
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:794
+#: GUI_BitComet/DialogSummaryListTip.cpp:582
+#: GUI_BitComet/DialogSummaryListTip.cpp:637
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1089
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:795
 msgctxt "Common"
 msgid "Stopped"
 msgstr "已停止"
@@ -929,7 +968,7 @@ msgstr ""
 "BitComet 現在不是您的預設 BitTorrent 客戶端。\n"
 "您希望把它成為您的預設 BitTorrent 客戶端嗎?"
 
-#: GUI_BitComet/CtrlIntegration.cpp:741 GUI_BitComet/MainFrameWx.cpp:1887
+#: GUI_BitComet/CtrlIntegration.cpp:741 GUI_BitComet/MainFrameWx.cpp:1904
 msgctxt "Registry_BitCometUnfinishedFile"
 msgid "BitComet Unfinished Download File"
 msgstr "BitComet 未完成的下載檔案"
@@ -1189,18 +1228,18 @@ msgid ""
 "now?"
 msgstr "防毒軟體路徑語法錯誤。您希望現在檢查嗎?"
 
-#: GUI_BitComet/CtrlOpenFile.cpp:258 GUI_BitComet/View_FileList_Flat.cpp:454
-#: GUI_BitComet/View_FileList_Tree.cpp:523
+#: GUI_BitComet/CtrlOpenFile.cpp:258 GUI_BitComet/View_FileList_Flat.cpp:455
+#: GUI_BitComet/View_FileList_Tree.cpp:524
 msgctxt "Message_PathNotExist"
 msgid "Path does not exist."
 msgstr "路徑並不存在。"
 
-#: GUI_BitComet/CtrlPassport.cpp:182
+#: GUI_BitComet/CtrlPassport.cpp:184
 msgctxt "CView_Passport"
 msgid "Unable to sign in CometID. Password does not match your username."
 msgstr ""
 
-#: GUI_BitComet/CtrlPassport.cpp:185
+#: GUI_BitComet/CtrlPassport.cpp:187
 #, fuzzy
 #| msgctxt "Common"
 #| msgid "File does not exist."
@@ -1208,28 +1247,28 @@ msgctxt "CView_Passport"
 msgid "CometID not exists."
 msgstr "檔案不存在。"
 
-#: GUI_BitComet/CtrlPassport.cpp:188
+#: GUI_BitComet/CtrlPassport.cpp:190
 msgctxt "CView_Passport"
 msgid "Unable to sign in CometID. Please update BitComet to latest version."
 msgstr ""
 
-#: GUI_BitComet/CtrlPassport.cpp:193 GUI_BitComet/CtrlPassport.cpp:198
+#: GUI_BitComet/CtrlPassport.cpp:195 GUI_BitComet/CtrlPassport.cpp:200
 msgctxt "CView_Passport"
 msgid "Unable to sign in CometID at this time."
 msgstr ""
 
-#: GUI_BitComet/CtrlPassport.cpp:194
+#: GUI_BitComet/CtrlPassport.cpp:196
 msgctxt "CView_Passport"
 msgid ""
 "You can still download, but your rank and score points will not be collected."
 msgstr "你仍可繼續下載，但你的等級和積分將無法被計算。"
 
-#: GUI_BitComet/CtrlPassport.cpp:199
+#: GUI_BitComet/CtrlPassport.cpp:201
 msgctxt "CView_Passport"
 msgid "BitComet will reconnect automatically a few minutes later."
 msgstr "BitComet 將於數分鐘後自動重新連線。"
 
-#: GUI_BitComet/CtrlPassport.cpp:209
+#: GUI_BitComet/CtrlPassport.cpp:211
 msgctxt "CView_Passport"
 msgid "Sign in Now"
 msgstr "現在登入"
@@ -1256,9 +1295,7 @@ msgstr "預覽"
 
 #: GUI_BitComet/CtrlRemoteAccess.cpp:42
 msgctxt "WebInterface"
-msgid ""
-"Remote Download: Task Added\n"
-"${TASK_NAME}"
+msgid "Remote Download: Task Added"
 msgstr ""
 
 #: GUI_BitComet/CtrlRemoteAccess.cpp:44 GUI_BitComet/CtrlRemoteAccess.cpp:71
@@ -1271,74 +1308,75 @@ msgstr "BitComet 提示"
 
 #: GUI_BitComet/CtrlRemoteAccess.cpp:64
 msgctxt "WebInterface"
-msgid ""
-"Remote Download: Task Stopped\n"
-"${TASK_NAME}"
+msgid "Remote Download: Task Stopped"
 msgstr ""
 
 #: GUI_BitComet/CtrlRemoteAccess.cpp:68
 msgctxt "WebInterface"
-msgid ""
-"Remote Download: Task Started\n"
-"${TASK_NAME}"
+msgid "Remote Download: Task Started"
 msgstr ""
 
 #: GUI_BitComet/CtrlRemoteAccess.cpp:85
 msgctxt "WebInterface"
-msgid ""
-"Remote Download: Task Deleted\n"
-"${TASK_NAME}"
+msgid "Remote Download: Task Deleted"
 msgstr ""
+
+#: GUI_BitComet/CtrlRemoteAccess.cpp:117 GUI_BitComet/CtrlRemoteAccess.cpp:131
+#: GUI_BitComet/CtrlRemoteAccess.cpp:147 GUI_BitComet/CtrlRemoteAccess.cpp:155
+#: GUI_BitComet/CtrlRemoteAccess.cpp:161 GUI_BitComet/CtrlRemoteAccess.cpp:167
+#: GUI_BitComet/CtrlRemoteAccess.cpp:173
+#, fuzzy
+#| msgctxt "StatusList_StatisticItem"
+#| msgid "Total Downloaded:"
+msgctxt "WebInterface"
+msgid "Remote Download:"
+msgstr "總共已下載:"
 
 #: GUI_BitComet/CtrlRemoteAccess.cpp:117
 msgctxt "WebInterface"
-msgid ""
-"Remote Download:\n"
-"set max download rate to ${MAX_RATE}."
+msgid "set max download rate to ${MAX_RATE}."
 msgstr ""
 
 #: GUI_BitComet/CtrlRemoteAccess.cpp:131
 msgctxt "WebInterface"
-msgid ""
-"Remote Download:\n"
-"set max upload rate to ${MAX_RATE}."
+msgid "set max upload rate to ${MAX_RATE}."
 msgstr ""
 
 #: GUI_BitComet/CtrlRemoteAccess.cpp:147
+#, fuzzy
+#| msgctxt "Options_Task"
+#| msgid "Allocate disk space before downloading"
 msgctxt "WebInterface"
-msgid ""
-"Remote Download:\n"
-"start all tasks for downloading."
-msgstr ""
+msgid "start all tasks for downloading."
+msgstr "於下載前分配磁碟機空間"
 
 #: GUI_BitComet/CtrlRemoteAccess.cpp:155
 msgctxt "WebInterface"
-msgid ""
-"Remote Download:\n"
-"start all tasks for seeding."
+msgid "start all tasks for seeding."
 msgstr ""
 
 #: GUI_BitComet/CtrlRemoteAccess.cpp:161
+#, fuzzy
+#| msgctxt "TrayMenu"
+#| msgid "Stop All Tasks"
 msgctxt "WebInterface"
-msgid ""
-"Remote Download:\n"
-"stop all tasks."
-msgstr ""
+msgid "stop all tasks."
+msgstr "停止所有工作"
 
 #: GUI_BitComet/CtrlRemoteAccess.cpp:167
 #, fuzzy
+#| msgctxt "TrayMenu"
+#| msgid "Suspend All Active Tasks"
 msgctxt "WebInterface"
-msgid ""
-"Remote Download:\n"
-"suspend all active tasks."
+msgid "suspend all active tasks."
 msgstr "延緩全部活躍任務"
 
 #: GUI_BitComet/CtrlRemoteAccess.cpp:173
 #, fuzzy
+#| msgctxt "TrayMenu"
+#| msgid "Resume Last Suspended Tasks"
 msgctxt "WebInterface"
-msgid ""
-"Remote Download:\n"
-"resume last suspended tasks."
+msgid "resume last suspended tasks."
 msgstr "重啟最後延緩任務"
 
 #: GUI_BitComet/CtrlSchedule.cpp:177
@@ -1416,11 +1454,17 @@ msgid "Task Download Finished!"
 msgstr "工作已下載完成!"
 
 #: GUI_BitComet/CtrlTaskManage.cpp:119 GUI_BitComet/CtrlTaskManage.cpp:156
+#, fuzzy
+#| msgctxt "MainWindow"
+#| msgid ""
+#| "Task Name: ${T_DISP_NAME}\n"
+#| "Time Spent: ${T_TIME_DL_ELAPSED}\n"
+#| "Average Rate: ${T_AVERAGE_DOWNLOAD_RATE_KB} kB/s"
 msgctxt "MainWindow"
 msgid ""
 "Task Name: ${T_DISP_NAME}\n"
 "Time Spent: ${T_TIME_DL_ELAPSED}\n"
-"Average Rate: ${T_AVERAGE_DOWNLOAD_RATE_KB} kB/s"
+"Average Rate: ${T_AVERAGE_DOWNLOAD_RATE}"
 msgstr ""
 "工作名稱: ${T_DISP_NAME}\n"
 "已使用時間: ${T_TIME_DL_ELAPSED}\n"
@@ -1547,27 +1591,27 @@ msgctxt "View_TabCtrl"
 msgid "Reset to Default Layout"
 msgstr "重設到預設佈局"
 
-#: GUI_BitComet/DialogAbout.cpp:225
+#: GUI_BitComet/DialogAbout.cpp:227
 msgctxt "DialogAbout"
-msgid "HomePage: "
+msgid "HomePage:"
 msgstr "首頁: "
 
-#: GUI_BitComet/DialogAbout.cpp:228
+#: GUI_BitComet/DialogAbout.cpp:230
 msgctxt "DialogAbout"
-msgid "Forums: "
+msgid "Forums:"
 msgstr "討論區: "
 
-#: GUI_BitComet/DialogAbout.cpp:231
+#: GUI_BitComet/DialogAbout.cpp:233
 msgctxt "DialogAbout"
-msgid "Copyright: "
+msgid "Copyright:"
 msgstr "版權: "
 
-#: GUI_BitComet/DialogAbout.cpp:234
+#: GUI_BitComet/DialogAbout.cpp:236
 msgctxt "DialogAbout"
-msgid "Translators: "
+msgid "Translators:"
 msgstr "翻譯者: "
 
-#: GUI_BitComet/DialogAbout.cpp:243
+#: GUI_BitComet/DialogAbout.cpp:247
 msgctxt "DialogAbout"
 msgid "Visit Forums"
 msgstr "瀏覽討論區"
@@ -1607,10 +1651,10 @@ msgstr "開啟網站"
 #: GUI_BitComet/DialogBatchDownload.cpp:378
 #: GUI_BitComet/DialogBatchDownloadAddURL.cpp:227
 #: GUI_BitComet/DialogBatchProgress.cpp:137
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:361
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:887
-#: GUI_BitComet/DialogBitTorrentMakerProgress.cpp:144
-#: GUI_BitComet/DialogBitTorrentMakerProgress.cpp:349
+#: GUI_BitComet/DialogTorrentMaker.cpp:380
+#: GUI_BitComet/DialogTorrentMaker.cpp:910
+#: GUI_BitComet/DialogTorrentMakerProgress.cpp:146
+#: GUI_BitComet/DialogTorrentMakerProgress.cpp:356
 #: GUI_BitComet/DialogChangePassword.cpp:170
 #: GUI_BitComet/DialogCompleteCheck.cpp:165
 #: GUI_BitComet/DialogConnectionWizard.cpp:223
@@ -1622,13 +1666,13 @@ msgstr "開啟網站"
 #: GUI_BitComet/DialogNewTag.cpp:147 GUI_BitComet/DialogOpenUrl.cpp:187
 #: GUI_BitComet/DialogSetBTClient.cpp:176
 #: GUI_BitComet/DialogTaskBitTorrent.cpp:192
-#: GUI_BitComet/DialogTaskDelete.cpp:173
+#: GUI_BitComet/DialogTaskDelete.cpp:183
 #: GUI_BitComet/DialogTaskExistedRemind.cpp:161
 #: GUI_BitComet/DialogTaskMultiDownload.cpp:349
 #: GUI_BitComet/DialogTaskMultiDownload.cpp:360
 #: GUI_BitComet/DialogTorrentCollectBatchDownload.cpp:194
 #: GUI_BitComet/DialogTorrentPreview.cpp:165 GUI_BitComet/OptionWnd.cpp:244
-#: GUI_BitComet/View_PeerList_WX.cpp:2821
+#: GUI_BitComet/View_PeerList_WX.cpp:2841
 #: GUI_BitComet/WizardImportUndoneTask.cpp:213
 msgctxt "Common"
 msgid "Cancel"
@@ -1839,7 +1883,7 @@ msgstr ""
 
 #: GUI_BitComet/DialogBatchDownloadAddURL.cpp:483
 #: GUI_BitComet/DialogImportAndExport.cpp:321
-#: GUI_BitComet/OptionWndAdvanced.cpp:423
+#: GUI_BitComet/OptionWndAdvanced.cpp:420
 #: GUI_BitComet/WizardImportUndoneTaskPage2.cpp:659
 msgctxt "Message_FileNotExist"
 msgid "File does not exist."
@@ -1875,197 +1919,203 @@ msgctxt "DialogBatchProgress"
 msgid "Import Links"
 msgstr "匯入連結"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:197
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:863
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:205
+#: GUI_BitComet/DialogTorrentMaker.cpp:886
+msgctxt "DialogTorrentMaker"
 msgid "Source File:"
 msgstr "來源檔案:"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:202
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:864
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:210
+#: GUI_BitComet/DialogTorrentMaker.cpp:887
+msgctxt "DialogTorrentMaker"
 msgid "Single File"
 msgstr "單一檔案"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:206
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:865
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:214
+#: GUI_BitComet/DialogTorrentMaker.cpp:888
+msgctxt "DialogTorrentMaker"
 msgid "Directory (Multi-Files)"
 msgstr "目錄 (多檔案)"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:220
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:866
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:228
+#: GUI_BitComet/DialogTorrentMaker.cpp:889
+msgctxt "DialogTorrentMaker"
 msgid "Piece Size:"
 msgstr "分塊大小:"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:229
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:867
-msgctxt "DialogBitTorrentMaker"
-msgid "Help"
-msgstr "說明"
+#: GUI_BitComet/DialogTorrentMaker.cpp:237
+msgctxt "DialogTorrentMaker"
+msgid "Estimated Size of Torrent:"
+msgstr ""
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:237
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:868
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:248
+#: GUI_BitComet/DialogTorrentMaker.cpp:891
+msgctxt "DialogTorrentMaker"
 msgid "Tracker servers and DHT Network nodes list:"
 msgstr "Tracker 伺服器及 DHT 網絡節點列表:"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:247
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:258
+#: GUI_BitComet/DialogTorrentMaker.cpp:892
+msgctxt "DialogTorrentMaker"
 msgid ""
 "Tip: Trackers with | prefix are the equivalent tracker (info sharing) of the "
-"one above them. "
+"one above them."
 msgstr ""
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:252
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:870
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:263
+#: GUI_BitComet/DialogTorrentMaker.cpp:893
+msgctxt "DialogTorrentMaker"
 msgid ""
 "Private Torrent (use this option only if the tracker's rules require it)"
 msgstr "私人 Torrent (如 Tracker 規則要求時才使用此選項)"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:256
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:871
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:267
+#: GUI_BitComet/DialogTorrentMaker.cpp:894
+msgctxt "DialogTorrentMaker"
 msgid "Add DHT nodes to tracker list"
 msgstr "新增 DHT 節點到 Tracker 列表"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:260
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:872
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:271
+#: GUI_BitComet/DialogTorrentMaker.cpp:895
+msgctxt "DialogTorrentMaker"
 msgid "Align file to piece boundary"
 msgstr "檔案與分塊邊界對齊"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:264
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:873
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:275
+#: GUI_BitComet/DialogTorrentMaker.cpp:896
+msgctxt "DialogTorrentMaker"
 msgid "Enable search for Long-Term Seeds when downloading"
 msgstr ""
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:268
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:874
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:279
+#: GUI_BitComet/DialogTorrentMaker.cpp:897
+msgctxt "DialogTorrentMaker"
 msgid "Calculate ED2K link for each file"
 msgstr "為每個檔案計算 ED2K 連結"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:272
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:875
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:283
+#: GUI_BitComet/DialogTorrentMaker.cpp:898
+msgctxt "DialogTorrentMaker"
 msgid "Output:"
 msgstr "輸出:"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:277
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:876
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:288
+#: GUI_BitComet/DialogTorrentMaker.cpp:899
+msgctxt "DialogTorrentMaker"
 msgid "Save generated .torrent file to:"
 msgstr "把產生的 .torrent 檔案儲存到:"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:288
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:877
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:299
+#: GUI_BitComet/DialogTorrentMaker.cpp:900
+msgctxt "DialogTorrentMaker"
 msgid "General"
 msgstr "一般"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:296
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:878
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:307
+#: GUI_BitComet/DialogTorrentMaker.cpp:901
+msgctxt "DialogTorrentMaker"
 msgid "Publisher Info:"
 msgstr "發佈者資訊:"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:301
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:879
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:312
+#: GUI_BitComet/DialogTorrentMaker.cpp:902
+msgctxt "DialogTorrentMaker"
 msgid "Embedded Publisher information, modification unavailable."
 msgstr "嵌入式發佈者資訊，無法修改。"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:307
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:880
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:318
+#: GUI_BitComet/DialogTorrentMaker.cpp:903
+msgctxt "DialogTorrentMaker"
 msgid "Publisher Name:"
 msgstr "發佈者名稱:"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:315
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:881
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:326
+#: GUI_BitComet/DialogTorrentMaker.cpp:904
+msgctxt "DialogTorrentMaker"
 msgid "Publisher URL:"
 msgstr "發佈者 URL:"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:321
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:882
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:332
+#: GUI_BitComet/DialogTorrentMaker.cpp:905
+msgctxt "DialogTorrentMaker"
 msgid "Comments:"
 msgstr "備註:"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:329
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:883
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:340
+#: GUI_BitComet/DialogTorrentMaker.cpp:906
+msgctxt "DialogTorrentMaker"
 msgid "Publisher"
 msgstr "發佈者"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:337
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:884
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:348
+#: GUI_BitComet/DialogTorrentMaker.cpp:907
+msgctxt "DialogTorrentMaker"
 msgid "URL list for web seeding:"
 msgstr "網路種子的 URL 列表:"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:350
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:885
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:361
+#: GUI_BitComet/DialogTorrentMaker.cpp:908
+msgctxt "DialogTorrentMaker"
 msgid "Web Seeding"
 msgstr "網路種子"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:357
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:886
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:368
+#: GUI_BitComet/DialogTorrentMaker.cpp:890
+msgctxt "DialogTorrentMaker"
+msgid "Help"
+msgstr "說明"
+
+#: GUI_BitComet/DialogTorrentMaker.cpp:376
+#: GUI_BitComet/DialogTorrentMaker.cpp:909
+msgctxt "DialogTorrentMaker"
 msgid "Make Torrent"
 msgstr "製作 Torrent 檔"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:439
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:458
+msgctxt "DialogTorrentMaker"
 msgid "Please choose source folder"
 msgstr "請選取來源資料夾"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:521
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:892
-#: GUI_BitComet/OptionWndBTTask.cpp:324
+#: GUI_BitComet/DialogTorrentMaker.cpp:540
+#: GUI_BitComet/DialogTorrentMaker.cpp:915
+#: GUI_BitComet/OptionWndBTTask.cpp:325
 msgctxt "Common"
 msgid "Auto"
 msgstr "自動"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:555
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:895
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:575
+#: GUI_BitComet/DialogTorrentMaker.cpp:918
+msgctxt "DialogTorrentMaker"
 msgid "Caution! enable this option on small-sized files will use more space."
 msgstr "注意! 在小檔案啟用此選項將使用較多空間。"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:645
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:667
+msgctxt "DialogTorrentMaker"
 msgid "Source file can't be empty!"
 msgstr "來源檔案不能為空!"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:652
+#: GUI_BitComet/DialogTorrentMaker.cpp:674
 msgctxt "Common"
 msgid "File does not exist."
 msgstr "檔案不存在。"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:657
+#: GUI_BitComet/DialogTorrentMaker.cpp:679
 msgctxt "Common"
 msgid "Folder does not exist."
 msgstr "資料夾不存在。"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:664
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:686
+msgctxt "DialogTorrentMaker"
 msgid "The output file can't be empty!"
 msgstr "輸出檔案不能為空!"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:669
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:691
+msgctxt "DialogTorrentMaker"
 msgid "The output path is invalid!"
 msgstr "輸出路徑無效!"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:753
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:776
+msgctxt "DialogTorrentMaker"
 msgid ""
 "Tip: When publishing multiple files in a folder, please input a HTTP "
 "download URL of this folder, e.g.\n"
@@ -2077,8 +2127,8 @@ msgid ""
 "You can input several URLs in the list, each one on a separate line."
 msgstr ""
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:755
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:778
+msgctxt "DialogTorrentMaker"
 msgid ""
 "Tip: When publishing a single file, please input a HTTP download URL of this "
 "file, e.g.\n"
@@ -2093,35 +2143,27 @@ msgstr ""
 "http://mirror.com/pub/\n"
 "您可以在列表中輸入多項 URL，每行一個。"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:787
+#: GUI_BitComet/DialogTorrentMaker.cpp:810
 #: GUI_BitComet/DialogTaskBitTorrentPublisher.cpp:358
-msgctxt "DialogBitTorrentMaker"
+msgctxt "DialogTorrentMaker"
 msgid "Invalid HTTP URL!"
 msgstr "無效的 HTTP URL!"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:796
+#: GUI_BitComet/DialogTorrentMaker.cpp:819
 #: GUI_BitComet/DialogTaskBitTorrentPublisher.cpp:367
-msgctxt "DialogBitTorrentMaker"
+msgctxt "DialogTorrentMaker"
 msgid "URL must end with \"/\" for multi-file task!"
 msgstr "多檔案工作的 URL 必需以「/」結尾!"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:862
-#: GUI_BitComet/DialogBitTorrentMaker.h:71
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:885
+#: GUI_BitComet/DialogTorrentMaker.h:75
+msgctxt "DialogTorrentMaker"
 msgid "Torrent Maker"
 msgstr "Torrent 製作器"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:869
-msgctxt "DialogBitTorrentMaker"
-msgid ""
-"Tip: Trackers with | prefix are the equivalent tracker (info sharing) of the "
-"one above\n"
-"them. "
-msgstr "提示：每行一個服務器，“|”前綴表示與上一個是信息共享的同組等效服務器。 "
-
-#: GUI_BitComet/DialogBitTorrentMakerProgress.cpp:350
-#: GUI_BitComet/DialogBitTorrentMakerProgress.h:41
-msgctxt "DialogBitTorrentMakerProgress"
+#: GUI_BitComet/DialogTorrentMakerProgress.cpp:357
+#: GUI_BitComet/DialogTorrentMakerProgress.h:41
+msgctxt "DialogTorrentMakerProgress"
 msgid "Making Torrent..."
 msgstr "正在製作 Torrent 檔..."
 
@@ -2153,10 +2195,10 @@ msgstr "再次輸入新密碼:"
 #: GUI_BitComet/DialogOpenUrl.cpp:183 GUI_BitComet/DialogSetBTClient.cpp:173
 #: GUI_BitComet/DialogShowMessage.cpp:151
 #: GUI_BitComet/DialogTaskBitTorrent.cpp:335
-#: GUI_BitComet/DialogTaskDelete.cpp:167
+#: GUI_BitComet/DialogTaskDelete.cpp:177
 #: GUI_BitComet/DialogTaskMultiDownload.cpp:359
 #: GUI_BitComet/DialogTorrentProperty.cpp:205 GUI_BitComet/OptionWnd.cpp:240
-#: GUI_BitComet/View_PeerList_WX.cpp:2818
+#: GUI_BitComet/View_PeerList_WX.cpp:2838
 msgctxt "Common"
 msgid "OK"
 msgstr "確定"
@@ -2566,7 +2608,7 @@ msgstr ""
 
 #: GUI_BitComet/DialogImportAndExport.cpp:307
 #: GUI_BitComet/DialogImportAndExport.cpp:354
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:833
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:831
 #: GUI_BitComet/DialogTaskMultiDownload.cpp:806
 msgctxt "Message_FileNameEmpty"
 msgid "File name can't be empty!"
@@ -2777,28 +2819,28 @@ msgctxt "DialogSetTagFolder"
 msgid "Set Folder"
 msgstr "設定資料夾"
 
-#: GUI_BitComet/DialogSummaryListTip.cpp:165
+#: GUI_BitComet/DialogSummaryListTip.cpp:166
 msgctxt "DialogSummaryListTip"
 msgid "My speed:"
 msgstr "我的速度:"
 
-#: GUI_BitComet/DialogSummaryListTip.cpp:185
+#: GUI_BitComet/DialogSummaryListTip.cpp:186
 msgctxt "DialogSummaryListTip"
 msgid "Other peers':"
 msgstr "其他對等用戶:"
 
-#: GUI_BitComet/DialogSummaryListTip.cpp:205
-#: GUI_BitComet/DialogSummaryListTip.cpp:654
+#: GUI_BitComet/DialogSummaryListTip.cpp:206
+#: GUI_BitComet/DialogSummaryListTip.cpp:668
 msgctxt "DialogSummaryListTip"
 msgid "Global limit:"
 msgstr "全域限制:"
 
-#: GUI_BitComet/DialogSummaryListTip.cpp:225
+#: GUI_BitComet/DialogSummaryListTip.cpp:226
 msgctxt "DialogSummaryListTip"
 msgid "Task limit:"
 msgstr "工作限制:"
 
-#: GUI_BitComet/DialogSummaryListTip.cpp:654
+#: GUI_BitComet/DialogSummaryListTip.cpp:668
 msgctxt "DialogSummaryListTip"
 msgid "Schedule limit:"
 msgstr "排程限制:"
@@ -2860,7 +2902,7 @@ msgstr "Tracker 列表："
 msgctxt "DialogTaskBitTorrentAdvanced"
 msgid ""
 "Tip: Trackers with | prefix are the equivalent tracker (info sharing) of the "
-"one above them. "
+"one above them."
 msgstr ""
 
 #: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:160
@@ -2964,7 +3006,15 @@ msgctxt "DialogTaskBitTorrentAdvanced"
 msgid "This needs DHT network enabled in Options dialog"
 msgstr "這需要在選項對話方塊中啟用 DHT 網絡"
 
-#: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:588
+#: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:523
+#, fuzzy
+#| msgctxt "DialogTaskBitTorrentAdvanced"
+#| msgid "This needs DHT network enabled in Options dialog"
+msgctxt "DialogTaskBitTorrentAdvanced"
+msgid "This needs Peer Exchange enabled in Options dialog"
+msgstr "這需要在選項對話方塊中啟用 DHT 網絡"
+
+#: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:593
 msgctxt "DialogTaskBitTorrentAdvanced"
 msgid "You can change this only when the task is stopped"
 msgstr "您只可於工作停止後才作出這變更"
@@ -3042,96 +3092,96 @@ msgctxt "DialogTaskBitTorrentDownloadOrder"
 msgid "Banned"
 msgstr "已禁止"
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:367
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:365
 msgctxt "DialogTaskBitTorrentMain"
 msgid "Save Location"
 msgstr "儲存位置"
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:374
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:372
 msgctxt "DialogTaskBitTorrentMain"
 msgid "Save path:"
 msgstr "儲存路徑:"
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:390
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:656
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:388
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:654
 msgctxt "DialogTaskBitTorrentMain"
 msgid "Subfolder:"
 msgstr "子資料夾:"
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:399
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:397
 msgctxt "DialogTaskBitTorrentMain"
 msgid "Torrent Content:"
 msgstr "Torrent 內容:"
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:406
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:404
 msgctxt "DialogTaskBitTorrentMain"
 msgid "Name:"
 msgstr "名稱:"
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:415
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:421
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:413
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:419
 msgctxt "DialogTaskBitTorrentMain"
 msgid "Publisher:"
 msgstr "發佈者:"
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:438
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:1230
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:436
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:1228
 #: GUI_BitComet/SelectFileListCtrl.cpp:107
 #: GUI_BitComet/SelectFileListCtrl.cpp:278
 msgctxt "DialogTaskBitTorrentMain"
 msgid "Select All"
 msgstr "全部選擇"
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:442
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:440
 msgctxt "DialogTaskBitTorrentMain"
 msgid "Video"
 msgstr "視訊"
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:446
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:444
 msgctxt "DialogTaskBitTorrentMain"
 msgid "Audio"
 msgstr "語音"
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:450
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:448
 msgctxt "DialogTaskBitTorrentMain"
 msgid "Picture"
 msgstr "圖像"
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:454
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:452
 msgctxt "DialogTaskBitTorrentMain"
 msgid "Other"
 msgstr "其他"
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:523
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:521
 msgctxt "DialogTaskBitTorrentMain"
 msgid "Select Destination Folder:"
 msgstr "選取目標資料夾:"
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:656
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:654
 msgctxt "DialogTaskBitTorrentMain"
 msgid "Filename:"
 msgstr "檔案名稱:"
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:763
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:761
 #: GUI_BitComet/View_FileList_Panel.cpp:134
 msgctxt "DialogTaskBitTorrentMain"
 msgid "(Please start task to download .torrent file)"
 msgstr "(請開始工作以下載 .torrent 檔案)"
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:763
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:761
 #: GUI_BitComet/View_FileList_Panel.cpp:134
 msgctxt "DialogTaskBitTorrentMain"
 msgid "(Please specify save location while downloading .torrent file)"
 msgstr "(請在下載 .torrent 檔案時指定儲存位置)"
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:833
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:831
 msgctxt "Message_SubfolderEmpty"
 msgid "Subfolder can't be empty!"
 msgstr "子資料夾不能為空!"
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:839
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:1356
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:1384
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:837
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:1354
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:1382
 msgctxt "Message_InvalidFilename"
 msgid ""
 "A file name cannot contain any of the following characters:\\ / : * ? \" < > "
@@ -3145,9 +3195,9 @@ msgstr ""
 "txt)\n"
 "路徑的其中一部份並非有效檔案名稱。(如 .a, ab. ,...)"
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:841
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:1358
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:1386
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:839
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:1356
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:1384
 msgctxt "Message_InvalidSubfolderName"
 msgid ""
 "A subfolder name cannot contain any of the following characters:\\ / : * ? "
@@ -3161,7 +3211,7 @@ msgstr ""
 "com1.txt)\n"
 "路徑的其中一部份並非有效子資料夾名稱。(如 .a, ab. ,...)"
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:846
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:844
 #: GUI_BitComet/DialogTaskMultiDownload.cpp:814
 msgctxt "Message_IsDirectoryAndExisted"
 msgid ""
@@ -3169,20 +3219,20 @@ msgid ""
 "different name."
 msgstr "您指定的資料夾名稱已存在。請指定一個不同的名稱。"
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:908
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:906
 #: GUI_BitComet/DialogTaskMultiDownload.cpp:863
 msgctxt "Message_MoveDownloadFile"
 msgid "Do you want to move downloaded files to the new location?"
 msgstr "您是否要將已下載檔案移到新位置?"
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:910
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:908
 #: GUI_BitComet/DialogTaskMultiDownload.cpp:865
 msgctxt "Message_RenameDownloadFile"
 msgid "Do you want to rename the downloaded file?"
 msgstr ""
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:917
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:937
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:915
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:935
 #: GUI_BitComet/DialogTaskMultiDownload.cpp:850
 #, fuzzy
 msgctxt "Message_FileAlreadyExist"
@@ -3198,8 +3248,8 @@ msgstr ""
 "選「是」繼續下載。\n"
 "選「否」重新命名。"
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:918
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:938
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:916
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:936
 #, fuzzy
 msgctxt "Message_PathAlreadyExist"
 msgid ""
@@ -3215,7 +3265,7 @@ msgstr ""
 "選「是」以作完整檢查及繼續下載。\n"
 "選「否」以改變儲存路徑。"
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:967
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:965
 #: GUI_BitComet/DialogTaskMultiDownload.cpp:879
 msgctxt "Message_FileLargerThan4GB"
 msgid ""
@@ -3223,19 +3273,19 @@ msgid ""
 "location to a NTFS disk drive!"
 msgstr "要下載的檔案大於 4GB，請修改目標位置到 NTFS 磁碟機!"
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:1217
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:1215
 #: GUI_BitComet/DialogTaskMultiDownload.cpp:530
 msgctxt "DialogTask"
 msgid "Disk Space:"
 msgstr ""
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:1221
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:1219
 #: GUI_BitComet/DialogTaskMultiDownload.cpp:534
 msgctxt "DialogTask"
 msgid "Free Space:"
 msgstr ""
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:1574
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:1572
 #: GUI_BitComet/View_FileList_Panel.cpp:113
 msgctxt "DialogTaskBitTorrentMain"
 msgid "File Name"
@@ -3276,27 +3326,43 @@ msgctxt "DialogTaskBitTorrentPublisher"
 msgid "Comments:"
 msgstr "備註:"
 
-#: GUI_BitComet/DialogTaskDelete.cpp:139
+#: GUI_BitComet/DialogTaskDelete.cpp:141
 msgctxt "TaskList"
 msgid "What do you want to do with the selected tasks?"
 msgstr "您要對選取的工作做什麼?"
 
-#: GUI_BitComet/DialogTaskDelete.cpp:150
+#: GUI_BitComet/DialogTaskDelete.cpp:152
 msgctxt "Options_Appearance"
 msgid "Delete task only"
 msgstr "只刪除工作"
 
-#: GUI_BitComet/DialogTaskDelete.cpp:154
+#: GUI_BitComet/DialogTaskDelete.cpp:156
 msgctxt "Options_Appearance"
 msgid "Delete task and downloaded files"
 msgstr "刪除工作和已下載檔案"
 
-#: GUI_BitComet/DialogTaskDelete.cpp:158
+#: GUI_BitComet/DialogTaskDelete.cpp:160
+#, fuzzy
+#| msgctxt "WizardImportUndoneTaskPage"
+#| msgid "Import unfinished file:"
+msgctxt "Options_Appearance"
+msgid "Delete unfinished files only"
+msgstr "匯入未完成的檔案:"
+
+#: GUI_BitComet/DialogTaskDelete.cpp:164
+#, fuzzy
+#| msgctxt "Options_Appearance"
+#| msgid "Delete task and downloaded files"
+msgctxt "Options_Appearance"
+msgid "Delete all downloaded files"
+msgstr "刪除工作和已下載檔案"
+
+#: GUI_BitComet/DialogTaskDelete.cpp:168
 msgctxt "Options_Appearance"
 msgid "Also remove from Torrent History"
 msgstr "同時從 Torrent 歷程記錄移除"
 
-#: GUI_BitComet/DialogTaskDelete.h:42
+#: GUI_BitComet/DialogTaskDelete.h:44
 msgctxt "TaskList"
 msgid "Task Delete Confirmation"
 msgstr "刪除工作確認"
@@ -3324,7 +3390,7 @@ msgstr "工作已存在"
 
 #: GUI_BitComet/DialogTaskHashPending.cpp:145
 msgctxt "TaskHash"
-msgid "Following tasks need perform hash checks: "
+msgid "Following tasks need perform hash checks:"
 msgstr ""
 
 #: GUI_BitComet/DialogTaskHashPending.cpp:162
@@ -3614,8 +3680,11 @@ msgid "fill in md5/sha1/sha256 to be verified"
 msgstr ""
 
 #: GUI_BitComet/DialogTaskMultiDownloadAdvancedMD5.cpp:300
+#, fuzzy
+#| msgctxt "DialogTaskMultiDownloadAdvanced"
+#| msgid "Checking "
 msgctxt "DialogTaskMultiDownloadAdvanced"
-msgid "Checking "
+msgid "Checking ${PERCENT}%"
 msgstr "檢查中 "
 
 #: GUI_BitComet/DialogTaskMultiDownloadAdvancedMD5.cpp:315
@@ -3834,37 +3903,37 @@ msgctxt "DialogTorrentProperty"
 msgid "Torrent Properties"
 msgstr "Torrent 內容"
 
-#: GUI_BitComet/DialogTrackerLog.cpp:153
+#: GUI_BitComet/DialogTrackerLog.cpp:154
 msgctxt "DialogTrackerLog"
 msgid "Always on top"
 msgstr ""
 
-#: GUI_BitComet/DialogTrackerLog.cpp:160
+#: GUI_BitComet/DialogTrackerLog.cpp:161
 msgctxt "DialogTrackerLog"
 msgid "Task name:"
 msgstr ""
 
-#: GUI_BitComet/DialogTrackerLog.cpp:182
+#: GUI_BitComet/DialogTrackerLog.cpp:183
 msgctxt "DialogTrackerLog"
 msgid "Time"
 msgstr ""
 
-#: GUI_BitComet/DialogTrackerLog.cpp:183
+#: GUI_BitComet/DialogTrackerLog.cpp:184
 msgctxt "DialogTrackerLog"
 msgid "Content"
 msgstr ""
 
-#: GUI_BitComet/DialogTrackerLog.cpp:309 GUI_BitComet/DialogTrackerLog.h:42
+#: GUI_BitComet/DialogTrackerLog.cpp:310 GUI_BitComet/DialogTrackerLog.h:42
 msgctxt "DialogTrackerLog"
 msgid "Tracker Log: ${TRACKER_URL}"
 msgstr ""
 
-#: GUI_BitComet/DialogTrackerLog.cpp:367 GUI_BitComet/View_LogList_WX.cpp:403
+#: GUI_BitComet/DialogTrackerLog.cpp:368 GUI_BitComet/View_LogList_WX.cpp:403
 msgctxt "DetailView_Log_Menu"
 msgid "&Copy"
 msgstr "複製(&C)"
 
-#: GUI_BitComet/DialogTrackerLog.cpp:368 GUI_BitComet/View_LogList_WX.cpp:404
+#: GUI_BitComet/DialogTrackerLog.cpp:369 GUI_BitComet/View_LogList_WX.cpp:404
 msgctxt "DetailView_Log_Menu"
 msgid "Copy &All"
 msgstr "全部複製(&A)"
@@ -3879,13 +3948,13 @@ msgctxt "CView_SummaryList"
 msgid "H"
 msgstr ""
 
-#: GUI_BitComet/FloatingWindow.cpp:779
+#: GUI_BitComet/FloatingWindow.cpp:778
 msgctxt "Message_FloatingWindowDefaultTip"
 msgid ""
 "Tip: Drag & drop a web link or a .torrent file here to start the download."
 msgstr "提示: 拖放網頁連結或 .torrent 檔至此以開始下載。"
 
-#: GUI_BitComet/Frame_Channel_WX.cpp:120
+#: GUI_BitComet/Frame_Channel_WX.cpp:126
 #, fuzzy
 #| msgctxt "DialogTorrentProperty"
 #| msgid "Not downloaded"
@@ -3893,7 +3962,7 @@ msgctxt "MainToolbar"
 msgid "Show download tasks"
 msgstr "未下載"
 
-#: GUI_BitComet/Frame_Channel_WX.cpp:126
+#: GUI_BitComet/Frame_Channel_WX.cpp:132
 #, fuzzy
 #| msgctxt "MainToolbar"
 #| msgid "Favorites"
@@ -3901,17 +3970,22 @@ msgctxt "MainToolbar"
 msgid "Show IE Favorites"
 msgstr "我的最愛"
 
-#: GUI_BitComet/Frame_Channel_WX.cpp:128
+#: GUI_BitComet/Frame_Channel_WX.cpp:134
 msgctxt "MainToolbar"
 msgid "Show Safari bookmarks"
 msgstr ""
 
-#: GUI_BitComet/Frame_Channel_WX.cpp:189
+#: GUI_BitComet/Frame_Channel_WX.cpp:138
+msgctxt "MainToolbar"
+msgid "Show RSS feeds"
+msgstr ""
+
+#: GUI_BitComet/Frame_Channel_WX.cpp:217
 msgctxt "MainToolbar"
 msgid "Channels"
 msgstr "頻道"
 
-#: GUI_BitComet/Frame_Channel_WX.cpp:192
+#: GUI_BitComet/Frame_Channel_WX.cpp:220
 msgctxt "MainToolbar"
 msgid "Bookmarks"
 msgstr "書籤"
@@ -3967,220 +4041,228 @@ msgctxt "Options_TCPIPLimit"
 msgid "--vista_tcp_patch: Must be run under Windows Vista!"
 msgstr "--vista_tcp_patch: 必須在 Windows Vista 下執行!"
 
-#: GUI_BitComet/MainFrameWx.cpp:1169
+#: GUI_BitComet/MainFrameWx.cpp:1188
 msgctxt "Message_UnsupportedMediaFormat"
 msgid "Preview: Unsupported Media File Format!"
 msgstr "預覽: 不支援的媒體檔案格式!"
 
-#: GUI_BitComet/MainFrameWx.cpp:1173
+#: GUI_BitComet/MainFrameWx.cpp:1192
 msgctxt "Message_PromptBCTPFormatError"
 msgid "URL format error!"
 msgstr "URL 格式錯誤!"
 
-#: GUI_BitComet/MainFrameWx.cpp:1177
+#: GUI_BitComet/MainFrameWx.cpp:1196
 msgctxt "Message_PromptMagnetUriError"
 msgid "Magnet URI error: BitTorrent info hash not found!"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:1181
+#: GUI_BitComet/MainFrameWx.cpp:1200
 msgctxt "Message_TorrentMakerError"
 msgid "File is empty!"
 msgstr "檔案是空的!"
 
-#: GUI_BitComet/MainFrameWx.cpp:1185
+#: GUI_BitComet/MainFrameWx.cpp:1204
 msgctxt "Message_TorrentMakerError"
 msgid "Folder is empty!"
 msgstr "資料夾是空的!"
 
-#: GUI_BitComet/MainFrameWx.cpp:1189
+#: GUI_BitComet/MainFrameWx.cpp:1208
 msgctxt "Message_TorrentMakerError"
 msgid "File read error!"
 msgstr "檔案讀取錯誤!"
 
-#: GUI_BitComet/MainFrameWx.cpp:1193
+#: GUI_BitComet/MainFrameWx.cpp:1212
 msgctxt "Message_TorrentMakerError"
 msgid "Out of memory!"
 msgstr "記憶體不足!"
 
-#: GUI_BitComet/MainFrameWx.cpp:1382
+#: GUI_BitComet/MainFrameWx.cpp:1398
 #, fuzzy
 msgctxt "MainWindow"
 msgid "Saving data...."
 msgstr "開始接收數據..."
 
-#: GUI_BitComet/MainFrameWx.cpp:1462 GUI_BitComet/MainFrameWx.cpp:1483
+#: GUI_BitComet/MainFrameWx.cpp:1477 GUI_BitComet/MainFrameWx.cpp:1498
 msgctxt "MainWindow"
 msgid "Minimize to &Tray"
 msgstr "最小化到系統匣(&T)"
 
-#: GUI_BitComet/MainFrameWx.cpp:1464
+#: GUI_BitComet/MainFrameWx.cpp:1479
 msgctxt "MainWindow"
 msgid "E&xit"
 msgstr "結束(&X)"
 
-#: GUI_BitComet/MainFrameWx.cpp:1508 GUI_BitComet/MainFrameWx.cpp:1702
+#: GUI_BitComet/MainFrameWx.cpp:1523 GUI_BitComet/MainFrameWx.cpp:1717
 msgctxt "MainWindow"
 msgid "BitComet Exiting..."
 msgstr "BitComet 正在結束..."
 
-#: GUI_BitComet/MainFrameWx.cpp:1509
+#: GUI_BitComet/MainFrameWx.cpp:1524
 msgctxt "MainWindow"
 msgid "please wait."
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:1630 GUI_BitComet/OptionWndBTTask.cpp:318
-#: GUI_BitComet/OptionWndBTTask.cpp:323
+#: GUI_BitComet/MainFrameWx.cpp:1645 GUI_BitComet/OptionWndBTTask.cpp:319
+#: GUI_BitComet/OptionWndBTTask.cpp:324
 msgctxt "Common"
 msgid "Disable"
 msgstr "停用"
 
-#: GUI_BitComet/MainFrameWx.cpp:1848
+#: GUI_BitComet/MainFrameWx.cpp:1865
 msgctxt "Message_PromptNewVersion"
 msgid "BitComet updated to ${VERSION} successfully."
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:1850
+#: GUI_BitComet/MainFrameWx.cpp:1867
 #, fuzzy
 msgctxt "Message_PromptNewVersion"
 msgid "Would you like to learn about the new features?"
 msgstr "您是否要瀏覽 www.BitComet.com 以得知 BitComet ${VERSION} 的新功能?"
 
-#: GUI_BitComet/MainFrameWx.cpp:2012 GUI_BitComet/MainToolBar_WX.cpp:793
+#: GUI_BitComet/MainFrameWx.cpp:1971
+#, fuzzy
+#| msgctxt "MainWindow"
+#| msgid "BitComet Exiting..."
+msgctxt "SleepBlocker"
+msgid "BitComet task running..."
+msgstr "BitComet 正在結束..."
+
+#: GUI_BitComet/MainFrameWx.cpp:2024 GUI_BitComet/MainToolBar_WX.cpp:793
 msgctxt "StatusBar"
 msgid "Open Torrent File"
 msgstr "開啟 Torrent 檔案"
 
-#: GUI_BitComet/MainFrameWx.cpp:2015 GUI_BitComet/MainToolBar_WX.cpp:799
+#: GUI_BitComet/MainFrameWx.cpp:2027 GUI_BitComet/MainToolBar_WX.cpp:799
 msgctxt "StatusBar"
 msgid "Make Torrent File"
 msgstr "製作 Torrent 檔案"
 
-#: GUI_BitComet/MainFrameWx.cpp:2018 GUI_BitComet/MainToolBar_WX.cpp:796
+#: GUI_BitComet/MainFrameWx.cpp:2030 GUI_BitComet/MainToolBar_WX.cpp:796
 msgctxt "StatusBar"
 msgid "Open Torrent from URL"
 msgstr "從 URL 開啟 Torrent"
 
-#: GUI_BitComet/MainFrameWx.cpp:2021 GUI_BitComet/MainToolBar_WX.cpp:790
+#: GUI_BitComet/MainFrameWx.cpp:2033 GUI_BitComet/MainToolBar_WX.cpp:790
 msgctxt "StatusBar"
 msgid "Create new HTTP/FTP task"
 msgstr "建立新 HTTP/FTP 工作"
 
-#: GUI_BitComet/MainFrameWx.cpp:2024
+#: GUI_BitComet/MainFrameWx.cpp:2036
 msgctxt "StatusBar"
 msgid "Create batch of HTTP/FTP tasks"
 msgstr "批量建立 HTTP/FTP 工作"
 
-#: GUI_BitComet/MainFrameWx.cpp:2027
+#: GUI_BitComet/MainFrameWx.cpp:2039
 msgctxt "StatusBar"
 msgid "Import or Export task list and settings"
 msgstr "匯入或匯出工作列表及設定"
 
-#: GUI_BitComet/MainFrameWx.cpp:2030
+#: GUI_BitComet/MainFrameWx.cpp:2042
 msgctxt "StatusBar"
 msgid "Import Unfinished Download"
 msgstr "匯入未完成的下載"
 
-#: GUI_BitComet/MainFrameWx.cpp:2033 GUI_BitComet/MainToolBar_WX.cpp:850
+#: GUI_BitComet/MainFrameWx.cpp:2045 GUI_BitComet/MainToolBar_WX.cpp:850
 msgctxt "StatusBar"
 msgid "Exit"
 msgstr "結束"
 
-#: GUI_BitComet/MainFrameWx.cpp:2038
+#: GUI_BitComet/MainFrameWx.cpp:2050
 msgctxt "StatusBar"
 msgid "Show or hide task filter in task list"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:2041
+#: GUI_BitComet/MainFrameWx.cpp:2053
 msgctxt "StatusBar"
 msgid "Show or hide the grid lines in task list"
 msgstr "顯示或隱藏工具列的格線"
 
-#: GUI_BitComet/MainFrameWx.cpp:2044
+#: GUI_BitComet/MainFrameWx.cpp:2056
 msgctxt "StatusBar"
 msgid "Auto adjust column width of task list"
 msgstr "自動調整工作列表的欄寬"
 
-#: GUI_BitComet/MainFrameWx.cpp:2047
+#: GUI_BitComet/MainFrameWx.cpp:2059
 msgctxt "StatusBar"
 msgid "Real-time sort task list"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:2051
+#: GUI_BitComet/MainFrameWx.cpp:2063
 msgctxt "StatusBar"
 msgid "Show or hide text in toolbar"
 msgstr "顯示或隱藏工具列的文字"
 
-#: GUI_BitComet/MainFrameWx.cpp:2054
+#: GUI_BitComet/MainFrameWx.cpp:2066
 msgctxt "StatusBar"
 msgid "Show or hide search box in toolbar"
 msgstr "顯示或隱藏工具列的搜尋方塊"
 
-#: GUI_BitComet/MainFrameWx.cpp:2058
+#: GUI_BitComet/MainFrameWx.cpp:2070
 msgctxt "StatusBar"
 msgid "Show or hide the toolbar"
 msgstr "顯示或隱藏工具列"
 
-#: GUI_BitComet/MainFrameWx.cpp:2061
+#: GUI_BitComet/MainFrameWx.cpp:2073
 msgctxt "StatusBar"
 msgid "Show or hide the status bar"
 msgstr "顯示或隱藏狀態列"
 
-#: GUI_BitComet/MainFrameWx.cpp:2064 GUI_BitComet/MainToolBar_WX.cpp:802
+#: GUI_BitComet/MainFrameWx.cpp:2076 GUI_BitComet/MainToolBar_WX.cpp:802
 msgctxt "StatusBar"
 msgid "Show or hide the Favorites bar"
 msgstr "顯示或隱藏我的最愛列"
 
-#: GUI_BitComet/MainFrameWx.cpp:2067
+#: GUI_BitComet/MainFrameWx.cpp:2079
 msgctxt "StatusBar"
 msgid "Show or hide the Floating Window"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:2072
+#: GUI_BitComet/MainFrameWx.cpp:2084
 msgctxt "StatusBar"
 msgid "Sign in / Sign out CometID"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:2075
+#: GUI_BitComet/MainFrameWx.cpp:2087
 msgctxt "StatusBar"
 msgid "Change Password of CometID"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:2080 GUI_BitComet/MainToolBar_WX.cpp:829
+#: GUI_BitComet/MainFrameWx.cpp:2092 GUI_BitComet/MainToolBar_WX.cpp:829
 msgctxt "StatusBar"
 msgid "Show Options Dialog"
 msgstr "顯示選項對話方塊"
 
-#: GUI_BitComet/MainFrameWx.cpp:2085
+#: GUI_BitComet/MainFrameWx.cpp:2097
 msgctxt "StatusBar"
 msgid "List Help topics"
 msgstr "協助標題列表"
 
-#: GUI_BitComet/MainFrameWx.cpp:2088
+#: GUI_BitComet/MainFrameWx.cpp:2100
 msgctxt "StatusBar"
 msgid "Keyboard Shortcuts"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:2091
+#: GUI_BitComet/MainFrameWx.cpp:2103
 msgctxt "StatusBar"
 msgid "Changelog of new release"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:2094
+#: GUI_BitComet/MainFrameWx.cpp:2106
 msgctxt "StatusBar"
 msgid "Homepage"
 msgstr "首頁"
 
-#: GUI_BitComet/MainFrameWx.cpp:2097 GUI_BitComet/MainToolBar_WX.cpp:847
+#: GUI_BitComet/MainFrameWx.cpp:2109 GUI_BitComet/MainToolBar_WX.cpp:847
 msgctxt "StatusBar"
 msgid "Forums"
 msgstr "討論區"
 
-#: GUI_BitComet/MainFrameWx.cpp:2100
+#: GUI_BitComet/MainFrameWx.cpp:2112
 msgctxt "StatusBar"
 msgid "Check new version"
 msgstr "檢查新版本"
 
-#: GUI_BitComet/MainFrameWx.cpp:2103
+#: GUI_BitComet/MainFrameWx.cpp:2115
 msgctxt "StatusBar"
 msgid "Display program information, version number and copyright"
 msgstr "顯示程式資訊、版本號及版權"
@@ -4206,7 +4288,7 @@ msgid "&Tools"
 msgstr "工具(&T)"
 
 #: GUI_BitComet/MainMenuBar.cpp:42 GUI_BitComet/MainMenuBar.cpp:89
-#: GUI_BitComet/MainMenuBar.cpp:273
+#: GUI_BitComet/MainMenuBar.cpp:283
 msgctxt "MainMenu"
 msgid "&Help"
 msgstr "說明(&H)"
@@ -4332,13 +4414,13 @@ msgctxt "MainMenu"
 msgid "Floating &Window"
 msgstr "浮動視窗 (&W)"
 
-#: GUI_BitComet/MainMenuBar.cpp:181 GUI_BitComet/MainMenuBar.cpp:628
-#: GUI_BitComet/MainStatusBar_WX.cpp:70
+#: GUI_BitComet/MainMenuBar.cpp:181 GUI_BitComet/MainMenuBar.cpp:240
+#: GUI_BitComet/MainMenuBar.cpp:638 GUI_BitComet/MainStatusBar_WX.cpp:70
 msgctxt "MainMenu"
 msgid "Sign out"
 msgstr ""
 
-#: GUI_BitComet/MainMenuBar.cpp:183 GUI_BitComet/MainMenuBar.cpp:623
+#: GUI_BitComet/MainMenuBar.cpp:183 GUI_BitComet/MainMenuBar.cpp:633
 msgctxt "MainMenu"
 msgid "&Sign in..."
 msgstr ""
@@ -4363,7 +4445,7 @@ msgctxt "MainMenu"
 msgid "When Everything Completes"
 msgstr "當所有下載上載完成時"
 
-#: GUI_BitComet/MainMenuBar.cpp:223 GUI_BitComet/MainMenuBar.cpp:810
+#: GUI_BitComet/MainMenuBar.cpp:223 GUI_BitComet/MainMenuBar.cpp:820
 msgctxt "MainMenu"
 msgid "At specified time (${SHUTDOWN_TIME})..."
 msgstr "於指定時間 (${SHUTDOWN_TIME})..."
@@ -4378,112 +4460,122 @@ msgctxt "MainMenu"
 msgid "Sleep"
 msgstr "睡眠"
 
-#: GUI_BitComet/MainMenuBar.cpp:234
+#: GUI_BitComet/MainMenuBar.cpp:232
 msgctxt "MainMenu"
 msgid "Standby"
 msgstr "待命"
 
-#: GUI_BitComet/MainMenuBar.cpp:235
+#: GUI_BitComet/MainMenuBar.cpp:236
 msgctxt "MainMenu"
 msgid "Hibernate"
 msgstr "休眠"
 
-#: GUI_BitComet/MainMenuBar.cpp:236
+#: GUI_BitComet/MainMenuBar.cpp:240
 msgctxt "MainMenu"
-msgid "Reboot"
-msgstr "重新啟動"
-
-#: GUI_BitComet/MainMenuBar.cpp:237
-msgctxt "MainMenu"
-msgid "Shutdown"
-msgstr "關機"
-
-#: GUI_BitComet/MainMenuBar.cpp:239
-msgctxt "MainMenu"
-msgid "Remember my settings"
+msgid "Log off"
 msgstr ""
 
 #: GUI_BitComet/MainMenuBar.cpp:242
 msgctxt "MainMenu"
+msgid "Log out"
+msgstr ""
+
+#: GUI_BitComet/MainMenuBar.cpp:246
+msgctxt "MainMenu"
+msgid "Reboot"
+msgstr "重新啟動"
+
+#: GUI_BitComet/MainMenuBar.cpp:247
+msgctxt "MainMenu"
+msgid "Shutdown"
+msgstr "關機"
+
+#: GUI_BitComet/MainMenuBar.cpp:249
+msgctxt "MainMenu"
+msgid "Remember my settings"
+msgstr ""
+
+#: GUI_BitComet/MainMenuBar.cpp:252
+msgctxt "MainMenu"
 msgid "Enable Plugin"
 msgstr "啟用插件"
 
-#: GUI_BitComet/MainMenuBar.cpp:243
+#: GUI_BitComet/MainMenuBar.cpp:253
 msgctxt "MainMenu"
 msgid "Show Plugin Window"
 msgstr "顯示插件視窗"
 
-#: GUI_BitComet/MainMenuBar.cpp:246
+#: GUI_BitComet/MainMenuBar.cpp:256
 msgctxt "MainMenu"
 msgid "Default Directory"
 msgstr "預設目錄"
 
-#: GUI_BitComet/MainMenuBar.cpp:247
+#: GUI_BitComet/MainMenuBar.cpp:257
 msgctxt "MainMenu"
 msgid "&Auto Shutdown"
 msgstr "自動關機(&A)"
 
-#: GUI_BitComet/MainMenuBar.cpp:250
+#: GUI_BitComet/MainMenuBar.cpp:260
 msgctxt "MainMenu"
 msgid "eMule plugin"
 msgstr "eMule 插件"
 
-#: GUI_BitComet/MainMenuBar.cpp:256
+#: GUI_BitComet/MainMenuBar.cpp:266
 msgctxt "MainMenu"
 msgid "&Language"
 msgstr "語言(&L)"
 
-#: GUI_BitComet/MainMenuBar.cpp:259
+#: GUI_BitComet/MainMenuBar.cpp:269
 msgctxt "MainMenu"
 msgid "O&ptions..."
 msgstr ""
 
-#: GUI_BitComet/MainMenuBar.cpp:274
+#: GUI_BitComet/MainMenuBar.cpp:284
 msgctxt "MainMenu"
 msgid "&Keyboard Shortcuts"
 msgstr ""
 
-#: GUI_BitComet/MainMenuBar.cpp:275
+#: GUI_BitComet/MainMenuBar.cpp:285
 msgctxt "MainMenu"
 msgid "&Changelog"
 msgstr "更新日誌(&C)"
 
-#: GUI_BitComet/MainMenuBar.cpp:277
+#: GUI_BitComet/MainMenuBar.cpp:287
 msgctxt "MainMenu"
 msgid "&Homepage"
 msgstr "主頁(&H)"
 
-#: GUI_BitComet/MainMenuBar.cpp:278
+#: GUI_BitComet/MainMenuBar.cpp:288
 msgctxt "MainMenu"
 msgid "&Forums"
 msgstr "討論區(&F)"
 
-#: GUI_BitComet/MainMenuBar.cpp:280
+#: GUI_BitComet/MainMenuBar.cpp:290
 msgctxt "MainMenu"
 msgid "Check f&or Updates..."
 msgstr "檢查更新...(&O)"
 
-#: GUI_BitComet/MainMenuBar.cpp:282
+#: GUI_BitComet/MainMenuBar.cpp:292
 msgctxt "MainMenu"
 msgid "&About BitComet"
 msgstr "關於 BitComet(&A)"
 
-#: GUI_BitComet/MainMenuBar.cpp:675
+#: GUI_BitComet/MainMenuBar.cpp:685
 msgctxt "MainWindow"
 msgid "Select Default Directory"
 msgstr "選取預設目錄"
 
-#: GUI_BitComet/MainMenuBar.cpp:893
+#: GUI_BitComet/MainMenuBar.cpp:903
 msgctxt "MainMenu"
 msgid "Others"
 msgstr "其他"
 
-#: GUI_BitComet/MainMenuBar.cpp:896
+#: GUI_BitComet/MainMenuBar.cpp:906
 msgctxt "MainMenu"
 msgid "Help Translation"
 msgstr "幫助翻譯"
 
-#: GUI_BitComet/MainMenuBar.cpp:913 GUI_BitComet/View_DownloadsList_WX.cpp:2458
+#: GUI_BitComet/MainMenuBar.cpp:923 GUI_BitComet/View_DownloadsList_WX.cpp:2473
 msgctxt "MainMenu"
 msgid "Other Directory..."
 msgstr "其他目錄..."
@@ -4522,17 +4614,17 @@ msgstr "啟用 DHT 網路"
 
 #: GUI_BitComet/MainStatusBar_WX.cpp:166
 msgctxt "MainStatusBar"
-msgid "Not signed in."
+msgid "Not signed in"
 msgstr ""
 
 #: GUI_BitComet/MainStatusBar_WX.cpp:172
 msgctxt "MainStatusBar"
-msgid "Signing in."
+msgid "Signing in"
 msgstr ""
 
 #: GUI_BitComet/MainStatusBar_WX.cpp:184
 msgctxt "MainStatusBar"
-msgid "Signing out."
+msgid "Signing out"
 msgstr ""
 
 #: GUI_BitComet/MainStatusBar_WX.cpp:205
@@ -4571,7 +4663,7 @@ msgstr "已連接 DHT:"
 
 #: GUI_BitComet/MainStatusBar_WX.cpp:257
 msgctxt "MainStatusBar"
-msgid "DHT Not Connected."
+msgid "DHT Not Connected"
 msgstr "没有連接 DHT。"
 
 #: GUI_BitComet/MainStatusBar_WX.cpp:719 GUI_BitComet/MainStatusBar_WX.cpp:723
@@ -4604,27 +4696,38 @@ msgid "Yellow Light"
 msgstr "黃燈"
 
 #: GUI_BitComet/MainStatusBar_WX.cpp:732
+#, fuzzy
+#| msgctxt "MainStatusBar"
+#| msgid ""
+#| "Your listen port is blocked. You can still download but the speed may not "
+#| "be very fast. Please check your Firewall and NAT Router configurations."
 msgctxt "MainStatusBar"
 msgid ""
 "Your listen port is blocked. You can still download but the speed may not be "
-"very fast. Please check your Firewall and NAT Router configurations."
+"very fast."
 msgstr ""
 "你的監測埠已被關閉。你可以繼續下載但是其速度或許並不會很快。請檢查你的防火牆"
 "及NAT路由器設定。"
 
-#: GUI_BitComet/MainStatusBar_WX.cpp:735
+#: GUI_BitComet/MainStatusBar_WX.cpp:733
+msgctxt "MainStatusBar"
+msgid "Please check your Firewall and NAT Router configurations."
+msgstr ""
+
+#: GUI_BitComet/MainStatusBar_WX.cpp:736
 msgctxt "MainStatusBar"
 msgid "Green Light"
 msgstr "綠燈"
 
-#: GUI_BitComet/MainStatusBar_WX.cpp:736
+#: GUI_BitComet/MainStatusBar_WX.cpp:737
 msgctxt "MainStatusBar"
 msgid "Your listen port is open. You can get the best download speed."
 msgstr "你的監測埠已開啟.你可以獲得較快的下載速度。"
 
 #: GUI_BitComet/MainToolBarSearch_WX.cpp:267
 msgctxt "MainToolbar"
-msgid "Current search engine: \"${ENGINE}\". Click here to choose more engines"
+msgid ""
+"Current search engine: \"${ENGINE}\". Click here to choose more engines."
 msgstr "目前搜尋引擎: 「\"${ENGINE}」。按此選取更多引擎。"
 
 #: GUI_BitComet/MainToolBar_WX.cpp:208
@@ -4923,47 +5026,47 @@ msgctxt "Options_Title"
 msgid "Options..."
 msgstr "選項…"
 
-#: GUI_BitComet/OptionWndAdvanced.cpp:100
+#: GUI_BitComet/OptionWndAdvanced.cpp:97
 msgctxt "Options_Advanced"
 msgid "Name"
 msgstr "名稱"
 
-#: GUI_BitComet/OptionWndAdvanced.cpp:101
+#: GUI_BitComet/OptionWndAdvanced.cpp:98
 msgctxt "Options_Advanced"
 msgid "Value"
 msgstr "值"
 
-#: GUI_BitComet/OptionWndAdvanced.cpp:155
+#: GUI_BitComet/OptionWndAdvanced.cpp:152
 msgctxt "Options_Advanced"
 msgid "Advanced Options"
 msgstr "進階選項"
 
-#: GUI_BitComet/OptionWndAdvanced.cpp:165
+#: GUI_BitComet/OptionWndAdvanced.cpp:162
 msgctxt "Options_Advanced"
 msgid "Value:"
 msgstr "值:"
 
-#: GUI_BitComet/OptionWndAdvanced.cpp:185
+#: GUI_BitComet/OptionWndAdvanced.cpp:182
 msgctxt "Common"
 msgid "True"
 msgstr ""
 
-#: GUI_BitComet/OptionWndAdvanced.cpp:190
+#: GUI_BitComet/OptionWndAdvanced.cpp:187
 msgctxt "Common"
 msgid "False"
 msgstr ""
 
-#: GUI_BitComet/OptionWndAdvanced.cpp:195
+#: GUI_BitComet/OptionWndAdvanced.cpp:192
 msgctxt "Options_Advanced"
 msgid "Reset"
 msgstr "重設"
 
-#: GUI_BitComet/OptionWndAdvanced.cpp:418
+#: GUI_BitComet/OptionWndAdvanced.cpp:415
 msgctxt "Message_ForbidEmpty"
 msgid "It cannot be empty"
 msgstr "這不能是空白"
 
-#: GUI_BitComet/OptionWndAdvanced.cpp:445
+#: GUI_BitComet/OptionWndAdvanced.cpp:442
 msgctxt "Message_UseAppData"
 msgid ""
 "You have changed the setting of \"system.use_app_data\".\n"
@@ -4974,7 +5077,7 @@ msgstr ""
 "目前的組態檔案將移到新地方。\n"
 "您想繼續嗎?"
 
-#: GUI_BitComet/OptionWndAdvanced.cpp:458
+#: GUI_BitComet/OptionWndAdvanced.cpp:455
 msgctxt "Message_UseAppData"
 msgid ""
 "Existing configuration files found in target folder.\n"
@@ -4983,94 +5086,94 @@ msgstr ""
 "在目標資料夾找到已存在的組態檔案。\n"
 "您想覆蓋它們嗎?"
 
-#: GUI_BitComet/OptionWndAdvanced.cpp:474
+#: GUI_BitComet/OptionWndAdvanced.cpp:471
 msgctxt "Message_UseAppData"
 msgid ""
 "Failed to move files. The setting of \"system.use_app_data\" remains "
 "unchanged."
 msgstr "移動檔案失敗。\"system.use_app_data\" 的設定維持不變。"
 
-#: GUI_BitComet/OptionWndAdvanced.cpp:615
-#: GUI_BitComet/OptionWndAdvancedHelper.cpp:144
+#: GUI_BitComet/OptionWndAdvanced.cpp:612
+#: GUI_BitComet/OptionWndAdvancedHelper.cpp:179
 msgctxt "Options_Advanced"
 msgid "Video preview program path (auto-detect when emtpy)"
 msgstr "視訊預覽程式路徑 (當空白時自動偵測)"
 
-#: GUI_BitComet/OptionWndAdvancedHelper.cpp:133
+#: GUI_BitComet/OptionWndAdvancedHelper.cpp:168
 msgctxt "Options_Advanced"
 msgid "Maximum number of connections per task (0 - auto)"
 msgstr "每工作最大連接數目 (0 - 自動)"
 
-#: GUI_BitComet/OptionWndAdvancedHelper.cpp:134
+#: GUI_BitComet/OptionWndAdvancedHelper.cpp:169
 msgctxt "Options_Advanced"
 msgid "Global maximum number of connections (0 - unlimited)"
 msgstr "全域最大連接數量 (0 - 無限)"
 
-#: GUI_BitComet/OptionWndAdvancedHelper.cpp:135
+#: GUI_BitComet/OptionWndAdvancedHelper.cpp:170
 msgctxt "Options_Advanced"
 msgid "Socket start interval (ms)"
 msgstr "Socket 開始週期 (ms)"
 
-#: GUI_BitComet/OptionWndAdvancedHelper.cpp:136
+#: GUI_BitComet/OptionWndAdvancedHelper.cpp:171
 msgctxt "Options_Advanced"
 msgid "Maximum simultaneous half-open TCP connections (0 - auto)"
 msgstr ""
 
-#: GUI_BitComet/OptionWndAdvancedHelper.cpp:137
+#: GUI_BitComet/OptionWndAdvancedHelper.cpp:172
 msgctxt "Options_Advanced"
 msgid "Maximum number of UDP packets sent per second"
 msgstr ""
 
-#: GUI_BitComet/OptionWndAdvancedHelper.cpp:138
+#: GUI_BitComet/OptionWndAdvancedHelper.cpp:173
 msgctxt "Options_Advanced"
 msgid "Hash-check again when the task download has finished"
 msgstr "當任務下載完成時進行完整檢查"
 
-#: GUI_BitComet/OptionWndAdvancedHelper.cpp:139
+#: GUI_BitComet/OptionWndAdvancedHelper.cpp:174
 msgctxt "Options_Advanced"
 msgid "Hash-check again if downloaded file changed"
 msgstr ""
 
-#: GUI_BitComet/OptionWndAdvancedHelper.cpp:140
+#: GUI_BitComet/OptionWndAdvancedHelper.cpp:175
 msgctxt "Options_Advanced"
 msgid "Set hash check thread to low priority"
 msgstr "設定完整檢查程序為低優先"
 
-#: GUI_BitComet/OptionWndAdvancedHelper.cpp:141
+#: GUI_BitComet/OptionWndAdvancedHelper.cpp:176
 msgctxt "Options_Advanced"
 msgid "User-Agent sent to HTTP tracker"
 msgstr "用戶端傳送給HTTP追蹤者"
 
-#: GUI_BitComet/OptionWndAdvancedHelper.cpp:142
+#: GUI_BitComet/OptionWndAdvancedHelper.cpp:177
 msgctxt "Options_Advanced"
 msgid ""
 "Anti-leech: seconds after which to check downloaded amount since peer "
 "connected"
 msgstr "反吸血: 連接到對等用戶後整查下載數量的秒數"
 
-#: GUI_BitComet/OptionWndAdvancedHelper.cpp:143
+#: GUI_BitComet/OptionWndAdvancedHelper.cpp:178
 msgctxt "Options_Advanced"
 msgid "Anti-leech: minimum downloaded bytes counted after specified time"
 msgstr "反吸血: 於指定時間後的最少下載位元組"
 
-#: GUI_BitComet/OptionWndAdvancedHelper.cpp:145
+#: GUI_BitComet/OptionWndAdvancedHelper.cpp:180
 msgctxt "Options_Advanced"
 msgid "Allow video preview program to open files of any type"
 msgstr ""
 
-#: GUI_BitComet/OptionWndAdvancedHelper.cpp:146
+#: GUI_BitComet/OptionWndAdvancedHelper.cpp:181
 msgctxt "Options_Advanced"
 msgid "HTTP task: User-Agent String for HTTP connection"
 msgstr "HTTP 任務: HTTP連接的用戶端附帶條件"
 
-#: GUI_BitComet/OptionWndAdvancedHelper.cpp:147
+#: GUI_BitComet/OptionWndAdvancedHelper.cpp:182
 msgctxt "Options_Advanced"
 msgid ""
 "Long-Term Seeding protocol selection\n"
 "(0 => TCP only; 1 => UDP only; 2 => TCP + UDP)"
 msgstr ""
 
-#: GUI_BitComet/OptionWndAdvancedHelper.cpp:148
+#: GUI_BitComet/OptionWndAdvancedHelper.cpp:183
 msgctxt "Options_Advanced"
 msgid ""
 "Save configuration files in APP_DATA folder or installation folder\n"
@@ -5078,7 +5181,7 @@ msgid ""
 "other place like an USB disk)"
 msgstr ""
 
-#: GUI_BitComet/OptionWndAdvancedHelper.cpp:149
+#: GUI_BitComet/OptionWndAdvancedHelper.cpp:184
 msgctxt "Options_Advanced"
 msgid ""
 "Show debug information\n"
@@ -5087,16 +5190,26 @@ msgstr ""
 "顯示除錯資訊\n"
 "(更高 CPU 使用量)"
 
-#: GUI_BitComet/OptionWndAdvancedHelper.cpp:150
+#: GUI_BitComet/OptionWndAdvancedHelper.cpp:185
 msgctxt "Options_Advanced"
 msgid ""
 "Enable disk boost service to enhance disk IO performance of BitComet (only "
 "for Vista or later)"
 msgstr ""
 
-#: GUI_BitComet/OptionWndAdvancedHelper.cpp:151
+#: GUI_BitComet/OptionWndAdvancedHelper.cpp:186
 msgctxt "Options_Advanced"
 msgid "Detect downloaded file missing at program startup"
+msgstr ""
+
+#: GUI_BitComet/OptionWndAdvancedHelper.cpp:187
+msgctxt "Options_Advanced"
+msgid "Enable peer exchange while BitTorrent downloading"
+msgstr ""
+
+#: GUI_BitComet/OptionWndAdvancedHelper.cpp:188
+msgctxt "Options_Advanced"
+msgid "Save connected peers only when stopping BitTorrent task"
 msgstr ""
 
 #: GUI_BitComet/OptionWndAppearance.cpp:146
@@ -5198,144 +5311,144 @@ msgctxt "Options_Appearance"
 msgid "Exit"
 msgstr ""
 
-#: GUI_BitComet/OptionWndBTTask.cpp:145
+#: GUI_BitComet/OptionWndBTTask.cpp:146
 msgctxt "Options_TaskBitTorrent"
 msgid "BitTorrent Task"
 msgstr "BitTorrent 工作"
 
-#: GUI_BitComet/OptionWndBTTask.cpp:149
+#: GUI_BitComet/OptionWndBTTask.cpp:150
 msgctxt "Options_TaskBitTorrent"
 msgid "Enable DHT Network"
 msgstr "啟用 DHT 網路"
 
-#: GUI_BitComet/OptionWndBTTask.cpp:158
+#: GUI_BitComet/OptionWndBTTask.cpp:159
 msgctxt "Options_TaskBitTorrent"
 msgid "List of BitTorrent clients allowed connecting to"
 msgstr "允許連接的 BitTorrent 客戶端列表"
 
-#: GUI_BitComet/OptionWndBTTask.cpp:161
+#: GUI_BitComet/OptionWndBTTask.cpp:162
 msgctxt "Options_TaskBitTorrent"
 msgid "Client List..."
 msgstr "客戶端列表"
 
-#: GUI_BitComet/OptionWndBTTask.cpp:169
+#: GUI_BitComet/OptionWndBTTask.cpp:170
 msgctxt "Options_TaskBitTorrent"
 msgid "Enable Anti-Leech:"
 msgstr "啟用反吸血:"
 
-#: GUI_BitComet/OptionWndBTTask.cpp:181
+#: GUI_BitComet/OptionWndBTTask.cpp:182
 msgctxt "Options_TaskBitTorrent"
 msgid "Protocol encryption (avoid BT protocol being blocked):"
 msgstr "通訊協定加密 (防止 BT 通訊協定被阻):"
 
-#: GUI_BitComet/OptionWndBTTask.cpp:188
+#: GUI_BitComet/OptionWndBTTask.cpp:189
 msgctxt "Options_TaskBitTorrent"
 msgid "Display task properties dialog when Torrent downloaded by Magnet URI"
 msgstr "當使用 Magnet URI 下載 Torrent 時顯示工作內容對話方塊"
 
-#: GUI_BitComet/OptionWndBTTask.cpp:195
+#: GUI_BitComet/OptionWndBTTask.cpp:196
 msgctxt "Options_TaskBitTorrent"
 msgid "Add to Torrent History when opening .torrent file"
 msgstr "當開啟 .torrent 檔案時加到 Torrent 歷程記錄"
 
-#: GUI_BitComet/OptionWndBTTask.cpp:202
+#: GUI_BitComet/OptionWndBTTask.cpp:203
 msgctxt "Options_TaskBitTorrent"
 msgid "Enable Torrent Exchange"
 msgstr ""
 
-#: GUI_BitComet/OptionWndBTTask.cpp:209
+#: GUI_BitComet/OptionWndBTTask.cpp:210
 msgctxt "Options_TaskBitTorrent"
 msgid "Add to Torrent Share when openning .torrent file"
 msgstr ""
 
-#: GUI_BitComet/OptionWndBTTask.cpp:213
+#: GUI_BitComet/OptionWndBTTask.cpp:214
 msgctxt "Options_TaskBitTorrent"
 msgid "Clear Torrent Collection list at program exit"
 msgstr "當離開程式時清除其他的torrent分享表"
 
-#: GUI_BitComet/OptionWndBTTask.cpp:222
+#: GUI_BitComet/OptionWndBTTask.cpp:223
 msgctxt "Options_TaskBitTorrent"
 msgid "Max number of torrents to display in Torrent Collection list:"
 msgstr "Torrent分享表中最大顯示Torrents數量："
 
-#: GUI_BitComet/OptionWndBTTask.cpp:229
+#: GUI_BitComet/OptionWndBTTask.cpp:230
 #, fuzzy
 msgctxt "Options_TaskBitTorrent"
 msgid "Task Seeding Rules"
 msgstr "任務排程"
 
-#: GUI_BitComet/OptionWndBTTask.cpp:233
+#: GUI_BitComet/OptionWndBTTask.cpp:234
 msgctxt "Options_TaskBitTorrent"
 msgid "Auto stop task when satisfying all following conditions"
 msgstr "當符合所有以下條件時自動停止工作"
 
-#: GUI_BitComet/OptionWndBTTask.cpp:242
+#: GUI_BitComet/OptionWndBTTask.cpp:243
 msgctxt "Options_TaskBitTorrent"
 msgid "Share ratio equal to or higher than:"
 msgstr "分享等於或多於:"
 
-#: GUI_BitComet/OptionWndBTTask.cpp:253
+#: GUI_BitComet/OptionWndBTTask.cpp:254
 msgctxt "Options_TaskBitTorrent"
 msgid "Seeds number equal to or higher than:"
 msgstr "種子數目等於或多於:"
 
-#: GUI_BitComet/OptionWndBTTask.cpp:264
+#: GUI_BitComet/OptionWndBTTask.cpp:265
 msgctxt "Options_TaskBitTorrent"
 msgid "Time of seeding equal to or longer than:"
 msgstr "作種時間等於或多於 (分鐘):"
 
-#: GUI_BitComet/OptionWndBTTask.cpp:270
+#: GUI_BitComet/OptionWndBTTask.cpp:271
 #, fuzzy
 msgctxt "Options_TaskBitTorrent"
 msgid "day"
 msgstr "星期五"
 
-#: GUI_BitComet/OptionWndBTTask.cpp:276
+#: GUI_BitComet/OptionWndBTTask.cpp:277
 msgctxt "Options_TaskBitTorrent"
 msgid "hour"
 msgstr ""
 
-#: GUI_BitComet/OptionWndBTTask.cpp:282
+#: GUI_BitComet/OptionWndBTTask.cpp:283
 msgctxt "Options_TaskBitTorrent"
 msgid "minute"
 msgstr ""
 
-#: GUI_BitComet/OptionWndBTTask.cpp:285
+#: GUI_BitComet/OptionWndBTTask.cpp:286
 msgctxt "Options_TaskBitTorrent"
 msgid "Upload"
 msgstr "上載"
 
-#: GUI_BitComet/OptionWndBTTask.cpp:292
+#: GUI_BitComet/OptionWndBTTask.cpp:293
 msgctxt "Options_TaskBitTorrent"
 msgid "Maximum upload rate per task:"
 msgstr "每任務的最大上載率:"
 
-#: GUI_BitComet/OptionWndBTTask.cpp:301
+#: GUI_BitComet/OptionWndBTTask.cpp:302
 msgctxt "Options_TaskBitTorrent"
 msgid "Minimum upload rate per task:"
 msgstr "每任務的最小上載率:"
 
-#: GUI_BitComet/OptionWndBTTask.cpp:309
+#: GUI_BitComet/OptionWndBTTask.cpp:310
 msgctxt "Options_TaskBitTorrent"
 msgid "(requires sufficient peers and bandwidth)"
 msgstr ""
 
-#: GUI_BitComet/OptionWndBTTask.cpp:319
+#: GUI_BitComet/OptionWndBTTask.cpp:320
 msgctxt "Options_TaskBitTorrent"
 msgid "Auto Detect"
 msgstr "自動偵測"
 
-#: GUI_BitComet/OptionWndBTTask.cpp:320
+#: GUI_BitComet/OptionWndBTTask.cpp:321
 msgctxt "Options_TaskBitTorrent"
 msgid "Always"
 msgstr "總是"
 
-#: GUI_BitComet/OptionWndBTTask.cpp:321
+#: GUI_BitComet/OptionWndBTTask.cpp:322
 msgctxt "Options_TaskBitTorrent"
 msgid "Force"
 msgstr "強制"
 
-#: GUI_BitComet/OptionWndBTTask.cpp:325
+#: GUI_BitComet/OptionWndBTTask.cpp:326
 msgctxt "Common"
 msgid "Strict"
 msgstr "嚴格"
@@ -5385,7 +5498,7 @@ msgid "Updated at ${TIME}"
 msgstr ""
 
 #: GUI_BitComet/OptionWndConnection.cpp:147
-#: GUI_BitComet/OptionWndConnection.cpp:446
+#: GUI_BitComet/OptionWndConnection.cpp:451
 msgctxt "Options_Connection"
 msgid "General Settings"
 msgstr "一般設定"
@@ -5465,7 +5578,7 @@ msgctxt "Options_Connection"
 msgid "Network Wizard"
 msgstr "網路精靈"
 
-#: GUI_BitComet/OptionWndConnection.cpp:449
+#: GUI_BitComet/OptionWndConnection.cpp:454
 msgctxt "Options_Connection"
 msgid "(Superseded by Scheduler)"
 msgstr "(以排序取代)"
@@ -5564,26 +5677,38 @@ msgstr ""
 "正常會自動管理快速緩衝貯存區，但你也可以修改那些設定以改善其表現。"
 
 #: GUI_BitComet/OptionWndDiskCache.cpp:140
+#, fuzzy
+#| msgctxt "Options_DiskCache"
+#| msgid "Maximum disk cache size (MB):"
 msgctxt "Options_DiskCache"
-msgid "Minimum disk cache size (MB):"
-msgstr "最小磁碟快取大小 (MB):"
-
-#: GUI_BitComet/OptionWndDiskCache.cpp:149
-msgctxt "Options_DiskCache"
-msgid "Maximum disk cache size (MB):"
+msgid "Maximum disk cache size for BitTorrent"
 msgstr "最大磁碟快取大小 (MB):"
 
-#: GUI_BitComet/OptionWndDiskCache.cpp:158
+#: GUI_BitComet/OptionWndDiskCache.cpp:149
+#, fuzzy
+#| msgctxt "Options_DiskCache"
+#| msgid "Cache size for each HTTP connection (KB):"
 msgctxt "Options_DiskCache"
-msgid "Shrink disk cache size if free physical memory is lower than (MB):"
-msgstr "減少磁碟快速緩衝貯存區(cache)大小，如果free physical memory 低於(MB)："
-
-#: GUI_BitComet/OptionWndDiskCache.cpp:167
-msgctxt "Options_DiskCache"
-msgid "Cache size for each HTTP connection (KB):"
+msgid "Cache size for each HTTP connection:"
 msgstr "每個 HTTP 連接的快取大小 (KB):"
 
-#: GUI_BitComet/OptionWndDiskCache.cpp:176
+#: GUI_BitComet/OptionWndDiskCache.cpp:158
+#, fuzzy
+#| msgctxt "Options_DiskCache"
+#| msgid "Maximum disk cache size (MB):"
+msgctxt "Options_DiskCache"
+msgid "Maximum disk cache size for Long-Term Seeding:"
+msgstr "最大磁碟快取大小 (MB):"
+
+#: GUI_BitComet/OptionWndDiskCache.cpp:167
+#, fuzzy
+#| msgctxt "Options_DiskCache"
+#| msgid "Shrink disk cache size if free physical memory is lower than (MB):"
+msgctxt "Options_DiskCache"
+msgid "Shrink disk cache size if free physical memory is lower than:"
+msgstr "減少磁碟快速緩衝貯存區(cache)大小，如果free physical memory 低於(MB)："
+
+#: GUI_BitComet/OptionWndDiskCache.cpp:181
 msgctxt "Options_DiskCache"
 msgid "Auto-choose cache size in the given range"
 msgstr "在提供範圍內自動選取快取大小"
@@ -6033,7 +6158,7 @@ msgid ""
 "\n"
 "High/Low speed: Uses specified bandwidth.\n"
 "\n"
-"Turn off: Stops all tasks temporarily"
+"Turn off: Stops all tasks temporarily."
 msgstr ""
 
 #: GUI_BitComet/OptionWndService.cpp:85
@@ -6399,7 +6524,7 @@ msgctxt "Option_RemoteDownload"
 msgid ""
 "Tip: If you access this web page from a computer outside your NAT router, "
 "please use your WAN IP displayed in the status bar of the main window "
-"instead of 127.0.0.1. "
+"instead of 127.0.0.1."
 msgstr ""
 
 #: GUI_BitComet/OptionWndWebInterface.cpp:306
@@ -6464,7 +6589,7 @@ msgstr "摺疊同級資料夾"
 
 #: GUI_BitComet/SelectFileListCtrl.cpp:102
 #: GUI_BitComet/SelectFileListCtrl.cpp:273
-#: GUI_BitComet/View_FileList_Flat.cpp:287
+#: GUI_BitComet/View_FileList_Flat.cpp:288
 #: GUI_BitComet/View_FileList_Tree.cpp:143
 #, fuzzy
 msgctxt "DetailView_Log_Menu"
@@ -6473,7 +6598,7 @@ msgstr "Tracker 列表："
 
 #: GUI_BitComet/SelectFileListCtrl.cpp:103
 #: GUI_BitComet/SelectFileListCtrl.cpp:274
-#: GUI_BitComet/View_FileList_Flat.cpp:288
+#: GUI_BitComet/View_FileList_Flat.cpp:289
 #: GUI_BitComet/View_FileList_Tree.cpp:144
 #, fuzzy
 msgctxt "DetailView_Log_Menu"
@@ -6498,49 +6623,99 @@ msgctxt "DialogTaskBitTorrentMain"
 msgid "Unselect All"
 msgstr "全部不選"
 
-#: GUI_BitComet/Toolbar_Navigate.cpp:92 GUI_BitComet/Toolbar_Navigate.cpp:171
-#: GUI_BitComet/View_MainLeftTree_WX.cpp:495
-msgctxt "Favourite"
-msgid "All Downloads"
-msgstr "所有下載"
-
-#: GUI_BitComet/Toolbar_Navigate.cpp:93 GUI_BitComet/Toolbar_Navigate.cpp:172
-#: GUI_BitComet/View_MainLeftTree_WX.cpp:496
-msgctxt "Favourite"
-msgid "Downloading"
-msgstr "下載中"
-
-#: GUI_BitComet/Toolbar_Navigate.cpp:94 GUI_BitComet/Toolbar_Navigate.cpp:173
-#: GUI_BitComet/View_MainLeftTree_WX.cpp:497
-msgctxt "Favourite"
-msgid "Completed"
-msgstr "已完成"
-
-#: GUI_BitComet/Toolbar_Navigate.cpp:95 GUI_BitComet/Toolbar_Navigate.cpp:174
-#: GUI_BitComet/View_MainLeftTree_WX.cpp:498
-msgctxt "Favourite"
-msgid "Active"
-msgstr ""
-
-#: GUI_BitComet/Toolbar_Navigate.cpp:102 GUI_BitComet/Toolbar_Navigate.cpp:175
-#: GUI_BitComet/View_MainLeftTree_WX.cpp:500
+#: GUI_BitComet/Toolbar_Navigate.cpp:96 GUI_BitComet/Toolbar_Navigate.cpp:179
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:678
 msgctxt "Favourite"
 msgid "Torrent History"
 msgstr "Torrent 歷程記錄"
 
-#: GUI_BitComet/Toolbar_Navigate.cpp:105 GUI_BitComet/Toolbar_Navigate.cpp:156
-#: GUI_BitComet/Toolbar_Navigate.cpp:176
-#: GUI_BitComet/View_MainLeftTree_WX.cpp:505
+#: GUI_BitComet/Toolbar_Navigate.cpp:99 GUI_BitComet/Toolbar_Navigate.cpp:155
+#: GUI_BitComet/Toolbar_Navigate.cpp:180
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:682
 msgctxt "Favourite"
 msgid "Torrent Share"
 msgstr "種子市場"
 
-#: GUI_BitComet/Toolbar_Navigate.cpp:106 GUI_BitComet/Toolbar_Navigate.cpp:157
-#: GUI_BitComet/Toolbar_Navigate.cpp:177
-#: GUI_BitComet/View_MainLeftTree_WX.cpp:506
+#: GUI_BitComet/Toolbar_Navigate.cpp:100 GUI_BitComet/Toolbar_Navigate.cpp:156
+#: GUI_BitComet/Toolbar_Navigate.cpp:181
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:683
 msgctxt "Favourite"
 msgid "Torrent Collection"
 msgstr "種子集合"
+
+#: GUI_BitComet/Toolbar_Navigate.cpp:170 GUI_BitComet/Toolbar_Navigate.cpp:211
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:591
+msgctxt "Favourite"
+msgid "All Downloads"
+msgstr "所有下載"
+
+#: GUI_BitComet/Toolbar_Navigate.cpp:171 GUI_BitComet/Toolbar_Navigate.cpp:213
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:97
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:593
+msgctxt "Favourite"
+msgid "Downloading"
+msgstr "下載中"
+
+#: GUI_BitComet/Toolbar_Navigate.cpp:172 GUI_BitComet/Toolbar_Navigate.cpp:215
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:98
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:595
+#, fuzzy
+#| msgctxt "DialogTorrentProperty"
+#| msgid "Downloaded"
+msgctxt "Favourite"
+msgid "Download Paused"
+msgstr "已下載"
+
+#: GUI_BitComet/Toolbar_Navigate.cpp:173 GUI_BitComet/Toolbar_Navigate.cpp:217
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:99
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:597
+#, fuzzy
+#| msgctxt "TaskList_Header"
+#| msgid "LT Seeding"
+msgctxt "Favourite"
+msgid "Seeding"
+msgstr "長效種子"
+
+#: GUI_BitComet/Toolbar_Navigate.cpp:174 GUI_BitComet/Toolbar_Navigate.cpp:219
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:100
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:599
+#, fuzzy
+#| msgctxt "DetailView_TrackerList"
+#| msgid "Seeds"
+msgctxt "Favourite"
+msgid "Seed Paused"
+msgstr "種子"
+
+#: GUI_BitComet/Toolbar_Navigate.cpp:175 GUI_BitComet/Toolbar_Navigate.cpp:221
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:102
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:601
+msgctxt "Favourite"
+msgid "Completed"
+msgstr "已完成"
+
+#: GUI_BitComet/Toolbar_Navigate.cpp:176 GUI_BitComet/Toolbar_Navigate.cpp:223
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:103
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:603
+#, fuzzy
+#| msgctxt "Favourite"
+#| msgid "Completed"
+msgctxt "Favourite"
+msgid "Uncompleted"
+msgstr "已完成"
+
+#: GUI_BitComet/Toolbar_Navigate.cpp:177 GUI_BitComet/Toolbar_Navigate.cpp:225
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:105
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:605
+msgctxt "Favourite"
+msgid "Active"
+msgstr ""
+
+#: GUI_BitComet/Toolbar_Navigate.cpp:178 GUI_BitComet/Toolbar_Navigate.cpp:227
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:106
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:607
+msgctxt "Favourite"
+msgid "Inactive"
+msgstr ""
 
 #: GUI_BitComet/Toolbar_Task.cpp:63
 msgctxt "CDownloadsListFrame"
@@ -6555,7 +6730,7 @@ msgctxt "CDownloadsListFrame"
 msgid "Show task tags"
 msgstr "停止工作"
 
-#: GUI_BitComet/Toolbar_Task.cpp:118 GUI_BitComet/Toolbar_Task.cpp:209
+#: GUI_BitComet/Toolbar_Task.cpp:118 GUI_BitComet/Toolbar_Task.cpp:229
 msgctxt "MainToolbar"
 msgid "Search Tasks"
 msgstr ""
@@ -6600,17 +6775,17 @@ msgctxt "TorrentShare"
 msgid "Other"
 msgstr "其他"
 
-#: GUI_BitComet/Toolbar_Torrent.cpp:239 GUI_BitComet/Toolbar_Torrent.cpp:355
+#: GUI_BitComet/Toolbar_Torrent.cpp:239 GUI_BitComet/Toolbar_Torrent.cpp:360
 msgctxt "TorrentShare"
 msgid "Search Torrent"
 msgstr ""
 
-#: GUI_BitComet/Toolbar_Torrent.cpp:245 GUI_BitComet/Toolbar_Torrent.cpp:356
+#: GUI_BitComet/Toolbar_Torrent.cpp:245 GUI_BitComet/Toolbar_Torrent.cpp:361
 msgctxt "TorrentShare"
 msgid "Category"
 msgstr "類別"
 
-#: GUI_BitComet/Toolbar_Torrent.cpp:263 GUI_BitComet/Toolbar_Torrent.cpp:357
+#: GUI_BitComet/Toolbar_Torrent.cpp:263 GUI_BitComet/Toolbar_Torrent.cpp:362
 msgctxt "TorrentShare"
 msgid ""
 "The following content is automatically generated from the peers you "
@@ -6626,7 +6801,7 @@ msgid "The list is full. Please clear some torrents to get more."
 msgstr ""
 
 #: GUI_BitComet/TorrentExchangeHelperWx.cpp:77
-#: GUI_BitComet/View_DownloadsList_WX.cpp:1440
+#: GUI_BitComet/View_DownloadsList_WX.cpp:1455
 msgctxt "MainWindow"
 msgid "${SELECTED_NUMBER} selected / ${TOTAL_NUMBER} in total"
 msgstr "已選取 ${SELECTED_NUMBER} 項 / 總其 ${TOTAL_NUMBER} 項"
@@ -6641,10 +6816,10 @@ msgstr ""
 "${TOTAL_NUMBER} 項"
 
 #: GUI_BitComet/TorrentPropertyInfo.h:82
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:941
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:937
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:945
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:846
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:970
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:965
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:973
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:874
 msgctxt "TorrentShare"
 msgid "Unknown"
 msgstr "不明"
@@ -6679,433 +6854,433 @@ msgctxt "DialogTorrentProperty"
 msgid "Download not finished"
 msgstr "下載未完成"
 
-#: GUI_BitComet/View_ConnectionList_WX.cpp:277
-#: GUI_BitComet/View_ConnectionList_WX.cpp:397
+#: GUI_BitComet/View_ConnectionList_WX.cpp:274
+#: GUI_BitComet/View_ConnectionList_WX.cpp:391
 msgctxt "DetailView_LinkList"
 msgid "Connecting"
 msgstr "正在連接"
 
-#: GUI_BitComet/View_ConnectionList_WX.cpp:280
-#: GUI_BitComet/View_ConnectionList_WX.cpp:400
+#: GUI_BitComet/View_ConnectionList_WX.cpp:277
+#: GUI_BitComet/View_ConnectionList_WX.cpp:394
 msgctxt "DetailView_LinkList"
 msgid "Downloading"
 msgstr "正在下載"
 
-#: GUI_BitComet/View_ConnectionList_WX.cpp:283
-#: GUI_BitComet/View_ConnectionList_WX.cpp:403
+#: GUI_BitComet/View_ConnectionList_WX.cpp:280
+#: GUI_BitComet/View_ConnectionList_WX.cpp:397
 msgctxt "DetailView_LinkList"
 msgid "Wait for retry"
 msgstr "等候再試"
 
-#: GUI_BitComet/View_ConnectionList_WX.cpp:286
-#: GUI_BitComet/View_ConnectionList_WX.cpp:406
+#: GUI_BitComet/View_ConnectionList_WX.cpp:283
+#: GUI_BitComet/View_ConnectionList_WX.cpp:400
 msgctxt "DetailView_LinkList"
 msgid "Stop"
 msgstr "停止"
 
-#: GUI_BitComet/View_ConnectionList_WX.cpp:764
+#: GUI_BitComet/View_ConnectionList_WX.cpp:780
 msgctxt "DetailView_LinkList"
 msgid "Download Rate"
 msgstr "下載率"
 
-#: GUI_BitComet/View_ConnectionList_WX.cpp:765
+#: GUI_BitComet/View_ConnectionList_WX.cpp:781
 msgctxt "DetailView_LinkList"
 msgid "Download Size"
 msgstr "下載大小"
 
-#: GUI_BitComet/View_ConnectionList_WX.cpp:766
+#: GUI_BitComet/View_ConnectionList_WX.cpp:782
 msgctxt "DetailView_LinkList"
 msgid "Progress"
 msgstr "進度"
 
-#: GUI_BitComet/View_ConnectionList_WX.cpp:767
+#: GUI_BitComet/View_ConnectionList_WX.cpp:783
 msgctxt "DetailView_LinkList"
 msgid "Status"
 msgstr "狀態"
 
-#: GUI_BitComet/View_ConnectionList_WX.cpp:819
+#: GUI_BitComet/View_ConnectionList_WX.cpp:835
 msgctxt "Connection_List_Menu"
 msgid "&Copy"
 msgstr "複製(&C)"
 
-#: GUI_BitComet/View_ConnectionList_WX.cpp:820
+#: GUI_BitComet/View_ConnectionList_WX.cpp:836
 msgctxt "Connection_List_Menu"
 msgid "Copy &All"
 msgstr "全部複製(&A)"
 
-#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:869
-#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:932
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:791
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:700
+#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:868
+#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:931
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:807
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:701
 msgctxt "TorrentStatus"
 msgid "Stopped"
 msgstr "已停止"
 
-#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:875
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:796
+#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:874
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:812
 msgctxt "TorrentStatus"
 msgid "Download Torrent File"
 msgstr "下載 Torrent 檔"
 
-#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:879
-#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:883
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:798
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:800
+#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:878
+#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:882
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:814
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:816
 msgctxt "TorrentStatus"
 msgid "Connecting..."
 msgstr "連線中..."
 
-#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:887
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:802
+#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:886
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:818
 msgctxt "TorrentStatus"
 msgid "Uploading..."
 msgstr "上載中..."
 
-#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:891
-#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:931
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:804
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:699
+#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:890
+#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:930
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:820
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:700
 msgctxt "TorrentStatus"
 msgid "Downloading..."
 msgstr "下載中..."
 
-#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:896
-#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:933
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:808
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:701
+#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:895
+#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:932
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:824
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:702
 msgctxt "TorrentStatus"
 msgid "Hash Checking..."
 msgstr "完整性檢查中…"
 
-#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:900
-#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:934
+#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:899
+#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:933
 #, fuzzy
 msgctxt "TorrentStatus"
 msgid "Moving..."
 msgstr "載入中..."
 
-#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:910
-#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:941
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:820
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:708
+#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:909
+#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:940
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:836
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:709
 msgctxt "TorrentStatus"
 msgid "Queued"
 msgstr "已輪候"
 
-#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:920
-#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:953
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:831
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:719
+#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:919
+#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:952
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:847
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:720
 msgctxt "TorrentStatus"
 msgid "[Finished]"
 msgstr "[已完成]"
 
-#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:993
+#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:992
 msgctxt "TaskList"
 msgid "[Play]"
 msgstr "[播放]"
 
-#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:996
+#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:995
 msgctxt "TaskList"
 msgid "[Preview]"
 msgstr "[預覽]"
 
-#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:999
+#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:998
 msgctxt "TaskList"
 msgid "[Open]"
 msgstr "[開啟]"
 
-#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:1227
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:950
+#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:1226
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:978
 msgctxt "Common"
 msgid "Yes"
 msgstr "是"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:398
+#: GUI_BitComet/View_DownloadsList_WX.cpp:397
 msgctxt "TaskList_Header"
 msgid "Name"
 msgstr "名稱"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:399
+#: GUI_BitComet/View_DownloadsList_WX.cpp:398
 msgctxt "TaskList_Header"
 msgid "Comments"
 msgstr "評論"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:400
+#: GUI_BitComet/View_DownloadsList_WX.cpp:399
 msgctxt "TaskList_Header"
 msgid "Snapshots"
 msgstr "畫面擷取"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:401
+#: GUI_BitComet/View_DownloadsList_WX.cpp:400
 msgctxt "TaskList_Header"
 msgid "Preview"
 msgstr "預覽"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:402
+#: GUI_BitComet/View_DownloadsList_WX.cpp:401
 msgctxt "TaskList_Header"
 msgid "Size"
 msgstr "大小"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:403
+#: GUI_BitComet/View_DownloadsList_WX.cpp:402
 msgctxt "TaskList_Header"
 msgid "Progress"
 msgstr "進度"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:404
+#: GUI_BitComet/View_DownloadsList_WX.cpp:403
 msgctxt "TaskList_Header"
-msgid "Down Size"
+msgid "Download Size"
 msgstr "下載大小"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:405
+#: GUI_BitComet/View_DownloadsList_WX.cpp:404
 msgctxt "TaskList_Header"
-msgid "Up Size"
+msgid "Upload Size"
 msgstr "上載大小"
+
+#: GUI_BitComet/View_DownloadsList_WX.cpp:405
+#, fuzzy
+msgctxt "TaskList_Header"
+msgid "Total Download Size"
+msgstr "總共大小:"
 
 #: GUI_BitComet/View_DownloadsList_WX.cpp:406
 #, fuzzy
 msgctxt "TaskList_Header"
-msgid "Total Down Size"
+msgid "Total Upload Size"
 msgstr "總共大小:"
 
 #: GUI_BitComet/View_DownloadsList_WX.cpp:407
-#, fuzzy
 msgctxt "TaskList_Header"
-msgid "Total Up Size"
-msgstr "總共大小:"
+msgid "Download Rate"
+msgstr "下載速率"
 
 #: GUI_BitComet/View_DownloadsList_WX.cpp:408
 msgctxt "TaskList_Header"
-msgid "Down Rate"
-msgstr "下載速率"
-
-#: GUI_BitComet/View_DownloadsList_WX.cpp:409
-msgctxt "TaskList_Header"
-msgid "Up Rate"
+msgid "Upload Rate"
 msgstr "上載速率"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:410
+#: GUI_BitComet/View_DownloadsList_WX.cpp:409
 msgctxt "TaskList_Header"
 msgid "LT Seeding"
 msgstr "長效種子"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:411
+#: GUI_BitComet/View_DownloadsList_WX.cpp:410
 msgctxt "TaskList_Header"
 msgid "Time Left"
 msgstr "剩餘時間"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:412
+#: GUI_BitComet/View_DownloadsList_WX.cpp:411
 msgctxt "TaskList_Header"
 msgid "Size Left"
 msgstr "剩餘大小"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:413
+#: GUI_BitComet/View_DownloadsList_WX.cpp:412
 msgctxt "TaskList_Header"
 msgid "Seeds/Peers[all]"
 msgstr "種子/對等用戶[全部]"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:414
+#: GUI_BitComet/View_DownloadsList_WX.cpp:413
 msgctxt "TaskList_Header"
 msgid "Share Ratio"
 msgstr "分享率"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:415
+#: GUI_BitComet/View_DownloadsList_WX.cpp:414
 msgctxt "TaskList_Header"
 msgid "Health"
 msgstr "健康度"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:416
+#: GUI_BitComet/View_DownloadsList_WX.cpp:415
 msgctxt "TaskList_Header"
 msgid "Status"
 msgstr "狀態"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:417
+#: GUI_BitComet/View_DownloadsList_WX.cpp:416
 msgctxt "TaskList_Header"
 msgid "Task Type"
 msgstr "工作類型"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:418
+#: GUI_BitComet/View_DownloadsList_WX.cpp:417
 msgctxt "TaskList_Header"
 msgid "Description"
 msgstr "描述"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:419
+#: GUI_BitComet/View_DownloadsList_WX.cpp:418
 msgctxt "TaskList_Header"
 msgid "Started On"
 msgstr "開始於"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:420
+#: GUI_BitComet/View_DownloadsList_WX.cpp:419
 msgctxt "TaskList_Header"
 msgid "Completed On"
 msgstr "已完成於"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:421
+#: GUI_BitComet/View_DownloadsList_WX.cpp:420
 #, fuzzy
 msgctxt "TaskList_Header"
 msgid "Torrent Created On"
 msgstr "Torrent 內容:"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:422
+#: GUI_BitComet/View_DownloadsList_WX.cpp:421
 msgctxt "TaskList_Header"
 msgid "Folder"
 msgstr ""
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:423
+#: GUI_BitComet/View_DownloadsList_WX.cpp:422
 msgctxt "TaskList_Header"
 msgid "Private Torrent"
 msgstr ""
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2099
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2114
 msgctxt "TaskList"
 msgid "${Comment} comments"
 msgstr ""
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2103
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1989
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1982
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1780
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2118
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:2016
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:2006
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1806
 msgctxt "TaskList"
 msgid "View Comments"
 msgstr ""
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2118
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2133
 msgctxt "TaskList"
 msgid "${Number} snapshots"
 msgstr ""
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2130
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1343
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:843
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2145
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1355
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:844
 msgctxt "CView_SummaryList"
 msgid "Play"
 msgstr "播放"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2134
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1347
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:847
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2149
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1359
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:848
 msgctxt "CView_SummaryList"
 msgid "Preview"
 msgstr "預覽"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2138
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1351
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:851
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2153
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1363
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:852
 msgctxt "CView_SummaryList"
 msgid "Open File"
 msgstr "開啟檔案"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2355
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2381
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2370
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2396
 msgctxt "TaskList_Menu"
 msgid "&Start"
 msgstr "開始(&S)"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2356
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2382
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2371
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2397
 msgctxt "TaskList_Menu"
 msgid "S&top"
 msgstr "停止(&T)"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2357
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2383
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2372
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2398
 msgctxt "TaskList_Menu"
 msgid "Pre&view"
 msgstr ""
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2358
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2373
 msgctxt "TaskList_Menu_BitTorrent"
 msgid "&Update Tracker"
 msgstr "更新 Tracker(&U)"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2359
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2374
 msgctxt "TaskList_Menu_BitTorrent"
 msgid "Preview Download Mode"
 msgstr "預覽下載模式"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2362
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2387
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2377
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2402
 msgctxt "TaskList_Menu"
 msgid "Open &File"
 msgstr "開啟檔案(&F)"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2363
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2388
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2378
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2403
 msgctxt "TaskList_Menu"
 msgid "&Open Directory"
 msgstr "開啟目錄(&O)"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2364
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2379
 msgctxt "TaskList_Menu_BitTorrent"
 msgid "Manual &Hash Check"
 msgstr "手動檢查完整性 (&H)"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2365
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2380
 msgctxt "TaskList_Menu_BitTorrent"
 msgid "Save Torrent as..."
 msgstr "另存 Torrent 檔為..."
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2367
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2394
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2382
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2409
 msgctxt "TaskList_Menu"
 msgid "&Delete"
 msgstr "刪除(&D)"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2370
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2397
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2385
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2412
 msgctxt "TaskList_Menu"
 msgid "Files Move To"
 msgstr "檔案移動往"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2371
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2398
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2386
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2413
 msgctxt "TaskList_Menu"
 msgid "Tags"
 msgstr "標籤"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2372
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2399
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2387
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2414
 msgctxt "TaskList_Menu"
 msgid "Rename"
 msgstr "重新命名"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2375
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2390
 msgctxt "TaskList_Menu"
 msgid "Copy Magnet URI  (Ctrl+C)"
 msgstr "複製 Magnet URI (Ctrl+C)"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2376
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2403
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2391
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2418
 msgctxt "TaskList_Menu"
 msgid "Pr&operties..."
 msgstr "內容(&O)"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2384
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2399
 msgctxt "TaskList_Menu_HTTP"
 msgid "Download &Again"
 msgstr "再次下載(&A)"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2391
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2406
 msgctxt "TaskList_Menu_HTTP"
 msgid "Manual &Hash Check"
 msgstr "手動檢查完整性 (&H)"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2402
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2417
 msgctxt "TaskList_Menu"
 msgid "Copy HTTP URL  (Ctrl+C)"
 msgstr "複製 HTTP URL (Ctrl+C)"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:3585
+#: GUI_BitComet/View_DownloadsList_WX.cpp:3633
 msgctxt "CView_DownloadsList"
 msgid "Remove downloaded file and Download again?"
 msgstr ""
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:3735
+#: GUI_BitComet/View_DownloadsList_WX.cpp:3783
 msgctxt "MainWindow"
 msgid "Please select a new save location"
 msgstr "請選取新的儲存位置"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:3801
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1771
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1572
+#: GUI_BitComet/View_DownloadsList_WX.cpp:3849
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1795
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1598
 msgctxt "Common"
 msgid "Select Save Folder:"
 msgstr ""
@@ -7146,102 +7321,102 @@ msgctxt "DetailView_FileList"
 msgid "Debug info"
 msgstr "除錯資訊"
 
-#: GUI_BitComet/View_FileList_Flat.cpp:306
+#: GUI_BitComet/View_FileList_Flat.cpp:307
 #: GUI_BitComet/View_FileList_Tree.cpp:165
 msgctxt "DetailView_FileList_Menu"
 msgid "Open &File..."
 msgstr "開啟檔案(&F)"
 
-#: GUI_BitComet/View_FileList_Flat.cpp:307
+#: GUI_BitComet/View_FileList_Flat.cpp:308
 #: GUI_BitComet/View_FileList_Tree.cpp:166
 msgctxt "DetailView_FileList_Menu"
 msgid "&Play File..."
 msgstr "播放檔案...(&P)"
 
-#: GUI_BitComet/View_FileList_Flat.cpp:308
+#: GUI_BitComet/View_FileList_Flat.cpp:309
 #: GUI_BitComet/View_FileList_Tree.cpp:167
 msgctxt "DetailView_FileList_Menu"
 msgid "&Open Directory.."
 msgstr "開啟目錄(&O)"
 
-#: GUI_BitComet/View_FileList_Flat.cpp:314
+#: GUI_BitComet/View_FileList_Flat.cpp:315
 #: GUI_BitComet/View_FileList_Tree.cpp:173
 msgctxt "DetailView_FileList"
 msgid "&Copy"
 msgstr "複製(&C)"
 
-#: GUI_BitComet/View_FileList_Flat.cpp:315
+#: GUI_BitComet/View_FileList_Flat.cpp:316
 #: GUI_BitComet/View_FileList_Tree.cpp:174
 msgctxt "DetailView_FileList"
 msgid "Copy &All"
 msgstr "全部複製(&A)"
 
-#: GUI_BitComet/View_FileList_Flat.cpp:321
-#: GUI_BitComet/View_FileList_Flat.cpp:844
+#: GUI_BitComet/View_FileList_Flat.cpp:322
+#: GUI_BitComet/View_FileList_Flat.cpp:845
 #: GUI_BitComet/View_FileList_Tree.cpp:180
 #: GUI_BitComet/View_FileList_Tree.cpp:349
 msgctxt "DetailView_FileList_Menu"
 msgid "Specify &ED2K Link"
 msgstr "指定 ED2K 連結(&E)"
 
-#: GUI_BitComet/View_FileList_Flat.cpp:322
-#: GUI_BitComet/View_FileList_Flat.cpp:845
+#: GUI_BitComet/View_FileList_Flat.cpp:323
+#: GUI_BitComet/View_FileList_Flat.cpp:846
 #: GUI_BitComet/View_FileList_Tree.cpp:181
 #: GUI_BitComet/View_FileList_Tree.cpp:350
 msgctxt "DetailView_FileList_Menu"
 msgid "&Search ED2K Link for this File"
 msgstr "搜尋此檔案的 ED2K 連結(&S)"
 
-#: GUI_BitComet/View_FileList_Flat.cpp:326
+#: GUI_BitComet/View_FileList_Flat.cpp:327
 #: GUI_BitComet/View_FileList_Tree.cpp:185
 msgctxt "DetailView_FileList_Menu"
 msgid "H&ighest"
 msgstr "最高(&I)"
 
-#: GUI_BitComet/View_FileList_Flat.cpp:327
+#: GUI_BitComet/View_FileList_Flat.cpp:328
 #: GUI_BitComet/View_FileList_Tree.cpp:186
 msgctxt "DetailView_FileList_Menu"
 msgid "&High"
 msgstr "高(&H)"
 
-#: GUI_BitComet/View_FileList_Flat.cpp:328
+#: GUI_BitComet/View_FileList_Flat.cpp:329
 #: GUI_BitComet/View_FileList_Tree.cpp:187
 msgctxt "DetailView_FileList_Menu"
 msgid "&Normal"
 msgstr "一般(&N)"
 
-#: GUI_BitComet/View_FileList_Flat.cpp:329
+#: GUI_BitComet/View_FileList_Flat.cpp:330
 #: GUI_BitComet/View_FileList_Tree.cpp:188
 msgctxt "DetailView_FileList_Menu"
 msgid "&Disabled"
 msgstr "已停用(&D)"
 
-#: GUI_BitComet/View_FileList_Flat.cpp:332
+#: GUI_BitComet/View_FileList_Flat.cpp:333
 #: GUI_BitComet/View_FileList_Tree.cpp:191
 msgctxt "DetailView_FileList_Menu"
 msgid "Customize..."
 msgstr "自訂..."
 
-#: GUI_BitComet/View_FileList_Flat.cpp:334
+#: GUI_BitComet/View_FileList_Flat.cpp:335
 #: GUI_BitComet/View_FileList_Tree.cpp:193
 msgctxt "DetailView_FileList_Menu"
 msgid "P&riority"
 msgstr "優先順序(&R)"
 
-#: GUI_BitComet/View_FileList_Flat.cpp:336
+#: GUI_BitComet/View_FileList_Flat.cpp:337
 #: GUI_BitComet/View_FileList_Tree.cpp:195
 msgctxt "DetailView_FileList_Menu"
 msgid "&Virus Protection"
 msgstr "病毒防護(&V)"
 
-#: GUI_BitComet/View_FileList_Flat.cpp:545
-#: GUI_BitComet/View_FileList_Tree.cpp:739
+#: GUI_BitComet/View_FileList_Flat.cpp:546
+#: GUI_BitComet/View_FileList_Tree.cpp:740
 msgctxt "DetailView_FileList"
 msgid "File size in ED2K link mismatch!"
 msgstr "檔案大小跟 ED2K 連結裡的並不相符!"
 
-#: GUI_BitComet/View_FileList_Flat.cpp:573
-#: GUI_BitComet/View_FileList_Tree.cpp:767
+#: GUI_BitComet/View_FileList_Flat.cpp:574
+#: GUI_BitComet/View_FileList_Tree.cpp:768
 msgctxt "DetailView_FileList"
 msgid "Invalid ED2K link!"
 msgstr "無效的ED2K連結!"
@@ -7466,7 +7641,7 @@ msgstr ""
 
 #: GUI_BitComet/View_LogList_Helper.cpp:94
 msgctxt "LogMessage_MD_Task"
-msgid "File hash check failed, starting to re-download the file"
+msgid "File hash check failed, starting to re-download the file."
 msgstr "檔案雜湊 (Hash) 檢查失敗，開始重新下載檔案中"
 
 #: GUI_BitComet/View_LogList_Helper.cpp:95
@@ -7819,52 +7994,58 @@ msgctxt "DetailView_Log_Menu"
 msgid "Clea&r"
 msgstr "清除(&R)"
 
-#: GUI_BitComet/View_MainLeftTree_WX.cpp:36
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:55
 msgctxt "Favourite_Menu"
 msgid "&Open"
 msgstr "開啟(&O)"
 
-#: GUI_BitComet/View_MainLeftTree_WX.cpp:37
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:56
 msgctxt "Favourite_Menu"
 msgid "Open in &New Window"
 msgstr "在新視窗開啟(&N)"
 
-#: GUI_BitComet/View_MainLeftTree_WX.cpp:44
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:63
 msgctxt "Favourite_TorrentShare_Menu"
 msgid "Enable Torrent Exchange"
 msgstr ""
 
-#: GUI_BitComet/View_MainLeftTree_WX.cpp:48
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:67
 msgctxt "Favourite_TorrentShare_Menu"
 msgid "Max 1000"
 msgstr "最大 1000"
 
-#: GUI_BitComet/View_MainLeftTree_WX.cpp:49
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:68
 msgctxt "Favourite_TorrentShare_Menu"
 msgid "Max 5000"
 msgstr "最大 5000"
 
-#: GUI_BitComet/View_MainLeftTree_WX.cpp:50
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:69
 msgctxt "Favourite_TorrentShare_Menu"
 msgid "Max 10000"
 msgstr "最大 10000"
 
-#: GUI_BitComet/View_MainLeftTree_WX.cpp:51
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:70
 msgctxt "Favourite_TorrentShare_Menu"
 msgid "Max 50000"
 msgstr "最大 50000"
 
-#: GUI_BitComet/View_MainLeftTree_WX.cpp:52
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:71
 msgctxt "Favourite_TorrentShare_Menu"
 msgid "&Unlimited"
 msgstr "無限(&U)"
 
-#: GUI_BitComet/View_MainLeftTree_WX.cpp:70
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:89
 msgctxt "Favourite_TorrentHistroy_Menu"
 msgid "Add to Torrent History when opening .torrent file"
 msgstr "當開啟 .torrent 檔案時加到 Torrent 歷程記錄"
 
-#: GUI_BitComet/View_MainLeftTree_WX.cpp:504
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:108
+#: GUI_BitComet/wxListHeaderInfo.cpp:529
+msgctxt "MainWindow"
+msgid "Reset to Default Layout"
+msgstr "重設到預設佈局"
+
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:681
 msgctxt "Favourite"
 msgid "Torrent Exchange"
 msgstr ""
@@ -7884,163 +8065,168 @@ msgctxt "CView_Passport"
 msgid "Connecting to Server..."
 msgstr "正在連接伺服器..."
 
-#: GUI_BitComet/View_PeerList_WX.cpp:309
+#: GUI_BitComet/View_PeerList_WX.cpp:310
 msgctxt "DetailView_PeerList"
 msgid "Progress"
 msgstr "進度"
 
-#: GUI_BitComet/View_PeerList_WX.cpp:310
+#: GUI_BitComet/View_PeerList_WX.cpp:311
 msgctxt "DetailView_PeerList"
 msgid "Peer Status"
 msgstr "對等用戶狀態"
 
-#: GUI_BitComet/View_PeerList_WX.cpp:311
-msgctxt "DetailView_PeerList"
-msgid "Down Rate"
-msgstr "下載速率"
-
 #: GUI_BitComet/View_PeerList_WX.cpp:312
 msgctxt "DetailView_PeerList"
-msgid "Up Rate"
-msgstr "上載速率"
+msgid "Download Rate"
+msgstr "下載速率"
 
 #: GUI_BitComet/View_PeerList_WX.cpp:313
 msgctxt "DetailView_PeerList"
-msgid "Down Size"
-msgstr "下載大小"
+msgid "Upload Rate"
+msgstr "上載速率"
 
 #: GUI_BitComet/View_PeerList_WX.cpp:314
 msgctxt "DetailView_PeerList"
-msgid "Up Size"
-msgstr "上載大小"
+msgid "Download Size"
+msgstr "下載大小"
 
 #: GUI_BitComet/View_PeerList_WX.cpp:315
+msgctxt "DetailView_PeerList"
+msgid "Upload Size"
+msgstr "上載大小"
+
+#: GUI_BitComet/View_PeerList_WX.cpp:316
 msgctxt "DetailView_PeerList"
 msgid "Initiation"
 msgstr "來源地"
 
-#: GUI_BitComet/View_PeerList_WX.cpp:316
+#: GUI_BitComet/View_PeerList_WX.cpp:317
 msgctxt "DetailView_PeerList"
-msgid "Peer Down Rate"
+msgid "Peer Download Rate"
 msgstr "對等用戶下載速率"
 
-#: GUI_BitComet/View_PeerList_WX.cpp:317
+#: GUI_BitComet/View_PeerList_WX.cpp:318
 msgctxt "DetailView_PeerList"
 msgid "Connect Time"
 msgstr "連接時間"
 
-#: GUI_BitComet/View_PeerList_WX.cpp:318
+#: GUI_BitComet/View_PeerList_WX.cpp:319
 msgctxt "DetailView_PeerList"
 msgid "Client Type"
 msgstr "客戶端類型"
 
-#: GUI_BitComet/View_PeerList_WX.cpp:319
+#: GUI_BitComet/View_PeerList_WX.cpp:320
 msgctxt "DetailView_PeerList"
 msgid "Peer ID"
 msgstr "對等用戶 ID"
 
-#: GUI_BitComet/View_PeerList_WX.cpp:320
+#: GUI_BitComet/View_PeerList_WX.cpp:321
 msgctxt "DetailView_PeerList"
 msgid "Status"
 msgstr "狀態"
 
-#: GUI_BitComet/View_PeerList_WX.cpp:321
+#: GUI_BitComet/View_PeerList_WX.cpp:322
 msgctxt "DetailView_PeerList"
 msgid "Piece Error"
 msgstr "分塊錯誤"
 
-#: GUI_BitComet/View_PeerList_WX.cpp:1059
-#: GUI_BitComet/View_PeerList_WX.cpp:1101
+#: GUI_BitComet/View_PeerList_WX.cpp:1083
+#: GUI_BitComet/View_PeerList_WX.cpp:1125
 msgctxt "DetailView_PeerList"
 msgid "Web Seed"
 msgstr "網路種子"
 
-#: GUI_BitComet/View_PeerList_WX.cpp:1061
+#: GUI_BitComet/View_PeerList_WX.cpp:1085
 msgctxt "DetailView_PeerList"
 msgid "LT Seed"
 msgstr "長效種子"
 
-#: GUI_BitComet/View_PeerList_WX.cpp:1626
+#: GUI_BitComet/View_PeerList_WX.cpp:1650
 msgctxt "DetailView_PeerList"
 msgid "Frozen by ScrLock"
 msgstr "ScrLock 凍結"
 
-#: GUI_BitComet/View_PeerList_WX.cpp:1678
+#: GUI_BitComet/View_PeerList_WX.cpp:1692
 msgctxt "DetailView_PeerList"
 msgid "Myself"
 msgstr "本人"
 
-#: GUI_BitComet/View_PeerList_WX.cpp:2235
+#: GUI_BitComet/View_PeerList_WX.cpp:2221
 msgctxt "DetailView_PeerList"
 msgid "Registered User"
 msgstr "已註冊使用者"
 
-#: GUI_BitComet/View_PeerList_WX.cpp:2314
+#: GUI_BitComet/View_PeerList_WX.cpp:2293
 msgctxt "DetailView_PeerList"
 msgid "Remote"
 msgstr "遠端"
 
-#: GUI_BitComet/View_PeerList_WX.cpp:2314
+#: GUI_BitComet/View_PeerList_WX.cpp:2293
 msgctxt "DetailView_PeerList"
 msgid "Local"
 msgstr "本地"
 
-#: GUI_BitComet/View_PeerList_WX.cpp:2656
+#: GUI_BitComet/View_PeerList_WX.cpp:2631
 msgctxt "DetailView_PeerList_Menu"
 msgid "Ban IP for 5 Minutes"
 msgstr "封鎖 IP 五分鐘"
 
-#: GUI_BitComet/View_PeerList_WX.cpp:2657
+#: GUI_BitComet/View_PeerList_WX.cpp:2632
 msgctxt "DetailView_PeerList_Menu"
 msgid "Ban IP for 1 Hour"
 msgstr "封鎖 IP 一小時"
 
-#: GUI_BitComet/View_PeerList_WX.cpp:2658
+#: GUI_BitComet/View_PeerList_WX.cpp:2633
 msgctxt "DetailView_PeerList_Menu"
 msgid "Ban IP for 24 hours"
 msgstr "封鎖 IP 二十四小時"
 
-#: GUI_BitComet/View_PeerList_WX.cpp:2663
+#: GUI_BitComet/View_PeerList_WX.cpp:2634
+msgctxt "DetailView_PeerList_Menu"
+msgid "Unban Peer"
+msgstr ""
+
+#: GUI_BitComet/View_PeerList_WX.cpp:2639
 msgctxt "DetailView_PeerList_Menu"
 msgid "Friend Upload Slot"
 msgstr ""
 
-#: GUI_BitComet/View_PeerList_WX.cpp:2665
+#: GUI_BitComet/View_PeerList_WX.cpp:2641
 msgctxt "DetailView_PeerList_Menu"
 msgid "Remove Peer"
 msgstr "移除對等用戶"
 
-#: GUI_BitComet/View_PeerList_WX.cpp:2666
+#: GUI_BitComet/View_PeerList_WX.cpp:2642
 msgctxt "DetailView_PeerList_Menu"
 msgid "Add Peer..."
 msgstr "加入對等用戶..."
 
-#: GUI_BitComet/View_PeerList_WX.cpp:2670
+#: GUI_BitComet/View_PeerList_WX.cpp:2646
 #, fuzzy
 msgctxt "DetailView_PeerList_Menu"
 msgid "Copy"
 msgstr "複製(&C)"
 
-#: GUI_BitComet/View_PeerList_WX.cpp:2812
+#: GUI_BitComet/View_PeerList_WX.cpp:2832
 msgctxt "DetailView_PeerList"
 msgid "Enter the IP:port of the peer to add:"
 msgstr "輸入要加入的對等用戶的 IP:port:"
 
-#: GUI_BitComet/View_PeerList_WX.cpp:2813
-#: GUI_BitComet/View_PeerList_WX.cpp:2830
-#: GUI_BitComet/View_PeerList_WX.cpp:2835
-#: GUI_BitComet/View_PeerList_WX.cpp:2840
+#: GUI_BitComet/View_PeerList_WX.cpp:2833
+#: GUI_BitComet/View_PeerList_WX.cpp:2850
+#: GUI_BitComet/View_PeerList_WX.cpp:2855
+#: GUI_BitComet/View_PeerList_WX.cpp:2860
 msgctxt "DetailView_PeerList"
 msgid "Add Peer..."
 msgstr "加入對等用戶..."
 
-#: GUI_BitComet/View_PeerList_WX.cpp:2830
-#: GUI_BitComet/View_PeerList_WX.cpp:2835
+#: GUI_BitComet/View_PeerList_WX.cpp:2850
+#: GUI_BitComet/View_PeerList_WX.cpp:2855
 msgctxt "DetailView_PeerList"
 msgid "Illegal IP address."
 msgstr "非法 IP 位址"
 
-#: GUI_BitComet/View_PeerList_WX.cpp:2840
+#: GUI_BitComet/View_PeerList_WX.cpp:2860
 msgctxt "DetailView_PeerList"
 msgid "Illegal Port number."
 msgstr "非法埠號。"
@@ -8065,37 +8251,37 @@ msgctxt "PieceView"
 msgid "Disabled"
 msgstr "已停用"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:155
+#: GUI_BitComet/View_StatisticList_WX.cpp:162
 msgctxt "StatusList_Statistic_i"
 msgid "Item"
 msgstr "項目"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:156
+#: GUI_BitComet/View_StatisticList_WX.cpp:163
 msgctxt "StatusList_Statistic_v"
 msgid "Value"
 msgstr "值"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:208
+#: GUI_BitComet/View_StatisticList_WX.cpp:236
 msgctxt "StatusList_StatisticItem"
 msgid "Up Time:"
 msgstr ""
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:210
+#: GUI_BitComet/View_StatisticList_WX.cpp:237
 msgctxt "StatusList_StatisticItem"
 msgid "Overall Tasks:"
 msgstr "整體工作:"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:211
+#: GUI_BitComet/View_StatisticList_WX.cpp:237
 msgctxt "StatusList_StatisticValue"
 msgid "Total: ${G_TASK_NUM} / Running: ${G_RUNNING_TASK_NUM}"
 msgstr ""
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:214
+#: GUI_BitComet/View_StatisticList_WX.cpp:239
 msgctxt "StatusList_StatisticItem"
 msgid "TCP Connections:"
 msgstr "TCP 連接:"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:215
+#: GUI_BitComet/View_StatisticList_WX.cpp:239
 msgctxt "StatusList_StatisticValue"
 msgid ""
 "Established: ${G_TCP_CONNECTED_NUM} [MAX:${G_TCP_CONNECTED_MAX}] / Half-"
@@ -8104,99 +8290,111 @@ msgstr ""
 "建立： ${G_TCP_CONNECTED_NUM} [最大:${G_TCP_CONNECTED_MAX}] / 半啟： "
 "${G_TCP_CONNECTING_NUM} [最大：${G_TCP_CONNECTING_MAX}]"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:216
+#: GUI_BitComet/View_StatisticList_WX.cpp:240
 msgctxt "StatusList_StatisticItem"
 msgid "LAN IP:"
 msgstr ""
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:218
+#: GUI_BitComet/View_StatisticList_WX.cpp:241
 msgctxt "StatusList_StatisticItem"
 msgid "WAN IP:"
 msgstr ""
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:220
+#: GUI_BitComet/View_StatisticList_WX.cpp:242
 msgctxt "StatusList_StatisticItem"
 msgid "Listen Port of TCP:"
 msgstr "TCP監測埠"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:222
+#: GUI_BitComet/View_StatisticList_WX.cpp:248
 msgctxt "StatusList_StatisticItem"
 msgid "Listen Port of UDP:"
 msgstr "UDP監測埠："
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:224
+#: GUI_BitComet/View_StatisticList_WX.cpp:256
 msgctxt "StatusList_StatisticItem"
 msgid "Windows Firewall:"
 msgstr "Windows 防火牆:"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:226
+#: GUI_BitComet/View_StatisticList_WX.cpp:258
 msgctxt "StatusList_StatisticItem"
 msgid "UPnP NAT port mapping:"
 msgstr "UPNP NAT 埠映射:"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:232
+#: GUI_BitComet/View_StatisticList_WX.cpp:262
 msgctxt "StatusList_StatisticItem"
 msgid "Overall Download Rate:"
 msgstr "整體下載率:"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:233
+#: GUI_BitComet/View_StatisticList_WX.cpp:262
+#, fuzzy
+#| msgctxt "StatusList_StatisticValue"
+#| msgid "${G_DOWNLOAD_RATE_KB} kB/s [MAX:${G_DOWNLOAD_RATE_MAX_KB}]"
 msgctxt "StatusList_StatisticValue"
-msgid "${G_DOWNLOAD_RATE_KB} kB/s [MAX:${G_DOWNLOAD_RATE_MAX_KB}]"
+msgid "${G_DOWNLOAD_RATE} [MAX:${G_DOWNLOAD_RATE_MAX_KB}]"
 msgstr "${G_DOWNLOAD_RATE_KB} kB/s [最大:${G_DOWNLOAD_RATE_MAX_KB}]"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:234
+#: GUI_BitComet/View_StatisticList_WX.cpp:263
 msgctxt "StatusList_StatisticValue"
 msgid "Max Connection Limits: ${G_CONN_PERTORRENT_MAX} per task"
 msgstr "最大連接限制: 每工作 ${G_CONN_PERTORRENT_MAX}"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:235
+#: GUI_BitComet/View_StatisticList_WX.cpp:264
 msgctxt "StatusList_StatisticItem"
 msgid "Overall Upload Rate:"
 msgstr "整體上載率:"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:236
+#: GUI_BitComet/View_StatisticList_WX.cpp:264
+#, fuzzy
+#| msgctxt "StatusList_StatisticValue"
+#| msgid "${G_UPLOAD_RATE_KB} kB/s [MAX:${G_UPLOAD_RATE_MAX_KB}]"
 msgctxt "StatusList_StatisticValue"
-msgid "${G_UPLOAD_RATE_KB} kB/s [MAX:${G_UPLOAD_RATE_MAX_KB}]"
+msgid "${G_UPLOAD_RATE} [MAX:${G_UPLOAD_RATE_MAX_KB}]"
 msgstr "${G_UPLOAD_RATE_KB} kB/s [最大:${G_UPLOAD_RATE_MAX_KB}]"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:237
+#: GUI_BitComet/View_StatisticList_WX.cpp:265
+#, fuzzy
+#| msgctxt "StatusList_StatisticValue"
+#| msgid "LT Seeding: ${G_UPLOAD_RATE_PERSISTENT_SEEDING_KB} kB/s"
 msgctxt "StatusList_StatisticValue"
-msgid "LT Seeding: ${G_UPLOAD_RATE_PERSISTENT_SEEDING_KB} kB/s"
+msgid "LT Seeding: ${G_UPLOAD_RATE_LT_SEEDING}"
 msgstr "長效種子作種: ${G_UPLOAD_RATE_PERSISTENT_SEEDING_KB} kB/s"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:238
+#: GUI_BitComet/View_StatisticList_WX.cpp:266
+#, fuzzy
+#| msgctxt "StatusList_StatisticValue"
+#| msgid "[MAX:${G_UPLOAD_RATE_PERSISTENT_SEEDING_MAX_KB}]"
 msgctxt "StatusList_StatisticValue"
-msgid "[MAX:${G_UPLOAD_RATE_PERSISTENT_SEEDING_MAX_KB}]"
+msgid "[MAX:${G_UPLOAD_RATE_LT_SEEDING_MAX}]"
 msgstr "[最大:${G_UPLOAD_RATE_PERSISTENT_SEEDING_MAX_KB}]"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:239
+#: GUI_BitComet/View_StatisticList_WX.cpp:267
 msgctxt "StatusList_StatisticValue"
 msgid "All BT Upload Slots: ${G_UPLOAD_SLOTS_STATS}"
 msgstr ""
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:240
+#: GUI_BitComet/View_StatisticList_WX.cpp:268
 #, fuzzy
 msgctxt "StatusList_StatisticItem"
 msgid "DHT Network Nodes:"
 msgstr "啟用 DHT 網路"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:246
+#: GUI_BitComet/View_StatisticList_WX.cpp:272
 msgctxt "StatusList_StatisticItem"
 msgid "Memory Usage:"
 msgstr ""
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:247
+#: GUI_BitComet/View_StatisticList_WX.cpp:272
 msgctxt "StatusList_StatisticValue"
 msgid ""
 "Working Set: ${G_USED_PHYS_MEM_AUTO}, Commit Size: ${G_COMMIT_SIZE_AUTO}"
 msgstr ""
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:248
+#: GUI_BitComet/View_StatisticList_WX.cpp:273
 msgctxt "StatusList_StatisticItem"
 msgid "Free Memory:"
 msgstr ""
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:249
+#: GUI_BitComet/View_StatisticList_WX.cpp:273
 msgctxt "StatusList_StatisticValue"
 msgid ""
 "Physical: ${G_AVAIL_PHYS_MEM_AUTO}/${G_TOTAL_PHYS_MEM_AUTO} (Min to keep: "
@@ -8205,447 +8403,570 @@ msgid ""
 "${G_TOTAL_PROCESS_MEM_AUTO}"
 msgstr ""
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:250
+#: GUI_BitComet/View_StatisticList_WX.cpp:275
 msgctxt "StatusList_StatisticItem"
 msgid "Disk Cache Size:"
 msgstr "磁碟快取大小:"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:251
+#: GUI_BitComet/View_StatisticList_WX.cpp:275
 msgctxt "StatusList_StatisticValue"
-msgid ""
-"${G_CACHE_SIZE_AUTO} (Min: ${O_CACHE_MIN_SIZE_MB} MB, Max: "
-"${O_CACHE_MAX_SIZE_MB} MB)"
+msgid "Total Size: ${G_TOTAL_CACHE_SIZE_AUTO}"
+msgstr ""
+
+#: GUI_BitComet/View_StatisticList_WX.cpp:278
+#, fuzzy
+#| msgctxt "StatusList_StatisticValue"
+#| msgid ""
+#| "${G_CACHE_SIZE_AUTO} (Min: ${O_CACHE_MIN_SIZE_MB} MB, Max: "
+#| "${O_CACHE_MAX_SIZE_MB} MB)"
+msgctxt "StatusList_StatisticValue"
+msgid "${G_BT_CACHE_SIZE_AUTO} (Max: ${O_BT_CACHE_MAX_SIZE_MB} MB)"
 msgstr ""
 "${G_CACHE_SIZE_AUTO} (最小: ${O_CACHE_MIN_SIZE_MB} MB， 最大: "
 "${O_CACHE_MAX_SIZE_MB} MB)"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:252
+#: GUI_BitComet/View_StatisticList_WX.cpp:280
+#, fuzzy
+#| msgctxt "StatusList_StatisticValue"
+#| msgid ""
+#| "${G_CACHE_SIZE_AUTO} (Min: ${O_CACHE_MIN_SIZE_MB} MB, Max: "
+#| "${O_CACHE_MAX_SIZE_MB} MB)"
+msgctxt "StatusList_StatisticValue"
+msgid "${G_LTSEED_CACHE_SIZE_AUTO} (Max: ${O_LTSEED_CACHE_MAX_SIZE_MB} MB)"
+msgstr ""
+"${G_CACHE_SIZE_AUTO} (最小: ${O_CACHE_MIN_SIZE_MB} MB， 最大: "
+"${O_CACHE_MAX_SIZE_MB} MB)"
+
+#: GUI_BitComet/View_StatisticList_WX.cpp:283
 msgctxt "StatusList_StatisticItem"
 msgid "Disk Read Statistics:"
 msgstr "磁碟讀取統計:"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:253
+#: GUI_BitComet/View_StatisticList_WX.cpp:283
+#, fuzzy
+#| msgctxt "StatusList_StatisticValue"
+#| msgid ""
+#| "Request: ${G_CACHE_REQ_READ_COUNT} (freq: ${G_CACHE_REQ_READ_RATE}/s), "
+#| "Actual Disk Read: ${G_CACHE_DICK_READ_COUNT} (freq: "
+#| "${G_CACHE_DICK_READ_RATE}/s), Hit Ratio: ${G_CACHE_READ_HIT}"
 msgctxt "StatusList_StatisticValue"
 msgid ""
-"Request: ${G_CACHE_REQ_READ_COUNT} (freq: ${G_CACHE_REQ_READ_RATE}/s), "
-"Actual Disk Read: ${G_CACHE_DICK_READ_COUNT} (freq: "
-"${G_CACHE_DICK_READ_RATE}/s), Hit Ratio: ${G_CACHE_READ_HIT}"
+"Request: ${G_TOTAL_CACHE_REQ_READ_COUNT} (freq: "
+"${G_TOTAL_CACHE_REQ_READ_RATE}/s), Actual Disk Read: "
+"${G_TOTAL_CACHE_DISK_READ_COUNT} (freq: ${G_TOTAL_CACHE_DISK_READ_RATE}/s), "
+"Hit Ratio: ${G_TOTAL_CACHE_READ_HIT}"
 msgstr ""
 "要求: ${G_CACHE_REQ_READ_COUNT} (頻率: ${G_CACHE_REQ_READ_RATE}/s)，實際磁碟"
 "讀取: ${G_CACHE_DICK_READ_COUNT} (頻率： ${G_CACHE_DICK_READ_RATE}/s)，命中"
 "率: ${G_CACHE_READ_HIT}"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:254
+#: GUI_BitComet/View_StatisticList_WX.cpp:286
+#, fuzzy
+#| msgctxt "StatusList_StatisticValue"
+#| msgid ""
+#| "Request: ${G_CACHE_REQ_READ_COUNT} (freq: ${G_CACHE_REQ_READ_RATE}/s), "
+#| "Actual Disk Read: ${G_CACHE_DICK_READ_COUNT} (freq: "
+#| "${G_CACHE_DICK_READ_RATE}/s), Hit Ratio: ${G_CACHE_READ_HIT}"
+msgctxt "StatusList_StatisticValue"
+msgid ""
+"Request: ${G_BT_CACHE_REQ_READ_COUNT} (freq: ${G_BT_CACHE_REQ_READ_RATE}/s), "
+"Actual Disk Read: ${G_BT_CACHE_DISK_READ_COUNT} (freq: "
+"${G_BT_CACHE_DISK_READ_RATE}/s), Hit Ratio: ${G_BT_CACHE_READ_HIT}"
+msgstr ""
+"要求: ${G_CACHE_REQ_READ_COUNT} (頻率: ${G_CACHE_REQ_READ_RATE}/s)，實際磁碟"
+"讀取: ${G_CACHE_DICK_READ_COUNT} (頻率： ${G_CACHE_DICK_READ_RATE}/s)，命中"
+"率: ${G_CACHE_READ_HIT}"
+
+#: GUI_BitComet/View_StatisticList_WX.cpp:287
+#, fuzzy
+#| msgctxt "StatusList_StatisticValue"
+#| msgid ""
+#| "Request: ${G_CACHE_REQ_READ_COUNT} (freq: ${G_CACHE_REQ_READ_RATE}/s), "
+#| "Actual Disk Read: ${G_CACHE_DICK_READ_COUNT} (freq: "
+#| "${G_CACHE_DICK_READ_RATE}/s), Hit Ratio: ${G_CACHE_READ_HIT}"
+msgctxt "StatusList_StatisticValue"
+msgid ""
+"Request: ${G_LTSEED_CACHE_REQ_READ_COUNT} (freq: "
+"${G_LTSEED_CACHE_REQ_READ_RATE}/s), Actual Disk Read: "
+"${G_LTSEED_CACHE_DISK_READ_COUNT} (freq: ${G_LTSEED_CACHE_DISK_READ_RATE}/"
+"s), Hit Ratio: ${G_LTSEED_CACHE_READ_HIT}"
+msgstr ""
+"要求: ${G_CACHE_REQ_READ_COUNT} (頻率: ${G_CACHE_REQ_READ_RATE}/s)，實際磁碟"
+"讀取: ${G_CACHE_DICK_READ_COUNT} (頻率： ${G_CACHE_DICK_READ_RATE}/s)，命中"
+"率: ${G_CACHE_READ_HIT}"
+
+#: GUI_BitComet/View_StatisticList_WX.cpp:290
 msgctxt "StatusList_StatisticItem"
 msgid "Disk Write Statistics:"
 msgstr "磁碟寫入統計:"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:255
+#: GUI_BitComet/View_StatisticList_WX.cpp:290
+#, fuzzy
+#| msgctxt "StatusList_StatisticValue"
+#| msgid ""
+#| "Request: ${G_CACHE_REQ_WRITE_COUNT} (freq: ${G_CACHE_REQ_WRITE_RATE}/s), "
+#| "Actual Disk Write: ${G_CACHE_DICK_WRITE_COUNT} (freq: "
+#| "${G_CACHE_DICK_WRITE_RATE}/s), Hit Ratio: ${G_CACHE_WRITE_HIT}"
 msgctxt "StatusList_StatisticValue"
 msgid ""
-"Request: ${G_CACHE_REQ_WRITE_COUNT} (freq: ${G_CACHE_REQ_WRITE_RATE}/s), "
-"Actual Disk Write: ${G_CACHE_DICK_WRITE_COUNT} (freq: "
-"${G_CACHE_DICK_WRITE_RATE}/s), Hit Ratio: ${G_CACHE_WRITE_HIT}"
+"Request: ${G_TOTAL_CACHE_REQ_WRITE_COUNT} (freq: "
+"${G_TOTAL_CACHE_REQ_WRITE_RATE}/s), Actual Disk Write: "
+"${G_TOTAL_CACHE_DISK_WRITE_COUNT} (freq: ${G_TOTAL_CACHE_DISK_WRITE_RATE}/"
+"s), Hit Ratio: ${G_TOTAL_CACHE_WRITE_HIT}"
 msgstr ""
 "要求: ${G_CACHE_REQ_WRITE_COUNT} (頻率: ${G_CACHE_REQ_WRITE_RATE}/s)，實際磁"
 "碟寫入: ${G_CACHE_DICK_WRITE_COUNT} (頻率: ${G_CACHE_DICK_WRITE_RATE}/s)，命"
 "中率: ${G_CACHE_WRITE_HIT}"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:260
+#: GUI_BitComet/View_StatisticList_WX.cpp:293
+#, fuzzy
+#| msgctxt "StatusList_StatisticValue"
+#| msgid ""
+#| "Request: ${G_CACHE_REQ_WRITE_COUNT} (freq: ${G_CACHE_REQ_WRITE_RATE}/s), "
+#| "Actual Disk Write: ${G_CACHE_DICK_WRITE_COUNT} (freq: "
+#| "${G_CACHE_DICK_WRITE_RATE}/s), Hit Ratio: ${G_CACHE_WRITE_HIT}"
+msgctxt "StatusList_StatisticValue"
+msgid ""
+"Request: ${G_BT_CACHE_REQ_WRITE_COUNT} (freq: ${G_BT_CACHE_REQ_WRITE_RATE}/"
+"s), Actual Disk Write: ${G_BT_CACHE_DISK_WRITE_COUNT} (freq: "
+"${G_BT_CACHE_DISK_WRITE_RATE}/s), Hit Ratio: ${G_BT_CACHE_WRITE_HIT}"
+msgstr ""
+"要求: ${G_CACHE_REQ_WRITE_COUNT} (頻率: ${G_CACHE_REQ_WRITE_RATE}/s)，實際磁"
+"碟寫入: ${G_CACHE_DICK_WRITE_COUNT} (頻率: ${G_CACHE_DICK_WRITE_RATE}/s)，命"
+"中率: ${G_CACHE_WRITE_HIT}"
+
+#: GUI_BitComet/View_StatisticList_WX.cpp:294
+#, fuzzy
+#| msgctxt "StatusList_StatisticValue"
+#| msgid ""
+#| "Request: ${G_CACHE_REQ_WRITE_COUNT} (freq: ${G_CACHE_REQ_WRITE_RATE}/s), "
+#| "Actual Disk Write: ${G_CACHE_DICK_WRITE_COUNT} (freq: "
+#| "${G_CACHE_DICK_WRITE_RATE}/s), Hit Ratio: ${G_CACHE_WRITE_HIT}"
+msgctxt "StatusList_StatisticValue"
+msgid ""
+"Request: ${G_HTTP_CACHE_REQ_WRITE_COUNT} (freq: "
+"${G_HTTP_CACHE_REQ_WRITE_RATE}/s), Actual Disk Write: "
+"${G_HTTP_CACHE_DISK_WRITE_COUNT} (freq: ${G_HTTP_CACHE_DISK_WRITE_RATE}/s), "
+"Hit Ratio: ${G_HTTP_CACHE_WRITE_HIT}"
+msgstr ""
+"要求: ${G_CACHE_REQ_WRITE_COUNT} (頻率: ${G_CACHE_REQ_WRITE_RATE}/s)，實際磁"
+"碟寫入: ${G_CACHE_DICK_WRITE_COUNT} (頻率: ${G_CACHE_DICK_WRITE_RATE}/s)，命"
+"中率: ${G_CACHE_WRITE_HIT}"
+
+#: GUI_BitComet/View_StatisticList_WX.cpp:301
 msgctxt "StatusList_StatisticItem"
 msgid "Disk Boost Service:"
 msgstr ""
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:268
+#: GUI_BitComet/View_StatisticList_WX.cpp:307
 msgctxt "StatusList_StatisticItem"
 msgid "Total Downloaded:"
 msgstr "總共已下載:"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:269
+#: GUI_BitComet/View_StatisticList_WX.cpp:307
 msgctxt "StatusList_StatisticValue"
 msgid "${G_TOTAL_DOWNLOAD_AUTO} (this session: ${G_SESSION_DOWNLOAD_AUTO})"
 msgstr ""
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:270
+#: GUI_BitComet/View_StatisticList_WX.cpp:308
 msgctxt "StatusList_StatisticItem"
 msgid "Total Uploaded:"
 msgstr "總共已上載:"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:271
+#: GUI_BitComet/View_StatisticList_WX.cpp:308
 msgctxt "StatusList_StatisticValue"
 msgid "${G_TOTAL_UPLOAD_AUTO} (this session: ${G_SESSION_UPLOAD_AUTO})"
 msgstr ""
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:522
+#: GUI_BitComet/View_StatisticList_WX.cpp:592
 msgctxt "DetailView_Statistic_Menu"
 msgid "&Copy"
 msgstr "複製(&C)"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:523
+#: GUI_BitComet/View_StatisticList_WX.cpp:593
 msgctxt "DetailView_Statistic_Menu"
 msgid "Copy &All"
 msgstr "全部複製(&A)"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:239
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:388
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1477
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1487
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:207
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:314
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:942
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:949
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:242
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:391
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1489
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1499
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:208
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:315
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:943
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:950
 msgctxt "CView_SummaryList"
 msgid "Download Speed:"
 msgstr "下載速度:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:270
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:238
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:273
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:239
 msgctxt "CView_SummaryList"
 msgid "Limit:"
 msgstr "阻制:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:286
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1478
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:251
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:943
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:289
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1490
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:252
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:944
 msgctxt "CView_SummaryList"
 msgid "Downloaded:"
 msgstr "已下載:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:295
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1479
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:298
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1491
 msgctxt "CView_SummaryList"
 msgid "Availability:"
 msgstr "可用度:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:317
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1480
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:271
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:944
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:320
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1492
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:272
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:945
 msgctxt "CView_SummaryList"
 msgid "Transfer"
 msgstr "轉移"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:324
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1481
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:278
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:945
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:327
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1493
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:279
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:946
 msgctxt "CView_SummaryList"
 msgid "Time Elapsed:"
 msgstr ""
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:334
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:766
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1482
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:286
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:946
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:337
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:782
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1494
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:287
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:947
 msgctxt "CView_SummaryList"
 msgid "Remaining:"
 msgstr "剩餘:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:344
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1483
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:340
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:952
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:347
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1495
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:341
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:953
 msgctxt "CView_SummaryList"
 msgid "Status:"
 msgstr "狀態:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:356
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1484
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:296
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:947
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:359
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1496
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:297
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:948
 msgctxt "CView_SummaryList"
 msgid "Download Size:"
 msgstr "下載大小:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:366
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1485
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:369
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1497
 msgctxt "CView_SummaryList"
 msgid "Upload Size:"
 msgstr "已上載大小:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:376
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1486
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:379
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1498
 msgctxt "CView_SummaryList"
 msgid "Seeds:"
 msgstr "種子:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:398
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1488
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:401
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1500
 msgctxt "CView_SummaryList"
 msgid "Upload Speed:"
 msgstr "上載速度:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:408
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1489
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:411
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1501
 msgctxt "CView_SummaryList"
 msgid "Peers:"
 msgstr "對等用戶:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:420
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1490
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:332
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:951
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:423
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1502
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:333
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:952
 msgctxt "CView_SummaryList"
 msgid "Download Limit:"
 msgstr "下載限制:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:430
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1491
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:433
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1503
 msgctxt "CView_SummaryList"
 msgid "Upload Limit:"
 msgstr "上載限制:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:440
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1492
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:443
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1504
 msgctxt "CView_SummaryList"
 msgid "Share Ratio:"
 msgstr "分享率:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:450
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1493
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:348
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:953
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:453
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1505
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:349
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:954
 msgctxt "CView_SummaryList"
 msgid "General"
 msgstr "一般"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:457
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1494
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:355
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:954
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:460
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1506
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:356
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:955
 msgctxt "CView_SummaryList"
 msgid "Task Name:"
 msgstr "工作名稱:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:469
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1495
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:367
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:955
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:472
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1507
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:368
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:956
 msgctxt "CView_SummaryList"
 msgid "Save Path:"
 msgstr "儲存路徑:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:484
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1496
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:382
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:956
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:487
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1508
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:383
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:957
 msgctxt "CView_SummaryList"
 msgid "Tags:"
 msgstr "標籤:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:499
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1497
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:397
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:957
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:502
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1509
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:398
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:958
 msgctxt "CView_SummaryList"
 msgid "Task Size:"
 msgstr "工作大小:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:509
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1498
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:407
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:958
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:512
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1510
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:408
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:959
 msgctxt "CView_SummaryList"
 msgid "Left Size:"
 msgstr "剩餘大小:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:521
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1499
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:524
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1511
 msgctxt "CView_SummaryList"
 msgid "Hash:"
 msgstr "雜湊 (Hash):"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:531
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1500
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:534
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1512
 msgctxt "CView_SummaryList"
 msgid "Pieces:"
 msgstr "分塊:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:543
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1501
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:419
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:959
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:546
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1513
+#, fuzzy
+#| msgctxt "DialogTaskBitTorrentPublisher"
+#| msgid "Created with:"
 msgctxt "CView_SummaryList"
-msgid "Started On:"
-msgstr "開始於:"
+msgid "Created On:"
+msgstr "原創者:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:553
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1502
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:429
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:960
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:556
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1514
+#, fuzzy
+#| msgctxt "DialogTaskBitTorrentPublisher"
+#| msgid "Created with:"
+msgctxt "CView_SummaryList"
+msgid "Created By:"
+msgstr "原創者:"
+
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:568
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1515
+#, fuzzy
+#| msgctxt "UPNP"
+#| msgid "Added"
+msgctxt "CView_SummaryList"
+msgid "Added On:"
+msgstr "已加入"
+
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:578
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1516
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:430
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:961
 msgctxt "CView_SummaryList"
 msgid "Finished On:"
 msgstr "完成於:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:565
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1503
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:590
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1517
 msgctxt "CView_SummaryList"
 msgid "Publisher:"
 msgstr "發佈者:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:575
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1504
-msgctxt "CView_SummaryList"
-msgid "Published On:"
-msgstr "發佈於:"
-
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:587
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1505
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:602
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1518
 msgctxt "CView_SummaryList"
 msgid "Comments:"
 msgstr "備註:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:715
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:581
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:731
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:582
 msgctxt "CView_SummaryList"
 msgid "${CURRENT_INFO} (${TOTAL_INFO} in total)"
 msgstr "${CURRENT_INFO} (總共${TOTAL_INFO})"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:716
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:582
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:732
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:583
 msgctxt "CView_SummaryList"
 msgid "${CURRENT_INFO} (avg. ${AVG_INFO})"
 msgstr "${CURRENT_INFO} (平均${AVG_INFO})"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:717
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:583
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:733
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:584
 msgctxt "CView_SummaryList"
 msgid "(avg. ${AVG_INFO})"
 msgstr "(平均 ${AVG_INFO})"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:772
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:788
 msgctxt "CView_SummaryList"
 msgid "Seeding Time:"
 msgstr "作種時間:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:812
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:828
 msgctxt "TorrentStatus"
 msgid "Moving Files..."
 msgstr ""
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:877
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:926
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:645
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:687
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:893
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:942
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:646
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:688
 msgctxt "CView_SummaryList"
 msgid "${CONNECTED_NUM} of ${CONNECT_TOTAL} connected"
 msgstr "已連接 ${CONNECT_NUM} / ${CONNECT_TOTAL}"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1091
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1183
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1110
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1202
 msgctxt "CView_SummaryList"
 msgid "${SIZE_BT} (${SIZE_TOTLE_BT} in total)"
 msgstr ""
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1112
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1131
 msgctxt "CView_SummaryList"
 msgid "${SIZE_P2SP} (${SIZE_TOTLE_P2SP} in total)"
 msgstr ""
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1125
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1210
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1144
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1229
 msgctxt "CView_SummaryList"
 msgid "${SIZE_EMULE} (${SIZE_TOTLE_EMULE} in total)"
 msgstr ""
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1137
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1156
 msgctxt "CView_SummaryList"
 msgid "${SIZE_RUBBISH} (${SIZE_TOTLE_RUBBISH} in total)"
 msgstr ""
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1380
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1392
 msgctxt "CView_SummaryList"
 msgid "has no link"
 msgstr "沒有連結"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1531
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:992
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1544
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:993
 msgctxt "CView_SummaryList"
 msgid "Progress"
 msgstr "進度"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1532
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1545
 #, fuzzy
 msgctxt "CView_SummaryList"
 msgid "Availability"
 msgstr "可用度:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1533
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:993
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1546
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:994
 msgctxt "CView_SummaryList"
 msgid "Modify Tag"
 msgstr "修改標籤"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1539
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:996
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1552
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:997
 msgctxt "CView_SummaryList"
 msgid "Open Folder"
 msgstr "開啟資料夾"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1569
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1589
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1583
 #: GUI_BitComet/View_SummaryList_BT_WX.cpp:1603
 #: GUI_BitComet/View_SummaryList_BT_WX.cpp:1617
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1631
 msgctxt "CView_SummaryList"
 msgid "BitTorrent peers:"
 msgstr ""
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1570
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1590
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1584
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1604
 msgctxt "CView_SummaryList"
 msgid "Long-Term Seeds:"
 msgstr ""
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1571
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1591
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1585
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1605
 msgctxt "CView_SummaryList"
 msgid "eMule sources:"
 msgstr ""
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1572
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1586
 msgctxt "CView_SummaryList"
 msgid "Dropped data:"
 msgstr ""
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1604
 #: GUI_BitComet/View_SummaryList_BT_WX.cpp:1618
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1632
 msgctxt "CView_SummaryList"
 msgid "Long-Term Seeding:"
 msgstr ""
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1605
 #: GUI_BitComet/View_SummaryList_BT_WX.cpp:1619
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1633
 msgctxt "CView_SummaryList"
 msgid "eMule uploading:"
 msgstr ""
 
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:304
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:948
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:305
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:949
 msgctxt "CView_SummaryList"
 msgid "Connections:"
 msgstr "連接數："
 
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:322
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:950
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:323
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:951
 msgctxt "CView_SummaryList"
 msgid "Mirrors:"
 msgstr "鏡像:"
 
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:453
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:961
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:420
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:960
+msgctxt "CView_SummaryList"
+msgid "Started On:"
+msgstr "開始於:"
+
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:454
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:962
 msgctxt "CView_SummaryList"
 msgid "Refer:"
 msgstr "參照:"
 
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:465
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:962
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:466
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:963
 msgctxt "CView_SummaryList"
 msgid "Description:"
 msgstr "描述:"
 
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:702
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:703
 msgctxt "TorrentStatus"
 msgid "Moving File..."
 msgstr ""
@@ -8682,7 +9003,7 @@ msgid ""
 msgstr ""
 
 #: GUI_BitComet/View_TorrentCollect_List_WX.cpp:294
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:2035
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:2062
 #: GUI_BitComet/View_TorrentHistory_List_WX.cpp:310
 #: GUI_BitComet/View_TorrentShare_List_WX.cpp:290
 msgctxt "TorrentShare"
@@ -8731,144 +9052,144 @@ msgctxt "TorrentShare"
 msgid "Publish Date"
 msgstr "發佈日期"
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1183
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1203
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1086
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1210
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1227
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1112
 msgctxt "TorrentShare_Menu"
 msgid "&Add to Tasklist"
 msgstr ""
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1191
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1211
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1094
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1218
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1235
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1120
 msgctxt "TorrentShare_Menu"
 msgid "View the &Task"
 msgstr "檢視工作(&T)"
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1198
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1218
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1101
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1225
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1242
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1127
 msgctxt "TorrentShare_Menu"
 msgid "&View Download Folder"
 msgstr "檢視下載文件夾(&V)"
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1202
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1227
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1229
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1251
 msgctxt "TorrentShare_Menu"
 msgid "Add to Torrent &Share"
 msgstr ""
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1208
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1235
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1111
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1235
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1259
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1137
 msgctxt "TorrentShare_Menu"
 msgid "Copy &Magnet URI"
 msgstr "複製 Magnet URI(&M)"
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1212
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1239
 msgctxt "TorrentShare_Menu"
 msgid "Copy Title"
 msgstr "複製標題"
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1215
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1242
 msgctxt "TorrentShare_Menu"
 msgid "Hide this"
 msgstr "隱藏這個"
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1218
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1245
 msgctxt "TorrentShare_Menu"
 msgid "Unhide all"
 msgstr "取消隱藏全部"
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1221
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1239
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1115
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1248
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1263
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1141
 msgctxt "TorrentShare_Menu"
 msgid "&Remove"
 msgstr "移除(&R)"
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1225
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1252
 msgctxt "TorrentShare_Menu"
 msgid "Clear all"
 msgstr "全部清除"
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1231
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1246
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1122
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1258
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1270
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1148
 msgctxt "TorrentShare_Menu"
 msgid "&Help"
 msgstr "說明(&H)"
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1237
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1252
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1128
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1264
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1276
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1154
 msgctxt "TorrentShare_Menu"
 msgid "Properties"
 msgstr "內容"
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1442
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1469
 #, fuzzy
 msgctxt "TorrentShare"
 msgid "Are you sure to restore the display of all hidden torrents?"
 msgstr "您確定要隱藏選取的 torrent 檔案?"
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1476
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1503
 msgctxt "Message_ConfirmHideTorrent"
 msgid "Are you sure to hide selected torrent files?"
 msgstr "您確定要隱藏選取的 torrent 檔案?"
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1520
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1438
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1250
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1547
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1462
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1276
 msgctxt "Message_ConfirmDelArchive"
 msgid "Are you sure you want to remove selected torrent files?"
 msgstr "您確定要移除選取的 torrent 檔案?"
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1584
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1482
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1283
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1611
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1506
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1309
 msgctxt "Message_MsgTorrentDownloaded"
 msgid "This torrent file has been downloaded. Do you want to view the task?"
 msgstr "這 torrent 檔已下載。要檢視工作?"
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1589
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1487
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1288
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1616
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1511
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1314
 msgctxt "Message_MsgTorrentDownloading"
 msgid "This torrent file is downloading. Do you want to view the task?"
 msgstr "這 torrent 檔下載中。要檢視工作?"
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1594
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1492
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1293
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1621
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1516
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1319
 msgctxt "Message_MsgTorrentDownloading"
 msgid "Torrent file download stopped. Do you want to view the task?"
 msgstr "Torrent 檔已停止下載。要檢視工作?"
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1602
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1500
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1301
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1629
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1524
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1327
 msgctxt "Message_MsgTorrentInArchive"
 msgid ""
 "This torrent file has been found in the Torrent History. Do you want to open "
 "it and create a new task?"
 msgstr ""
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1607
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1623
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1505
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1521
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1306
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1322
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1634
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1650
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1529
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1545
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1332
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1348
 msgctxt "Message_MsgTorrentInArchive"
 msgid ""
 "The task you want to view has been removed. Do you want to open the torrent "
 "file and create a new task?"
 msgstr "你檢視的工作已移除。要開啟 torrent 檔案並建立新工作?"
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1618
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1516
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1317
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1645
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1540
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1343
 #, fuzzy
 msgctxt "Message_MsgTorrentInArchive"
 msgid ""
@@ -8876,59 +9197,59 @@ msgid ""
 "it and create a new task?"
 msgstr "這 torrent 檔已下載。要檢視工作?"
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1634
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1532
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1333
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1661
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1556
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1359
 msgctxt "Message_MsgTorrentUndownload"
 msgid "Do you want to download this torrent file?"
 msgstr "您要下載這 torrent 檔?"
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1639
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1537
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1338
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1666
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1561
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1364
 msgctxt "Message_MsgTorrentTaskNotExist"
 msgid ""
 "The task you want to view has been removed. Do you want to download it again?"
 msgstr "你檢視的工作已移除。您要重新下載嗎?"
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1959
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1952
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1750
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1986
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1976
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1776
 msgctxt "TorrentShare"
 msgid "${VOTE_NUM} votes"
 msgstr ""
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1965
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1958
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1756
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1992
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1982
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1782
 msgctxt "TaskList"
 msgid "View Rating"
 msgstr ""
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1983
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1976
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1774
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:2010
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:2000
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1800
 msgctxt "TorrentShare"
 msgid "${POST_NUM} comments"
 msgstr "${POST_NUM} 個評論"
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:2007
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:2000
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1798
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:2034
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:2024
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1824
 msgctxt "TorrentShare"
 msgid "${Number} snapshots"
 msgstr ""
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:2029
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:2022
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1820
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:2056
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:2046
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1846
 msgctxt "TorrentShare"
 msgid "Not downloaded"
 msgstr "未下載"
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:2032
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:2025
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1823
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:2059
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:2049
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1849
 msgctxt "TorrentShare"
 msgid "Torrent downloading"
 msgstr "Torrent 下載中"
@@ -8981,52 +9302,52 @@ msgid "Added Date"
 msgstr "加入的日期"
 
 #: GUI_BitComet/View_TorrentHistory_List_WX.cpp:319
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1337
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1361
 msgctxt "TorrentShare"
 msgid "Private Torrent"
 msgstr "私人 Torrent"
 
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1222
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1105
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1246
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1131
 msgctxt "TorrentShare_Menu"
 msgid "Save Torrent as..."
 msgstr "另存 Torrent 檔為..."
 
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1321
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1345
 msgctxt "TorrentShare"
 msgid "Disabled"
 msgstr "已停用"
 
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1721
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1522
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1745
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1548
 msgctxt "Message_MsgTorrentInArchive"
 msgid "Task download folder \"${FOLDER_NAME}\" does not exist!"
 msgstr "工作下載資料夾「${FOLDER_NAME}」並不存在!"
 
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1745
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1793
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1546
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1593
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1769
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1817
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1572
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1619
 msgctxt "Common"
 msgid "torrent file of \"${TASK_NAME}\" missing!"
 msgstr ""
 
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:2022
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1820
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:2046
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1846
 msgctxt "TorrentShare"
 msgid "click to download torrent"
 msgstr "按此下載 Torrent"
 
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:2025
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:2028
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1823
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1826
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:2049
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:2052
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1849
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1852
 msgctxt "TorrentShare"
 msgid "click to view task"
 msgstr "按此檢視工作"
 
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:2028
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1826
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:2052
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1852
 msgctxt "TorrentShare"
 msgid "Torrent downloaded"
 msgstr "已下載 Torrent"
@@ -9036,73 +9357,84 @@ msgctxt "TorrentShare"
 msgid "You have not share any Torrent file with other peers."
 msgstr "您目前沒有與其他對等用戶共享任何 Torrent 檔案。"
 
-#: GUI_BitComet/View_TrackerList_WX.cpp:355
+#: GUI_BitComet/View_TrackerList_WX.cpp:360
 msgctxt "TrackerList"
 msgid "Disabled (Private Torrent)"
 msgstr ""
 
-#: GUI_BitComet/View_TrackerList_WX.cpp:359
+#: GUI_BitComet/View_TrackerList_WX.cpp:364
 msgctxt "TrackerList"
 msgid "Disabled (in global options)"
 msgstr ""
 
-#: GUI_BitComet/View_TrackerList_WX.cpp:363
+#: GUI_BitComet/View_TrackerList_WX.cpp:368
 msgctxt "TrackerList"
 msgid "Disabled (in task properties)"
 msgstr ""
 
-#: GUI_BitComet/View_TrackerList_WX.cpp:412
+#: GUI_BitComet/View_TrackerList_WX.cpp:444
 msgctxt "DetailView_TrackerList"
 msgid "Tracker URL"
 msgstr ""
 
-#: GUI_BitComet/View_TrackerList_WX.cpp:413
+#: GUI_BitComet/View_TrackerList_WX.cpp:445
 msgctxt "DetailView_TrackerList"
 msgid "Log"
 msgstr ""
 
-#: GUI_BitComet/View_TrackerList_WX.cpp:414
+#: GUI_BitComet/View_TrackerList_WX.cpp:446
 msgctxt "DetailView_TrackerList"
 msgid "Retries"
 msgstr "重試"
 
-#: GUI_BitComet/View_TrackerList_WX.cpp:415
+#: GUI_BitComet/View_TrackerList_WX.cpp:447
 msgctxt "DetailView_TrackerList"
 msgid "Time Remaining"
 msgstr "剩餘時間"
 
-#: GUI_BitComet/View_TrackerList_WX.cpp:416
+#: GUI_BitComet/View_TrackerList_WX.cpp:448
+#, fuzzy
+#| msgctxt "DetailView_TrackerList"
+#| msgid "Seeds"
 msgctxt "DetailView_TrackerList"
-msgid "Seeds"
+msgid "Seeders"
 msgstr "種子"
 
-#: GUI_BitComet/View_TrackerList_WX.cpp:417
+#: GUI_BitComet/View_TrackerList_WX.cpp:449
 msgctxt "DetailView_TrackerList"
-msgid "Peers"
+msgid "Leechers"
+msgstr ""
+
+#: GUI_BitComet/View_TrackerList_WX.cpp:450
+#, fuzzy
+#| msgctxt "DetailView_TrackerList"
+#| msgid "Peers"
+msgctxt "DetailView_TrackerList"
+msgid "All Peers"
 msgstr "對等用戶"
 
-#: GUI_BitComet/View_TrackerList_WX.cpp:418
+#: GUI_BitComet/View_TrackerList_WX.cpp:451
 msgctxt "DetailView_TrackerList"
 msgid "Downloaded"
 msgstr "已下載"
 
-#: GUI_BitComet/View_TrackerList_WX.cpp:419
+#: GUI_BitComet/View_TrackerList_WX.cpp:452
 msgctxt "DetailView_TrackerList"
 msgid "Status"
 msgstr "狀態"
 
-#: GUI_BitComet/View_TrackerList_WX.cpp:498
-#: GUI_BitComet/View_TrackerList_WX.cpp:624
+#: GUI_BitComet/View_TrackerList_WX.cpp:531
+#: GUI_BitComet/View_TrackerList_WX.cpp:657
 msgctxt "DetailView_TrackerList_Menu"
 msgid "View log"
 msgstr ""
 
-#: GUI_BitComet/View_TrackerList_WX.cpp:622
+#: GUI_BitComet/View_TrackerList_WX.cpp:655
 msgctxt "DetailView_TrackerList_Menu"
 msgid "Add Tracker"
 msgstr "加入 Tracker"
 
-#: GUI_BitComet/View_TrackerList_WX.cpp:623
+#: GUI_BitComet/View_TrackerList_WX.cpp:656
 msgctxt "DetailView_TrackerList_Menu"
 msgid "Remove Tracker"
 msgstr "刪除 Tracker"
@@ -9250,10 +9582,15 @@ msgctxt "WizardImportUndoneTaskPage"
 msgid "Task Name:"
 msgstr "工作名稱:"
 
-#: GUI_BitComet/wxListHeaderInfo.cpp:523
+#: GUI_BitComet/wxListHeaderInfo.cpp:509
 msgctxt "MainWindow"
-msgid "Reset to Default Layout"
-msgstr "重設到預設佈局"
+msgid "Size Column to Fit"
+msgstr ""
+
+#: GUI_BitComet/wxListHeaderInfo.cpp:510
+msgctxt "MainWindow"
+msgid "Size All Columns to Fit"
+msgstr ""
 
 #: GUI_wxCommon/CommonMessageBoxTimer.cpp:165
 msgctxt "Common_DoNotAskAgain"
@@ -9269,6 +9606,36 @@ msgstr "載入中..."
 msgctxt "View_Related"
 msgid "This program cannot display the webpage."
 msgstr ""
+
+#~ msgctxt "CView_SummaryList"
+#~ msgid "Published On:"
+#~ msgstr "發佈於:"
+
+#~ msgctxt "Options_DiskCache"
+#~ msgid "Minimum disk cache size (MB):"
+#~ msgstr "最小磁碟快取大小 (MB):"
+
+#, fuzzy
+#~ msgctxt "WebInterface"
+#~ msgid ""
+#~ "Remote Download:\n"
+#~ "suspend all active tasks."
+#~ msgstr "延緩全部活躍任務"
+
+#, fuzzy
+#~ msgctxt "WebInterface"
+#~ msgid ""
+#~ "Remote Download:\n"
+#~ "resume last suspended tasks."
+#~ msgstr "重啟最後延緩任務"
+
+#~ msgctxt "DialogTorrentMaker"
+#~ msgid ""
+#~ "Tip: Trackers with | prefix are the equivalent tracker (info sharing) of "
+#~ "the one above\n"
+#~ "them. "
+#~ msgstr ""
+#~ "提示：每行一個服務器，“|”前綴表示與上一個是信息共享的同組等效服務器。 "
 
 #, fuzzy
 #~ msgctxt "CView_SummaryList"

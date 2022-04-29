@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: BitCometGUI\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-26 20:37+0800\n"
-"PO-Revision-Date: 2018-10-26 20:37+0800\n"
+"POT-Creation-Date: 2019-07-05 18:27+0800\n"
+"PO-Revision-Date: 2019-07-05 18:27+0800\n"
 "Last-Translator: wxhere <wxhere@hotmail.com>\n"
 "Language-Team: \n"
 "Language: fi\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2011-06-27 09:13+0000\n"
-"X-Generator: Poedit 2.2\n"
+"X-Generator: Poedit 2.2.3\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: ../../../..\n"
 "X-Poedit-KeywordsList: _:1g\n"
@@ -44,27 +44,27 @@ msgctxt "Message_SignOut"
 msgid "Do you want to sign out?"
 msgstr "Haluatko kirjautua ulos?"
 
-#: GUI_BitComet/AppUtil.cpp:1508
+#: GUI_BitComet/AppUtil.cpp:1346
 msgctxt "MainWindow"
-msgid "Can not listen to port: "
+msgid "Can not listen to port:"
 msgstr "Porttia ei voi kuunnella: "
 
-#: GUI_BitComet/AppUtil.cpp:1709
+#: GUI_BitComet/AppUtil.cpp:1547
 msgctxt "MainWindow"
 msgid "There are some tasks still running, are you sure you want to exit?"
 msgstr "Sulje BitComet?"
 
-#: GUI_BitComet/AppUtil.cpp:1784
+#: GUI_BitComet/AppUtil.cpp:1622
 msgctxt "Message_LoginError"
 msgid "Login password error, application exit!"
 msgstr "Kirjautumisen salasana virhe, sovellus suljetaan!"
 
-#: GUI_BitComet/AppUtil.cpp:1789
+#: GUI_BitComet/AppUtil.cpp:1627
 msgctxt "Message_LoginError"
 msgid "Login password error, please input again!"
 msgstr "Virhe salasanassa, kirjoita uudelleen!"
 
-#: GUI_BitComet/AppUtil.h:16 GUI_BitComet/DialogAbout.cpp:252
+#: GUI_BitComet/AppUtil.h:16 GUI_BitComet/DialogAbout.cpp:256
 #: GUI_BitComet/DialogAutoShutdownSetTime.cpp:141
 #: GUI_BitComet/DialogSetFolderTags.cpp:158
 #: GUI_BitComet/DialogSetTagFolder.cpp:159
@@ -92,192 +92,205 @@ msgctxt "Common"
 msgid "&Cancel"
 msgstr "&Peruuta"
 
-#: GUI_BitComet/BitComet_App.cpp:293 GUI_BitComet/MainMenuBar.cpp:764
+#: GUI_BitComet/BitComet_App.cpp:300 GUI_BitComet/MainMenuBar.cpp:774
 msgctxt "Common"
 msgid "day"
 msgstr ""
 
-#: GUI_BitComet/BitComet_App.cpp:293 GUI_BitComet/MainMenuBar.cpp:764
+#: GUI_BitComet/BitComet_App.cpp:300 GUI_BitComet/MainMenuBar.cpp:774
 msgctxt "Common"
 msgid "hour"
 msgstr ""
 
-#: GUI_BitComet/BitComet_App.cpp:777 GUI_BitComet/BitComet_App.cpp:796
+#: GUI_BitComet/BitComet_App.cpp:796 GUI_BitComet/BitComet_App.cpp:815
+#, fuzzy
+#| msgctxt "MainWindow"
+#| msgid ""
+#| "Download: ${G_DOWNLOAD_RATE_KB} kB/s, Upload: ${G_UPLOAD_RATE_KB} kB/s"
 msgctxt "MainWindow"
-msgid "Download: ${G_DOWNLOAD_RATE_KB} kB/s, Upload: ${G_UPLOAD_RATE_KB} kB/s"
+msgid "Download: ${G_DOWNLOAD_RATE}, Upload: ${G_UPLOAD_RATE}"
 msgstr "Lataus: ${G_DOWNLOAD_RATE_KB} Kt/s, Lähetys: ${G_UPLOAD_RATE_KB} Kt/s"
 
-#: GUI_BitComet/BitComet_App.cpp:1106 GUI_BitComet/BitComet_App.cpp:1123
-#: GUI_BitComet/CtrlBitTorrent.cpp:241 GUI_BitComet/CtrlBitTorrent.cpp:508
-#: GUI_BitComet/CtrlBitTorrent.cpp:595 GUI_BitComet/CtrlBitTorrent.cpp:955
-#: GUI_BitComet/CtrlBitTorrent.cpp:990
+#: GUI_BitComet/BitComet_App.cpp:1118 GUI_BitComet/BitComet_App.cpp:1136
+#: GUI_BitComet/CtrlBitTorrent.cpp:249 GUI_BitComet/CtrlBitTorrent.cpp:516
+#: GUI_BitComet/CtrlBitTorrent.cpp:603 GUI_BitComet/CtrlBitTorrent.cpp:963
+#: GUI_BitComet/CtrlBitTorrent.cpp:998
 msgctxt "Message_TorrentExisted"
 msgid "Torrent task exists!"
 msgstr "Tehtävä on jo listalla!"
 
-#: GUI_BitComet/BitComet_Info.cpp:270 GUI_BitComet/BitComet_Info.cpp:283
-#: GUI_BitComet/BitComet_Info.cpp:284 GUI_BitComet/BitComet_Info.cpp:285
-#: GUI_BitComet/CtrlMenuWx.cpp:626 GUI_BitComet/CtrlMenuWx.cpp:671
-#: GUI_BitComet/CtrlSchedule.cpp:178 GUI_BitComet/CtrlSchedule.cpp:179
-#: GUI_BitComet/DialogConnectionWizard.cpp:247
-#: GUI_BitComet/DialogConnectionWizard.cpp:248
-#: GUI_BitComet/DialogSummaryListTip.cpp:533
-#: GUI_BitComet/DialogSummaryListTip.cpp:615
-#: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:257
-#: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:258
-#: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:259
-#: GUI_BitComet/DialogTaskMultiDownloadAdvanced.cpp:368
-#: GUI_BitComet/OptionWndBTTask.cpp:316 GUI_BitComet/OptionWndBTTask.cpp:333
-#: GUI_BitComet/OptionWndBTTask.cpp:398
-#: GUI_BitComet/OptionWndConnection.cpp:263
-#: GUI_BitComet/OptionWndPersistentSeed.cpp:156
-#: GUI_BitComet/OptionWndScheduler.cpp:317 GUI_BitComet/OptionWndTask.cpp:218
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:937
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:947
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:676
-msgctxt "Common"
-msgid "Unlimited"
-msgstr "Rajoittamaton"
-
-#: GUI_BitComet/BitComet_Info.cpp:335 GUI_BitComet/BitComet_Info.cpp:336
+#: GUI_BitComet/BitComet_Info.cpp:339 GUI_BitComet/BitComet_Info.cpp:340
 #, fuzzy
 msgctxt "StatusList_StatisticValue"
 msgid "Unavailable"
 msgstr "Saatavuus:"
 
-#: GUI_BitComet/BitComet_Info.cpp:354 GUI_BitComet/BitComet_Info.cpp:401
+#: GUI_BitComet/BitComet_Info.cpp:373 GUI_BitComet/BitComet_Info.cpp:386
+#: GUI_BitComet/BitComet_Info.cpp:387 GUI_BitComet/BitComet_Info.cpp:388
+#: GUI_BitComet/CtrlMenuWx.cpp:626 GUI_BitComet/CtrlMenuWx.cpp:671
+#: GUI_BitComet/CtrlSchedule.cpp:178 GUI_BitComet/CtrlSchedule.cpp:179
+#: GUI_BitComet/DialogConnectionWizard.cpp:247
+#: GUI_BitComet/DialogConnectionWizard.cpp:248
+#: GUI_BitComet/DialogSummaryListTip.cpp:547
+#: GUI_BitComet/DialogSummaryListTip.cpp:629
+#: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:257
+#: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:258
+#: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:259
+#: GUI_BitComet/DialogTaskMultiDownloadAdvanced.cpp:368
+#: GUI_BitComet/OptionWndBTTask.cpp:317 GUI_BitComet/OptionWndBTTask.cpp:334
+#: GUI_BitComet/OptionWndBTTask.cpp:399
+#: GUI_BitComet/OptionWndConnection.cpp:263
+#: GUI_BitComet/OptionWndPersistentSeed.cpp:156
+#: GUI_BitComet/OptionWndScheduler.cpp:317 GUI_BitComet/OptionWndTask.cpp:218
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:953
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:963
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:677
+msgctxt "Common"
+msgid "Unlimited"
+msgstr "Rajoittamaton"
+
+#: GUI_BitComet/BitComet_Info.cpp:440 GUI_BitComet/BitComet_Info.cpp:487
 msgctxt "UPNP"
 msgid "Disabled"
 msgstr "Ei käytössä"
 
-#: GUI_BitComet/BitComet_Info.cpp:365 GUI_BitComet/BitComet_Info.cpp:412
+#: GUI_BitComet/BitComet_Info.cpp:451 GUI_BitComet/BitComet_Info.cpp:502
 msgctxt "UPNP"
 msgid "Waiting for query IP address"
 msgstr "Odotetaan IP-osoitetta"
 
-#: GUI_BitComet/BitComet_Info.cpp:368 GUI_BitComet/BitComet_Info.cpp:415
+#: GUI_BitComet/BitComet_Info.cpp:454 GUI_BitComet/BitComet_Info.cpp:505
 msgctxt "UPNP"
 msgid "Working"
 msgstr "Työskennellään"
 
-#: GUI_BitComet/BitComet_Info.cpp:371 GUI_BitComet/BitComet_Info.cpp:418
+#: GUI_BitComet/BitComet_Info.cpp:457 GUI_BitComet/BitComet_Info.cpp:508
 msgctxt "UPNP"
 msgid "Added"
 msgstr "Lisätty"
 
-#: GUI_BitComet/BitComet_Info.cpp:378 GUI_BitComet/BitComet_Info.cpp:425
+#: GUI_BitComet/BitComet_Info.cpp:464 GUI_BitComet/BitComet_Info.cpp:515
 msgctxt "UPNP"
 msgid "Failed"
 msgstr "Epäonnistui"
 
-#: GUI_BitComet/BitComet_Info.cpp:385 GUI_BitComet/BitComet_Info.cpp:432
+#: GUI_BitComet/BitComet_Info.cpp:471 GUI_BitComet/BitComet_Info.cpp:522
 msgctxt "UPNP"
 msgid "Released"
 msgstr "Julkaistu"
 
-#: GUI_BitComet/BitComet_Info.cpp:456
+#: GUI_BitComet/BitComet_Info.cpp:545
 msgctxt "Scheduler"
 msgid "scheduled high-speed"
 msgstr ""
 
-#: GUI_BitComet/BitComet_Info.cpp:460
+#: GUI_BitComet/BitComet_Info.cpp:549
 msgctxt "Scheduler"
 msgid "scheduled low-speed"
 msgstr ""
 
-#: GUI_BitComet/BitComet_Info.cpp:464
+#: GUI_BitComet/BitComet_Info.cpp:553
 msgctxt "Scheduler"
 msgid "scheduled turn-off"
 msgstr ""
 
-#: GUI_BitComet/BitComet_Info.cpp:472
+#: GUI_BitComet/BitComet_Info.cpp:561
 #, fuzzy
 msgctxt "Scheduler"
 msgid "for not downloading"
 msgstr "Torrent latauksessa"
 
-#: GUI_BitComet/BitComet_Info.cpp:489 GUI_BitComet/BitComet_Info.cpp:528
+#: GUI_BitComet/BitComet_Info.cpp:572
+#: GUI_BitComet/DialogTorrentMaker.cpp:965
+#, fuzzy
+#| msgctxt "TrayMenu"
+#| msgid "None"
+msgctxt "Common"
+msgid "None"
+msgstr "Ei mitään"
+
+#: GUI_BitComet/BitComet_Info.cpp:588 GUI_BitComet/BitComet_Info.cpp:632
 msgctxt "StatusList_StatisticValue"
 msgid "Opened in Firewall/Router"
 msgstr "Avattu Palomuuriin/Reitittimeen"
 
-#: GUI_BitComet/BitComet_Info.cpp:496 GUI_BitComet/BitComet_Info.cpp:535
+#: GUI_BitComet/BitComet_Info.cpp:595 GUI_BitComet/BitComet_Info.cpp:639
 msgctxt "StatusList_StatisticValue"
 msgid "Detecting"
 msgstr "Havaitaan"
 
-#: GUI_BitComet/BitComet_Info.cpp:500 GUI_BitComet/BitComet_Info.cpp:539
+#: GUI_BitComet/BitComet_Info.cpp:599 GUI_BitComet/BitComet_Info.cpp:643
 msgctxt "StatusList_StatisticValue"
 msgid "Not Detected"
 msgstr "Ei Havaittu"
 
-#: GUI_BitComet/BitComet_Info.cpp:504 GUI_BitComet/BitComet_Info.cpp:543
+#: GUI_BitComet/BitComet_Info.cpp:603 GUI_BitComet/BitComet_Info.cpp:647
 msgctxt "StatusList_StatisticValue"
 msgid "Detect Failed"
 msgstr "Havaitseminen Epäonnistui"
 
-#: GUI_BitComet/BitComet_Info.cpp:508 GUI_BitComet/BitComet_Info.cpp:547
+#: GUI_BitComet/BitComet_Info.cpp:607 GUI_BitComet/BitComet_Info.cpp:651
 msgctxt "StatusList_StatisticValue"
 msgid "Blocked by Firewall/Router"
 msgstr ""
 
-#: GUI_BitComet/BitComet_Info.cpp:568 GUI_BitComet/BitComet_Info.cpp:577
-#: GUI_BitComet/BitComet_Info.cpp:582 GUI_BitComet/BitComet_Info.cpp:587
-#: GUI_BitComet/BitComet_Info.cpp:592
+#: GUI_BitComet/BitComet_Info.cpp:670 GUI_BitComet/BitComet_Info.cpp:679
+#: GUI_BitComet/BitComet_Info.cpp:684 GUI_BitComet/BitComet_Info.cpp:689
+#: GUI_BitComet/BitComet_Info.cpp:694
 msgctxt "BitComet_Info"
 msgid "Torrent decode error"
 msgstr "Virhe torrentin purkamisessa"
 
-#: GUI_BitComet/BitComet_Info.cpp:571
+#: GUI_BitComet/BitComet_Info.cpp:673
 msgctxt "BitComet_Info"
 msgid "Torrent too Large"
 msgstr "Torrent-tiedosto on liian suuri"
 
-#: GUI_BitComet/BitComet_Info.cpp:574
+#: GUI_BitComet/BitComet_Info.cpp:676
 msgctxt "BitComet_Info"
 msgid "Opening Torrent Failed"
 msgstr "Torrentin Avaaminen Epäonnistui"
 
-#: GUI_BitComet/BitComet_Info.cpp:597
+#: GUI_BitComet/BitComet_Info.cpp:699
 msgctxt "BitComet_Info"
 msgid "Torrent Download Failed"
 msgstr "Torrentin Lataaminen Epäonnistui"
 
-#: GUI_BitComet/BitComet_Info.cpp:604 GUI_BitComet/BitComet_Info.cpp:608
-#: GUI_BitComet/BitComet_Info.cpp:670
+#: GUI_BitComet/BitComet_Info.cpp:706 GUI_BitComet/BitComet_Info.cpp:710
+#: GUI_BitComet/BitComet_Info.cpp:772
 msgctxt "BitComet_Info"
 msgid "Error:"
 msgstr ""
 
-#: GUI_BitComet/BitComet_Info.cpp:612 GUI_BitComet/BitComet_Info.cpp:616
-#: GUI_BitComet/BitComet_Info.cpp:674 GUI_BitComet/BitComet_Info.cpp:678
+#: GUI_BitComet/BitComet_Info.cpp:714 GUI_BitComet/BitComet_Info.cpp:718
+#: GUI_BitComet/BitComet_Info.cpp:776 GUI_BitComet/BitComet_Info.cpp:780
 msgctxt "BitComet_Info"
 msgid "Warning:"
 msgstr ""
 
-#: GUI_BitComet/BitComet_Info.cpp:616 GUI_BitComet/BitComet_Info.cpp:678
+#: GUI_BitComet/BitComet_Info.cpp:718 GUI_BitComet/BitComet_Info.cpp:780
 msgctxt "BitComet_Info"
 msgid "Downloaded file missing."
 msgstr ""
 
-#: GUI_BitComet/BitComet_Info.cpp:635
+#: GUI_BitComet/BitComet_Info.cpp:737
 msgctxt "DetailView_Log"
 msgid "An error occurred during download. Task stopped."
 msgstr "Virhe tapahtui ladattessa. Tehtävä pysäytetty."
 
-#: GUI_BitComet/BitComet_Info.cpp:639
+#: GUI_BitComet/BitComet_Info.cpp:741
 msgctxt "DetailView_Log"
 msgid "File does not exist at the specified address. Task stopped."
 msgstr "Tiedostoa ei löydy määritetystä osoitteesta. Tehtävä pysäytetty."
 
-#: GUI_BitComet/BitComet_Info.cpp:642
+#: GUI_BitComet/BitComet_Info.cpp:744
 msgctxt "DetailView_Log"
 msgid "Failed to connect to any available source. Retry limit reached."
 msgstr ""
 "Yhdistäminen käytettävissä oleviin lähteisiin epäonnistui. "
 "Uudelleenyritysten raja saavutettu."
 
-#: GUI_BitComet/BitComet_Info.cpp:645
+#: GUI_BitComet/BitComet_Info.cpp:747
 msgctxt "DetailView_Log"
 msgid ""
 "The file size is different from the last download, maybe the address has "
@@ -285,27 +298,27 @@ msgid ""
 msgstr ""
 "Tiedoston koko on eri kuin viime latauksessa. Osoite saattaa olla muuttunut."
 
-#: GUI_BitComet/BitComet_Info.cpp:648
+#: GUI_BitComet/BitComet_Info.cpp:750
 msgctxt "DetailView_Log"
 msgid "The file is not the same as in the last download."
 msgstr "Tiedosto ei ole sama kuin edellisessä latauksessa."
 
-#: GUI_BitComet/BitComet_Info.cpp:651
+#: GUI_BitComet/BitComet_Info.cpp:753
 msgctxt "DetailView_Log"
 msgid "Server returned unexpected status code."
 msgstr "Palvelin palautti odottamattoman tilakoodin."
 
-#: GUI_BitComet/BitComet_Info.cpp:654
+#: GUI_BitComet/BitComet_Info.cpp:756
 msgctxt "DetailView_Log"
 msgid "Error occurred: Authorization Failed"
 msgstr "Virhe tapahtui: Vahvistaminen epäonnistui"
 
-#: GUI_BitComet/BitComet_Info.cpp:658
+#: GUI_BitComet/BitComet_Info.cpp:760
 msgctxt "DetailView_Log"
 msgid "Invalid URL format"
 msgstr "URL-osoitteen muoto on virheellinen"
 
-#: GUI_BitComet/CommonGUI_WX.cpp:127 GUI_BitComet/View_MainLeftTree_WX.cpp:709
+#: GUI_BitComet/CommonGUI_WX.cpp:127 GUI_BitComet/View_MainLeftTree_WX.cpp:886
 msgctxt "Favourite"
 msgid "Loading..."
 msgstr "Ladataan..."
@@ -325,65 +338,92 @@ msgctxt "ConnectionLimitButton"
 msgid "Set task limit"
 msgstr "Aseta tehtävien rajoitus"
 
-#: GUI_BitComet/CtrlAutoShutdown.cpp:212
+#: GUI_BitComet/CtrlAutoShutdown.cpp:196
+msgctxt "DialogAutoShutdown"
+msgid "BitComet download finished. Reboot system..."
+msgstr ""
+
+#: GUI_BitComet/CtrlAutoShutdown.cpp:201
+#, fuzzy
+#| msgctxt "Registry_BitCometUnfinishedFile"
+#| msgid "BitComet Unfinished Download File"
+msgctxt "DialogAutoShutdown"
+msgid "BitComet download finished. Shutdown system..."
+msgstr "BitCometin keskeneräinen lataustiedosto"
+
+#: GUI_BitComet/CtrlAutoShutdown.cpp:218
 msgctxt "DialogAutoShutdown"
 msgid "All tasks are finished and BitComet will stop now."
 msgstr "Kaikki tehtävät ovat suoritettu ja BitComet pysähtyy."
 
-#: GUI_BitComet/CtrlAutoShutdown.cpp:217
+#: GUI_BitComet/CtrlAutoShutdown.cpp:223
 msgctxt "DialogAutoShutdown"
 msgid "BitComet will quit automatically in a few minutes."
 msgstr "BitComet suljetaan automaattisesti muutaman minuutin kuluttua."
 
-#: GUI_BitComet/CtrlAutoShutdown.cpp:217
+#: GUI_BitComet/CtrlAutoShutdown.cpp:223
 msgctxt "DialogAutoShutdown"
 msgid "Quit"
 msgstr "Lopeta"
 
-#: GUI_BitComet/CtrlAutoShutdown.cpp:218
+#: GUI_BitComet/CtrlAutoShutdown.cpp:224
 msgctxt "DialogAutoShutdown"
 msgid "Your computer will hibernate automatically in a few minutes."
 msgstr ""
 "Tietokoneesi siirtyy lepotilaan automaattisesti muutaman minuutin kuluttua."
 
-#: GUI_BitComet/CtrlAutoShutdown.cpp:218
+#: GUI_BitComet/CtrlAutoShutdown.cpp:224
 msgctxt "DialogAutoShutdown"
 msgid "Hibernate"
 msgstr "Horrostila"
 
-#: GUI_BitComet/CtrlAutoShutdown.cpp:219
+#: GUI_BitComet/CtrlAutoShutdown.cpp:225
 msgctxt "DialogAutoShutdown"
 msgid "Your computer will sleep automatically in a few minutes."
 msgstr "Tietokoneesi siirtyy unitilaan automaattisesti muutamassa minuutissa."
 
-#: GUI_BitComet/CtrlAutoShutdown.cpp:219
+#: GUI_BitComet/CtrlAutoShutdown.cpp:225
 msgctxt "DialogAutoShutdown"
 msgid "Sleep"
 msgstr "Lepotila"
 
-#: GUI_BitComet/CtrlAutoShutdown.cpp:220
+#: GUI_BitComet/CtrlAutoShutdown.cpp:226
+#, fuzzy
+#| msgctxt "DialogAutoShutdown"
+#| msgid "Your computer will reboot automatically in a few minutes."
+msgctxt "DialogAutoShutdown"
+msgid "Your computer will log out automatically in a few minutes."
+msgstr ""
+"Tietokoneesi käynnistetään automaattisesti uudelleen muutamassa minuutissa."
+
+#: GUI_BitComet/CtrlAutoShutdown.cpp:226
+msgctxt "DialogAutoShutdown"
+msgid "Log out"
+msgstr ""
+
+#: GUI_BitComet/CtrlAutoShutdown.cpp:227
 msgctxt "DialogAutoShutdown"
 msgid "Your computer will reboot automatically in a few minutes."
 msgstr ""
 "Tietokoneesi käynnistetään automaattisesti uudelleen muutamassa minuutissa."
 
-#: GUI_BitComet/CtrlAutoShutdown.cpp:220
+#: GUI_BitComet/CtrlAutoShutdown.cpp:227
 msgctxt "DialogAutoShutdown"
 msgid "Reboot"
 msgstr "Käynnistä uudelleen"
 
-#: GUI_BitComet/CtrlAutoShutdown.cpp:221
+#: GUI_BitComet/CtrlAutoShutdown.cpp:228
 msgctxt "DialogAutoShutdown"
 msgid "Your computer will shutdown automatically in a few minutes."
 msgstr "Tietokoneesi sammutetaan automaattisesti muutamassa minuutissa."
 
-#: GUI_BitComet/CtrlAutoShutdown.cpp:221
+#: GUI_BitComet/CtrlAutoShutdown.cpp:228
 msgctxt "DialogAutoShutdown"
 msgid "Shutdown"
 msgstr "Sammuta"
 
-#: GUI_BitComet/CtrlAutoUpdate.cpp:539 GUI_BitComet/CtrlAutoUpdate.cpp:997
-#: GUI_BitComet/CtrlAutoUpdate.cpp:1003
+#: GUI_BitComet/CtrlAutoUpdate.cpp:539 GUI_BitComet/CtrlAutoUpdate.cpp:1003
+#: GUI_BitComet/CtrlAutoUpdate.cpp:1009
 #: GUI_BitComet/CtrlSoftwareUpdateCheck.cpp:126
 #: GUI_BitComet/CtrlSoftwareUpdateCheck.cpp:193
 #: GUI_BitComet/DialogED2KSearch.cpp:294
@@ -397,7 +437,7 @@ msgctxt "DialogBitCometUpdateCheck"
 msgid "Connecting to server failed. Please try again later."
 msgstr "Virhe yhdistäessä palvelimeen. Ole hyvä ja yritä myöhemmin uudelleen."
 
-#: GUI_BitComet/CtrlAutoUpdate.cpp:977
+#: GUI_BitComet/CtrlAutoUpdate.cpp:983
 msgctxt "DialogBitCometUpdateCheck"
 msgid ""
 "Following update available:\n"
@@ -406,32 +446,32 @@ msgstr ""
 "Seuraavat päivitykset ovat saatavilla:\n"
 "${VERSION_TEXT}"
 
-#: GUI_BitComet/CtrlAutoUpdate.cpp:977
+#: GUI_BitComet/CtrlAutoUpdate.cpp:983
 msgctxt "CAutoUpdateClient"
 msgid "A new version is available: ${VERSION_TEXT}"
 msgstr "Uusi versio on saatavilla: ${VERSION_TEXT}"
 
-#: GUI_BitComet/CtrlAutoUpdate.cpp:1004
+#: GUI_BitComet/CtrlAutoUpdate.cpp:1010
 msgctxt "DialogBitCometUpdateCheck"
 msgid "No update available. Your BitComet is latest version."
 msgstr "Ei uusia päivityksiä. Sinulla on uusin BitComet versio."
 
-#: GUI_BitComet/CtrlAutoUpdate.cpp:1069
+#: GUI_BitComet/CtrlAutoUpdate.cpp:1075
 msgctxt "CtrlAutoUpdate"
 msgid "Download update..."
 msgstr "Ladataan päivitystä..."
 
-#: GUI_BitComet/CtrlAutoUpdate.cpp:1091
+#: GUI_BitComet/CtrlAutoUpdate.cpp:1097
 msgctxt "CtrlAutoUpdate"
 msgid "Can't find tools\\updater.exe!"
 msgstr "Ei löydy tools\\updater.exe!"
 
-#: GUI_BitComet/CtrlAutoUpdate.cpp:1099
+#: GUI_BitComet/CtrlAutoUpdate.cpp:1105
 msgctxt "CtrlAutoUpdate"
 msgid "Failed to launch tools\\updater.exe!"
 msgstr "Virhe käynnistäessä työkalua\\päivitystä:exe!"
 
-#: GUI_BitComet/CtrlBitTorrent.cpp:262 GUI_BitComet/CtrlBitTorrent.cpp:539
+#: GUI_BitComet/CtrlBitTorrent.cpp:270 GUI_BitComet/CtrlBitTorrent.cpp:547
 msgctxt "Message_TorrentExisted"
 msgid ""
 "Torrent file exists in Torrent History!\n"
@@ -439,52 +479,52 @@ msgid ""
 "It's possible that you have downloaded this task before."
 msgstr ""
 
-#: GUI_BitComet/CtrlBitTorrent.cpp:869
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1660
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1558
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1359
+#: GUI_BitComet/CtrlBitTorrent.cpp:877
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1687
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1582
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1385
 msgctxt "Message_NeedEnableDHT"
 msgid ""
 "BitComet can't download Torrent as DHT network is disabled!\n"
 "Please enable DHT network in Option->BT Task."
 msgstr ""
 
-#: GUI_BitComet/CtrlBitTorrent.cpp:876 GUI_BitComet/CtrlHelperService.cpp:135
+#: GUI_BitComet/CtrlBitTorrent.cpp:884 GUI_BitComet/CtrlHelperService.cpp:135
 #: GUI_BitComet/DialogBatchBTDownload.h:63
 #: GUI_BitComet/DialogBatchBTDownload.h:64
 msgctxt "Common"
 msgid "Unknown"
 msgstr "Tuntematon"
 
-#: GUI_BitComet/CtrlBitTorrent.cpp:1182 GUI_BitComet/CtrlBitTorrent.cpp:1191
-#: GUI_BitComet/CtrlBitTorrent.cpp:1194 GUI_BitComet/CtrlBitTorrent.cpp:1197
-#: GUI_BitComet/CtrlBitTorrent.cpp:1200
+#: GUI_BitComet/CtrlBitTorrent.cpp:1190 GUI_BitComet/CtrlBitTorrent.cpp:1199
+#: GUI_BitComet/CtrlBitTorrent.cpp:1202 GUI_BitComet/CtrlBitTorrent.cpp:1205
+#: GUI_BitComet/CtrlBitTorrent.cpp:1208
 msgctxt "Message_TorrentError"
 msgid "Torrent file decoding failed! Please try to re-download the torrent!"
 msgstr ""
 "Torrent tiedoston purkaminen epäonnistui! Yritä uudelleen ladata torrent!"
 
-#: GUI_BitComet/CtrlBitTorrent.cpp:1185
+#: GUI_BitComet/CtrlBitTorrent.cpp:1193
 msgctxt "Message_TorrentError"
 msgid "Torrent file too large!"
 msgstr "Torrent tiedosto liian suuri!"
 
-#: GUI_BitComet/CtrlBitTorrent.cpp:1188
+#: GUI_BitComet/CtrlBitTorrent.cpp:1196
 msgctxt "Message_TorrentError"
 msgid "Torrent file opening failed!"
 msgstr "Torrent tiedoston avaaminen epäonnistui!"
 
-#: GUI_BitComet/CtrlBitTorrent.cpp:1313
+#: GUI_BitComet/CtrlBitTorrent.cpp:1284
 msgctxt "Common"
 msgid "The specified file or directory does not exist!"
 msgstr "Määritetty tiedosto tai kansio ei ole olemassa!"
 
-#: GUI_BitComet/CtrlBitTorrent.cpp:1331 GUI_BitComet/CtrlDirectory.cpp:351
+#: GUI_BitComet/CtrlBitTorrent.cpp:1302 GUI_BitComet/CtrlDirectory.cpp:351
 #: GUI_BitComet/DialogBatchBTDownload.cpp:449
 #: GUI_BitComet/DialogBatchDownload.cpp:777
 #: GUI_BitComet/DialogSetTagFolder.cpp:267
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:827
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:861
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:825
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:859
 #: GUI_BitComet/DialogTaskMultiDownload.cpp:803
 #: GUI_BitComet/DialogTorrentCollectBatchDownload.cpp:361
 msgctxt "Message_IsFileAndExisted"
@@ -493,45 +533,45 @@ msgid ""
 "different name."
 msgstr "Määrittämäsi tiedoston nimi on jo olemassa. Määritä toinen nimi."
 
-#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:838
+#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:841
 msgctxt "DetailView_FileList"
 msgid "Very High"
 msgstr "Erittäin korkea"
 
-#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:841
+#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:844
 msgctxt "DetailView_FileList"
 msgid "High"
 msgstr "Korkea"
 
-#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:844
+#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:847
 msgctxt "DetailView_FileList"
 msgid "Normal"
 msgstr "Normaali"
 
-#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:847
+#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:850
 msgctxt "DetailView_FileList"
 msgid "Banned"
 msgstr "Estetty"
 
-#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:854
+#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:857
 msgctxt "DetailView_FileList"
 msgid "[Finished]"
 msgstr "[Valmistunut]"
 
-#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:879
-#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:923
+#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:882
+#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:926
 msgctxt "DetailView_FileList"
 msgid "Global Disabled"
 msgstr ""
 
-#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:883
-#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:927
+#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:886
+#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:930
 msgctxt "DetailView_FileList"
 msgid "No support"
 msgstr "Ei tukea"
 
-#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:885
-#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:929
+#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:888
+#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:932
 #: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:455
 #: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:463
 #: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:476
@@ -539,22 +579,22 @@ msgstr "Ei tukea"
 #: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:497
 #: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:505
 #: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:513
-#: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:519
-#: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:528
-#: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:529
+#: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:521
+#: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:533
+#: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:534
 msgctxt "DialogTaskBitTorrentAdvanced"
 msgid "(Private Torrent)"
 msgstr "(Yksityinen Torrent)"
 
-#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:887
-#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:931
+#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:890
+#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:934
 msgctxt "DetailView_FileList"
 msgid "Task Disabled"
 msgstr ""
 
-#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:936
-#: GUI_BitComet/FileListTreeCtrlBase.cpp:737
-#: GUI_BitComet/View_FileList_Flat.cpp:901
+#: GUI_BitComet/CtrlBitTorrentTaskFile.cpp:939
+#: GUI_BitComet/FileListTreeCtrlBase.cpp:761
+#: GUI_BitComet/View_FileList_Flat.cpp:902
 msgctxt "DetailView_FileList"
 msgid "Click to Add"
 msgstr "Paina Lisääksesi"
@@ -571,7 +611,7 @@ msgstr ""
 #: GUI_BitComet/CtrlDirectory.cpp:335
 #: GUI_BitComet/DialogBatchBTDownload.cpp:435
 #: GUI_BitComet/DialogBatchDownload.cpp:763
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:816
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:814
 #: GUI_BitComet/DialogTaskMultiDownload.cpp:789
 #: GUI_BitComet/DialogTorrentCollectBatchDownload.cpp:347
 msgctxt "Message_PathEmpty"
@@ -582,9 +622,9 @@ msgstr "Polku ei voi olla tyhjä!"
 #: GUI_BitComet/DialogBatchBTDownload.cpp:440
 #: GUI_BitComet/DialogBatchDownload.cpp:768
 #: GUI_BitComet/DialogSetTagFolder.cpp:258
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:482
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:506
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:821
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:480
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:504
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:819
 #: GUI_BitComet/DialogTaskMultiDownload.cpp:794
 #: GUI_BitComet/DialogTaskMultiDownload.cpp:811
 #: GUI_BitComet/DialogTorrentCollectBatchDownload.cpp:352
@@ -603,7 +643,7 @@ msgstr ""
 #: GUI_BitComet/DialogImportAndExport.cpp:314
 #: GUI_BitComet/DialogImportAndExport.cpp:361
 #: GUI_BitComet/DialogSetTagFolder.cpp:261
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:824
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:822
 #: GUI_BitComet/DialogTaskMultiDownload.cpp:797
 #: GUI_BitComet/DialogTorrentCollectBatchDownload.cpp:355
 #: GUI_BitComet/OptionWndDirectories.cpp:406
@@ -618,7 +658,7 @@ msgstr "Anna täydellinen polun nimi."
 #: GUI_BitComet/DialogBatchBTDownload.cpp:446
 #: GUI_BitComet/DialogBatchDownload.cpp:774
 #: GUI_BitComet/DialogSetTagFolder.cpp:264
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:830
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:828
 #: GUI_BitComet/DialogTaskMultiDownload.cpp:800
 #: GUI_BitComet/DialogTorrentCollectBatchDownload.cpp:358
 msgctxt "Message_InvalidDiskDriver"
@@ -731,9 +771,9 @@ msgstr ""
 #: GUI_BitComet/CtrlPreview.cpp:85 GUI_BitComet/Ctrlemule.cpp:47
 #: GUI_BitComet/Ctrlemule.cpp:73 GUI_BitComet/DialogBatchBTDownload.cpp:428
 #: GUI_BitComet/DialogBatchDownload.cpp:756
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:555
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:641
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:895
+#: GUI_BitComet/DialogTorrentMaker.cpp:575
+#: GUI_BitComet/DialogTorrentMaker.cpp:663
+#: GUI_BitComet/DialogTorrentMaker.cpp:918
 #: GUI_BitComet/DialogED2KSearch.cpp:359 GUI_BitComet/DialogED2KSearch.cpp:371
 #: GUI_BitComet/DialogED2KSearch.cpp:655
 #: GUI_BitComet/DialogImportAndExport.cpp:307
@@ -743,13 +783,13 @@ msgstr ""
 #: GUI_BitComet/DialogImportAndExport.cpp:361
 #: GUI_BitComet/DialogImportAndExport.cpp:370
 #: GUI_BitComet/DialogSetTagFolder.cpp:275
-#: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:600
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:483
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:507
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:810
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:1036
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:1359
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:1387
+#: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:605
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:481
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:505
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:808
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:1034
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:1357
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:1385
 #: GUI_BitComet/DialogTaskBitTorrentPublisher.cpp:321
 #: GUI_BitComet/DialogTaskMultiDownload.cpp:747
 #: GUI_BitComet/DialogTaskMultiDownload.cpp:783
@@ -757,7 +797,7 @@ msgstr ""
 #: GUI_BitComet/DialogTaskMultiDownload.cpp:1448
 #: GUI_BitComet/DialogTaskMultiDownloadAdvanced.cpp:84
 #: GUI_BitComet/DialogTorrentCollectBatchDownload.cpp:340
-#: GUI_BitComet/OptionWndAdvanced.cpp:605
+#: GUI_BitComet/OptionWndAdvanced.cpp:602
 #: GUI_BitComet/OptionWndBTTracker.cpp:292
 #: GUI_BitComet/OptionWndDirectories.cpp:342
 #: GUI_BitComet/OptionWndEDTask.cpp:371 GUI_BitComet/OptionWndProxy.cpp:455
@@ -787,10 +827,10 @@ msgid "Not Installed"
 msgstr ""
 
 #: GUI_BitComet/CtrlHelperService.cpp:128
-#: GUI_BitComet/DialogSummaryListTip.cpp:568
-#: GUI_BitComet/DialogSummaryListTip.cpp:623
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1070
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:794
+#: GUI_BitComet/DialogSummaryListTip.cpp:582
+#: GUI_BitComet/DialogSummaryListTip.cpp:637
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1089
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:795
 msgctxt "Common"
 msgid "Stopped"
 msgstr "Pysäytetty"
@@ -930,7 +970,7 @@ msgid ""
 "Would you like to make it your default BitTorrent client?"
 msgstr ""
 
-#: GUI_BitComet/CtrlIntegration.cpp:741 GUI_BitComet/MainFrameWx.cpp:1887
+#: GUI_BitComet/CtrlIntegration.cpp:741 GUI_BitComet/MainFrameWx.cpp:1904
 msgctxt "Registry_BitCometUnfinishedFile"
 msgid "BitComet Unfinished Download File"
 msgstr "BitCometin keskeneräinen lataustiedosto"
@@ -1193,19 +1233,19 @@ msgid ""
 "now?"
 msgstr ""
 
-#: GUI_BitComet/CtrlOpenFile.cpp:258 GUI_BitComet/View_FileList_Flat.cpp:454
-#: GUI_BitComet/View_FileList_Tree.cpp:523
+#: GUI_BitComet/CtrlOpenFile.cpp:258 GUI_BitComet/View_FileList_Flat.cpp:455
+#: GUI_BitComet/View_FileList_Tree.cpp:524
 msgctxt "Message_PathNotExist"
 msgid "Path does not exist."
 msgstr "Polkua ei ole olemassa."
 
-#: GUI_BitComet/CtrlPassport.cpp:182
+#: GUI_BitComet/CtrlPassport.cpp:184
 msgctxt "CView_Passport"
 msgid "Unable to sign in CometID. Password does not match your username."
 msgstr ""
 "Ei voitu kirjautua CometID:llä. Salasana ei täsmää käyttäjätunnuksen kanssa."
 
-#: GUI_BitComet/CtrlPassport.cpp:185
+#: GUI_BitComet/CtrlPassport.cpp:187
 #, fuzzy
 #| msgctxt "Common"
 #| msgid "File does not exist."
@@ -1213,31 +1253,31 @@ msgctxt "CView_Passport"
 msgid "CometID not exists."
 msgstr "Tiedostoa ei ole olemassa."
 
-#: GUI_BitComet/CtrlPassport.cpp:188
+#: GUI_BitComet/CtrlPassport.cpp:190
 msgctxt "CView_Passport"
 msgid "Unable to sign in CometID. Please update BitComet to latest version."
 msgstr ""
 "Ei voitu kirjautua CometID:llä. Ole hyvä ja päivitä BitComet uusimpaan "
 "versioon."
 
-#: GUI_BitComet/CtrlPassport.cpp:193 GUI_BitComet/CtrlPassport.cpp:198
+#: GUI_BitComet/CtrlPassport.cpp:195 GUI_BitComet/CtrlPassport.cpp:200
 msgctxt "CView_Passport"
 msgid "Unable to sign in CometID at this time."
 msgstr "Ei voitu kirjautua CometID:llä tällä kertaa."
 
-#: GUI_BitComet/CtrlPassport.cpp:194
+#: GUI_BitComet/CtrlPassport.cpp:196
 msgctxt "CView_Passport"
 msgid ""
 "You can still download, but your rank and score points will not be collected."
 msgstr "Voit yhä ladata, mutta asemasi ja pisteesi eivät kerry."
 
-#: GUI_BitComet/CtrlPassport.cpp:199
+#: GUI_BitComet/CtrlPassport.cpp:201
 msgctxt "CView_Passport"
 msgid "BitComet will reconnect automatically a few minutes later."
 msgstr ""
 "BitComet yhdistää automaattisesti uudelleen muutaman minuutin kuluttua."
 
-#: GUI_BitComet/CtrlPassport.cpp:209
+#: GUI_BitComet/CtrlPassport.cpp:211
 msgctxt "CView_Passport"
 msgid "Sign in Now"
 msgstr "Kirjaudu Sisään Nyt"
@@ -1264,12 +1304,8 @@ msgstr "Esikatsele"
 
 #: GUI_BitComet/CtrlRemoteAccess.cpp:42
 msgctxt "WebInterface"
-msgid ""
-"Remote Download: Task Added\n"
-"${TASK_NAME}"
-msgstr ""
-"Etälataus: Tehtävä Lisätty\n"
-"${TASK_NAME}"
+msgid "Remote Download: Task Added"
+msgstr "Etälataus: Tehtävä Lisätty"
 
 #: GUI_BitComet/CtrlRemoteAccess.cpp:44 GUI_BitComet/CtrlRemoteAccess.cpp:71
 #: GUI_BitComet/CtrlRemoteAccess.cpp:87 GUI_BitComet/CtrlRemoteAccess.cpp:119
@@ -1281,87 +1317,68 @@ msgstr "BitComet Vinkit"
 
 #: GUI_BitComet/CtrlRemoteAccess.cpp:64
 msgctxt "WebInterface"
-msgid ""
-"Remote Download: Task Stopped\n"
-"${TASK_NAME}"
-msgstr ""
-"Etälataus: Tehtävä Pysäytetty\n"
-"${TASK_NAME}"
+msgid "Remote Download: Task Stopped"
+msgstr "Etälataus: Tehtävä Pysäytetty"
 
 #: GUI_BitComet/CtrlRemoteAccess.cpp:68
 msgctxt "WebInterface"
-msgid ""
-"Remote Download: Task Started\n"
-"${TASK_NAME}"
-msgstr ""
-"Etälataus: Tehtävä Aloitettu\n"
-"${TASK_NAME}"
+msgid "Remote Download: Task Started"
+msgstr "Etälataus: Tehtävä Aloitettu"
 
 #: GUI_BitComet/CtrlRemoteAccess.cpp:85
 msgctxt "WebInterface"
-msgid ""
-"Remote Download: Task Deleted\n"
-"${TASK_NAME}"
-msgstr ""
-"Etälataus: Tehtävä Poistettu\n"
-"${TASK_NAME}"
+msgid "Remote Download: Task Deleted"
+msgstr "Etälataus: Tehtävä Poistettu"
+
+#: GUI_BitComet/CtrlRemoteAccess.cpp:117 GUI_BitComet/CtrlRemoteAccess.cpp:131
+#: GUI_BitComet/CtrlRemoteAccess.cpp:147 GUI_BitComet/CtrlRemoteAccess.cpp:155
+#: GUI_BitComet/CtrlRemoteAccess.cpp:161 GUI_BitComet/CtrlRemoteAccess.cpp:167
+#: GUI_BitComet/CtrlRemoteAccess.cpp:173
+#, fuzzy
+#| msgctxt "Options_Title"
+#| msgid "Remote Download"
+msgctxt "WebInterface"
+msgid "Remote Download:"
+msgstr "Etälataus"
 
 #: GUI_BitComet/CtrlRemoteAccess.cpp:117
 #, fuzzy
 msgctxt "WebInterface"
-msgid ""
-"Remote Download:\n"
-"set max download rate to ${MAX_RATE}."
-msgstr ""
-"Etälataus: Tehtävä Aloitettu\n"
-"${TASK_NAME}"
+msgid "set max download rate to ${MAX_RATE}."
+msgstr "Etälataus: Tehtävä Aloitettu"
 
 #: GUI_BitComet/CtrlRemoteAccess.cpp:131
 #, fuzzy
 msgctxt "WebInterface"
-msgid ""
-"Remote Download:\n"
-"set max upload rate to ${MAX_RATE}."
-msgstr ""
-"Etälataus: Tehtävä Aloitettu\n"
-"${TASK_NAME}"
+msgid "set max upload rate to ${MAX_RATE}."
+msgstr "Etälataus: Tehtävä Aloitettu"
 
 #: GUI_BitComet/CtrlRemoteAccess.cpp:147
 msgctxt "WebInterface"
-msgid ""
-"Remote Download:\n"
-"start all tasks for downloading."
+msgid "start all tasks for downloading."
 msgstr ""
 
 #: GUI_BitComet/CtrlRemoteAccess.cpp:155
 msgctxt "WebInterface"
-msgid ""
-"Remote Download:\n"
-"start all tasks for seeding."
+msgid "start all tasks for seeding."
 msgstr ""
 
 #: GUI_BitComet/CtrlRemoteAccess.cpp:161
 #, fuzzy
 msgctxt "WebInterface"
-msgid ""
-"Remote Download:\n"
-"stop all tasks."
+msgid "stop all tasks."
 msgstr "Etälataus on pois käytöstä"
 
 #: GUI_BitComet/CtrlRemoteAccess.cpp:167
 #, fuzzy
 msgctxt "WebInterface"
-msgid ""
-"Remote Download:\n"
-"suspend all active tasks."
+msgid "suspend all active tasks."
 msgstr "Keskeytä Kaikki Aktiiviset Tehtävät"
 
 #: GUI_BitComet/CtrlRemoteAccess.cpp:173
 #, fuzzy
 msgctxt "WebInterface"
-msgid ""
-"Remote Download:\n"
-"resume last suspended tasks."
+msgid "resume last suspended tasks."
 msgstr "Jatka Viimeisintä Keskeytettyä Tehtävää"
 
 #: GUI_BitComet/CtrlSchedule.cpp:177
@@ -1441,11 +1458,17 @@ msgid "Task Download Finished!"
 msgstr "Lataus valmistunut!"
 
 #: GUI_BitComet/CtrlTaskManage.cpp:119 GUI_BitComet/CtrlTaskManage.cpp:156
+#, fuzzy
+#| msgctxt "MainWindow"
+#| msgid ""
+#| "Task Name: ${T_DISP_NAME}\n"
+#| "Time Spent: ${T_TIME_DL_ELAPSED}\n"
+#| "Average Rate: ${T_AVERAGE_DOWNLOAD_RATE_KB} kB/s"
 msgctxt "MainWindow"
 msgid ""
 "Task Name: ${T_DISP_NAME}\n"
 "Time Spent: ${T_TIME_DL_ELAPSED}\n"
-"Average Rate: ${T_AVERAGE_DOWNLOAD_RATE_KB} kB/s"
+"Average Rate: ${T_AVERAGE_DOWNLOAD_RATE}"
 msgstr ""
 "Tehtävä: ${T_DISP_NAME}\n"
 "Aikaa Käytetty: ${T_TIME_DL_ELAPSED}\n"
@@ -1573,27 +1596,27 @@ msgctxt "View_TabCtrl"
 msgid "Reset to Default Layout"
 msgstr "Palauta Oletusnäkymä"
 
-#: GUI_BitComet/DialogAbout.cpp:225
+#: GUI_BitComet/DialogAbout.cpp:227
 msgctxt "DialogAbout"
-msgid "HomePage: "
+msgid "HomePage:"
 msgstr "Kotisivu: "
 
-#: GUI_BitComet/DialogAbout.cpp:228
+#: GUI_BitComet/DialogAbout.cpp:230
 msgctxt "DialogAbout"
-msgid "Forums: "
+msgid "Forums:"
 msgstr "Foorumit: "
 
-#: GUI_BitComet/DialogAbout.cpp:231
+#: GUI_BitComet/DialogAbout.cpp:233
 msgctxt "DialogAbout"
-msgid "Copyright: "
+msgid "Copyright:"
 msgstr "Tekijänoikeus: "
 
-#: GUI_BitComet/DialogAbout.cpp:234
+#: GUI_BitComet/DialogAbout.cpp:236
 msgctxt "DialogAbout"
-msgid "Translators: "
+msgid "Translators:"
 msgstr "Kääntäjät: "
 
-#: GUI_BitComet/DialogAbout.cpp:243
+#: GUI_BitComet/DialogAbout.cpp:247
 msgctxt "DialogAbout"
 msgid "Visit Forums"
 msgstr "Vieraile Foorumeilla"
@@ -1633,10 +1656,10 @@ msgstr "Avaa Verkkosivu"
 #: GUI_BitComet/DialogBatchDownload.cpp:378
 #: GUI_BitComet/DialogBatchDownloadAddURL.cpp:227
 #: GUI_BitComet/DialogBatchProgress.cpp:137
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:361
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:887
-#: GUI_BitComet/DialogBitTorrentMakerProgress.cpp:144
-#: GUI_BitComet/DialogBitTorrentMakerProgress.cpp:349
+#: GUI_BitComet/DialogTorrentMaker.cpp:380
+#: GUI_BitComet/DialogTorrentMaker.cpp:910
+#: GUI_BitComet/DialogTorrentMakerProgress.cpp:146
+#: GUI_BitComet/DialogTorrentMakerProgress.cpp:356
 #: GUI_BitComet/DialogChangePassword.cpp:170
 #: GUI_BitComet/DialogCompleteCheck.cpp:165
 #: GUI_BitComet/DialogConnectionWizard.cpp:223
@@ -1648,13 +1671,13 @@ msgstr "Avaa Verkkosivu"
 #: GUI_BitComet/DialogNewTag.cpp:147 GUI_BitComet/DialogOpenUrl.cpp:187
 #: GUI_BitComet/DialogSetBTClient.cpp:176
 #: GUI_BitComet/DialogTaskBitTorrent.cpp:192
-#: GUI_BitComet/DialogTaskDelete.cpp:173
+#: GUI_BitComet/DialogTaskDelete.cpp:183
 #: GUI_BitComet/DialogTaskExistedRemind.cpp:161
 #: GUI_BitComet/DialogTaskMultiDownload.cpp:349
 #: GUI_BitComet/DialogTaskMultiDownload.cpp:360
 #: GUI_BitComet/DialogTorrentCollectBatchDownload.cpp:194
 #: GUI_BitComet/DialogTorrentPreview.cpp:165 GUI_BitComet/OptionWnd.cpp:244
-#: GUI_BitComet/View_PeerList_WX.cpp:2821
+#: GUI_BitComet/View_PeerList_WX.cpp:2841
 #: GUI_BitComet/WizardImportUndoneTask.cpp:213
 msgctxt "Common"
 msgid "Cancel"
@@ -1865,7 +1888,7 @@ msgstr ""
 
 #: GUI_BitComet/DialogBatchDownloadAddURL.cpp:483
 #: GUI_BitComet/DialogImportAndExport.cpp:321
-#: GUI_BitComet/OptionWndAdvanced.cpp:423
+#: GUI_BitComet/OptionWndAdvanced.cpp:420
 #: GUI_BitComet/WizardImportUndoneTaskPage2.cpp:659
 msgctxt "Message_FileNotExist"
 msgid "File does not exist."
@@ -1901,201 +1924,207 @@ msgctxt "DialogBatchProgress"
 msgid "Import Links"
 msgstr "Tuo linkkejä"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:197
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:863
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:205
+#: GUI_BitComet/DialogTorrentMaker.cpp:886
+msgctxt "DialogTorrentMaker"
 msgid "Source File:"
 msgstr "Lähdetiedosto:"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:202
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:864
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:210
+#: GUI_BitComet/DialogTorrentMaker.cpp:887
+msgctxt "DialogTorrentMaker"
 msgid "Single File"
 msgstr "Yksi Tiedosto"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:206
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:865
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:214
+#: GUI_BitComet/DialogTorrentMaker.cpp:888
+msgctxt "DialogTorrentMaker"
 msgid "Directory (Multi-Files)"
 msgstr "Hakemisto (Useita)"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:220
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:866
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:228
+#: GUI_BitComet/DialogTorrentMaker.cpp:889
+msgctxt "DialogTorrentMaker"
 msgid "Piece Size:"
 msgstr "Osan koko:"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:229
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:867
-msgctxt "DialogBitTorrentMaker"
-msgid "Help"
-msgstr "Ohje"
+#: GUI_BitComet/DialogTorrentMaker.cpp:237
+msgctxt "DialogTorrentMaker"
+msgid "Estimated Size of Torrent:"
+msgstr ""
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:237
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:868
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:248
+#: GUI_BitComet/DialogTorrentMaker.cpp:891
+msgctxt "DialogTorrentMaker"
 msgid "Tracker servers and DHT Network nodes list:"
 msgstr "Seurantapalvelimet ja DHT Verkkojen solmulista:"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:247
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:258
+#: GUI_BitComet/DialogTorrentMaker.cpp:892
+msgctxt "DialogTorrentMaker"
 msgid ""
 "Tip: Trackers with | prefix are the equivalent tracker (info sharing) of the "
-"one above them. "
+"one above them."
 msgstr ""
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:252
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:870
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:263
+#: GUI_BitComet/DialogTorrentMaker.cpp:893
+msgctxt "DialogTorrentMaker"
 msgid ""
 "Private Torrent (use this option only if the tracker's rules require it)"
 msgstr ""
 "Yksityinen Torrent (käytä tätä vaihtoehtoa ainoastaan jos seurantapalvelimen "
 "vaatii sitä)"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:256
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:871
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:267
+#: GUI_BitComet/DialogTorrentMaker.cpp:894
+msgctxt "DialogTorrentMaker"
 msgid "Add DHT nodes to tracker list"
 msgstr "Lisää DHT solmut seurantapalvelin listaan"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:260
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:872
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:271
+#: GUI_BitComet/DialogTorrentMaker.cpp:895
+msgctxt "DialogTorrentMaker"
 msgid "Align file to piece boundary"
 msgstr ""
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:264
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:873
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:275
+#: GUI_BitComet/DialogTorrentMaker.cpp:896
+msgctxt "DialogTorrentMaker"
 msgid "Enable search for Long-Term Seeds when downloading"
 msgstr ""
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:268
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:874
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:279
+#: GUI_BitComet/DialogTorrentMaker.cpp:897
+msgctxt "DialogTorrentMaker"
 msgid "Calculate ED2K link for each file"
 msgstr "Laske ED2K linkki jokaiselle tiedostolle"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:272
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:875
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:283
+#: GUI_BitComet/DialogTorrentMaker.cpp:898
+msgctxt "DialogTorrentMaker"
 msgid "Output:"
 msgstr "Ulostulo:"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:277
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:876
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:288
+#: GUI_BitComet/DialogTorrentMaker.cpp:899
+msgctxt "DialogTorrentMaker"
 msgid "Save generated .torrent file to:"
 msgstr "Tallenna generoitu .torrent tiedosto kohteeseen:"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:288
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:877
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:299
+#: GUI_BitComet/DialogTorrentMaker.cpp:900
+msgctxt "DialogTorrentMaker"
 msgid "General"
 msgstr "Yleiset"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:296
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:878
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:307
+#: GUI_BitComet/DialogTorrentMaker.cpp:901
+msgctxt "DialogTorrentMaker"
 msgid "Publisher Info:"
 msgstr "Julkaisutiedot:"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:301
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:879
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:312
+#: GUI_BitComet/DialogTorrentMaker.cpp:902
+msgctxt "DialogTorrentMaker"
 msgid "Embedded Publisher information, modification unavailable."
 msgstr "Sisällytä julkaisutiedot"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:307
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:880
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:318
+#: GUI_BitComet/DialogTorrentMaker.cpp:903
+msgctxt "DialogTorrentMaker"
 msgid "Publisher Name:"
 msgstr "Julkaisijan Nimi:"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:315
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:881
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:326
+#: GUI_BitComet/DialogTorrentMaker.cpp:904
+msgctxt "DialogTorrentMaker"
 msgid "Publisher URL:"
 msgstr "Osoite:"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:321
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:882
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:332
+#: GUI_BitComet/DialogTorrentMaker.cpp:905
+msgctxt "DialogTorrentMaker"
 msgid "Comments:"
 msgstr "Kommentit:"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:329
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:883
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:340
+#: GUI_BitComet/DialogTorrentMaker.cpp:906
+msgctxt "DialogTorrentMaker"
 msgid "Publisher"
 msgstr "Julkaisija"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:337
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:884
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:348
+#: GUI_BitComet/DialogTorrentMaker.cpp:907
+msgctxt "DialogTorrentMaker"
 msgid "URL list for web seeding:"
 msgstr "URL lista web jakamiselle:"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:350
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:885
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:361
+#: GUI_BitComet/DialogTorrentMaker.cpp:908
+msgctxt "DialogTorrentMaker"
 msgid "Web Seeding"
 msgstr "Web Jakaminen"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:357
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:886
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:368
+#: GUI_BitComet/DialogTorrentMaker.cpp:890
+msgctxt "DialogTorrentMaker"
+msgid "Help"
+msgstr "Ohje"
+
+#: GUI_BitComet/DialogTorrentMaker.cpp:376
+#: GUI_BitComet/DialogTorrentMaker.cpp:909
+msgctxt "DialogTorrentMaker"
 msgid "Make Torrent"
 msgstr "Tee Torrent"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:439
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:458
+msgctxt "DialogTorrentMaker"
 msgid "Please choose source folder"
 msgstr "Valitse lähdekansio"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:521
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:892
-#: GUI_BitComet/OptionWndBTTask.cpp:324
+#: GUI_BitComet/DialogTorrentMaker.cpp:540
+#: GUI_BitComet/DialogTorrentMaker.cpp:915
+#: GUI_BitComet/OptionWndBTTask.cpp:325
 msgctxt "Common"
 msgid "Auto"
 msgstr "Automaattinen"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:555
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:895
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:575
+#: GUI_BitComet/DialogTorrentMaker.cpp:918
+msgctxt "DialogTorrentMaker"
 msgid "Caution! enable this option on small-sized files will use more space."
 msgstr ""
 "Varoitus! Ottamalla tämän asetuksen käyttöön, pienet tiedostot vievät "
 "enemmän tilaa."
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:645
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:667
+msgctxt "DialogTorrentMaker"
 msgid "Source file can't be empty!"
 msgstr "Lähdetiedosto ei voi olla tyhjä!"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:652
+#: GUI_BitComet/DialogTorrentMaker.cpp:674
 msgctxt "Common"
 msgid "File does not exist."
 msgstr "Tiedostoa ei ole olemassa."
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:657
+#: GUI_BitComet/DialogTorrentMaker.cpp:679
 msgctxt "Common"
 msgid "Folder does not exist."
 msgstr "Kansiota ei ole olemassa."
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:664
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:686
+msgctxt "DialogTorrentMaker"
 msgid "The output file can't be empty!"
 msgstr "Tallennettava tiedosto ei voi olla tyhjä!"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:669
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:691
+msgctxt "DialogTorrentMaker"
 msgid "The output path is invalid!"
 msgstr "Tallennettava polku on virheellinen!"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:753
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:776
+msgctxt "DialogTorrentMaker"
 msgid ""
 "Tip: When publishing multiple files in a folder, please input a HTTP "
 "download URL of this folder, e.g.\n"
@@ -2107,8 +2136,8 @@ msgid ""
 "You can input several URLs in the list, each one on a separate line."
 msgstr ""
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:755
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:778
+msgctxt "DialogTorrentMaker"
 msgid ""
 "Tip: When publishing a single file, please input a HTTP download URL of this "
 "file, e.g.\n"
@@ -2125,35 +2154,27 @@ msgstr ""
 "http://mirror.com/pub/\n"
 "Voit syöttää useita URL osoitteita listaan, jokainen eroteltuna rivillä."
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:787
+#: GUI_BitComet/DialogTorrentMaker.cpp:810
 #: GUI_BitComet/DialogTaskBitTorrentPublisher.cpp:358
-msgctxt "DialogBitTorrentMaker"
+msgctxt "DialogTorrentMaker"
 msgid "Invalid HTTP URL!"
 msgstr "Viallinen HTTP URL!"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:796
+#: GUI_BitComet/DialogTorrentMaker.cpp:819
 #: GUI_BitComet/DialogTaskBitTorrentPublisher.cpp:367
-msgctxt "DialogBitTorrentMaker"
+msgctxt "DialogTorrentMaker"
 msgid "URL must end with \"/\" for multi-file task!"
 msgstr ""
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:862
-#: GUI_BitComet/DialogBitTorrentMaker.h:71
-msgctxt "DialogBitTorrentMaker"
+#: GUI_BitComet/DialogTorrentMaker.cpp:885
+#: GUI_BitComet/DialogTorrentMaker.h:75
+msgctxt "DialogTorrentMaker"
 msgid "Torrent Maker"
 msgstr "Tee Torrent"
 
-#: GUI_BitComet/DialogBitTorrentMaker.cpp:869
-msgctxt "DialogBitTorrentMaker"
-msgid ""
-"Tip: Trackers with | prefix are the equivalent tracker (info sharing) of the "
-"one above\n"
-"them. "
-msgstr "Trackeri | etumerkillä on vaihtoehtoinen yläpuolellaan olevalle "
-
-#: GUI_BitComet/DialogBitTorrentMakerProgress.cpp:350
-#: GUI_BitComet/DialogBitTorrentMakerProgress.h:41
-msgctxt "DialogBitTorrentMakerProgress"
+#: GUI_BitComet/DialogTorrentMakerProgress.cpp:357
+#: GUI_BitComet/DialogTorrentMakerProgress.h:41
+msgctxt "DialogTorrentMakerProgress"
 msgid "Making Torrent..."
 msgstr "Tehdään Torrenttia..."
 
@@ -2185,10 +2206,10 @@ msgstr "Uusi salasana uudestaan:"
 #: GUI_BitComet/DialogOpenUrl.cpp:183 GUI_BitComet/DialogSetBTClient.cpp:173
 #: GUI_BitComet/DialogShowMessage.cpp:151
 #: GUI_BitComet/DialogTaskBitTorrent.cpp:335
-#: GUI_BitComet/DialogTaskDelete.cpp:167
+#: GUI_BitComet/DialogTaskDelete.cpp:177
 #: GUI_BitComet/DialogTaskMultiDownload.cpp:359
 #: GUI_BitComet/DialogTorrentProperty.cpp:205 GUI_BitComet/OptionWnd.cpp:240
-#: GUI_BitComet/View_PeerList_WX.cpp:2818
+#: GUI_BitComet/View_PeerList_WX.cpp:2838
 msgctxt "Common"
 msgid "OK"
 msgstr ""
@@ -2603,7 +2624,7 @@ msgstr ""
 
 #: GUI_BitComet/DialogImportAndExport.cpp:307
 #: GUI_BitComet/DialogImportAndExport.cpp:354
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:833
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:831
 #: GUI_BitComet/DialogTaskMultiDownload.cpp:806
 msgctxt "Message_FileNameEmpty"
 msgid "File name can't be empty!"
@@ -2818,28 +2839,28 @@ msgctxt "DialogSetTagFolder"
 msgid "Set Folder"
 msgstr "Aseta Kansio"
 
-#: GUI_BitComet/DialogSummaryListTip.cpp:165
+#: GUI_BitComet/DialogSummaryListTip.cpp:166
 msgctxt "DialogSummaryListTip"
 msgid "My speed:"
 msgstr "Nopeuteni:"
 
-#: GUI_BitComet/DialogSummaryListTip.cpp:185
+#: GUI_BitComet/DialogSummaryListTip.cpp:186
 msgctxt "DialogSummaryListTip"
 msgid "Other peers':"
 msgstr "Muut jakajat:"
 
-#: GUI_BitComet/DialogSummaryListTip.cpp:205
-#: GUI_BitComet/DialogSummaryListTip.cpp:654
+#: GUI_BitComet/DialogSummaryListTip.cpp:206
+#: GUI_BitComet/DialogSummaryListTip.cpp:668
 msgctxt "DialogSummaryListTip"
 msgid "Global limit:"
 msgstr "Yleinen rajoitus:"
 
-#: GUI_BitComet/DialogSummaryListTip.cpp:225
+#: GUI_BitComet/DialogSummaryListTip.cpp:226
 msgctxt "DialogSummaryListTip"
 msgid "Task limit:"
 msgstr "Tehtävä rajoitus:"
 
-#: GUI_BitComet/DialogSummaryListTip.cpp:654
+#: GUI_BitComet/DialogSummaryListTip.cpp:668
 msgctxt "DialogSummaryListTip"
 msgid "Schedule limit:"
 msgstr "Ajastin rajoitus:"
@@ -2901,7 +2922,7 @@ msgstr "Trackerilista:"
 msgctxt "DialogTaskBitTorrentAdvanced"
 msgid ""
 "Tip: Trackers with | prefix are the equivalent tracker (info sharing) of the "
-"one above them. "
+"one above them."
 msgstr ""
 
 #: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:160
@@ -3005,7 +3026,15 @@ msgctxt "DialogTaskBitTorrentAdvanced"
 msgid "This needs DHT network enabled in Options dialog"
 msgstr "Tämä tarvitsee DHT verkon ottamista käyttöön Asetuksista"
 
-#: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:588
+#: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:523
+#, fuzzy
+#| msgctxt "DialogTaskBitTorrentAdvanced"
+#| msgid "This needs DHT network enabled in Options dialog"
+msgctxt "DialogTaskBitTorrentAdvanced"
+msgid "This needs Peer Exchange enabled in Options dialog"
+msgstr "Tämä tarvitsee DHT verkon ottamista käyttöön Asetuksista"
+
+#: GUI_BitComet/DialogTaskBitTorrentAdvanced.cpp:593
 msgctxt "DialogTaskBitTorrentAdvanced"
 msgid "You can change this only when the task is stopped"
 msgstr "Voit vaihtaa tätä vain kun tehtävä on pysäytetty."
@@ -3084,96 +3113,96 @@ msgctxt "DialogTaskBitTorrentDownloadOrder"
 msgid "Banned"
 msgstr "Estetty"
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:367
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:365
 msgctxt "DialogTaskBitTorrentMain"
 msgid "Save Location"
 msgstr "Tallennus sijainti"
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:374
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:372
 msgctxt "DialogTaskBitTorrentMain"
 msgid "Save path:"
 msgstr "Tallennuspolku:"
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:390
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:656
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:388
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:654
 msgctxt "DialogTaskBitTorrentMain"
 msgid "Subfolder:"
 msgstr "Alikansio:"
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:399
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:397
 msgctxt "DialogTaskBitTorrentMain"
 msgid "Torrent Content:"
 msgstr "Torrentin sisältö:"
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:406
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:404
 msgctxt "DialogTaskBitTorrentMain"
 msgid "Name:"
 msgstr "Nimi:"
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:415
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:421
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:413
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:419
 msgctxt "DialogTaskBitTorrentMain"
 msgid "Publisher:"
 msgstr "Julkaisija:"
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:438
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:1230
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:436
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:1228
 #: GUI_BitComet/SelectFileListCtrl.cpp:107
 #: GUI_BitComet/SelectFileListCtrl.cpp:278
 msgctxt "DialogTaskBitTorrentMain"
 msgid "Select All"
 msgstr "Valitse kaikki"
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:442
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:440
 msgctxt "DialogTaskBitTorrentMain"
 msgid "Video"
 msgstr ""
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:446
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:444
 msgctxt "DialogTaskBitTorrentMain"
 msgid "Audio"
 msgstr ""
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:450
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:448
 msgctxt "DialogTaskBitTorrentMain"
 msgid "Picture"
 msgstr "Kuva"
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:454
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:452
 msgctxt "DialogTaskBitTorrentMain"
 msgid "Other"
 msgstr "Muut"
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:523
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:521
 msgctxt "DialogTaskBitTorrentMain"
 msgid "Select Destination Folder:"
 msgstr "Valitse Kohdekansio:"
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:656
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:654
 msgctxt "DialogTaskBitTorrentMain"
 msgid "Filename:"
 msgstr "Tiedoston nimi:"
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:763
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:761
 #: GUI_BitComet/View_FileList_Panel.cpp:134
 msgctxt "DialogTaskBitTorrentMain"
 msgid "(Please start task to download .torrent file)"
 msgstr "Poista tehtävä ja ladatut tiedostot"
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:763
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:761
 #: GUI_BitComet/View_FileList_Panel.cpp:134
 msgctxt "DialogTaskBitTorrentMain"
 msgid "(Please specify save location while downloading .torrent file)"
 msgstr ""
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:833
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:831
 msgctxt "Message_SubfolderEmpty"
 msgid "Subfolder can't be empty!"
 msgstr "Alikansio ei voi olla tyhjä!"
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:839
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:1356
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:1384
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:837
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:1354
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:1382
 msgctxt "Message_InvalidFilename"
 msgid ""
 "A file name cannot contain any of the following characters:\\ / : * ? \" < > "
@@ -3183,9 +3212,9 @@ msgid ""
 "A part of the path is not a valid filename.(e.g. .a, ab. ,...)"
 msgstr ""
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:841
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:1358
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:1386
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:839
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:1356
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:1384
 msgctxt "Message_InvalidSubfolderName"
 msgid ""
 "A subfolder name cannot contain any of the following characters:\\ / : * ? "
@@ -3200,7 +3229,7 @@ msgstr ""
 "Windowsille: CON, COM1, LPT1. (esim. con, com1.txt)\n"
 "Osa polkua ei ole pätevä alikansion nimi. (esim. .a, ab. ,...)"
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:846
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:844
 #: GUI_BitComet/DialogTaskMultiDownload.cpp:814
 msgctxt "Message_IsDirectoryAndExisted"
 msgid ""
@@ -3208,20 +3237,20 @@ msgid ""
 "different name."
 msgstr "Määrittämäsi kansion nimi on jo olemassa. Määritä toinen nimi."
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:908
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:906
 #: GUI_BitComet/DialogTaskMultiDownload.cpp:863
 msgctxt "Message_MoveDownloadFile"
 msgid "Do you want to move downloaded files to the new location?"
 msgstr "Haluatko siirtää ladatut tiedostot uuteen sijaintiin?"
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:910
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:908
 #: GUI_BitComet/DialogTaskMultiDownload.cpp:865
 msgctxt "Message_RenameDownloadFile"
 msgid "Do you want to rename the downloaded file?"
 msgstr ""
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:917
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:937
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:915
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:935
 #: GUI_BitComet/DialogTaskMultiDownload.cpp:850
 #, fuzzy
 msgctxt "Message_FileAlreadyExist"
@@ -3238,8 +3267,8 @@ msgstr ""
 "Valitse \"Kyllä\" jatkaaksesi latausta.\n"
 "Valitse \"Ei\" vaihtaaksesi tiedoston tallennusnimeä."
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:918
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:938
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:916
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:936
 #, fuzzy
 msgctxt "Message_PathAlreadyExist"
 msgid ""
@@ -3255,7 +3284,7 @@ msgstr ""
 "Valitse \"Kyllä\" jatkaaksesi latausta.\n"
 "Valitse \"Ei\" vaihtaaksesi tiedoston tallennusnimeä."
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:967
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:965
 #: GUI_BitComet/DialogTaskMultiDownload.cpp:879
 msgctxt "Message_FileLargerThan4GB"
 msgid ""
@@ -3265,19 +3294,19 @@ msgstr ""
 "Ladattava tiedosto on suurempi kuin 4GB, muuta kohde sijainti NTFS "
 "levyasemalle!"
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:1217
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:1215
 #: GUI_BitComet/DialogTaskMultiDownload.cpp:530
 msgctxt "DialogTask"
 msgid "Disk Space:"
 msgstr ""
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:1221
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:1219
 #: GUI_BitComet/DialogTaskMultiDownload.cpp:534
 msgctxt "DialogTask"
 msgid "Free Space:"
 msgstr ""
 
-#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:1574
+#: GUI_BitComet/DialogTaskBitTorrentMain.cpp:1572
 #: GUI_BitComet/View_FileList_Panel.cpp:113
 msgctxt "DialogTaskBitTorrentMain"
 msgid "File Name"
@@ -3318,27 +3347,43 @@ msgctxt "DialogTaskBitTorrentPublisher"
 msgid "Comments:"
 msgstr "Kommentit:"
 
-#: GUI_BitComet/DialogTaskDelete.cpp:139
+#: GUI_BitComet/DialogTaskDelete.cpp:141
 msgctxt "TaskList"
 msgid "What do you want to do with the selected tasks?"
 msgstr "Mitä haluat tehdä valituille tehtäville?"
 
-#: GUI_BitComet/DialogTaskDelete.cpp:150
+#: GUI_BitComet/DialogTaskDelete.cpp:152
 msgctxt "Options_Appearance"
 msgid "Delete task only"
 msgstr "Poista vain tehtävä"
 
-#: GUI_BitComet/DialogTaskDelete.cpp:154
+#: GUI_BitComet/DialogTaskDelete.cpp:156
 msgctxt "Options_Appearance"
 msgid "Delete task and downloaded files"
 msgstr "Poista tehtävä ja ladatut tiedostot"
 
-#: GUI_BitComet/DialogTaskDelete.cpp:158
+#: GUI_BitComet/DialogTaskDelete.cpp:160
+#, fuzzy
+#| msgctxt "WizardImportUndoneTaskPage"
+#| msgid "Import unfinished file:"
+msgctxt "Options_Appearance"
+msgid "Delete unfinished files only"
+msgstr "Tuo keskeneräinen tiedosto:"
+
+#: GUI_BitComet/DialogTaskDelete.cpp:164
+#, fuzzy
+#| msgctxt "Options_Appearance"
+#| msgid "Delete task and downloaded files"
+msgctxt "Options_Appearance"
+msgid "Delete all downloaded files"
+msgstr "Poista tehtävä ja ladatut tiedostot"
+
+#: GUI_BitComet/DialogTaskDelete.cpp:168
 msgctxt "Options_Appearance"
 msgid "Also remove from Torrent History"
 msgstr "Poista myös Torrent Historiasta"
 
-#: GUI_BitComet/DialogTaskDelete.h:42
+#: GUI_BitComet/DialogTaskDelete.h:44
 msgctxt "TaskList"
 msgid "Task Delete Confirmation"
 msgstr "Tehtävän Poisto Vahvistus"
@@ -3366,7 +3411,7 @@ msgstr "Trackerilista:"
 
 #: GUI_BitComet/DialogTaskHashPending.cpp:145
 msgctxt "TaskHash"
-msgid "Following tasks need perform hash checks: "
+msgid "Following tasks need perform hash checks:"
 msgstr ""
 
 #: GUI_BitComet/DialogTaskHashPending.cpp:162
@@ -3656,9 +3701,12 @@ msgid "fill in md5/sha1/sha256 to be verified"
 msgstr ""
 
 #: GUI_BitComet/DialogTaskMultiDownloadAdvancedMD5.cpp:300
+#, fuzzy
+#| msgctxt "WizardImportUndoneTaskPage"
+#| msgid "Searching (${PROGRESS_PERCENT}%)"
 msgctxt "DialogTaskMultiDownloadAdvanced"
-msgid "Checking "
-msgstr "Tarkastetaan "
+msgid "Checking ${PERCENT}%"
+msgstr "Etsitään (${PROGRESS_PERCENT}%)"
 
 #: GUI_BitComet/DialogTaskMultiDownloadAdvancedMD5.cpp:315
 msgctxt "DialogTaskMultiDownloadAdvanced"
@@ -3876,37 +3924,37 @@ msgctxt "DialogTorrentProperty"
 msgid "Torrent Properties"
 msgstr "Torrent Ominaisuudet"
 
-#: GUI_BitComet/DialogTrackerLog.cpp:153
+#: GUI_BitComet/DialogTrackerLog.cpp:154
 msgctxt "DialogTrackerLog"
 msgid "Always on top"
 msgstr ""
 
-#: GUI_BitComet/DialogTrackerLog.cpp:160
+#: GUI_BitComet/DialogTrackerLog.cpp:161
 msgctxt "DialogTrackerLog"
 msgid "Task name:"
 msgstr ""
 
-#: GUI_BitComet/DialogTrackerLog.cpp:182
+#: GUI_BitComet/DialogTrackerLog.cpp:183
 msgctxt "DialogTrackerLog"
 msgid "Time"
 msgstr ""
 
-#: GUI_BitComet/DialogTrackerLog.cpp:183
+#: GUI_BitComet/DialogTrackerLog.cpp:184
 msgctxt "DialogTrackerLog"
 msgid "Content"
 msgstr ""
 
-#: GUI_BitComet/DialogTrackerLog.cpp:309 GUI_BitComet/DialogTrackerLog.h:42
+#: GUI_BitComet/DialogTrackerLog.cpp:310 GUI_BitComet/DialogTrackerLog.h:42
 msgctxt "DialogTrackerLog"
 msgid "Tracker Log: ${TRACKER_URL}"
 msgstr ""
 
-#: GUI_BitComet/DialogTrackerLog.cpp:367 GUI_BitComet/View_LogList_WX.cpp:403
+#: GUI_BitComet/DialogTrackerLog.cpp:368 GUI_BitComet/View_LogList_WX.cpp:403
 msgctxt "DetailView_Log_Menu"
 msgid "&Copy"
 msgstr "&Kopioi"
 
-#: GUI_BitComet/DialogTrackerLog.cpp:368 GUI_BitComet/View_LogList_WX.cpp:404
+#: GUI_BitComet/DialogTrackerLog.cpp:369 GUI_BitComet/View_LogList_WX.cpp:404
 msgctxt "DetailView_Log_Menu"
 msgid "Copy &All"
 msgstr "Kopioi K&aikki"
@@ -3921,13 +3969,13 @@ msgctxt "CView_SummaryList"
 msgid "H"
 msgstr ""
 
-#: GUI_BitComet/FloatingWindow.cpp:779
+#: GUI_BitComet/FloatingWindow.cpp:778
 msgctxt "Message_FloatingWindowDefaultTip"
 msgid ""
 "Tip: Drag & drop a web link or a .torrent file here to start the download."
 msgstr ""
 
-#: GUI_BitComet/Frame_Channel_WX.cpp:120
+#: GUI_BitComet/Frame_Channel_WX.cpp:126
 #, fuzzy
 #| msgctxt "DialogTorrentProperty"
 #| msgid "Not downloaded"
@@ -3935,7 +3983,7 @@ msgctxt "MainToolbar"
 msgid "Show download tasks"
 msgstr "Ei ladattu"
 
-#: GUI_BitComet/Frame_Channel_WX.cpp:126
+#: GUI_BitComet/Frame_Channel_WX.cpp:132
 #, fuzzy
 #| msgctxt "MainToolbar"
 #| msgid "Favorites"
@@ -3943,17 +3991,22 @@ msgctxt "MainToolbar"
 msgid "Show IE Favorites"
 msgstr "Suosikit"
 
-#: GUI_BitComet/Frame_Channel_WX.cpp:128
+#: GUI_BitComet/Frame_Channel_WX.cpp:134
 msgctxt "MainToolbar"
 msgid "Show Safari bookmarks"
 msgstr ""
 
-#: GUI_BitComet/Frame_Channel_WX.cpp:189
+#: GUI_BitComet/Frame_Channel_WX.cpp:138
+msgctxt "MainToolbar"
+msgid "Show RSS feeds"
+msgstr ""
+
+#: GUI_BitComet/Frame_Channel_WX.cpp:217
 msgctxt "MainToolbar"
 msgid "Channels"
 msgstr "Kanavat"
 
-#: GUI_BitComet/Frame_Channel_WX.cpp:192
+#: GUI_BitComet/Frame_Channel_WX.cpp:220
 msgctxt "MainToolbar"
 msgid "Bookmarks"
 msgstr "Kirjanmerkki"
@@ -4011,219 +4064,227 @@ msgctxt "Options_TCPIPLimit"
 msgid "--vista_tcp_patch: Must be run under Windows Vista!"
 msgstr "--vista_tcp_patch: Pitää ajaa Windows Vistassa!"
 
-#: GUI_BitComet/MainFrameWx.cpp:1169
+#: GUI_BitComet/MainFrameWx.cpp:1188
 msgctxt "Message_UnsupportedMediaFormat"
 msgid "Preview: Unsupported Media File Format!"
 msgstr "Esikatselu: Mediatiedosto ei ole tuettu!"
 
-#: GUI_BitComet/MainFrameWx.cpp:1173
+#: GUI_BitComet/MainFrameWx.cpp:1192
 msgctxt "Message_PromptBCTPFormatError"
 msgid "URL format error!"
 msgstr "Virheellinen URL osoite!"
 
-#: GUI_BitComet/MainFrameWx.cpp:1177
+#: GUI_BitComet/MainFrameWx.cpp:1196
 msgctxt "Message_PromptMagnetUriError"
 msgid "Magnet URI error: BitTorrent info hash not found!"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:1181
+#: GUI_BitComet/MainFrameWx.cpp:1200
 msgctxt "Message_TorrentMakerError"
 msgid "File is empty!"
 msgstr "Tiedosto on tyhjä!"
 
-#: GUI_BitComet/MainFrameWx.cpp:1185
+#: GUI_BitComet/MainFrameWx.cpp:1204
 msgctxt "Message_TorrentMakerError"
 msgid "Folder is empty!"
 msgstr "Kansio on tyhjä!"
 
-#: GUI_BitComet/MainFrameWx.cpp:1189
+#: GUI_BitComet/MainFrameWx.cpp:1208
 msgctxt "Message_TorrentMakerError"
 msgid "File read error!"
 msgstr "Tiedoston lukuvirhe!"
 
-#: GUI_BitComet/MainFrameWx.cpp:1193
+#: GUI_BitComet/MainFrameWx.cpp:1212
 msgctxt "Message_TorrentMakerError"
 msgid "Out of memory!"
 msgstr "Muisti loppu!"
 
-#: GUI_BitComet/MainFrameWx.cpp:1382
+#: GUI_BitComet/MainFrameWx.cpp:1398
 #, fuzzy
 msgctxt "MainWindow"
 msgid "Saving data...."
 msgstr "Aloita vastaanottamaan tietoja..."
 
-#: GUI_BitComet/MainFrameWx.cpp:1462 GUI_BitComet/MainFrameWx.cpp:1483
+#: GUI_BitComet/MainFrameWx.cpp:1477 GUI_BitComet/MainFrameWx.cpp:1498
 msgctxt "MainWindow"
 msgid "Minimize to &Tray"
 msgstr "Pienennä Tehtäväpalkkiin"
 
-#: GUI_BitComet/MainFrameWx.cpp:1464
+#: GUI_BitComet/MainFrameWx.cpp:1479
 msgctxt "MainWindow"
 msgid "E&xit"
 msgstr "&Poistu"
 
-#: GUI_BitComet/MainFrameWx.cpp:1508 GUI_BitComet/MainFrameWx.cpp:1702
+#: GUI_BitComet/MainFrameWx.cpp:1523 GUI_BitComet/MainFrameWx.cpp:1717
 msgctxt "MainWindow"
 msgid "BitComet Exiting..."
 msgstr "BitComet Sulkeutuu..."
 
-#: GUI_BitComet/MainFrameWx.cpp:1509
+#: GUI_BitComet/MainFrameWx.cpp:1524
 msgctxt "MainWindow"
 msgid "please wait."
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:1630 GUI_BitComet/OptionWndBTTask.cpp:318
-#: GUI_BitComet/OptionWndBTTask.cpp:323
+#: GUI_BitComet/MainFrameWx.cpp:1645 GUI_BitComet/OptionWndBTTask.cpp:319
+#: GUI_BitComet/OptionWndBTTask.cpp:324
 msgctxt "Common"
 msgid "Disable"
 msgstr "Poista käytöstä"
 
-#: GUI_BitComet/MainFrameWx.cpp:1848
+#: GUI_BitComet/MainFrameWx.cpp:1865
 msgctxt "Message_PromptNewVersion"
 msgid "BitComet updated to ${VERSION} successfully."
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:1850
+#: GUI_BitComet/MainFrameWx.cpp:1867
 msgctxt "Message_PromptNewVersion"
 msgid "Would you like to learn about the new features?"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:2012 GUI_BitComet/MainToolBar_WX.cpp:793
+#: GUI_BitComet/MainFrameWx.cpp:1971
+#, fuzzy
+#| msgctxt "MainWindow"
+#| msgid "BitComet Exiting..."
+msgctxt "SleepBlocker"
+msgid "BitComet task running..."
+msgstr "BitComet Sulkeutuu..."
+
+#: GUI_BitComet/MainFrameWx.cpp:2024 GUI_BitComet/MainToolBar_WX.cpp:793
 msgctxt "StatusBar"
 msgid "Open Torrent File"
 msgstr "Avaa Torrent Tiedosto"
 
-#: GUI_BitComet/MainFrameWx.cpp:2015 GUI_BitComet/MainToolBar_WX.cpp:799
+#: GUI_BitComet/MainFrameWx.cpp:2027 GUI_BitComet/MainToolBar_WX.cpp:799
 msgctxt "StatusBar"
 msgid "Make Torrent File"
 msgstr "Tee Torrent Tiedosto"
 
-#: GUI_BitComet/MainFrameWx.cpp:2018 GUI_BitComet/MainToolBar_WX.cpp:796
+#: GUI_BitComet/MainFrameWx.cpp:2030 GUI_BitComet/MainToolBar_WX.cpp:796
 msgctxt "StatusBar"
 msgid "Open Torrent from URL"
 msgstr "Avaa Torrent URL osoitteesta"
 
-#: GUI_BitComet/MainFrameWx.cpp:2021 GUI_BitComet/MainToolBar_WX.cpp:790
+#: GUI_BitComet/MainFrameWx.cpp:2033 GUI_BitComet/MainToolBar_WX.cpp:790
 msgctxt "StatusBar"
 msgid "Create new HTTP/FTP task"
 msgstr "Luo uusi HTTP/FTP tehtävä"
 
-#: GUI_BitComet/MainFrameWx.cpp:2024
+#: GUI_BitComet/MainFrameWx.cpp:2036
 msgctxt "StatusBar"
 msgid "Create batch of HTTP/FTP tasks"
 msgstr "Luo joukko HTTP/FTP tehtäviä"
 
-#: GUI_BitComet/MainFrameWx.cpp:2027
+#: GUI_BitComet/MainFrameWx.cpp:2039
 msgctxt "StatusBar"
 msgid "Import or Export task list and settings"
 msgstr "Tuo tai Vie tehtävälista ja asetukset"
 
-#: GUI_BitComet/MainFrameWx.cpp:2030
+#: GUI_BitComet/MainFrameWx.cpp:2042
 msgctxt "StatusBar"
 msgid "Import Unfinished Download"
 msgstr "Tuo Keskeneräinen Lataus"
 
-#: GUI_BitComet/MainFrameWx.cpp:2033 GUI_BitComet/MainToolBar_WX.cpp:850
+#: GUI_BitComet/MainFrameWx.cpp:2045 GUI_BitComet/MainToolBar_WX.cpp:850
 msgctxt "StatusBar"
 msgid "Exit"
 msgstr "Lopeta"
 
-#: GUI_BitComet/MainFrameWx.cpp:2038
+#: GUI_BitComet/MainFrameWx.cpp:2050
 msgctxt "StatusBar"
 msgid "Show or hide task filter in task list"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:2041
+#: GUI_BitComet/MainFrameWx.cpp:2053
 msgctxt "StatusBar"
 msgid "Show or hide the grid lines in task list"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:2044
+#: GUI_BitComet/MainFrameWx.cpp:2056
 msgctxt "StatusBar"
 msgid "Auto adjust column width of task list"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:2047
+#: GUI_BitComet/MainFrameWx.cpp:2059
 msgctxt "StatusBar"
 msgid "Real-time sort task list"
 msgstr "Reaaliaikainen tehtävälistan lajittelu"
 
-#: GUI_BitComet/MainFrameWx.cpp:2051
+#: GUI_BitComet/MainFrameWx.cpp:2063
 msgctxt "StatusBar"
 msgid "Show or hide text in toolbar"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:2054
+#: GUI_BitComet/MainFrameWx.cpp:2066
 msgctxt "StatusBar"
 msgid "Show or hide search box in toolbar"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:2058
+#: GUI_BitComet/MainFrameWx.cpp:2070
 msgctxt "StatusBar"
 msgid "Show or hide the toolbar"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:2061
+#: GUI_BitComet/MainFrameWx.cpp:2073
 msgctxt "StatusBar"
 msgid "Show or hide the status bar"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:2064 GUI_BitComet/MainToolBar_WX.cpp:802
+#: GUI_BitComet/MainFrameWx.cpp:2076 GUI_BitComet/MainToolBar_WX.cpp:802
 msgctxt "StatusBar"
 msgid "Show or hide the Favorites bar"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:2067
+#: GUI_BitComet/MainFrameWx.cpp:2079
 msgctxt "StatusBar"
 msgid "Show or hide the Floating Window"
 msgstr "Näytä tai piilota Leijuva Ikkuna"
 
-#: GUI_BitComet/MainFrameWx.cpp:2072
+#: GUI_BitComet/MainFrameWx.cpp:2084
 msgctxt "StatusBar"
 msgid "Sign in / Sign out CometID"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:2075
+#: GUI_BitComet/MainFrameWx.cpp:2087
 msgctxt "StatusBar"
 msgid "Change Password of CometID"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:2080 GUI_BitComet/MainToolBar_WX.cpp:829
+#: GUI_BitComet/MainFrameWx.cpp:2092 GUI_BitComet/MainToolBar_WX.cpp:829
 msgctxt "StatusBar"
 msgid "Show Options Dialog"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:2085
+#: GUI_BitComet/MainFrameWx.cpp:2097
 msgctxt "StatusBar"
 msgid "List Help topics"
 msgstr ""
 
-#: GUI_BitComet/MainFrameWx.cpp:2088
+#: GUI_BitComet/MainFrameWx.cpp:2100
 msgctxt "StatusBar"
 msgid "Keyboard Shortcuts"
 msgstr "Pikanäppäimet"
 
-#: GUI_BitComet/MainFrameWx.cpp:2091
+#: GUI_BitComet/MainFrameWx.cpp:2103
 msgctxt "StatusBar"
 msgid "Changelog of new release"
 msgstr "Uuden julkaisun muutosloki"
 
-#: GUI_BitComet/MainFrameWx.cpp:2094
+#: GUI_BitComet/MainFrameWx.cpp:2106
 msgctxt "StatusBar"
 msgid "Homepage"
 msgstr "Kotisivu"
 
-#: GUI_BitComet/MainFrameWx.cpp:2097 GUI_BitComet/MainToolBar_WX.cpp:847
+#: GUI_BitComet/MainFrameWx.cpp:2109 GUI_BitComet/MainToolBar_WX.cpp:847
 msgctxt "StatusBar"
 msgid "Forums"
 msgstr "Foorumit"
 
-#: GUI_BitComet/MainFrameWx.cpp:2100
+#: GUI_BitComet/MainFrameWx.cpp:2112
 msgctxt "StatusBar"
 msgid "Check new version"
 msgstr "Tarkista uusi versio"
 
-#: GUI_BitComet/MainFrameWx.cpp:2103
+#: GUI_BitComet/MainFrameWx.cpp:2115
 msgctxt "StatusBar"
 msgid "Display program information, version number and copyright"
 msgstr "Näytä ohjelman tiedot, versionumero ja tekijänoikeudet"
@@ -4249,7 +4310,7 @@ msgid "&Tools"
 msgstr "&Työkalut"
 
 #: GUI_BitComet/MainMenuBar.cpp:42 GUI_BitComet/MainMenuBar.cpp:89
-#: GUI_BitComet/MainMenuBar.cpp:273
+#: GUI_BitComet/MainMenuBar.cpp:283
 msgctxt "MainMenu"
 msgid "&Help"
 msgstr "&Ohje"
@@ -4375,13 +4436,13 @@ msgctxt "MainMenu"
 msgid "Floating &Window"
 msgstr "Leijuva &Ikkuna"
 
-#: GUI_BitComet/MainMenuBar.cpp:181 GUI_BitComet/MainMenuBar.cpp:628
-#: GUI_BitComet/MainStatusBar_WX.cpp:70
+#: GUI_BitComet/MainMenuBar.cpp:181 GUI_BitComet/MainMenuBar.cpp:240
+#: GUI_BitComet/MainMenuBar.cpp:638 GUI_BitComet/MainStatusBar_WX.cpp:70
 msgctxt "MainMenu"
 msgid "Sign out"
 msgstr ""
 
-#: GUI_BitComet/MainMenuBar.cpp:183 GUI_BitComet/MainMenuBar.cpp:623
+#: GUI_BitComet/MainMenuBar.cpp:183 GUI_BitComet/MainMenuBar.cpp:633
 msgctxt "MainMenu"
 msgid "&Sign in..."
 msgstr ""
@@ -4406,7 +4467,7 @@ msgctxt "MainMenu"
 msgid "When Everything Completes"
 msgstr "Kun Kaikki Valmistuu"
 
-#: GUI_BitComet/MainMenuBar.cpp:223 GUI_BitComet/MainMenuBar.cpp:810
+#: GUI_BitComet/MainMenuBar.cpp:223 GUI_BitComet/MainMenuBar.cpp:820
 msgctxt "MainMenu"
 msgid "At specified time (${SHUTDOWN_TIME})..."
 msgstr "Määritettyyn aikaan (${SHUTDOWN_TIME})..."
@@ -4421,112 +4482,122 @@ msgctxt "MainMenu"
 msgid "Sleep"
 msgstr "Lepotila"
 
-#: GUI_BitComet/MainMenuBar.cpp:234
+#: GUI_BitComet/MainMenuBar.cpp:232
 msgctxt "MainMenu"
 msgid "Standby"
 msgstr "Valmiustila"
 
-#: GUI_BitComet/MainMenuBar.cpp:235
+#: GUI_BitComet/MainMenuBar.cpp:236
 msgctxt "MainMenu"
 msgid "Hibernate"
 msgstr "Horrostila"
 
-#: GUI_BitComet/MainMenuBar.cpp:236
+#: GUI_BitComet/MainMenuBar.cpp:240
 msgctxt "MainMenu"
-msgid "Reboot"
-msgstr "Käynnistä uudelleen"
-
-#: GUI_BitComet/MainMenuBar.cpp:237
-msgctxt "MainMenu"
-msgid "Shutdown"
-msgstr "Sammuta"
-
-#: GUI_BitComet/MainMenuBar.cpp:239
-msgctxt "MainMenu"
-msgid "Remember my settings"
+msgid "Log off"
 msgstr ""
 
 #: GUI_BitComet/MainMenuBar.cpp:242
 msgctxt "MainMenu"
+msgid "Log out"
+msgstr ""
+
+#: GUI_BitComet/MainMenuBar.cpp:246
+msgctxt "MainMenu"
+msgid "Reboot"
+msgstr "Käynnistä uudelleen"
+
+#: GUI_BitComet/MainMenuBar.cpp:247
+msgctxt "MainMenu"
+msgid "Shutdown"
+msgstr "Sammuta"
+
+#: GUI_BitComet/MainMenuBar.cpp:249
+msgctxt "MainMenu"
+msgid "Remember my settings"
+msgstr ""
+
+#: GUI_BitComet/MainMenuBar.cpp:252
+msgctxt "MainMenu"
 msgid "Enable Plugin"
 msgstr "Ota Käyttöön Lisäosa"
 
-#: GUI_BitComet/MainMenuBar.cpp:243
+#: GUI_BitComet/MainMenuBar.cpp:253
 msgctxt "MainMenu"
 msgid "Show Plugin Window"
 msgstr "Näytä Lisäosa Ikkuna"
 
-#: GUI_BitComet/MainMenuBar.cpp:246
+#: GUI_BitComet/MainMenuBar.cpp:256
 msgctxt "MainMenu"
 msgid "Default Directory"
 msgstr "Oletushakemisto"
 
-#: GUI_BitComet/MainMenuBar.cpp:247
+#: GUI_BitComet/MainMenuBar.cpp:257
 msgctxt "MainMenu"
 msgid "&Auto Shutdown"
 msgstr "&Auto Sammutus"
 
-#: GUI_BitComet/MainMenuBar.cpp:250
+#: GUI_BitComet/MainMenuBar.cpp:260
 msgctxt "MainMenu"
 msgid "eMule plugin"
 msgstr "eMule lisäosa"
 
-#: GUI_BitComet/MainMenuBar.cpp:256
+#: GUI_BitComet/MainMenuBar.cpp:266
 msgctxt "MainMenu"
 msgid "&Language"
 msgstr "&Kieli"
 
-#: GUI_BitComet/MainMenuBar.cpp:259
+#: GUI_BitComet/MainMenuBar.cpp:269
 msgctxt "MainMenu"
 msgid "O&ptions..."
 msgstr ""
 
-#: GUI_BitComet/MainMenuBar.cpp:274
+#: GUI_BitComet/MainMenuBar.cpp:284
 msgctxt "MainMenu"
 msgid "&Keyboard Shortcuts"
 msgstr "&Pikanäppäimet"
 
-#: GUI_BitComet/MainMenuBar.cpp:275
+#: GUI_BitComet/MainMenuBar.cpp:285
 msgctxt "MainMenu"
 msgid "&Changelog"
 msgstr "Kanava"
 
-#: GUI_BitComet/MainMenuBar.cpp:277
+#: GUI_BitComet/MainMenuBar.cpp:287
 msgctxt "MainMenu"
 msgid "&Homepage"
 msgstr "Kotisivu"
 
-#: GUI_BitComet/MainMenuBar.cpp:278
+#: GUI_BitComet/MainMenuBar.cpp:288
 msgctxt "MainMenu"
 msgid "&Forums"
 msgstr "&Foorumit"
 
-#: GUI_BitComet/MainMenuBar.cpp:280
+#: GUI_BitComet/MainMenuBar.cpp:290
 msgctxt "MainMenu"
 msgid "Check f&or Updates..."
 msgstr "Tarkista Päivitykset..."
 
-#: GUI_BitComet/MainMenuBar.cpp:282
+#: GUI_BitComet/MainMenuBar.cpp:292
 msgctxt "MainMenu"
 msgid "&About BitComet"
 msgstr "&Tietoja BitCometista"
 
-#: GUI_BitComet/MainMenuBar.cpp:675
+#: GUI_BitComet/MainMenuBar.cpp:685
 msgctxt "MainWindow"
 msgid "Select Default Directory"
 msgstr "Valitse Oletushakemisto"
 
-#: GUI_BitComet/MainMenuBar.cpp:893
+#: GUI_BitComet/MainMenuBar.cpp:903
 msgctxt "MainMenu"
 msgid "Others"
 msgstr "Muut"
 
-#: GUI_BitComet/MainMenuBar.cpp:896
+#: GUI_BitComet/MainMenuBar.cpp:906
 msgctxt "MainMenu"
 msgid "Help Translation"
 msgstr "Auta Kääntämään"
 
-#: GUI_BitComet/MainMenuBar.cpp:913 GUI_BitComet/View_DownloadsList_WX.cpp:2458
+#: GUI_BitComet/MainMenuBar.cpp:923 GUI_BitComet/View_DownloadsList_WX.cpp:2473
 msgctxt "MainMenu"
 msgid "Other Directory..."
 msgstr "Toinen Hakemisto..."
@@ -4565,17 +4636,17 @@ msgstr "Ota Käyttöön DHT Verkko"
 
 #: GUI_BitComet/MainStatusBar_WX.cpp:166
 msgctxt "MainStatusBar"
-msgid "Not signed in."
+msgid "Not signed in"
 msgstr ""
 
 #: GUI_BitComet/MainStatusBar_WX.cpp:172
 msgctxt "MainStatusBar"
-msgid "Signing in."
+msgid "Signing in"
 msgstr ""
 
 #: GUI_BitComet/MainStatusBar_WX.cpp:184
 msgctxt "MainStatusBar"
-msgid "Signing out."
+msgid "Signing out"
 msgstr ""
 
 #: GUI_BitComet/MainStatusBar_WX.cpp:205
@@ -4614,7 +4685,7 @@ msgstr "DHT Yhdistetty:"
 
 #: GUI_BitComet/MainStatusBar_WX.cpp:257
 msgctxt "MainStatusBar"
-msgid "DHT Not Connected."
+msgid "DHT Not Connected"
 msgstr "DHT Ei Yhdistetty."
 
 #: GUI_BitComet/MainStatusBar_WX.cpp:719 GUI_BitComet/MainStatusBar_WX.cpp:723
@@ -4647,27 +4718,38 @@ msgid "Yellow Light"
 msgstr "Keltainen Valo"
 
 #: GUI_BitComet/MainStatusBar_WX.cpp:732
+#, fuzzy
+#| msgctxt "MainStatusBar"
+#| msgid ""
+#| "Your listen port is blocked. You can still download but the speed may not "
+#| "be very fast. Please check your Firewall and NAT Router configurations."
 msgctxt "MainStatusBar"
 msgid ""
 "Your listen port is blocked. You can still download but the speed may not be "
-"very fast. Please check your Firewall and NAT Router configurations."
+"very fast."
 msgstr ""
 "Kuunteluporttisi on estetty. Voit silti ladata mutta nopeus ei ole "
 "välttämättä kovin suuri. Tarkista Palomuurisi ja NAT reititin asetukset."
 
-#: GUI_BitComet/MainStatusBar_WX.cpp:735
+#: GUI_BitComet/MainStatusBar_WX.cpp:733
+msgctxt "MainStatusBar"
+msgid "Please check your Firewall and NAT Router configurations."
+msgstr ""
+
+#: GUI_BitComet/MainStatusBar_WX.cpp:736
 msgctxt "MainStatusBar"
 msgid "Green Light"
 msgstr "Vihreä Valo"
 
-#: GUI_BitComet/MainStatusBar_WX.cpp:736
+#: GUI_BitComet/MainStatusBar_WX.cpp:737
 msgctxt "MainStatusBar"
 msgid "Your listen port is open. You can get the best download speed."
 msgstr "Kuunteluporttisi on avoinna. Voit saada parhaan latausnopeuden."
 
 #: GUI_BitComet/MainToolBarSearch_WX.cpp:267
 msgctxt "MainToolbar"
-msgid "Current search engine: \"${ENGINE}\". Click here to choose more engines"
+msgid ""
+"Current search engine: \"${ENGINE}\". Click here to choose more engines."
 msgstr ""
 "Nykyinen hakukoneesi: \"${ENGINE}\". Paina tästä valitaksesi lisää "
 "hakukoneita"
@@ -4969,47 +5051,47 @@ msgctxt "Options_Title"
 msgid "Options..."
 msgstr "Asetukset..."
 
-#: GUI_BitComet/OptionWndAdvanced.cpp:100
+#: GUI_BitComet/OptionWndAdvanced.cpp:97
 msgctxt "Options_Advanced"
 msgid "Name"
 msgstr "Nimi"
 
-#: GUI_BitComet/OptionWndAdvanced.cpp:101
+#: GUI_BitComet/OptionWndAdvanced.cpp:98
 msgctxt "Options_Advanced"
 msgid "Value"
 msgstr "Arvo"
 
-#: GUI_BitComet/OptionWndAdvanced.cpp:155
+#: GUI_BitComet/OptionWndAdvanced.cpp:152
 msgctxt "Options_Advanced"
 msgid "Advanced Options"
 msgstr "Lisäasetukset"
 
-#: GUI_BitComet/OptionWndAdvanced.cpp:165
+#: GUI_BitComet/OptionWndAdvanced.cpp:162
 msgctxt "Options_Advanced"
 msgid "Value:"
 msgstr "Arvo:"
 
-#: GUI_BitComet/OptionWndAdvanced.cpp:185
+#: GUI_BitComet/OptionWndAdvanced.cpp:182
 msgctxt "Common"
 msgid "True"
 msgstr "Tosi"
 
-#: GUI_BitComet/OptionWndAdvanced.cpp:190
+#: GUI_BitComet/OptionWndAdvanced.cpp:187
 msgctxt "Common"
 msgid "False"
 msgstr "Epätosi"
 
-#: GUI_BitComet/OptionWndAdvanced.cpp:195
+#: GUI_BitComet/OptionWndAdvanced.cpp:192
 msgctxt "Options_Advanced"
 msgid "Reset"
 msgstr "Resetoi"
 
-#: GUI_BitComet/OptionWndAdvanced.cpp:418
+#: GUI_BitComet/OptionWndAdvanced.cpp:415
 msgctxt "Message_ForbidEmpty"
 msgid "It cannot be empty"
 msgstr "Ei voi olla tyhjä"
 
-#: GUI_BitComet/OptionWndAdvanced.cpp:445
+#: GUI_BitComet/OptionWndAdvanced.cpp:442
 msgctxt "Message_UseAppData"
 msgid ""
 "You have changed the setting of \"system.use_app_data\".\n"
@@ -5020,14 +5102,14 @@ msgstr ""
 "Nykyiset asetustiedostot siirretään uuteen paikkaan.\n"
 "Haluatko jatkaa?"
 
-#: GUI_BitComet/OptionWndAdvanced.cpp:458
+#: GUI_BitComet/OptionWndAdvanced.cpp:455
 msgctxt "Message_UseAppData"
 msgid ""
 "Existing configuration files found in target folder.\n"
 "Do you want to overwrite them?"
 msgstr ""
 
-#: GUI_BitComet/OptionWndAdvanced.cpp:474
+#: GUI_BitComet/OptionWndAdvanced.cpp:471
 msgctxt "Message_UseAppData"
 msgid ""
 "Failed to move files. The setting of \"system.use_app_data\" remains "
@@ -5036,87 +5118,87 @@ msgstr ""
 "Tiedostojen siirto epäonnistui. \"system.use_app_data\" asetus pysyy "
 "ennallaan."
 
-#: GUI_BitComet/OptionWndAdvanced.cpp:615
-#: GUI_BitComet/OptionWndAdvancedHelper.cpp:144
+#: GUI_BitComet/OptionWndAdvanced.cpp:612
+#: GUI_BitComet/OptionWndAdvancedHelper.cpp:179
 msgctxt "Options_Advanced"
 msgid "Video preview program path (auto-detect when emtpy)"
 msgstr "Video esikatseluohjelman polku (havaitse automaattisesti jos tyhjä)"
 
-#: GUI_BitComet/OptionWndAdvancedHelper.cpp:133
+#: GUI_BitComet/OptionWndAdvancedHelper.cpp:168
 msgctxt "Options_Advanced"
 msgid "Maximum number of connections per task (0 - auto)"
 msgstr "Suurin määrä yhteyksiä sallittu per tehtävä (0 - auto)"
 
-#: GUI_BitComet/OptionWndAdvancedHelper.cpp:134
+#: GUI_BitComet/OptionWndAdvancedHelper.cpp:169
 msgctxt "Options_Advanced"
 msgid "Global maximum number of connections (0 - unlimited)"
 msgstr ""
 
-#: GUI_BitComet/OptionWndAdvancedHelper.cpp:135
+#: GUI_BitComet/OptionWndAdvancedHelper.cpp:170
 msgctxt "Options_Advanced"
 msgid "Socket start interval (ms)"
 msgstr ""
 
-#: GUI_BitComet/OptionWndAdvancedHelper.cpp:136
+#: GUI_BitComet/OptionWndAdvancedHelper.cpp:171
 msgctxt "Options_Advanced"
 msgid "Maximum simultaneous half-open TCP connections (0 - auto)"
 msgstr ""
 
-#: GUI_BitComet/OptionWndAdvancedHelper.cpp:137
+#: GUI_BitComet/OptionWndAdvancedHelper.cpp:172
 msgctxt "Options_Advanced"
 msgid "Maximum number of UDP packets sent per second"
 msgstr ""
 
-#: GUI_BitComet/OptionWndAdvancedHelper.cpp:138
+#: GUI_BitComet/OptionWndAdvancedHelper.cpp:173
 msgctxt "Options_Advanced"
 msgid "Hash-check again when the task download has finished"
 msgstr "Tarkista hash uudelleen kun lataus on valmis"
 
-#: GUI_BitComet/OptionWndAdvancedHelper.cpp:139
+#: GUI_BitComet/OptionWndAdvancedHelper.cpp:174
 msgctxt "Options_Advanced"
 msgid "Hash-check again if downloaded file changed"
 msgstr ""
 
-#: GUI_BitComet/OptionWndAdvancedHelper.cpp:140
+#: GUI_BitComet/OptionWndAdvancedHelper.cpp:175
 msgctxt "Options_Advanced"
 msgid "Set hash check thread to low priority"
 msgstr "Aseta hash tarkistus pienelle prioriteetille"
 
-#: GUI_BitComet/OptionWndAdvancedHelper.cpp:141
+#: GUI_BitComet/OptionWndAdvancedHelper.cpp:176
 msgctxt "Options_Advanced"
 msgid "User-Agent sent to HTTP tracker"
 msgstr ""
 
-#: GUI_BitComet/OptionWndAdvancedHelper.cpp:142
+#: GUI_BitComet/OptionWndAdvancedHelper.cpp:177
 msgctxt "Options_Advanced"
 msgid ""
 "Anti-leech: seconds after which to check downloaded amount since peer "
 "connected"
 msgstr ""
 
-#: GUI_BitComet/OptionWndAdvancedHelper.cpp:143
+#: GUI_BitComet/OptionWndAdvancedHelper.cpp:178
 msgctxt "Options_Advanced"
 msgid "Anti-leech: minimum downloaded bytes counted after specified time"
 msgstr ""
 
-#: GUI_BitComet/OptionWndAdvancedHelper.cpp:145
+#: GUI_BitComet/OptionWndAdvancedHelper.cpp:180
 msgctxt "Options_Advanced"
 msgid "Allow video preview program to open files of any type"
 msgstr "Salli video esikatseluohjelman avata kaikentyyppiset tiedostot"
 
-#: GUI_BitComet/OptionWndAdvancedHelper.cpp:146
+#: GUI_BitComet/OptionWndAdvancedHelper.cpp:181
 msgctxt "Options_Advanced"
 msgid "HTTP task: User-Agent String for HTTP connection"
 msgstr ""
 
-#: GUI_BitComet/OptionWndAdvancedHelper.cpp:147
+#: GUI_BitComet/OptionWndAdvancedHelper.cpp:182
 msgctxt "Options_Advanced"
 msgid ""
 "Long-Term Seeding protocol selection\n"
 "(0 => TCP only; 1 => UDP only; 2 => TCP + UDP)"
 msgstr ""
 
-#: GUI_BitComet/OptionWndAdvancedHelper.cpp:148
+#: GUI_BitComet/OptionWndAdvancedHelper.cpp:183
 msgctxt "Options_Advanced"
 msgid ""
 "Save configuration files in APP_DATA folder or installation folder\n"
@@ -5127,7 +5209,7 @@ msgstr ""
 "(Suositeltu: \"tosi\" jos asennettu PROGRAM_FILES kansioon, \"epätosi\" jos "
 "toiseen paikkaan kuten USB tikulle)"
 
-#: GUI_BitComet/OptionWndAdvancedHelper.cpp:149
+#: GUI_BitComet/OptionWndAdvancedHelper.cpp:184
 msgctxt "Options_Advanced"
 msgid ""
 "Show debug information\n"
@@ -5136,16 +5218,26 @@ msgstr ""
 "Näytä virheenkorjaus tiedot\n"
 "(korkeampi CPU käyttö)"
 
-#: GUI_BitComet/OptionWndAdvancedHelper.cpp:150
+#: GUI_BitComet/OptionWndAdvancedHelper.cpp:185
 msgctxt "Options_Advanced"
 msgid ""
 "Enable disk boost service to enhance disk IO performance of BitComet (only "
 "for Vista or later)"
 msgstr ""
 
-#: GUI_BitComet/OptionWndAdvancedHelper.cpp:151
+#: GUI_BitComet/OptionWndAdvancedHelper.cpp:186
 msgctxt "Options_Advanced"
 msgid "Detect downloaded file missing at program startup"
+msgstr ""
+
+#: GUI_BitComet/OptionWndAdvancedHelper.cpp:187
+msgctxt "Options_Advanced"
+msgid "Enable peer exchange while BitTorrent downloading"
+msgstr ""
+
+#: GUI_BitComet/OptionWndAdvancedHelper.cpp:188
+msgctxt "Options_Advanced"
+msgid "Save connected peers only when stopping BitTorrent task"
 msgstr ""
 
 #: GUI_BitComet/OptionWndAppearance.cpp:146
@@ -5247,144 +5339,144 @@ msgctxt "Options_Appearance"
 msgid "Exit"
 msgstr ""
 
-#: GUI_BitComet/OptionWndBTTask.cpp:145
+#: GUI_BitComet/OptionWndBTTask.cpp:146
 msgctxt "Options_TaskBitTorrent"
 msgid "BitTorrent Task"
 msgstr "BitTorrent Tehtävä"
 
-#: GUI_BitComet/OptionWndBTTask.cpp:149
+#: GUI_BitComet/OptionWndBTTask.cpp:150
 msgctxt "Options_TaskBitTorrent"
 msgid "Enable DHT Network"
 msgstr "Ota Käyttöön DHT Verkko"
 
-#: GUI_BitComet/OptionWndBTTask.cpp:158
+#: GUI_BitComet/OptionWndBTTask.cpp:159
 msgctxt "Options_TaskBitTorrent"
 msgid "List of BitTorrent clients allowed connecting to"
 msgstr ""
 
-#: GUI_BitComet/OptionWndBTTask.cpp:161
+#: GUI_BitComet/OptionWndBTTask.cpp:162
 msgctxt "Options_TaskBitTorrent"
 msgid "Client List..."
 msgstr "Client Lista"
 
-#: GUI_BitComet/OptionWndBTTask.cpp:169
+#: GUI_BitComet/OptionWndBTTask.cpp:170
 msgctxt "Options_TaskBitTorrent"
 msgid "Enable Anti-Leech:"
 msgstr ""
 
-#: GUI_BitComet/OptionWndBTTask.cpp:181
+#: GUI_BitComet/OptionWndBTTask.cpp:182
 msgctxt "Options_TaskBitTorrent"
 msgid "Protocol encryption (avoid BT protocol being blocked):"
 msgstr "Protokollan salaus (vältä BT protokollan estämistä):"
 
-#: GUI_BitComet/OptionWndBTTask.cpp:188
+#: GUI_BitComet/OptionWndBTTask.cpp:189
 msgctxt "Options_TaskBitTorrent"
 msgid "Display task properties dialog when Torrent downloaded by Magnet URI"
 msgstr ""
 
-#: GUI_BitComet/OptionWndBTTask.cpp:195
+#: GUI_BitComet/OptionWndBTTask.cpp:196
 msgctxt "Options_TaskBitTorrent"
 msgid "Add to Torrent History when opening .torrent file"
 msgstr "Lisää Torrent Historiaan kun avataan .torrent tiedosto"
 
-#: GUI_BitComet/OptionWndBTTask.cpp:202
+#: GUI_BitComet/OptionWndBTTask.cpp:203
 msgctxt "Options_TaskBitTorrent"
 msgid "Enable Torrent Exchange"
 msgstr "Ota Käyttöön Torrent Vaihto"
 
-#: GUI_BitComet/OptionWndBTTask.cpp:209
+#: GUI_BitComet/OptionWndBTTask.cpp:210
 msgctxt "Options_TaskBitTorrent"
 msgid "Add to Torrent Share when openning .torrent file"
 msgstr ""
 
-#: GUI_BitComet/OptionWndBTTask.cpp:213
+#: GUI_BitComet/OptionWndBTTask.cpp:214
 msgctxt "Options_TaskBitTorrent"
 msgid "Clear Torrent Collection list at program exit"
 msgstr ""
 
-#: GUI_BitComet/OptionWndBTTask.cpp:222
+#: GUI_BitComet/OptionWndBTTask.cpp:223
 msgctxt "Options_TaskBitTorrent"
 msgid "Max number of torrents to display in Torrent Collection list:"
 msgstr ""
 
-#: GUI_BitComet/OptionWndBTTask.cpp:229
+#: GUI_BitComet/OptionWndBTTask.cpp:230
 #, fuzzy
 msgctxt "Options_TaskBitTorrent"
 msgid "Task Seeding Rules"
 msgstr "Tehtävän Ajastus"
 
-#: GUI_BitComet/OptionWndBTTask.cpp:233
+#: GUI_BitComet/OptionWndBTTask.cpp:234
 msgctxt "Options_TaskBitTorrent"
 msgid "Auto stop task when satisfying all following conditions"
 msgstr ""
 
-#: GUI_BitComet/OptionWndBTTask.cpp:242
+#: GUI_BitComet/OptionWndBTTask.cpp:243
 msgctxt "Options_TaskBitTorrent"
 msgid "Share ratio equal to or higher than:"
 msgstr "Jakosuhde yhtä suuri tai suurempi kuin:"
 
-#: GUI_BitComet/OptionWndBTTask.cpp:253
+#: GUI_BitComet/OptionWndBTTask.cpp:254
 msgctxt "Options_TaskBitTorrent"
 msgid "Seeds number equal to or higher than:"
 msgstr "Lähteiden määrä yhtä suuri tai suurempi kuin:"
 
-#: GUI_BitComet/OptionWndBTTask.cpp:264
+#: GUI_BitComet/OptionWndBTTask.cpp:265
 msgctxt "Options_TaskBitTorrent"
 msgid "Time of seeding equal to or longer than:"
 msgstr "Lähetysaika yhtä suuri tai suurempi kuin (min):"
 
-#: GUI_BitComet/OptionWndBTTask.cpp:270
+#: GUI_BitComet/OptionWndBTTask.cpp:271
 #, fuzzy
 msgctxt "Options_TaskBitTorrent"
 msgid "day"
 msgstr "Perjantai"
 
-#: GUI_BitComet/OptionWndBTTask.cpp:276
+#: GUI_BitComet/OptionWndBTTask.cpp:277
 msgctxt "Options_TaskBitTorrent"
 msgid "hour"
 msgstr ""
 
-#: GUI_BitComet/OptionWndBTTask.cpp:282
+#: GUI_BitComet/OptionWndBTTask.cpp:283
 msgctxt "Options_TaskBitTorrent"
 msgid "minute"
 msgstr ""
 
-#: GUI_BitComet/OptionWndBTTask.cpp:285
+#: GUI_BitComet/OptionWndBTTask.cpp:286
 msgctxt "Options_TaskBitTorrent"
 msgid "Upload"
 msgstr "KB/s Lähetys"
 
-#: GUI_BitComet/OptionWndBTTask.cpp:292
+#: GUI_BitComet/OptionWndBTTask.cpp:293
 msgctxt "Options_TaskBitTorrent"
 msgid "Maximum upload rate per task:"
 msgstr "Suurin lähetysnopeus per tehtävä:"
 
-#: GUI_BitComet/OptionWndBTTask.cpp:301
+#: GUI_BitComet/OptionWndBTTask.cpp:302
 msgctxt "Options_TaskBitTorrent"
 msgid "Minimum upload rate per task:"
 msgstr "Pienin lähetysnopeus per tehtävä:"
 
-#: GUI_BitComet/OptionWndBTTask.cpp:309
+#: GUI_BitComet/OptionWndBTTask.cpp:310
 msgctxt "Options_TaskBitTorrent"
 msgid "(requires sufficient peers and bandwidth)"
 msgstr ""
 
-#: GUI_BitComet/OptionWndBTTask.cpp:319
+#: GUI_BitComet/OptionWndBTTask.cpp:320
 msgctxt "Options_TaskBitTorrent"
 msgid "Auto Detect"
 msgstr "Havaitse Automaattisesti"
 
-#: GUI_BitComet/OptionWndBTTask.cpp:320
+#: GUI_BitComet/OptionWndBTTask.cpp:321
 msgctxt "Options_TaskBitTorrent"
 msgid "Always"
 msgstr "Aina"
 
-#: GUI_BitComet/OptionWndBTTask.cpp:321
+#: GUI_BitComet/OptionWndBTTask.cpp:322
 msgctxt "Options_TaskBitTorrent"
 msgid "Force"
 msgstr "Pakota"
 
-#: GUI_BitComet/OptionWndBTTask.cpp:325
+#: GUI_BitComet/OptionWndBTTask.cpp:326
 msgctxt "Common"
 msgid "Strict"
 msgstr "Tiukka"
@@ -5434,7 +5526,7 @@ msgid "Updated at ${TIME}"
 msgstr ""
 
 #: GUI_BitComet/OptionWndConnection.cpp:147
-#: GUI_BitComet/OptionWndConnection.cpp:446
+#: GUI_BitComet/OptionWndConnection.cpp:451
 msgctxt "Options_Connection"
 msgid "General Settings"
 msgstr "Yleiset asetukset"
@@ -5515,7 +5607,7 @@ msgctxt "Options_Connection"
 msgid "Network Wizard"
 msgstr "Verkko Welho"
 
-#: GUI_BitComet/OptionWndConnection.cpp:449
+#: GUI_BitComet/OptionWndConnection.cpp:454
 msgctxt "Options_Connection"
 msgid "(Superseded by Scheduler)"
 msgstr ""
@@ -5612,28 +5704,40 @@ msgid ""
 msgstr ""
 
 #: GUI_BitComet/OptionWndDiskCache.cpp:140
+#, fuzzy
+#| msgctxt "Options_DiskCache"
+#| msgid "Maximum disk cache size (MB):"
 msgctxt "Options_DiskCache"
-msgid "Minimum disk cache size (MB):"
-msgstr "Levyn välimuistin koko vähintään (MB):"
-
-#: GUI_BitComet/OptionWndDiskCache.cpp:149
-msgctxt "Options_DiskCache"
-msgid "Maximum disk cache size (MB):"
+msgid "Maximum disk cache size for BitTorrent"
 msgstr "Levyn välimuistin koko enintään (MB):"
 
-#: GUI_BitComet/OptionWndDiskCache.cpp:158
+#: GUI_BitComet/OptionWndDiskCache.cpp:149
+#, fuzzy
+#| msgctxt "Options_DiskCache"
+#| msgid "Cache size for each HTTP connection (KB):"
 msgctxt "Options_DiskCache"
-msgid "Shrink disk cache size if free physical memory is lower than (MB):"
+msgid "Cache size for each HTTP connection:"
+msgstr "Välimuistin koko kullekkin HTTP yhteydelle (KB):"
+
+#: GUI_BitComet/OptionWndDiskCache.cpp:158
+#, fuzzy
+#| msgctxt "Options_DiskCache"
+#| msgid "Maximum disk cache size (MB):"
+msgctxt "Options_DiskCache"
+msgid "Maximum disk cache size for Long-Term Seeding:"
+msgstr "Levyn välimuistin koko enintään (MB):"
+
+#: GUI_BitComet/OptionWndDiskCache.cpp:167
+#, fuzzy
+#| msgctxt "Options_DiskCache"
+#| msgid "Shrink disk cache size if free physical memory is lower than (MB):"
+msgctxt "Options_DiskCache"
+msgid "Shrink disk cache size if free physical memory is lower than:"
 msgstr ""
 "Kutista levyn välimuistin kokoa jos vapaata fyysistä muistia on vähemmän "
 "kuin (MB):"
 
-#: GUI_BitComet/OptionWndDiskCache.cpp:167
-msgctxt "Options_DiskCache"
-msgid "Cache size for each HTTP connection (KB):"
-msgstr "Välimuistin koko kullekkin HTTP yhteydelle (KB):"
-
-#: GUI_BitComet/OptionWndDiskCache.cpp:176
+#: GUI_BitComet/OptionWndDiskCache.cpp:181
 msgctxt "Options_DiskCache"
 msgid "Auto-choose cache size in the given range"
 msgstr "Valitse välimuistin koko automaattisesti annettujen arvojen väliltä"
@@ -6083,7 +6187,7 @@ msgid ""
 "\n"
 "High/Low speed: Uses specified bandwidth.\n"
 "\n"
-"Turn off: Stops all tasks temporarily"
+"Turn off: Stops all tasks temporarily."
 msgstr ""
 "Käytä Ajastinta säätämään kaistanleveys riippuen päivän ajan mukaan "
 "viikossa.\n"
@@ -6454,7 +6558,7 @@ msgctxt "Option_RemoteDownload"
 msgid ""
 "Tip: If you access this web page from a computer outside your NAT router, "
 "please use your WAN IP displayed in the status bar of the main window "
-"instead of 127.0.0.1. "
+"instead of 127.0.0.1."
 msgstr ""
 
 #: GUI_BitComet/OptionWndWebInterface.cpp:306
@@ -6519,7 +6623,7 @@ msgstr "Sulje saman tason hakemistot"
 
 #: GUI_BitComet/SelectFileListCtrl.cpp:102
 #: GUI_BitComet/SelectFileListCtrl.cpp:273
-#: GUI_BitComet/View_FileList_Flat.cpp:287
+#: GUI_BitComet/View_FileList_Flat.cpp:288
 #: GUI_BitComet/View_FileList_Tree.cpp:143
 #, fuzzy
 msgctxt "DetailView_Log_Menu"
@@ -6528,7 +6632,7 @@ msgstr "Trackerilista:"
 
 #: GUI_BitComet/SelectFileListCtrl.cpp:103
 #: GUI_BitComet/SelectFileListCtrl.cpp:274
-#: GUI_BitComet/View_FileList_Flat.cpp:288
+#: GUI_BitComet/View_FileList_Flat.cpp:289
 #: GUI_BitComet/View_FileList_Tree.cpp:144
 #, fuzzy
 msgctxt "DetailView_Log_Menu"
@@ -6553,49 +6657,99 @@ msgctxt "DialogTaskBitTorrentMain"
 msgid "Unselect All"
 msgstr "Poista valinta"
 
-#: GUI_BitComet/Toolbar_Navigate.cpp:92 GUI_BitComet/Toolbar_Navigate.cpp:171
-#: GUI_BitComet/View_MainLeftTree_WX.cpp:495
-msgctxt "Favourite"
-msgid "All Downloads"
-msgstr "Kaikki Lataukset"
-
-#: GUI_BitComet/Toolbar_Navigate.cpp:93 GUI_BitComet/Toolbar_Navigate.cpp:172
-#: GUI_BitComet/View_MainLeftTree_WX.cpp:496
-msgctxt "Favourite"
-msgid "Downloading"
-msgstr "Ladataan"
-
-#: GUI_BitComet/Toolbar_Navigate.cpp:94 GUI_BitComet/Toolbar_Navigate.cpp:173
-#: GUI_BitComet/View_MainLeftTree_WX.cpp:497
-msgctxt "Favourite"
-msgid "Completed"
-msgstr "Valmistuneet"
-
-#: GUI_BitComet/Toolbar_Navigate.cpp:95 GUI_BitComet/Toolbar_Navigate.cpp:174
-#: GUI_BitComet/View_MainLeftTree_WX.cpp:498
-msgctxt "Favourite"
-msgid "Active"
-msgstr ""
-
-#: GUI_BitComet/Toolbar_Navigate.cpp:102 GUI_BitComet/Toolbar_Navigate.cpp:175
-#: GUI_BitComet/View_MainLeftTree_WX.cpp:500
+#: GUI_BitComet/Toolbar_Navigate.cpp:96 GUI_BitComet/Toolbar_Navigate.cpp:179
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:678
 msgctxt "Favourite"
 msgid "Torrent History"
 msgstr "Torrent Historia"
 
-#: GUI_BitComet/Toolbar_Navigate.cpp:105 GUI_BitComet/Toolbar_Navigate.cpp:156
-#: GUI_BitComet/Toolbar_Navigate.cpp:176
-#: GUI_BitComet/View_MainLeftTree_WX.cpp:505
+#: GUI_BitComet/Toolbar_Navigate.cpp:99 GUI_BitComet/Toolbar_Navigate.cpp:155
+#: GUI_BitComet/Toolbar_Navigate.cpp:180
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:682
 msgctxt "Favourite"
 msgid "Torrent Share"
 msgstr "Torrent Jako"
 
-#: GUI_BitComet/Toolbar_Navigate.cpp:106 GUI_BitComet/Toolbar_Navigate.cpp:157
-#: GUI_BitComet/Toolbar_Navigate.cpp:177
-#: GUI_BitComet/View_MainLeftTree_WX.cpp:506
+#: GUI_BitComet/Toolbar_Navigate.cpp:100 GUI_BitComet/Toolbar_Navigate.cpp:156
+#: GUI_BitComet/Toolbar_Navigate.cpp:181
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:683
 msgctxt "Favourite"
 msgid "Torrent Collection"
 msgstr "Torrent Kokoelmat"
+
+#: GUI_BitComet/Toolbar_Navigate.cpp:170 GUI_BitComet/Toolbar_Navigate.cpp:211
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:591
+msgctxt "Favourite"
+msgid "All Downloads"
+msgstr "Kaikki Lataukset"
+
+#: GUI_BitComet/Toolbar_Navigate.cpp:171 GUI_BitComet/Toolbar_Navigate.cpp:213
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:97
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:593
+msgctxt "Favourite"
+msgid "Downloading"
+msgstr "Ladataan"
+
+#: GUI_BitComet/Toolbar_Navigate.cpp:172 GUI_BitComet/Toolbar_Navigate.cpp:215
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:98
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:595
+#, fuzzy
+#| msgctxt "DialogTorrentProperty"
+#| msgid "Downloaded"
+msgctxt "Favourite"
+msgid "Download Paused"
+msgstr "Ladattu"
+
+#: GUI_BitComet/Toolbar_Navigate.cpp:173 GUI_BitComet/Toolbar_Navigate.cpp:217
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:99
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:597
+#, fuzzy
+#| msgctxt "TaskList_Header"
+#| msgid "LT Seeding"
+msgctxt "Favourite"
+msgid "Seeding"
+msgstr "LT Lähetys"
+
+#: GUI_BitComet/Toolbar_Navigate.cpp:174 GUI_BitComet/Toolbar_Navigate.cpp:219
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:100
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:599
+#, fuzzy
+#| msgctxt "DetailView_TrackerList"
+#| msgid "Seeds"
+msgctxt "Favourite"
+msgid "Seed Paused"
+msgstr "Lähteet"
+
+#: GUI_BitComet/Toolbar_Navigate.cpp:175 GUI_BitComet/Toolbar_Navigate.cpp:221
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:102
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:601
+msgctxt "Favourite"
+msgid "Completed"
+msgstr "Valmistuneet"
+
+#: GUI_BitComet/Toolbar_Navigate.cpp:176 GUI_BitComet/Toolbar_Navigate.cpp:223
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:103
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:603
+#, fuzzy
+#| msgctxt "Favourite"
+#| msgid "Completed"
+msgctxt "Favourite"
+msgid "Uncompleted"
+msgstr "Valmistuneet"
+
+#: GUI_BitComet/Toolbar_Navigate.cpp:177 GUI_BitComet/Toolbar_Navigate.cpp:225
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:105
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:605
+msgctxt "Favourite"
+msgid "Active"
+msgstr ""
+
+#: GUI_BitComet/Toolbar_Navigate.cpp:178 GUI_BitComet/Toolbar_Navigate.cpp:227
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:106
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:607
+msgctxt "Favourite"
+msgid "Inactive"
+msgstr ""
 
 #: GUI_BitComet/Toolbar_Task.cpp:63
 msgctxt "CDownloadsListFrame"
@@ -6610,7 +6764,7 @@ msgctxt "CDownloadsListFrame"
 msgid "Show task tags"
 msgstr "Pysäytä tehtävä"
 
-#: GUI_BitComet/Toolbar_Task.cpp:118 GUI_BitComet/Toolbar_Task.cpp:209
+#: GUI_BitComet/Toolbar_Task.cpp:118 GUI_BitComet/Toolbar_Task.cpp:229
 msgctxt "MainToolbar"
 msgid "Search Tasks"
 msgstr ""
@@ -6655,17 +6809,17 @@ msgctxt "TorrentShare"
 msgid "Other"
 msgstr "Muut"
 
-#: GUI_BitComet/Toolbar_Torrent.cpp:239 GUI_BitComet/Toolbar_Torrent.cpp:355
+#: GUI_BitComet/Toolbar_Torrent.cpp:239 GUI_BitComet/Toolbar_Torrent.cpp:360
 msgctxt "TorrentShare"
 msgid "Search Torrent"
 msgstr ""
 
-#: GUI_BitComet/Toolbar_Torrent.cpp:245 GUI_BitComet/Toolbar_Torrent.cpp:356
+#: GUI_BitComet/Toolbar_Torrent.cpp:245 GUI_BitComet/Toolbar_Torrent.cpp:361
 msgctxt "TorrentShare"
 msgid "Category"
 msgstr "Kategoria"
 
-#: GUI_BitComet/Toolbar_Torrent.cpp:263 GUI_BitComet/Toolbar_Torrent.cpp:357
+#: GUI_BitComet/Toolbar_Torrent.cpp:263 GUI_BitComet/Toolbar_Torrent.cpp:362
 msgctxt "TorrentShare"
 msgid ""
 "The following content is automatically generated from the peers you "
@@ -6679,7 +6833,7 @@ msgid "The list is full. Please clear some torrents to get more."
 msgstr ""
 
 #: GUI_BitComet/TorrentExchangeHelperWx.cpp:77
-#: GUI_BitComet/View_DownloadsList_WX.cpp:1440
+#: GUI_BitComet/View_DownloadsList_WX.cpp:1455
 msgctxt "MainWindow"
 msgid "${SELECTED_NUMBER} selected / ${TOTAL_NUMBER} in total"
 msgstr "${SELECTED_NUMBER} valittu / ${TOTAL_NUMBER} yhteensä"
@@ -6694,10 +6848,10 @@ msgstr ""
 "yhteensä"
 
 #: GUI_BitComet/TorrentPropertyInfo.h:82
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:941
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:937
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:945
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:846
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:970
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:965
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:973
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:874
 msgctxt "TorrentShare"
 msgid "Unknown"
 msgstr "Tuntematon"
@@ -6732,433 +6886,433 @@ msgctxt "DialogTorrentProperty"
 msgid "Download not finished"
 msgstr "Lataus ei valmis"
 
-#: GUI_BitComet/View_ConnectionList_WX.cpp:277
-#: GUI_BitComet/View_ConnectionList_WX.cpp:397
+#: GUI_BitComet/View_ConnectionList_WX.cpp:274
+#: GUI_BitComet/View_ConnectionList_WX.cpp:391
 msgctxt "DetailView_LinkList"
 msgid "Connecting"
 msgstr "Yhdistetään"
 
-#: GUI_BitComet/View_ConnectionList_WX.cpp:280
-#: GUI_BitComet/View_ConnectionList_WX.cpp:400
+#: GUI_BitComet/View_ConnectionList_WX.cpp:277
+#: GUI_BitComet/View_ConnectionList_WX.cpp:394
 msgctxt "DetailView_LinkList"
 msgid "Downloading"
 msgstr "Ladataan"
 
-#: GUI_BitComet/View_ConnectionList_WX.cpp:283
-#: GUI_BitComet/View_ConnectionList_WX.cpp:403
+#: GUI_BitComet/View_ConnectionList_WX.cpp:280
+#: GUI_BitComet/View_ConnectionList_WX.cpp:397
 msgctxt "DetailView_LinkList"
 msgid "Wait for retry"
 msgstr "Odota uudelleenyritystä"
 
-#: GUI_BitComet/View_ConnectionList_WX.cpp:286
-#: GUI_BitComet/View_ConnectionList_WX.cpp:406
+#: GUI_BitComet/View_ConnectionList_WX.cpp:283
+#: GUI_BitComet/View_ConnectionList_WX.cpp:400
 msgctxt "DetailView_LinkList"
 msgid "Stop"
 msgstr "Pysäytä"
 
-#: GUI_BitComet/View_ConnectionList_WX.cpp:764
+#: GUI_BitComet/View_ConnectionList_WX.cpp:780
 msgctxt "DetailView_LinkList"
 msgid "Download Rate"
 msgstr "Latausnopeus"
 
-#: GUI_BitComet/View_ConnectionList_WX.cpp:765
+#: GUI_BitComet/View_ConnectionList_WX.cpp:781
 msgctxt "DetailView_LinkList"
 msgid "Download Size"
 msgstr "Latauskoko"
 
-#: GUI_BitComet/View_ConnectionList_WX.cpp:766
+#: GUI_BitComet/View_ConnectionList_WX.cpp:782
 msgctxt "DetailView_LinkList"
 msgid "Progress"
 msgstr "Edistyminen"
 
-#: GUI_BitComet/View_ConnectionList_WX.cpp:767
+#: GUI_BitComet/View_ConnectionList_WX.cpp:783
 msgctxt "DetailView_LinkList"
 msgid "Status"
 msgstr "Tila"
 
-#: GUI_BitComet/View_ConnectionList_WX.cpp:819
+#: GUI_BitComet/View_ConnectionList_WX.cpp:835
 msgctxt "Connection_List_Menu"
 msgid "&Copy"
 msgstr "&Kopioi"
 
-#: GUI_BitComet/View_ConnectionList_WX.cpp:820
+#: GUI_BitComet/View_ConnectionList_WX.cpp:836
 msgctxt "Connection_List_Menu"
 msgid "Copy &All"
 msgstr "Kopioi K&aikki"
 
-#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:869
-#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:932
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:791
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:700
+#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:868
+#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:931
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:807
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:701
 msgctxt "TorrentStatus"
 msgid "Stopped"
 msgstr "Pysäytetty"
 
-#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:875
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:796
+#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:874
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:812
 msgctxt "TorrentStatus"
 msgid "Download Torrent File"
 msgstr "Lataa Torrent Tiedosto"
 
-#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:879
-#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:883
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:798
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:800
+#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:878
+#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:882
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:814
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:816
 msgctxt "TorrentStatus"
 msgid "Connecting..."
 msgstr "Yhdistetään..."
 
-#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:887
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:802
+#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:886
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:818
 msgctxt "TorrentStatus"
 msgid "Uploading..."
 msgstr "Lähetetään..."
 
-#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:891
-#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:931
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:804
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:699
+#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:890
+#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:930
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:820
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:700
 msgctxt "TorrentStatus"
 msgid "Downloading..."
 msgstr "Ladataan..."
 
-#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:896
-#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:933
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:808
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:701
+#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:895
+#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:932
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:824
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:702
 msgctxt "TorrentStatus"
 msgid "Hash Checking..."
 msgstr "Hash Tarkistus..."
 
-#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:900
-#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:934
+#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:899
+#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:933
 #, fuzzy
 msgctxt "TorrentStatus"
 msgid "Moving..."
 msgstr "Ladataan..."
 
-#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:910
-#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:941
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:820
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:708
+#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:909
+#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:940
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:836
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:709
 msgctxt "TorrentStatus"
 msgid "Queued"
 msgstr "Jonossa"
 
-#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:920
-#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:953
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:831
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:719
+#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:919
+#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:952
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:847
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:720
 msgctxt "TorrentStatus"
 msgid "[Finished]"
 msgstr "[Valmistunut]"
 
-#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:993
+#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:992
 msgctxt "TaskList"
 msgid "[Play]"
 msgstr "[Toista]"
 
-#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:996
+#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:995
 msgctxt "TaskList"
 msgid "[Preview]"
 msgstr "[Esikatsele]"
 
-#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:999
+#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:998
 msgctxt "TaskList"
 msgid "[Open]"
 msgstr "[Avaa]"
 
-#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:1227
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:950
+#: GUI_BitComet/View_DownLoadsList_HeaderCreateHelper.cpp:1226
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:978
 msgctxt "Common"
 msgid "Yes"
 msgstr "Kyllä"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:398
+#: GUI_BitComet/View_DownloadsList_WX.cpp:397
 msgctxt "TaskList_Header"
 msgid "Name"
 msgstr "Nimi"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:399
+#: GUI_BitComet/View_DownloadsList_WX.cpp:398
 msgctxt "TaskList_Header"
 msgid "Comments"
 msgstr "Kommentit"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:400
+#: GUI_BitComet/View_DownloadsList_WX.cpp:399
 msgctxt "TaskList_Header"
 msgid "Snapshots"
 msgstr "Tilannevedokset"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:401
+#: GUI_BitComet/View_DownloadsList_WX.cpp:400
 msgctxt "TaskList_Header"
 msgid "Preview"
 msgstr "Esikatsele"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:402
+#: GUI_BitComet/View_DownloadsList_WX.cpp:401
 msgctxt "TaskList_Header"
 msgid "Size"
 msgstr "Koko"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:403
+#: GUI_BitComet/View_DownloadsList_WX.cpp:402
 msgctxt "TaskList_Header"
 msgid "Progress"
 msgstr "Edistyminen"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:404
+#: GUI_BitComet/View_DownloadsList_WX.cpp:403
 msgctxt "TaskList_Header"
-msgid "Down Size"
+msgid "Download Size"
 msgstr "Lähetetty"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:405
+#: GUI_BitComet/View_DownloadsList_WX.cpp:404
 msgctxt "TaskList_Header"
-msgid "Up Size"
+msgid "Upload Size"
 msgstr "Ladattu"
+
+#: GUI_BitComet/View_DownloadsList_WX.cpp:405
+#, fuzzy
+msgctxt "TaskList_Header"
+msgid "Total Download Size"
+msgstr "Koko yhteensä:"
 
 #: GUI_BitComet/View_DownloadsList_WX.cpp:406
 #, fuzzy
 msgctxt "TaskList_Header"
-msgid "Total Down Size"
+msgid "Total Upload Size"
 msgstr "Koko yhteensä:"
 
 #: GUI_BitComet/View_DownloadsList_WX.cpp:407
-#, fuzzy
 msgctxt "TaskList_Header"
-msgid "Total Up Size"
-msgstr "Koko yhteensä:"
+msgid "Download Rate"
+msgstr "Latausnopeus"
 
 #: GUI_BitComet/View_DownloadsList_WX.cpp:408
 msgctxt "TaskList_Header"
-msgid "Down Rate"
-msgstr "Latausnopeus"
-
-#: GUI_BitComet/View_DownloadsList_WX.cpp:409
-msgctxt "TaskList_Header"
-msgid "Up Rate"
+msgid "Upload Rate"
 msgstr "Lähetysnopeus"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:410
+#: GUI_BitComet/View_DownloadsList_WX.cpp:409
 msgctxt "TaskList_Header"
 msgid "LT Seeding"
 msgstr "LT Lähetys"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:411
+#: GUI_BitComet/View_DownloadsList_WX.cpp:410
 msgctxt "TaskList_Header"
 msgid "Time Left"
 msgstr "Aikaa jäljellä"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:412
+#: GUI_BitComet/View_DownloadsList_WX.cpp:411
 msgctxt "TaskList_Header"
 msgid "Size Left"
 msgstr "Ladattavaa Jäljellä"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:413
+#: GUI_BitComet/View_DownloadsList_WX.cpp:412
 msgctxt "TaskList_Header"
 msgid "Seeds/Peers[all]"
 msgstr "Lähteet/Lataajat[kaikki]"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:414
+#: GUI_BitComet/View_DownloadsList_WX.cpp:413
 msgctxt "TaskList_Header"
 msgid "Share Ratio"
 msgstr "Jako Suhde"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:415
+#: GUI_BitComet/View_DownloadsList_WX.cpp:414
 msgctxt "TaskList_Header"
 msgid "Health"
 msgstr "Terveys"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:416
+#: GUI_BitComet/View_DownloadsList_WX.cpp:415
 msgctxt "TaskList_Header"
 msgid "Status"
 msgstr "Tila"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:417
+#: GUI_BitComet/View_DownloadsList_WX.cpp:416
 msgctxt "TaskList_Header"
 msgid "Task Type"
 msgstr "Tehtävä Tyyppi"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:418
+#: GUI_BitComet/View_DownloadsList_WX.cpp:417
 msgctxt "TaskList_Header"
 msgid "Description"
 msgstr "Kuvaus"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:419
+#: GUI_BitComet/View_DownloadsList_WX.cpp:418
 msgctxt "TaskList_Header"
 msgid "Started On"
 msgstr "Aloitettu"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:420
+#: GUI_BitComet/View_DownloadsList_WX.cpp:419
 msgctxt "TaskList_Header"
 msgid "Completed On"
 msgstr "Valmistunut"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:421
+#: GUI_BitComet/View_DownloadsList_WX.cpp:420
 #, fuzzy
 msgctxt "TaskList_Header"
 msgid "Torrent Created On"
 msgstr "Torrentin sisältö:"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:422
+#: GUI_BitComet/View_DownloadsList_WX.cpp:421
 msgctxt "TaskList_Header"
 msgid "Folder"
 msgstr ""
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:423
+#: GUI_BitComet/View_DownloadsList_WX.cpp:422
 msgctxt "TaskList_Header"
 msgid "Private Torrent"
 msgstr ""
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2099
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2114
 msgctxt "TaskList"
 msgid "${Comment} comments"
 msgstr ""
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2103
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1989
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1982
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1780
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2118
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:2016
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:2006
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1806
 msgctxt "TaskList"
 msgid "View Comments"
 msgstr ""
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2118
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2133
 msgctxt "TaskList"
 msgid "${Number} snapshots"
 msgstr ""
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2130
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1343
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:843
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2145
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1355
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:844
 msgctxt "CView_SummaryList"
 msgid "Play"
 msgstr "Toista"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2134
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1347
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:847
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2149
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1359
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:848
 msgctxt "CView_SummaryList"
 msgid "Preview"
 msgstr "Esikatsele"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2138
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1351
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:851
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2153
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1363
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:852
 msgctxt "CView_SummaryList"
 msgid "Open File"
 msgstr "Avaa Tiedosto"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2355
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2381
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2370
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2396
 msgctxt "TaskList_Menu"
 msgid "&Start"
 msgstr "&Käynnistä"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2356
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2382
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2371
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2397
 msgctxt "TaskList_Menu"
 msgid "S&top"
 msgstr "Pysäytä"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2357
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2383
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2372
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2398
 msgctxt "TaskList_Menu"
 msgid "Pre&view"
 msgstr "Esikatsele"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2358
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2373
 msgctxt "TaskList_Menu_BitTorrent"
 msgid "&Update Tracker"
 msgstr "&Päivitä Seurantapalvelin"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2359
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2374
 msgctxt "TaskList_Menu_BitTorrent"
 msgid "Preview Download Mode"
 msgstr "Latausnopeus"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2362
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2387
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2377
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2402
 msgctxt "TaskList_Menu"
 msgid "Open &File"
 msgstr "Avaa &Tiedosto"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2363
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2388
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2378
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2403
 msgctxt "TaskList_Menu"
 msgid "&Open Directory"
 msgstr "Avaa kansio"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2364
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2379
 msgctxt "TaskList_Menu_BitTorrent"
 msgid "Manual &Hash Check"
 msgstr "Manuaalinen &Hash Tarkistus"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2365
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2380
 msgctxt "TaskList_Menu_BitTorrent"
 msgid "Save Torrent as..."
 msgstr "Torrent Jako"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2367
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2394
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2382
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2409
 msgctxt "TaskList_Menu"
 msgid "&Delete"
 msgstr "Poista"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2370
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2397
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2385
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2412
 msgctxt "TaskList_Menu"
 msgid "Files Move To"
 msgstr "Tiedostot Siirretty"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2371
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2398
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2386
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2413
 msgctxt "TaskList_Menu"
 msgid "Tags"
 msgstr "Tagit"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2372
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2399
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2387
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2414
 msgctxt "TaskList_Menu"
 msgid "Rename"
 msgstr "Nimeä uudelleen"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2375
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2390
 msgctxt "TaskList_Menu"
 msgid "Copy Magnet URI  (Ctrl+C)"
 msgstr "Kopioi Magnet URI  (Ctrl+C)"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2376
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2403
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2391
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2418
 msgctxt "TaskList_Menu"
 msgid "Pr&operties..."
 msgstr "Ominaisuudet"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2384
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2399
 msgctxt "TaskList_Menu_HTTP"
 msgid "Download &Again"
 msgstr "Lataa &Uudestaan"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2391
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2406
 msgctxt "TaskList_Menu_HTTP"
 msgid "Manual &Hash Check"
 msgstr "Manuaalinen &Hash Tarkistus"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:2402
+#: GUI_BitComet/View_DownloadsList_WX.cpp:2417
 msgctxt "TaskList_Menu"
 msgid "Copy HTTP URL  (Ctrl+C)"
 msgstr "Kopioi HTTP URL  (Ctrl+C)"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:3585
+#: GUI_BitComet/View_DownloadsList_WX.cpp:3633
 msgctxt "CView_DownloadsList"
 msgid "Remove downloaded file and Download again?"
 msgstr "Poista ladattu tiedosto ja Lataa uudestaan?"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:3735
+#: GUI_BitComet/View_DownloadsList_WX.cpp:3783
 msgctxt "MainWindow"
 msgid "Please select a new save location"
 msgstr "Valitse uusi tallennuskohde"
 
-#: GUI_BitComet/View_DownloadsList_WX.cpp:3801
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1771
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1572
+#: GUI_BitComet/View_DownloadsList_WX.cpp:3849
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1795
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1598
 msgctxt "Common"
 msgid "Select Save Folder:"
 msgstr "Valitse Tallennus Kansio:"
@@ -7199,102 +7353,102 @@ msgctxt "DetailView_FileList"
 msgid "Debug info"
 msgstr "Debug-tiedot"
 
-#: GUI_BitComet/View_FileList_Flat.cpp:306
+#: GUI_BitComet/View_FileList_Flat.cpp:307
 #: GUI_BitComet/View_FileList_Tree.cpp:165
 msgctxt "DetailView_FileList_Menu"
 msgid "Open &File..."
 msgstr "Avaa &Tiedosto"
 
-#: GUI_BitComet/View_FileList_Flat.cpp:307
+#: GUI_BitComet/View_FileList_Flat.cpp:308
 #: GUI_BitComet/View_FileList_Tree.cpp:166
 msgctxt "DetailView_FileList_Menu"
 msgid "&Play File..."
 msgstr "&Toista Tiedosto..."
 
-#: GUI_BitComet/View_FileList_Flat.cpp:308
+#: GUI_BitComet/View_FileList_Flat.cpp:309
 #: GUI_BitComet/View_FileList_Tree.cpp:167
 msgctxt "DetailView_FileList_Menu"
 msgid "&Open Directory.."
 msgstr "&Avaa Hakemisto.."
 
-#: GUI_BitComet/View_FileList_Flat.cpp:314
+#: GUI_BitComet/View_FileList_Flat.cpp:315
 #: GUI_BitComet/View_FileList_Tree.cpp:173
 msgctxt "DetailView_FileList"
 msgid "&Copy"
 msgstr "&Kopioi"
 
-#: GUI_BitComet/View_FileList_Flat.cpp:315
+#: GUI_BitComet/View_FileList_Flat.cpp:316
 #: GUI_BitComet/View_FileList_Tree.cpp:174
 msgctxt "DetailView_FileList"
 msgid "Copy &All"
 msgstr "Kopioi K&aikki"
 
-#: GUI_BitComet/View_FileList_Flat.cpp:321
-#: GUI_BitComet/View_FileList_Flat.cpp:844
+#: GUI_BitComet/View_FileList_Flat.cpp:322
+#: GUI_BitComet/View_FileList_Flat.cpp:845
 #: GUI_BitComet/View_FileList_Tree.cpp:180
 #: GUI_BitComet/View_FileList_Tree.cpp:349
 msgctxt "DetailView_FileList_Menu"
 msgid "Specify &ED2K Link"
 msgstr "Määritä &ED2K Linkki"
 
-#: GUI_BitComet/View_FileList_Flat.cpp:322
-#: GUI_BitComet/View_FileList_Flat.cpp:845
+#: GUI_BitComet/View_FileList_Flat.cpp:323
+#: GUI_BitComet/View_FileList_Flat.cpp:846
 #: GUI_BitComet/View_FileList_Tree.cpp:181
 #: GUI_BitComet/View_FileList_Tree.cpp:350
 msgctxt "DetailView_FileList_Menu"
 msgid "&Search ED2K Link for this File"
 msgstr "&Etsi ED2K Linkkiä tälle Tiedostolle"
 
-#: GUI_BitComet/View_FileList_Flat.cpp:326
+#: GUI_BitComet/View_FileList_Flat.cpp:327
 #: GUI_BitComet/View_FileList_Tree.cpp:185
 msgctxt "DetailView_FileList_Menu"
 msgid "H&ighest"
 msgstr "Y&lin"
 
-#: GUI_BitComet/View_FileList_Flat.cpp:327
+#: GUI_BitComet/View_FileList_Flat.cpp:328
 #: GUI_BitComet/View_FileList_Tree.cpp:186
 msgctxt "DetailView_FileList_Menu"
 msgid "&High"
 msgstr "&Korkea"
 
-#: GUI_BitComet/View_FileList_Flat.cpp:328
+#: GUI_BitComet/View_FileList_Flat.cpp:329
 #: GUI_BitComet/View_FileList_Tree.cpp:187
 msgctxt "DetailView_FileList_Menu"
 msgid "&Normal"
 msgstr "&Normaali"
 
-#: GUI_BitComet/View_FileList_Flat.cpp:329
+#: GUI_BitComet/View_FileList_Flat.cpp:330
 #: GUI_BitComet/View_FileList_Tree.cpp:188
 msgctxt "DetailView_FileList_Menu"
 msgid "&Disabled"
 msgstr "&Poissa käytöstä"
 
-#: GUI_BitComet/View_FileList_Flat.cpp:332
+#: GUI_BitComet/View_FileList_Flat.cpp:333
 #: GUI_BitComet/View_FileList_Tree.cpp:191
 msgctxt "DetailView_FileList_Menu"
 msgid "Customize..."
 msgstr "Mukauta..."
 
-#: GUI_BitComet/View_FileList_Flat.cpp:334
+#: GUI_BitComet/View_FileList_Flat.cpp:335
 #: GUI_BitComet/View_FileList_Tree.cpp:193
 msgctxt "DetailView_FileList_Menu"
 msgid "P&riority"
 msgstr "P&rioriteetti"
 
-#: GUI_BitComet/View_FileList_Flat.cpp:336
+#: GUI_BitComet/View_FileList_Flat.cpp:337
 #: GUI_BitComet/View_FileList_Tree.cpp:195
 msgctxt "DetailView_FileList_Menu"
 msgid "&Virus Protection"
 msgstr "&Virustorjunta"
 
-#: GUI_BitComet/View_FileList_Flat.cpp:545
-#: GUI_BitComet/View_FileList_Tree.cpp:739
+#: GUI_BitComet/View_FileList_Flat.cpp:546
+#: GUI_BitComet/View_FileList_Tree.cpp:740
 msgctxt "DetailView_FileList"
 msgid "File size in ED2K link mismatch!"
 msgstr "Tiedoston koko ED2K linkissä ei täsmää!"
 
-#: GUI_BitComet/View_FileList_Flat.cpp:573
-#: GUI_BitComet/View_FileList_Tree.cpp:767
+#: GUI_BitComet/View_FileList_Flat.cpp:574
+#: GUI_BitComet/View_FileList_Tree.cpp:768
 msgctxt "DetailView_FileList"
 msgid "Invalid ED2K link!"
 msgstr "Virheellinen ED2K-linkki!"
@@ -7524,7 +7678,7 @@ msgstr ""
 
 #: GUI_BitComet/View_LogList_Helper.cpp:94
 msgctxt "LogMessage_MD_Task"
-msgid "File hash check failed, starting to re-download the file"
+msgid "File hash check failed, starting to re-download the file."
 msgstr ""
 "Tiedoston hash tarkistus epäonnistui, aloitetaan tiedoston uudelleenlataus"
 
@@ -7882,52 +8036,58 @@ msgctxt "DetailView_Log_Menu"
 msgid "Clea&r"
 msgstr "&Tyhjennä"
 
-#: GUI_BitComet/View_MainLeftTree_WX.cpp:36
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:55
 msgctxt "Favourite_Menu"
 msgid "&Open"
 msgstr "&Avaa"
 
-#: GUI_BitComet/View_MainLeftTree_WX.cpp:37
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:56
 msgctxt "Favourite_Menu"
 msgid "Open in &New Window"
 msgstr "Avaa &Uudessa Ikkunassa"
 
-#: GUI_BitComet/View_MainLeftTree_WX.cpp:44
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:63
 msgctxt "Favourite_TorrentShare_Menu"
 msgid "Enable Torrent Exchange"
 msgstr "Ota Käyttöön Torrent Vaihto"
 
-#: GUI_BitComet/View_MainLeftTree_WX.cpp:48
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:67
 msgctxt "Favourite_TorrentShare_Menu"
 msgid "Max 1000"
 msgstr "Enintään 1000"
 
-#: GUI_BitComet/View_MainLeftTree_WX.cpp:49
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:68
 msgctxt "Favourite_TorrentShare_Menu"
 msgid "Max 5000"
 msgstr "Enintään 5000"
 
-#: GUI_BitComet/View_MainLeftTree_WX.cpp:50
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:69
 msgctxt "Favourite_TorrentShare_Menu"
 msgid "Max 10000"
 msgstr "Enintään 10000"
 
-#: GUI_BitComet/View_MainLeftTree_WX.cpp:51
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:70
 msgctxt "Favourite_TorrentShare_Menu"
 msgid "Max 50000"
 msgstr "Enintään 50000"
 
-#: GUI_BitComet/View_MainLeftTree_WX.cpp:52
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:71
 msgctxt "Favourite_TorrentShare_Menu"
 msgid "&Unlimited"
 msgstr "&Rajaton"
 
-#: GUI_BitComet/View_MainLeftTree_WX.cpp:70
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:89
 msgctxt "Favourite_TorrentHistroy_Menu"
 msgid "Add to Torrent History when opening .torrent file"
 msgstr "Lisää Torrent Historiaan kun avataan .torrent tiedosto"
 
-#: GUI_BitComet/View_MainLeftTree_WX.cpp:504
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:108
+#: GUI_BitComet/wxListHeaderInfo.cpp:529
+msgctxt "MainWindow"
+msgid "Reset to Default Layout"
+msgstr "Palauta Oletusnäkymä"
+
+#: GUI_BitComet/View_MainLeftTree_WX.cpp:681
 msgctxt "Favourite"
 msgid "Torrent Exchange"
 msgstr "Torrent Vaihto"
@@ -7947,163 +8107,168 @@ msgctxt "CView_Passport"
 msgid "Connecting to Server..."
 msgstr "Yhdistetään palvelimeen..."
 
-#: GUI_BitComet/View_PeerList_WX.cpp:309
+#: GUI_BitComet/View_PeerList_WX.cpp:310
 msgctxt "DetailView_PeerList"
 msgid "Progress"
 msgstr "Edistyminen"
 
-#: GUI_BitComet/View_PeerList_WX.cpp:310
+#: GUI_BitComet/View_PeerList_WX.cpp:311
 msgctxt "DetailView_PeerList"
 msgid "Peer Status"
 msgstr "Jakajan Tila"
 
-#: GUI_BitComet/View_PeerList_WX.cpp:311
-msgctxt "DetailView_PeerList"
-msgid "Down Rate"
-msgstr "Latausnopeus"
-
 #: GUI_BitComet/View_PeerList_WX.cpp:312
 msgctxt "DetailView_PeerList"
-msgid "Up Rate"
-msgstr "Lähetysnopeus"
+msgid "Download Rate"
+msgstr "Latausnopeus"
 
 #: GUI_BitComet/View_PeerList_WX.cpp:313
 msgctxt "DetailView_PeerList"
-msgid "Down Size"
-msgstr "Ladattu"
+msgid "Upload Rate"
+msgstr "Lähetysnopeus"
 
 #: GUI_BitComet/View_PeerList_WX.cpp:314
 msgctxt "DetailView_PeerList"
-msgid "Up Size"
-msgstr "Lähetetty"
+msgid "Download Size"
+msgstr "Ladattu"
 
 #: GUI_BitComet/View_PeerList_WX.cpp:315
+msgctxt "DetailView_PeerList"
+msgid "Upload Size"
+msgstr "Lähetetty"
+
+#: GUI_BitComet/View_PeerList_WX.cpp:316
 msgctxt "DetailView_PeerList"
 msgid "Initiation"
 msgstr "Johdatus"
 
-#: GUI_BitComet/View_PeerList_WX.cpp:316
+#: GUI_BitComet/View_PeerList_WX.cpp:317
 msgctxt "DetailView_PeerList"
-msgid "Peer Down Rate"
+msgid "Peer Download Rate"
 msgstr "Jakajan Latausnopeus"
 
-#: GUI_BitComet/View_PeerList_WX.cpp:317
+#: GUI_BitComet/View_PeerList_WX.cpp:318
 msgctxt "DetailView_PeerList"
 msgid "Connect Time"
 msgstr "Yhteysaika"
 
-#: GUI_BitComet/View_PeerList_WX.cpp:318
+#: GUI_BitComet/View_PeerList_WX.cpp:319
 msgctxt "DetailView_PeerList"
 msgid "Client Type"
 msgstr "Asiakasohjelma"
 
-#: GUI_BitComet/View_PeerList_WX.cpp:319
+#: GUI_BitComet/View_PeerList_WX.cpp:320
 msgctxt "DetailView_PeerList"
 msgid "Peer ID"
 msgstr "Jakajan ID"
 
-#: GUI_BitComet/View_PeerList_WX.cpp:320
+#: GUI_BitComet/View_PeerList_WX.cpp:321
 msgctxt "DetailView_PeerList"
 msgid "Status"
 msgstr "Tila"
 
-#: GUI_BitComet/View_PeerList_WX.cpp:321
+#: GUI_BitComet/View_PeerList_WX.cpp:322
 msgctxt "DetailView_PeerList"
 msgid "Piece Error"
 msgstr "Lohkovirhe"
 
-#: GUI_BitComet/View_PeerList_WX.cpp:1059
-#: GUI_BitComet/View_PeerList_WX.cpp:1101
+#: GUI_BitComet/View_PeerList_WX.cpp:1083
+#: GUI_BitComet/View_PeerList_WX.cpp:1125
 msgctxt "DetailView_PeerList"
 msgid "Web Seed"
 msgstr ""
 
-#: GUI_BitComet/View_PeerList_WX.cpp:1061
+#: GUI_BitComet/View_PeerList_WX.cpp:1085
 msgctxt "DetailView_PeerList"
 msgid "LT Seed"
 msgstr "LT Lähde"
 
-#: GUI_BitComet/View_PeerList_WX.cpp:1626
+#: GUI_BitComet/View_PeerList_WX.cpp:1650
 msgctxt "DetailView_PeerList"
 msgid "Frozen by ScrLock"
 msgstr ""
 
-#: GUI_BitComet/View_PeerList_WX.cpp:1678
+#: GUI_BitComet/View_PeerList_WX.cpp:1692
 msgctxt "DetailView_PeerList"
 msgid "Myself"
 msgstr "Tietoa minusta"
 
-#: GUI_BitComet/View_PeerList_WX.cpp:2235
+#: GUI_BitComet/View_PeerList_WX.cpp:2221
 msgctxt "DetailView_PeerList"
 msgid "Registered User"
 msgstr "Rekisteröitynyt käyttäjä"
 
-#: GUI_BitComet/View_PeerList_WX.cpp:2314
+#: GUI_BitComet/View_PeerList_WX.cpp:2293
 msgctxt "DetailView_PeerList"
 msgid "Remote"
 msgstr "Etäyhteys"
 
-#: GUI_BitComet/View_PeerList_WX.cpp:2314
+#: GUI_BitComet/View_PeerList_WX.cpp:2293
 msgctxt "DetailView_PeerList"
 msgid "Local"
 msgstr "Paikallinen"
 
-#: GUI_BitComet/View_PeerList_WX.cpp:2656
+#: GUI_BitComet/View_PeerList_WX.cpp:2631
 msgctxt "DetailView_PeerList_Menu"
 msgid "Ban IP for 5 Minutes"
 msgstr "Estä IP viideksi minuutiksi"
 
-#: GUI_BitComet/View_PeerList_WX.cpp:2657
+#: GUI_BitComet/View_PeerList_WX.cpp:2632
 msgctxt "DetailView_PeerList_Menu"
 msgid "Ban IP for 1 Hour"
 msgstr "Estä IP tunniksi"
 
-#: GUI_BitComet/View_PeerList_WX.cpp:2658
+#: GUI_BitComet/View_PeerList_WX.cpp:2633
 msgctxt "DetailView_PeerList_Menu"
 msgid "Ban IP for 24 hours"
 msgstr "Estä IP 24 tunniksi"
 
-#: GUI_BitComet/View_PeerList_WX.cpp:2663
+#: GUI_BitComet/View_PeerList_WX.cpp:2634
+msgctxt "DetailView_PeerList_Menu"
+msgid "Unban Peer"
+msgstr ""
+
+#: GUI_BitComet/View_PeerList_WX.cpp:2639
 msgctxt "DetailView_PeerList_Menu"
 msgid "Friend Upload Slot"
 msgstr ""
 
-#: GUI_BitComet/View_PeerList_WX.cpp:2665
+#: GUI_BitComet/View_PeerList_WX.cpp:2641
 msgctxt "DetailView_PeerList_Menu"
 msgid "Remove Peer"
 msgstr "Poista Jakaja"
 
-#: GUI_BitComet/View_PeerList_WX.cpp:2666
+#: GUI_BitComet/View_PeerList_WX.cpp:2642
 msgctxt "DetailView_PeerList_Menu"
 msgid "Add Peer..."
 msgstr "Lisää Jakaja..."
 
-#: GUI_BitComet/View_PeerList_WX.cpp:2670
+#: GUI_BitComet/View_PeerList_WX.cpp:2646
 #, fuzzy
 msgctxt "DetailView_PeerList_Menu"
 msgid "Copy"
 msgstr "&Kopioi"
 
-#: GUI_BitComet/View_PeerList_WX.cpp:2812
+#: GUI_BitComet/View_PeerList_WX.cpp:2832
 msgctxt "DetailView_PeerList"
 msgid "Enter the IP:port of the peer to add:"
 msgstr "Syötä lisättävän jakajan IP-osoite:"
 
-#: GUI_BitComet/View_PeerList_WX.cpp:2813
-#: GUI_BitComet/View_PeerList_WX.cpp:2830
-#: GUI_BitComet/View_PeerList_WX.cpp:2835
-#: GUI_BitComet/View_PeerList_WX.cpp:2840
+#: GUI_BitComet/View_PeerList_WX.cpp:2833
+#: GUI_BitComet/View_PeerList_WX.cpp:2850
+#: GUI_BitComet/View_PeerList_WX.cpp:2855
+#: GUI_BitComet/View_PeerList_WX.cpp:2860
 msgctxt "DetailView_PeerList"
 msgid "Add Peer..."
 msgstr "Lisää Jakaja..."
 
-#: GUI_BitComet/View_PeerList_WX.cpp:2830
-#: GUI_BitComet/View_PeerList_WX.cpp:2835
+#: GUI_BitComet/View_PeerList_WX.cpp:2850
+#: GUI_BitComet/View_PeerList_WX.cpp:2855
 msgctxt "DetailView_PeerList"
 msgid "Illegal IP address."
 msgstr "Virheellinen IP-osoite."
 
-#: GUI_BitComet/View_PeerList_WX.cpp:2840
+#: GUI_BitComet/View_PeerList_WX.cpp:2860
 msgctxt "DetailView_PeerList"
 msgid "Illegal Port number."
 msgstr "Virheellinen Porttinumero."
@@ -8128,37 +8293,37 @@ msgctxt "PieceView"
 msgid "Disabled"
 msgstr "Pois Käytöstä"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:155
+#: GUI_BitComet/View_StatisticList_WX.cpp:162
 msgctxt "StatusList_Statistic_i"
 msgid "Item"
 msgstr "Kohde"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:156
+#: GUI_BitComet/View_StatisticList_WX.cpp:163
 msgctxt "StatusList_Statistic_v"
 msgid "Value"
 msgstr "Arvo"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:208
+#: GUI_BitComet/View_StatisticList_WX.cpp:236
 msgctxt "StatusList_StatisticItem"
 msgid "Up Time:"
 msgstr ""
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:210
+#: GUI_BitComet/View_StatisticList_WX.cpp:237
 msgctxt "StatusList_StatisticItem"
 msgid "Overall Tasks:"
 msgstr "Tehtävät Yhteensä:"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:211
+#: GUI_BitComet/View_StatisticList_WX.cpp:237
 msgctxt "StatusList_StatisticValue"
 msgid "Total: ${G_TASK_NUM} / Running: ${G_RUNNING_TASK_NUM}"
 msgstr ""
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:214
+#: GUI_BitComet/View_StatisticList_WX.cpp:239
 msgctxt "StatusList_StatisticItem"
 msgid "TCP Connections:"
 msgstr "TCP Yhteydet:"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:215
+#: GUI_BitComet/View_StatisticList_WX.cpp:239
 msgctxt "StatusList_StatisticValue"
 msgid ""
 "Established: ${G_TCP_CONNECTED_NUM} [MAX:${G_TCP_CONNECTED_MAX}] / Half-"
@@ -8167,99 +8332,113 @@ msgstr ""
 "Yhdistetty: ${G_TCP_CONNECTED_NUM} [MAX:${G_TCP_CONNECTED_MAX}] / Puoliksi "
 "auki: ${G_TCP_CONNECTING_NUM} [MAX:${G_TCP_CONNECTING_MAX}]"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:216
+#: GUI_BitComet/View_StatisticList_WX.cpp:240
 msgctxt "StatusList_StatisticItem"
 msgid "LAN IP:"
 msgstr ""
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:218
+#: GUI_BitComet/View_StatisticList_WX.cpp:241
 msgctxt "StatusList_StatisticItem"
 msgid "WAN IP:"
 msgstr ""
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:220
+#: GUI_BitComet/View_StatisticList_WX.cpp:242
 msgctxt "StatusList_StatisticItem"
 msgid "Listen Port of TCP:"
 msgstr "Kuuntelee TCP Porttia:"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:222
+#: GUI_BitComet/View_StatisticList_WX.cpp:248
 msgctxt "StatusList_StatisticItem"
 msgid "Listen Port of UDP:"
 msgstr "Kuuntelee UDP Porttia:"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:224
+#: GUI_BitComet/View_StatisticList_WX.cpp:256
 msgctxt "StatusList_StatisticItem"
 msgid "Windows Firewall:"
 msgstr "Windows Palomuuri:"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:226
+#: GUI_BitComet/View_StatisticList_WX.cpp:258
 msgctxt "StatusList_StatisticItem"
 msgid "UPnP NAT port mapping:"
 msgstr "UPnP NAT porttikartoitus:"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:232
+#: GUI_BitComet/View_StatisticList_WX.cpp:262
 msgctxt "StatusList_StatisticItem"
 msgid "Overall Download Rate:"
 msgstr "Latausnopeus Yhteensä:"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:233
+#: GUI_BitComet/View_StatisticList_WX.cpp:262
+#, fuzzy
+#| msgctxt "MainWindow"
+#| msgid ""
+#| "Download: ${G_DOWNLOAD_RATE_KB} kB/s, Upload: ${G_UPLOAD_RATE_KB} kB/s"
 msgctxt "StatusList_StatisticValue"
-msgid "${G_DOWNLOAD_RATE_KB} kB/s [MAX:${G_DOWNLOAD_RATE_MAX_KB}]"
-msgstr ""
+msgid "${G_DOWNLOAD_RATE} [MAX:${G_DOWNLOAD_RATE_MAX_KB}]"
+msgstr "Lataus: ${G_DOWNLOAD_RATE_KB} Kt/s, Lähetys: ${G_UPLOAD_RATE_KB} Kt/s"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:234
+#: GUI_BitComet/View_StatisticList_WX.cpp:263
 msgctxt "StatusList_StatisticValue"
 msgid "Max Connection Limits: ${G_CONN_PERTORRENT_MAX} per task"
 msgstr "Yhteyksiä Enintään: ${G_CONN_PERTORRENT_MAX} per tehtävä"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:235
+#: GUI_BitComet/View_StatisticList_WX.cpp:264
 msgctxt "StatusList_StatisticItem"
 msgid "Overall Upload Rate:"
 msgstr "Lähetysnopeus Yhteensä:"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:236
+#: GUI_BitComet/View_StatisticList_WX.cpp:264
+#, fuzzy
+#| msgctxt "MainWindow"
+#| msgid ""
+#| "Download: ${G_DOWNLOAD_RATE_KB} kB/s, Upload: ${G_UPLOAD_RATE_KB} kB/s"
 msgctxt "StatusList_StatisticValue"
-msgid "${G_UPLOAD_RATE_KB} kB/s [MAX:${G_UPLOAD_RATE_MAX_KB}]"
-msgstr ""
+msgid "${G_UPLOAD_RATE} [MAX:${G_UPLOAD_RATE_MAX_KB}]"
+msgstr "Lataus: ${G_DOWNLOAD_RATE_KB} Kt/s, Lähetys: ${G_UPLOAD_RATE_KB} Kt/s"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:237
+#: GUI_BitComet/View_StatisticList_WX.cpp:265
+#, fuzzy
+#| msgctxt "StatusList_StatisticValue"
+#| msgid "LT Seeding: ${G_UPLOAD_RATE_PERSISTENT_SEEDING_KB} kB/s"
 msgctxt "StatusList_StatisticValue"
-msgid "LT Seeding: ${G_UPLOAD_RATE_PERSISTENT_SEEDING_KB} kB/s"
+msgid "LT Seeding: ${G_UPLOAD_RATE_LT_SEEDING}"
 msgstr "LT Lähetys: ${G_UPLOAD_RATE_PERSISTENT_SEEDING_KB} kB/s"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:238
+#: GUI_BitComet/View_StatisticList_WX.cpp:266
+#, fuzzy
+#| msgctxt "StatusList_StatisticValue"
+#| msgid "LT Seeding: ${G_UPLOAD_RATE_PERSISTENT_SEEDING_KB} kB/s"
 msgctxt "StatusList_StatisticValue"
-msgid "[MAX:${G_UPLOAD_RATE_PERSISTENT_SEEDING_MAX_KB}]"
-msgstr ""
+msgid "[MAX:${G_UPLOAD_RATE_LT_SEEDING_MAX}]"
+msgstr "LT Lähetys: ${G_UPLOAD_RATE_PERSISTENT_SEEDING_KB} kB/s"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:239
+#: GUI_BitComet/View_StatisticList_WX.cpp:267
 msgctxt "StatusList_StatisticValue"
 msgid "All BT Upload Slots: ${G_UPLOAD_SLOTS_STATS}"
 msgstr "Kaikki BT Lähetys Paikat: ${G_UPLOAD_SLOTS_STATS}"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:240
+#: GUI_BitComet/View_StatisticList_WX.cpp:268
 #, fuzzy
 msgctxt "StatusList_StatisticItem"
 msgid "DHT Network Nodes:"
 msgstr "Ota Käyttöön DHT Verkko"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:246
+#: GUI_BitComet/View_StatisticList_WX.cpp:272
 msgctxt "StatusList_StatisticItem"
 msgid "Memory Usage:"
 msgstr ""
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:247
+#: GUI_BitComet/View_StatisticList_WX.cpp:272
 msgctxt "StatusList_StatisticValue"
 msgid ""
 "Working Set: ${G_USED_PHYS_MEM_AUTO}, Commit Size: ${G_COMMIT_SIZE_AUTO}"
 msgstr ""
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:248
+#: GUI_BitComet/View_StatisticList_WX.cpp:273
 msgctxt "StatusList_StatisticItem"
 msgid "Free Memory:"
 msgstr ""
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:249
+#: GUI_BitComet/View_StatisticList_WX.cpp:273
 msgctxt "StatusList_StatisticValue"
 msgid ""
 "Physical: ${G_AVAIL_PHYS_MEM_AUTO}/${G_TOTAL_PHYS_MEM_AUTO} (Min to keep: "
@@ -8268,447 +8447,570 @@ msgid ""
 "${G_TOTAL_PROCESS_MEM_AUTO}"
 msgstr ""
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:250
+#: GUI_BitComet/View_StatisticList_WX.cpp:275
 msgctxt "StatusList_StatisticItem"
 msgid "Disk Cache Size:"
 msgstr "Levyn Välimuistin Koko:"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:251
+#: GUI_BitComet/View_StatisticList_WX.cpp:275
 msgctxt "StatusList_StatisticValue"
-msgid ""
-"${G_CACHE_SIZE_AUTO} (Min: ${O_CACHE_MIN_SIZE_MB} MB, Max: "
-"${O_CACHE_MAX_SIZE_MB} MB)"
+msgid "Total Size: ${G_TOTAL_CACHE_SIZE_AUTO}"
+msgstr ""
+
+#: GUI_BitComet/View_StatisticList_WX.cpp:278
+#, fuzzy
+#| msgctxt "StatusList_StatisticValue"
+#| msgid ""
+#| "${G_CACHE_SIZE_AUTO} (Min: ${O_CACHE_MIN_SIZE_MB} MB, Max: "
+#| "${O_CACHE_MAX_SIZE_MB} MB)"
+msgctxt "StatusList_StatisticValue"
+msgid "${G_BT_CACHE_SIZE_AUTO} (Max: ${O_BT_CACHE_MAX_SIZE_MB} MB)"
 msgstr ""
 "${G_CACHE_SIZE_AUTO} (Vähintään: ${O_CACHE_MIN_SIZE_MB} MB, Enintään: "
 "${O_CACHE_MAX_SIZE_MB} MB)"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:252
+#: GUI_BitComet/View_StatisticList_WX.cpp:280
+#, fuzzy
+#| msgctxt "StatusList_StatisticValue"
+#| msgid ""
+#| "${G_CACHE_SIZE_AUTO} (Min: ${O_CACHE_MIN_SIZE_MB} MB, Max: "
+#| "${O_CACHE_MAX_SIZE_MB} MB)"
+msgctxt "StatusList_StatisticValue"
+msgid "${G_LTSEED_CACHE_SIZE_AUTO} (Max: ${O_LTSEED_CACHE_MAX_SIZE_MB} MB)"
+msgstr ""
+"${G_CACHE_SIZE_AUTO} (Vähintään: ${O_CACHE_MIN_SIZE_MB} MB, Enintään: "
+"${O_CACHE_MAX_SIZE_MB} MB)"
+
+#: GUI_BitComet/View_StatisticList_WX.cpp:283
 msgctxt "StatusList_StatisticItem"
 msgid "Disk Read Statistics:"
 msgstr "Levyn Luku Tilasto"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:253
+#: GUI_BitComet/View_StatisticList_WX.cpp:283
+#, fuzzy
+#| msgctxt "StatusList_StatisticValue"
+#| msgid ""
+#| "Request: ${G_CACHE_REQ_READ_COUNT} (freq: ${G_CACHE_REQ_READ_RATE}/s), "
+#| "Actual Disk Read: ${G_CACHE_DICK_READ_COUNT} (freq: "
+#| "${G_CACHE_DICK_READ_RATE}/s), Hit Ratio: ${G_CACHE_READ_HIT}"
 msgctxt "StatusList_StatisticValue"
 msgid ""
-"Request: ${G_CACHE_REQ_READ_COUNT} (freq: ${G_CACHE_REQ_READ_RATE}/s), "
-"Actual Disk Read: ${G_CACHE_DICK_READ_COUNT} (freq: "
-"${G_CACHE_DICK_READ_RATE}/s), Hit Ratio: ${G_CACHE_READ_HIT}"
+"Request: ${G_TOTAL_CACHE_REQ_READ_COUNT} (freq: "
+"${G_TOTAL_CACHE_REQ_READ_RATE}/s), Actual Disk Read: "
+"${G_TOTAL_CACHE_DISK_READ_COUNT} (freq: ${G_TOTAL_CACHE_DISK_READ_RATE}/s), "
+"Hit Ratio: ${G_TOTAL_CACHE_READ_HIT}"
 msgstr ""
 "Pyyntö: ${G_CACHE_REQ_READ_COUNT} (freq: ${G_CACHE_REQ_READ_RATE}/s), "
 "Todellinen Levyn Luku: ${G_CACHE_DICK_READ_COUNT} (freq: "
 "${G_CACHE_DICK_READ_RATE}/s), Osuma Suhde: ${G_CACHE_READ_HIT}"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:254
+#: GUI_BitComet/View_StatisticList_WX.cpp:286
+#, fuzzy
+#| msgctxt "StatusList_StatisticValue"
+#| msgid ""
+#| "Request: ${G_CACHE_REQ_READ_COUNT} (freq: ${G_CACHE_REQ_READ_RATE}/s), "
+#| "Actual Disk Read: ${G_CACHE_DICK_READ_COUNT} (freq: "
+#| "${G_CACHE_DICK_READ_RATE}/s), Hit Ratio: ${G_CACHE_READ_HIT}"
+msgctxt "StatusList_StatisticValue"
+msgid ""
+"Request: ${G_BT_CACHE_REQ_READ_COUNT} (freq: ${G_BT_CACHE_REQ_READ_RATE}/s), "
+"Actual Disk Read: ${G_BT_CACHE_DISK_READ_COUNT} (freq: "
+"${G_BT_CACHE_DISK_READ_RATE}/s), Hit Ratio: ${G_BT_CACHE_READ_HIT}"
+msgstr ""
+"Pyyntö: ${G_CACHE_REQ_READ_COUNT} (freq: ${G_CACHE_REQ_READ_RATE}/s), "
+"Todellinen Levyn Luku: ${G_CACHE_DICK_READ_COUNT} (freq: "
+"${G_CACHE_DICK_READ_RATE}/s), Osuma Suhde: ${G_CACHE_READ_HIT}"
+
+#: GUI_BitComet/View_StatisticList_WX.cpp:287
+#, fuzzy
+#| msgctxt "StatusList_StatisticValue"
+#| msgid ""
+#| "Request: ${G_CACHE_REQ_READ_COUNT} (freq: ${G_CACHE_REQ_READ_RATE}/s), "
+#| "Actual Disk Read: ${G_CACHE_DICK_READ_COUNT} (freq: "
+#| "${G_CACHE_DICK_READ_RATE}/s), Hit Ratio: ${G_CACHE_READ_HIT}"
+msgctxt "StatusList_StatisticValue"
+msgid ""
+"Request: ${G_LTSEED_CACHE_REQ_READ_COUNT} (freq: "
+"${G_LTSEED_CACHE_REQ_READ_RATE}/s), Actual Disk Read: "
+"${G_LTSEED_CACHE_DISK_READ_COUNT} (freq: ${G_LTSEED_CACHE_DISK_READ_RATE}/"
+"s), Hit Ratio: ${G_LTSEED_CACHE_READ_HIT}"
+msgstr ""
+"Pyyntö: ${G_CACHE_REQ_READ_COUNT} (freq: ${G_CACHE_REQ_READ_RATE}/s), "
+"Todellinen Levyn Luku: ${G_CACHE_DICK_READ_COUNT} (freq: "
+"${G_CACHE_DICK_READ_RATE}/s), Osuma Suhde: ${G_CACHE_READ_HIT}"
+
+#: GUI_BitComet/View_StatisticList_WX.cpp:290
 msgctxt "StatusList_StatisticItem"
 msgid "Disk Write Statistics:"
 msgstr "Levyn Kirjoitus Tilasto"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:255
+#: GUI_BitComet/View_StatisticList_WX.cpp:290
+#, fuzzy
+#| msgctxt "StatusList_StatisticValue"
+#| msgid ""
+#| "Request: ${G_CACHE_REQ_WRITE_COUNT} (freq: ${G_CACHE_REQ_WRITE_RATE}/s), "
+#| "Actual Disk Write: ${G_CACHE_DICK_WRITE_COUNT} (freq: "
+#| "${G_CACHE_DICK_WRITE_RATE}/s), Hit Ratio: ${G_CACHE_WRITE_HIT}"
 msgctxt "StatusList_StatisticValue"
 msgid ""
-"Request: ${G_CACHE_REQ_WRITE_COUNT} (freq: ${G_CACHE_REQ_WRITE_RATE}/s), "
-"Actual Disk Write: ${G_CACHE_DICK_WRITE_COUNT} (freq: "
-"${G_CACHE_DICK_WRITE_RATE}/s), Hit Ratio: ${G_CACHE_WRITE_HIT}"
+"Request: ${G_TOTAL_CACHE_REQ_WRITE_COUNT} (freq: "
+"${G_TOTAL_CACHE_REQ_WRITE_RATE}/s), Actual Disk Write: "
+"${G_TOTAL_CACHE_DISK_WRITE_COUNT} (freq: ${G_TOTAL_CACHE_DISK_WRITE_RATE}/"
+"s), Hit Ratio: ${G_TOTAL_CACHE_WRITE_HIT}"
 msgstr ""
 "Pyyntö: ${G_CACHE_REQ_WRITE_COUNT} (freq: ${G_CACHE_REQ_WRITE_RATE}/s), "
 "Todellinen Levy Kirjoitus: ${G_CACHE_DICK_WRITE_COUNT} (freq: "
 "${G_CACHE_DICK_WRITE_RATE}/s), Osuma Suhde: ${G_CACHE_WRITE_HIT}"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:260
+#: GUI_BitComet/View_StatisticList_WX.cpp:293
+#, fuzzy
+#| msgctxt "StatusList_StatisticValue"
+#| msgid ""
+#| "Request: ${G_CACHE_REQ_WRITE_COUNT} (freq: ${G_CACHE_REQ_WRITE_RATE}/s), "
+#| "Actual Disk Write: ${G_CACHE_DICK_WRITE_COUNT} (freq: "
+#| "${G_CACHE_DICK_WRITE_RATE}/s), Hit Ratio: ${G_CACHE_WRITE_HIT}"
+msgctxt "StatusList_StatisticValue"
+msgid ""
+"Request: ${G_BT_CACHE_REQ_WRITE_COUNT} (freq: ${G_BT_CACHE_REQ_WRITE_RATE}/"
+"s), Actual Disk Write: ${G_BT_CACHE_DISK_WRITE_COUNT} (freq: "
+"${G_BT_CACHE_DISK_WRITE_RATE}/s), Hit Ratio: ${G_BT_CACHE_WRITE_HIT}"
+msgstr ""
+"Pyyntö: ${G_CACHE_REQ_WRITE_COUNT} (freq: ${G_CACHE_REQ_WRITE_RATE}/s), "
+"Todellinen Levy Kirjoitus: ${G_CACHE_DICK_WRITE_COUNT} (freq: "
+"${G_CACHE_DICK_WRITE_RATE}/s), Osuma Suhde: ${G_CACHE_WRITE_HIT}"
+
+#: GUI_BitComet/View_StatisticList_WX.cpp:294
+#, fuzzy
+#| msgctxt "StatusList_StatisticValue"
+#| msgid ""
+#| "Request: ${G_CACHE_REQ_WRITE_COUNT} (freq: ${G_CACHE_REQ_WRITE_RATE}/s), "
+#| "Actual Disk Write: ${G_CACHE_DICK_WRITE_COUNT} (freq: "
+#| "${G_CACHE_DICK_WRITE_RATE}/s), Hit Ratio: ${G_CACHE_WRITE_HIT}"
+msgctxt "StatusList_StatisticValue"
+msgid ""
+"Request: ${G_HTTP_CACHE_REQ_WRITE_COUNT} (freq: "
+"${G_HTTP_CACHE_REQ_WRITE_RATE}/s), Actual Disk Write: "
+"${G_HTTP_CACHE_DISK_WRITE_COUNT} (freq: ${G_HTTP_CACHE_DISK_WRITE_RATE}/s), "
+"Hit Ratio: ${G_HTTP_CACHE_WRITE_HIT}"
+msgstr ""
+"Pyyntö: ${G_CACHE_REQ_WRITE_COUNT} (freq: ${G_CACHE_REQ_WRITE_RATE}/s), "
+"Todellinen Levy Kirjoitus: ${G_CACHE_DICK_WRITE_COUNT} (freq: "
+"${G_CACHE_DICK_WRITE_RATE}/s), Osuma Suhde: ${G_CACHE_WRITE_HIT}"
+
+#: GUI_BitComet/View_StatisticList_WX.cpp:301
 msgctxt "StatusList_StatisticItem"
 msgid "Disk Boost Service:"
 msgstr ""
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:268
+#: GUI_BitComet/View_StatisticList_WX.cpp:307
 msgctxt "StatusList_StatisticItem"
 msgid "Total Downloaded:"
 msgstr "Ladattu Yhteensä:"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:269
+#: GUI_BitComet/View_StatisticList_WX.cpp:307
 msgctxt "StatusList_StatisticValue"
 msgid "${G_TOTAL_DOWNLOAD_AUTO} (this session: ${G_SESSION_DOWNLOAD_AUTO})"
 msgstr ""
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:270
+#: GUI_BitComet/View_StatisticList_WX.cpp:308
 msgctxt "StatusList_StatisticItem"
 msgid "Total Uploaded:"
 msgstr "Lähetetty Yhteensä:"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:271
+#: GUI_BitComet/View_StatisticList_WX.cpp:308
 msgctxt "StatusList_StatisticValue"
 msgid "${G_TOTAL_UPLOAD_AUTO} (this session: ${G_SESSION_UPLOAD_AUTO})"
 msgstr ""
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:522
+#: GUI_BitComet/View_StatisticList_WX.cpp:592
 msgctxt "DetailView_Statistic_Menu"
 msgid "&Copy"
 msgstr "&Kopioi"
 
-#: GUI_BitComet/View_StatisticList_WX.cpp:523
+#: GUI_BitComet/View_StatisticList_WX.cpp:593
 msgctxt "DetailView_Statistic_Menu"
 msgid "Copy &All"
 msgstr "Kopioi K&aikki"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:239
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:388
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1477
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1487
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:207
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:314
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:942
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:949
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:242
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:391
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1489
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1499
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:208
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:315
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:943
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:950
 msgctxt "CView_SummaryList"
 msgid "Download Speed:"
 msgstr "Latausnopeus:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:270
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:238
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:273
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:239
 msgctxt "CView_SummaryList"
 msgid "Limit:"
 msgstr "Rajoitus:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:286
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1478
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:251
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:943
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:289
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1490
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:252
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:944
 msgctxt "CView_SummaryList"
 msgid "Downloaded:"
 msgstr "Ladattu:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:295
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1479
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:298
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1491
 msgctxt "CView_SummaryList"
 msgid "Availability:"
 msgstr "Saatavuus:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:317
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1480
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:271
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:944
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:320
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1492
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:272
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:945
 msgctxt "CView_SummaryList"
 msgid "Transfer"
 msgstr "Siirto"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:324
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1481
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:278
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:945
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:327
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1493
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:279
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:946
 msgctxt "CView_SummaryList"
 msgid "Time Elapsed:"
 msgstr "Aikaa kulunut:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:334
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:766
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1482
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:286
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:946
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:337
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:782
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1494
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:287
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:947
 msgctxt "CView_SummaryList"
 msgid "Remaining:"
 msgstr "Jäljellä:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:344
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1483
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:340
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:952
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:347
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1495
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:341
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:953
 msgctxt "CView_SummaryList"
 msgid "Status:"
 msgstr "Tila:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:356
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1484
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:296
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:947
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:359
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1496
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:297
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:948
 msgctxt "CView_SummaryList"
 msgid "Download Size:"
 msgstr "Latauksen koko:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:366
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1485
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:369
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1497
 msgctxt "CView_SummaryList"
 msgid "Upload Size:"
 msgstr "Lähetetty:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:376
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1486
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:379
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1498
 msgctxt "CView_SummaryList"
 msgid "Seeds:"
 msgstr "Lähteet:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:398
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1488
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:401
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1500
 msgctxt "CView_SummaryList"
 msgid "Upload Speed:"
 msgstr "Lähetysnopeus:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:408
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1489
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:411
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1501
 msgctxt "CView_SummaryList"
 msgid "Peers:"
 msgstr "Jakajat:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:420
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1490
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:332
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:951
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:423
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1502
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:333
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:952
 msgctxt "CView_SummaryList"
 msgid "Download Limit:"
 msgstr "Latausraja:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:430
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1491
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:433
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1503
 msgctxt "CView_SummaryList"
 msgid "Upload Limit:"
 msgstr "Lähetysrajoitus:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:440
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1492
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:443
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1504
 msgctxt "CView_SummaryList"
 msgid "Share Ratio:"
 msgstr "Jakosuhde:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:450
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1493
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:348
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:953
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:453
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1505
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:349
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:954
 msgctxt "CView_SummaryList"
 msgid "General"
 msgstr "Yleistä"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:457
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1494
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:355
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:954
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:460
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1506
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:356
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:955
 msgctxt "CView_SummaryList"
 msgid "Task Name:"
 msgstr "Tehtävän nimi:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:469
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1495
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:367
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:955
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:472
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1507
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:368
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:956
 msgctxt "CView_SummaryList"
 msgid "Save Path:"
 msgstr "Tallennuspolku:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:484
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1496
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:382
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:956
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:487
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1508
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:383
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:957
 msgctxt "CView_SummaryList"
 msgid "Tags:"
 msgstr "Tagit:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:499
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1497
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:397
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:957
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:502
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1509
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:398
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:958
 msgctxt "CView_SummaryList"
 msgid "Task Size:"
 msgstr "Tehtävän koko:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:509
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1498
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:407
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:958
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:512
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1510
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:408
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:959
 msgctxt "CView_SummaryList"
 msgid "Left Size:"
 msgstr "Jäljellä:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:521
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1499
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:524
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1511
 msgctxt "CView_SummaryList"
 msgid "Hash:"
 msgstr "Tarkiste"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:531
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1500
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:534
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1512
 msgctxt "CView_SummaryList"
 msgid "Pieces:"
 msgstr "Osia:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:543
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1501
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:419
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:959
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:546
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1513
+#, fuzzy
+#| msgctxt "DialogTaskBitTorrentPublisher"
+#| msgid "Created with:"
 msgctxt "CView_SummaryList"
-msgid "Started On:"
-msgstr "Aloitettu:"
+msgid "Created On:"
+msgstr "Luotu ohjelmalla:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:553
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1502
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:429
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:960
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:556
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1514
+#, fuzzy
+#| msgctxt "DialogTaskBitTorrentPublisher"
+#| msgid "Created with:"
+msgctxt "CView_SummaryList"
+msgid "Created By:"
+msgstr "Luotu ohjelmalla:"
+
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:568
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1515
+#, fuzzy
+#| msgctxt "UPNP"
+#| msgid "Added"
+msgctxt "CView_SummaryList"
+msgid "Added On:"
+msgstr "Lisätty"
+
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:578
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1516
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:430
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:961
 msgctxt "CView_SummaryList"
 msgid "Finished On:"
 msgstr "Valmistunut:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:565
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1503
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:590
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1517
 msgctxt "CView_SummaryList"
 msgid "Publisher:"
 msgstr "Julkaisija:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:575
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1504
-msgctxt "CView_SummaryList"
-msgid "Published On:"
-msgstr "Julkaistu:"
-
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:587
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1505
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:602
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1518
 msgctxt "CView_SummaryList"
 msgid "Comments:"
 msgstr "Kommentit:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:715
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:581
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:731
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:582
 msgctxt "CView_SummaryList"
 msgid "${CURRENT_INFO} (${TOTAL_INFO} in total)"
 msgstr "${CURRENT_INFO} (${TOTAL_INFO} yhteensä)"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:716
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:582
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:732
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:583
 msgctxt "CView_SummaryList"
 msgid "${CURRENT_INFO} (avg. ${AVG_INFO})"
 msgstr "${CURRENT_INFO} (keskimäärin ${AVG_INFO})"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:717
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:583
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:733
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:584
 msgctxt "CView_SummaryList"
 msgid "(avg. ${AVG_INFO})"
 msgstr "(avg. ${AVG_INFO}]"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:772
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:788
 msgctxt "CView_SummaryList"
 msgid "Seeding Time:"
 msgstr "Jakoaika:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:812
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:828
 msgctxt "TorrentStatus"
 msgid "Moving Files..."
 msgstr ""
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:877
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:926
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:645
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:687
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:893
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:942
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:646
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:688
 msgctxt "CView_SummaryList"
 msgid "${CONNECTED_NUM} of ${CONNECT_TOTAL} connected"
 msgstr "${CONNECTED_NUM} joista ${CONNECT_TOTAL} yhdistetty"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1091
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1183
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1110
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1202
 msgctxt "CView_SummaryList"
 msgid "${SIZE_BT} (${SIZE_TOTLE_BT} in total)"
 msgstr "${SIZE_BT} (${SIZE_TOTLE_BT} yhteensä)"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1112
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1131
 msgctxt "CView_SummaryList"
 msgid "${SIZE_P2SP} (${SIZE_TOTLE_P2SP} in total)"
 msgstr "${SIZE_P2SP} (${SIZE_TOTLE_P2SP} yhteensä)"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1125
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1210
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1144
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1229
 msgctxt "CView_SummaryList"
 msgid "${SIZE_EMULE} (${SIZE_TOTLE_EMULE} in total)"
 msgstr "${SIZE_EMULE} (${SIZE_TOTLE_EMULE} yhteensä)"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1137
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1156
 msgctxt "CView_SummaryList"
 msgid "${SIZE_RUBBISH} (${SIZE_TOTLE_RUBBISH} in total)"
 msgstr "${SIZE_RUBBISH} (${SIZE_TOTLE_RUBBISH} yhteensä)"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1380
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1392
 msgctxt "CView_SummaryList"
 msgid "has no link"
 msgstr "ei linkkiä"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1531
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:992
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1544
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:993
 msgctxt "CView_SummaryList"
 msgid "Progress"
 msgstr "Edistyminen"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1532
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1545
 #, fuzzy
 msgctxt "CView_SummaryList"
 msgid "Availability"
 msgstr "Saatavuus:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1533
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:993
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1546
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:994
 msgctxt "CView_SummaryList"
 msgid "Modify Tag"
 msgstr "Muokkaa Tagia"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1539
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:996
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1552
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:997
 msgctxt "CView_SummaryList"
 msgid "Open Folder"
 msgstr "Avaa Kansio"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1569
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1589
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1583
 #: GUI_BitComet/View_SummaryList_BT_WX.cpp:1603
 #: GUI_BitComet/View_SummaryList_BT_WX.cpp:1617
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1631
 msgctxt "CView_SummaryList"
 msgid "BitTorrent peers:"
 msgstr "BitTorrent jakaja:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1570
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1590
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1584
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1604
 msgctxt "CView_SummaryList"
 msgid "Long-Term Seeds:"
 msgstr ""
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1571
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1591
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1585
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1605
 msgctxt "CView_SummaryList"
 msgid "eMule sources:"
 msgstr "eMule lähteet:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1572
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1586
 msgctxt "CView_SummaryList"
 msgid "Dropped data:"
 msgstr "Pudotettu data:"
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1604
 #: GUI_BitComet/View_SummaryList_BT_WX.cpp:1618
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1632
 msgctxt "CView_SummaryList"
 msgid "Long-Term Seeding:"
 msgstr ""
 
-#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1605
 #: GUI_BitComet/View_SummaryList_BT_WX.cpp:1619
+#: GUI_BitComet/View_SummaryList_BT_WX.cpp:1633
 msgctxt "CView_SummaryList"
 msgid "eMule uploading:"
 msgstr "eMule lähetys:"
 
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:304
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:948
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:305
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:949
 msgctxt "CView_SummaryList"
 msgid "Connections:"
 msgstr "Yhteydet:"
 
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:322
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:950
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:323
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:951
 msgctxt "CView_SummaryList"
 msgid "Mirrors:"
 msgstr "Peilejä:"
 
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:453
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:961
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:420
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:960
+msgctxt "CView_SummaryList"
+msgid "Started On:"
+msgstr "Aloitettu:"
+
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:454
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:962
 msgctxt "CView_SummaryList"
 msgid "Refer:"
 msgstr "Viittaus:"
 
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:465
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:962
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:466
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:963
 msgctxt "CView_SummaryList"
 msgid "Description:"
 msgstr "Kuvaus:"
 
-#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:702
+#: GUI_BitComet/View_SummaryList_HTTP_WX.cpp:703
 msgctxt "TorrentStatus"
 msgid "Moving File..."
 msgstr ""
@@ -8747,7 +9049,7 @@ msgid ""
 msgstr "Torrent Vaihto on pois käytöstä. Voit ottaa sen käyttöön Asetuksista."
 
 #: GUI_BitComet/View_TorrentCollect_List_WX.cpp:294
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:2035
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:2062
 #: GUI_BitComet/View_TorrentHistory_List_WX.cpp:310
 #: GUI_BitComet/View_TorrentShare_List_WX.cpp:290
 msgctxt "TorrentShare"
@@ -8796,123 +9098,123 @@ msgctxt "TorrentShare"
 msgid "Publish Date"
 msgstr "Julkaisu Päivämäärä"
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1183
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1203
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1086
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1210
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1227
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1112
 msgctxt "TorrentShare_Menu"
 msgid "&Add to Tasklist"
 msgstr "&Lisää Tehtävälistaan"
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1191
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1211
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1094
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1218
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1235
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1120
 msgctxt "TorrentShare_Menu"
 msgid "View the &Task"
 msgstr ""
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1198
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1218
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1101
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1225
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1242
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1127
 msgctxt "TorrentShare_Menu"
 msgid "&View Download Folder"
 msgstr "&Näytä Lataus Kansio"
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1202
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1227
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1229
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1251
 msgctxt "TorrentShare_Menu"
 msgid "Add to Torrent &Share"
 msgstr "Lisää Torrent Jakoon"
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1208
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1235
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1111
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1235
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1259
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1137
 msgctxt "TorrentShare_Menu"
 msgid "Copy &Magnet URI"
 msgstr "Kopioi &Magnet URI"
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1212
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1239
 msgctxt "TorrentShare_Menu"
 msgid "Copy Title"
 msgstr "Kopioi Otsikko"
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1215
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1242
 msgctxt "TorrentShare_Menu"
 msgid "Hide this"
 msgstr "Piilota tämä"
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1218
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1245
 msgctxt "TorrentShare_Menu"
 msgid "Unhide all"
 msgstr "Näytä kaikki"
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1221
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1239
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1115
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1248
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1263
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1141
 msgctxt "TorrentShare_Menu"
 msgid "&Remove"
 msgstr "&Poista"
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1225
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1252
 msgctxt "TorrentShare_Menu"
 msgid "Clear all"
 msgstr "Tyhjennä kaikki"
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1231
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1246
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1122
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1258
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1270
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1148
 msgctxt "TorrentShare_Menu"
 msgid "&Help"
 msgstr "&Ohje"
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1237
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1252
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1128
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1264
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1276
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1154
 msgctxt "TorrentShare_Menu"
 msgid "Properties"
 msgstr "Ominaisuudet"
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1442
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1469
 #, fuzzy
 msgctxt "TorrentShare"
 msgid "Are you sure to restore the display of all hidden torrents?"
 msgstr "Haluatko varmasti piilottaa valitut torrent tiedostot?"
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1476
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1503
 msgctxt "Message_ConfirmHideTorrent"
 msgid "Are you sure to hide selected torrent files?"
 msgstr "Haluatko varmasti piilottaa valitut torrent tiedostot?"
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1520
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1438
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1250
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1547
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1462
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1276
 msgctxt "Message_ConfirmDelArchive"
 msgid "Are you sure you want to remove selected torrent files?"
 msgstr "Oletko varma että haluat poistaa valitut torrent tiedostot?"
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1584
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1482
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1283
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1611
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1506
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1309
 msgctxt "Message_MsgTorrentDownloaded"
 msgid "This torrent file has been downloaded. Do you want to view the task?"
 msgstr "Tämä torrent tiedosto on ladattu. Haluatko katsella tehtävää?"
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1589
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1487
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1288
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1616
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1511
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1314
 msgctxt "Message_MsgTorrentDownloading"
 msgid "This torrent file is downloading. Do you want to view the task?"
 msgstr "Tämä torrent tiedosto lataa. Haluatko nähdä tehtävän?"
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1594
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1492
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1293
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1621
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1516
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1319
 msgctxt "Message_MsgTorrentDownloading"
 msgid "Torrent file download stopped. Do you want to view the task?"
 msgstr "Torrent tiedoston lataaminen pysähtyi. Haluatko nähdä tehtävän?"
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1602
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1500
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1301
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1629
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1524
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1327
 msgctxt "Message_MsgTorrentInArchive"
 msgid ""
 "This torrent file has been found in the Torrent History. Do you want to open "
@@ -8921,12 +9223,12 @@ msgstr ""
 "Tämä torrent tiedosto löydettiin Torrent Historiasta. Haluatko avata sen ja "
 "tehdä uuden tehtävän?"
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1607
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1623
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1505
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1521
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1306
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1322
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1634
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1650
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1529
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1545
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1332
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1348
 msgctxt "Message_MsgTorrentInArchive"
 msgid ""
 "The task you want to view has been removed. Do you want to open the torrent "
@@ -8935,9 +9237,9 @@ msgstr ""
 "Tehtävä jota haluat katsella on poistettu. Haluatko avata torrent tiedoston "
 "ja tehdä uuden tehtävän?"
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1618
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1516
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1317
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1645
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1540
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1343
 #, fuzzy
 msgctxt "Message_MsgTorrentInArchive"
 msgid ""
@@ -8947,60 +9249,60 @@ msgstr ""
 "Tämä torrent tiedosto löydettiin Torrent Historiasta. Haluatko avata sen ja "
 "tehdä uuden tehtävän?"
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1634
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1532
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1333
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1661
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1556
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1359
 msgctxt "Message_MsgTorrentUndownload"
 msgid "Do you want to download this torrent file?"
 msgstr "Haluatko ladata tämän torrent tiedoston?"
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1639
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1537
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1338
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1666
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1561
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1364
 msgctxt "Message_MsgTorrentTaskNotExist"
 msgid ""
 "The task you want to view has been removed. Do you want to download it again?"
 msgstr ""
 "Tehtävä jota haluat katsella on poistettu. Haluatko ladata sen uudestaan?"
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1959
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1952
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1750
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1986
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1976
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1776
 msgctxt "TorrentShare"
 msgid "${VOTE_NUM} votes"
 msgstr ""
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1965
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1958
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1756
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1992
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1982
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1782
 msgctxt "TaskList"
 msgid "View Rating"
 msgstr ""
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:1983
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1976
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1774
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:2010
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:2000
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1800
 msgctxt "TorrentShare"
 msgid "${POST_NUM} comments"
 msgstr "${POST_NUM} kommenttia"
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:2007
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:2000
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1798
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:2034
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:2024
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1824
 msgctxt "TorrentShare"
 msgid "${Number} snapshots"
 msgstr ""
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:2029
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:2022
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1820
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:2056
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:2046
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1846
 msgctxt "TorrentShare"
 msgid "Not downloaded"
 msgstr "Ei ladattu"
 
-#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:2032
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:2025
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1823
+#: GUI_BitComet/View_TorrentCollect_List_WX.cpp:2059
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:2049
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1849
 msgctxt "TorrentShare"
 msgid "Torrent downloading"
 msgstr "Torrent latauksessa"
@@ -9055,52 +9357,52 @@ msgid "Added Date"
 msgstr "Lisätty Päivämäärä"
 
 #: GUI_BitComet/View_TorrentHistory_List_WX.cpp:319
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1337
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1361
 msgctxt "TorrentShare"
 msgid "Private Torrent"
 msgstr "Yksityinen Torrent"
 
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1222
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1105
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1246
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1131
 msgctxt "TorrentShare_Menu"
 msgid "Save Torrent as..."
 msgstr "Tallenna Torrent Nimellä..."
 
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1321
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1345
 msgctxt "TorrentShare"
 msgid "Disabled"
 msgstr "Pois Käytöstä"
 
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1721
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1522
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1745
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1548
 msgctxt "Message_MsgTorrentInArchive"
 msgid "Task download folder \"${FOLDER_NAME}\" does not exist!"
 msgstr "Tehtävän latauskansio \"${FOLDER_NAME}\" ei ole olemassa!"
 
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1745
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1793
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1546
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1593
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1769
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:1817
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1572
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1619
 msgctxt "Common"
 msgid "torrent file of \"${TASK_NAME}\" missing!"
 msgstr "\"${TASK_NAME}\" torrent tiedosto puuttuu!"
 
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:2022
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1820
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:2046
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1846
 msgctxt "TorrentShare"
 msgid "click to download torrent"
 msgstr "paina lataaksesi torrent"
 
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:2025
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:2028
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1823
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1826
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:2049
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:2052
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1849
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1852
 msgctxt "TorrentShare"
 msgid "click to view task"
 msgstr "paina katsellaksesi tehtävää"
 
-#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:2028
-#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1826
+#: GUI_BitComet/View_TorrentHistory_List_WX.cpp:2052
+#: GUI_BitComet/View_TorrentShare_List_WX.cpp:1852
 msgctxt "TorrentShare"
 msgid "Torrent downloaded"
 msgstr "Torrent ladattu"
@@ -9110,73 +9412,84 @@ msgctxt "TorrentShare"
 msgid "You have not share any Torrent file with other peers."
 msgstr "Et ole jakanut yhtään Torrent tiedostoa muiden jakajien kanssa."
 
-#: GUI_BitComet/View_TrackerList_WX.cpp:355
+#: GUI_BitComet/View_TrackerList_WX.cpp:360
 msgctxt "TrackerList"
 msgid "Disabled (Private Torrent)"
 msgstr ""
 
-#: GUI_BitComet/View_TrackerList_WX.cpp:359
+#: GUI_BitComet/View_TrackerList_WX.cpp:364
 msgctxt "TrackerList"
 msgid "Disabled (in global options)"
 msgstr ""
 
-#: GUI_BitComet/View_TrackerList_WX.cpp:363
+#: GUI_BitComet/View_TrackerList_WX.cpp:368
 msgctxt "TrackerList"
 msgid "Disabled (in task properties)"
 msgstr ""
 
-#: GUI_BitComet/View_TrackerList_WX.cpp:412
+#: GUI_BitComet/View_TrackerList_WX.cpp:444
 msgctxt "DetailView_TrackerList"
 msgid "Tracker URL"
 msgstr "Seurantapalvelimen URL"
 
-#: GUI_BitComet/View_TrackerList_WX.cpp:413
+#: GUI_BitComet/View_TrackerList_WX.cpp:445
 msgctxt "DetailView_TrackerList"
 msgid "Log"
 msgstr ""
 
-#: GUI_BitComet/View_TrackerList_WX.cpp:414
+#: GUI_BitComet/View_TrackerList_WX.cpp:446
 msgctxt "DetailView_TrackerList"
 msgid "Retries"
 msgstr "Valmiina"
 
-#: GUI_BitComet/View_TrackerList_WX.cpp:415
+#: GUI_BitComet/View_TrackerList_WX.cpp:447
 msgctxt "DetailView_TrackerList"
 msgid "Time Remaining"
 msgstr "Aikaa Jäljellä"
 
-#: GUI_BitComet/View_TrackerList_WX.cpp:416
+#: GUI_BitComet/View_TrackerList_WX.cpp:448
+#, fuzzy
+#| msgctxt "DetailView_TrackerList"
+#| msgid "Seeds"
 msgctxt "DetailView_TrackerList"
-msgid "Seeds"
+msgid "Seeders"
 msgstr "Lähteet"
 
-#: GUI_BitComet/View_TrackerList_WX.cpp:417
+#: GUI_BitComet/View_TrackerList_WX.cpp:449
 msgctxt "DetailView_TrackerList"
-msgid "Peers"
+msgid "Leechers"
+msgstr ""
+
+#: GUI_BitComet/View_TrackerList_WX.cpp:450
+#, fuzzy
+#| msgctxt "DetailView_TrackerList"
+#| msgid "Peers"
+msgctxt "DetailView_TrackerList"
+msgid "All Peers"
 msgstr "Jakajat"
 
-#: GUI_BitComet/View_TrackerList_WX.cpp:418
+#: GUI_BitComet/View_TrackerList_WX.cpp:451
 msgctxt "DetailView_TrackerList"
 msgid "Downloaded"
 msgstr "Ladattu"
 
-#: GUI_BitComet/View_TrackerList_WX.cpp:419
+#: GUI_BitComet/View_TrackerList_WX.cpp:452
 msgctxt "DetailView_TrackerList"
 msgid "Status"
 msgstr "Tila"
 
-#: GUI_BitComet/View_TrackerList_WX.cpp:498
-#: GUI_BitComet/View_TrackerList_WX.cpp:624
+#: GUI_BitComet/View_TrackerList_WX.cpp:531
+#: GUI_BitComet/View_TrackerList_WX.cpp:657
 msgctxt "DetailView_TrackerList_Menu"
 msgid "View log"
 msgstr ""
 
-#: GUI_BitComet/View_TrackerList_WX.cpp:622
+#: GUI_BitComet/View_TrackerList_WX.cpp:655
 msgctxt "DetailView_TrackerList_Menu"
 msgid "Add Tracker"
 msgstr "Lisää Seurantapalvelin"
 
-#: GUI_BitComet/View_TrackerList_WX.cpp:623
+#: GUI_BitComet/View_TrackerList_WX.cpp:656
 msgctxt "DetailView_TrackerList_Menu"
 msgid "Remove Tracker"
 msgstr "Poista Seurantapalvelin"
@@ -9324,10 +9637,15 @@ msgctxt "WizardImportUndoneTaskPage"
 msgid "Task Name:"
 msgstr "Tehtävän Nimi:"
 
-#: GUI_BitComet/wxListHeaderInfo.cpp:523
+#: GUI_BitComet/wxListHeaderInfo.cpp:509
 msgctxt "MainWindow"
-msgid "Reset to Default Layout"
-msgstr "Palauta Oletusnäkymä"
+msgid "Size Column to Fit"
+msgstr ""
+
+#: GUI_BitComet/wxListHeaderInfo.cpp:510
+msgctxt "MainWindow"
+msgid "Size All Columns to Fit"
+msgstr ""
 
 #: GUI_wxCommon/CommonMessageBoxTimer.cpp:165
 msgctxt "Common_DoNotAskAgain"
@@ -9343,6 +9661,25 @@ msgstr "Ladataan..."
 msgctxt "View_Related"
 msgid "This program cannot display the webpage."
 msgstr ""
+
+#~ msgctxt "CView_SummaryList"
+#~ msgid "Published On:"
+#~ msgstr "Julkaistu:"
+
+#~ msgctxt "Options_DiskCache"
+#~ msgid "Minimum disk cache size (MB):"
+#~ msgstr "Levyn välimuistin koko vähintään (MB):"
+
+#~ msgctxt "DialogTorrentMaker"
+#~ msgid ""
+#~ "Tip: Trackers with | prefix are the equivalent tracker (info sharing) of "
+#~ "the one above\n"
+#~ "them. "
+#~ msgstr "Trackeri | etumerkillä on vaihtoehtoinen yläpuolellaan olevalle "
+
+#~ msgctxt "DialogTaskMultiDownloadAdvanced"
+#~ msgid "Checking "
+#~ msgstr "Tarkastetaan "
 
 #, fuzzy
 #~ msgctxt "CView_SummaryList"
